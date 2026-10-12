@@ -1,6 +1,7 @@
 import { Link, Navigate } from "react-router";
 import { Button } from "@/components/ui/button";
-import { urlImagen } from "@/lib/imagen";
+import ImagenPregunta from "@/components/ImagenPregunta";
+import OpcionTexto from "@/components/OpcionTexto";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { config } from "@/data/banco";
 import { corregir } from "@/domain/corregir";
@@ -86,9 +87,7 @@ export default function Resultados() {
               <p className="whitespace-pre-line">
                 <span className="font-semibold">{i + 1}.</span> {p.enunciado}
               </p>
-              {p.imagen && (
-                <img src={urlImagen(p.imagen)} alt="Figura de la pregunta" className="mx-auto max-h-60" />
-              )}
+              {p.imagen && <ImagenPregunta key={p.imagen} imagen={p.imagen} className="mx-auto max-h-60" />}
               <ul className="space-y-1">
                 {p.opciones.map((o, k) => {
                   const esCorrecta = k === p.correcta;
@@ -102,7 +101,7 @@ export default function Resultados() {
                         esFallo && "border-red-600 bg-red-600/10",
                       ].filter(Boolean).join(" ")}
                     >
-                      {LETRAS[k]}) {o}
+                      {LETRAS[k]}) <OpcionTexto texto={o} />
                       {k === elegida && <span className="ml-2 font-medium">← tu respuesta</span>}
                     </li>
                   );

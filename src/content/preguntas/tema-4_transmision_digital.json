@@ -201,6 +201,7 @@
     "id": "E09-P17",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le [sic] tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", con rejilla punteada de 8 intervalos de bit rotulados abajo 0 1 0 0 0 1 1 0. La señal es: bit 0 → nivel cero; bit 1 → nivel positivo; bits 0 0 0 → nivel cero; bit 1 → nivel negativo; bit 1 → nivel positivo; bit 0 → nivel cero. Cada nivel se mantiene durante todo el intervalo de bit.]",
+    "imagen": "img/Examen09_P17_pag060.png",
     "opciones": [
       "AMI",
       "Manchester",
@@ -219,6 +220,7 @@
     "id": "E11-P10",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 8 intervalos de bit etiquetados abajo 0 1 0 0 0 1 1 0. Señal de dos niveles (alto/bajo) con una transición en mitad de cada bit. Niveles (primera mitad – segunda mitad) por bit: 0: alto–bajo; 1: bajo–alto; 0: alto–bajo; 0: alto–bajo; 0: alto–bajo; 1: bajo–alto; 1: bajo–alto; 0: alto–bajo. A la derecha, fuera de la gráfica, aparecen dos pequeñas marcas verticales sin rótulo.]",
+    "imagen": "img/Examen11_P10_pag069.png",
     "opciones": [
       "AMI-Bipolar",
       "Manchester",
@@ -255,6 +257,7 @@
     "id": "E12-P06",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 10 intervalos de bit etiquetados abajo 1 1 0 1 0 0 1 0 0 1. Señal de dos niveles (bajo/alto), sin transiciones a mitad de bit; nivel en cada bit: 1: bajo; 1: bajo; 0: alto; 1: bajo; 0: alto; 0: alto; 1: bajo; 0: alto; 0: alto; 1: bajo.]",
+    "imagen": "img/Examen12_P06_pag078.png",
     "opciones": [
       "AMI-Bipolar",
       "NRZ–L",
@@ -309,6 +312,7 @@
     "id": "E13-P20",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 10 intervalos de bit etiquetados abajo 1 1 0 1 0 0 1 0 0 1. Señal de dos niveles con transición en mitad de cada bit. Niveles por medio bit (1.ª mitad→2.ª mitad): bit 1 (1): alto→bajo; bit 2 (1): bajo→alto; bit 3 (0): bajo→alto; bit 4 (1): alto→bajo; bit 5 (0): alto→bajo; bit 6 (0): alto→bajo; bit 7 (1): bajo→alto; bit 8 (0): bajo→alto; bit 9 (0): bajo→alto; bit 10 (1): alto→bajo. Hay transición en el límite de bit antes de cada 0 y no la hay antes de cada 1.]",
+    "imagen": "img/Examen13_P20_pag091.png",
     "opciones": [
       "Manchester diferencial",
       "Manchester",
@@ -327,6 +331,7 @@
     "id": "E14-P02",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar el tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 8 intervalos de bit etiquetados abajo 0 1 1 1 1 0 0 1. Señal de dos niveles con transición en mitad de cada bit. Niveles por medio bit (1.ª mitad→2.ª mitad): bit 1 (0): bajo→alto; bit 2 (1): alto→bajo; bit 3 (1): bajo→alto; bit 4 (1): alto→bajo; bit 5 (1): bajo→alto; bit 6 (0): bajo→alto; bit 7 (0): bajo→alto; bit 8 (1): alto→bajo. Hay transición en el límite de bit antes de los bits 6 y 7 y en ningún otro límite.]",
+    "imagen": "img/Examen14_P02_pag097.png",
     "opciones": [
       "AMI-Bipolar",
       "Manchester",
@@ -363,6 +368,7 @@
     "id": "E16-P02",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar el tipo de codificación usada.\n[Figura: gráfico titulado \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\". Rejilla punteada con línea central horizontal discontinua y 3 divisiones por encima y 3 por debajo de ella. 7 intervalos rotulados abajo con pares de bits: 01, 11, 10, 00, 00, 00, 01. Señal escalonada de cuatro niveles; nivel en cada intervalo (en divisiones respecto a la línea central): 01 → +1; 11 → −3 (nivel más bajo); 10 → −1; 00 → +3 (nivel más alto); 00 → +3; 00 → +3; 01 → +1.]",
+    "imagen": "img/Examen16_P02_pag105.png",
     "opciones": [
       "AMI",
       "2B1Q",
@@ -435,6 +441,7 @@
     "id": "E21-P11",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación utilizada.\n[Figura: señal digital de dos niveles (positivo y negativo, sin rótulos de tensión) frente a un eje horizontal \"tiempo\" con flecha a la derecha. Ocho celdas de bit etiquetadas debajo: 0 1 0 0 0 1 1 0. Cada celda tiene una transición en su mitad: en los bits 0 la señal pasa de nivel alto a nivel bajo a mitad de bit; en los bits 1 pasa de nivel bajo a nivel alto a mitad de bit. Secuencia de niveles por medio bit: 0: alto→bajo; 1: bajo→alto; 0: alto→bajo; 0: alto→bajo; 0: alto→bajo; 1: bajo→alto; 1: bajo→alto; 0: alto→bajo (con transiciones adicionales en los límites de celda cuando es necesario).]",
+    "imagen": "img/Examen21_P11_pag143.png",
     "opciones": [
       "AMI-Bipolar",
       "Manchester",
@@ -921,6 +928,7 @@
     "id": "E36-P14",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: forma de onda digital sobre un eje vertical (flecha hacia arriba) y un eje horizontal de tiempo (flecha a la derecha), con dos niveles (alto y cero). Siete intervalos de bit separados por líneas verticales discontinuas y etiquetados debajo: 0, 1, 0, 0, 1, 1, 0. En cada intervalo hay una transición en la mitad: bit 0 → alto en la primera mitad y bajo en la segunda; bit 1 → bajo en la primera mitad y alto en la segunda; bit 0 → alto/bajo; bit 0 → alto/bajo; bit 1 → bajo/alto; bit 1 → bajo/alto; bit 0 → alto/bajo.]",
+    "imagen": "img/Examen36_P14_pag253.png",
     "opciones": [
       "AMI",
       "Manchester",
@@ -1011,6 +1019,7 @@
     "id": "E37-P18",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: señal codificada sobre un eje de tiempo con eje vertical de amplitud; 7 intervalos de bit separados por líneas verticales punteadas, con los bits 0 1 0 0 1 1 0 debajo. Niveles: bit 0 → nivel cero; bit 1 → nivel positivo; bit 0 → cero; bit 0 → cero; bit 1 → nivel negativo; bit 1 → nivel positivo; bit 0 → cero.]",
+    "imagen": "img/Examen37_P18_pag262.png",
     "opciones": [
       "AMI",
       "MLT-3",
@@ -1263,6 +1272,7 @@
     "id": "E43-P03",
     "tema": "Tema 4",
     "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le [sic] tipo de codificación usada.\n[Figura: señal digital de dos niveles (positivo/negativo) respecto a un eje horizontal, con 8 intervalos de bit delimitados por líneas verticales discontinuas y etiquetados debajo con los bits 0 1 0 0 0 1 1 0. En cada intervalo hay una transición en mitad del bit: en los bits 0 la señal pasa de nivel alto a nivel bajo, y en los bits 1 pasa de nivel bajo a nivel alto. Recorrido: bit 0 alto→bajo; bit 1 bajo→alto; bit 0 alto→bajo; bit 0 (sube en la frontera) alto→bajo; bit 0 (sube en la frontera) alto→bajo; bit 1 bajo→alto; bit 1 (baja en la frontera) bajo→alto; bit 0 alto→bajo.]",
+    "imagen": "img/Examen43_P03_pag311.png",
     "opciones": [
       "AMI",
       "Manchester",

@@ -6,7 +6,8 @@ import { db } from "@/data/db";
 import { corregir } from "@/domain/corregir";
 import { useCuentaAtras, mmss } from "@/hooks/useCuentaAtras";
 import { Button } from "@/components/ui/button";
-import { urlImagen } from "@/lib/imagen";
+import ImagenPregunta from "@/components/ImagenPregunta";
+import OpcionTexto from "@/components/OpcionTexto";
 import { Card } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
@@ -65,9 +66,7 @@ export default function Examen() {
 
       <Card className="space-y-4 p-6">
         <p className="whitespace-pre-line">{p.enunciado}</p>
-        {p.imagen && (
-          <img src={urlImagen(p.imagen)} alt="Figura de la pregunta" className="mx-auto max-h-80" />
-        )}
+        {p.imagen && <ImagenPregunta key={p.imagen} imagen={p.imagen} className="mx-auto max-h-80" />}
 
         <RadioGroup
           value={elegida?.toString() ?? ""}
@@ -85,7 +84,9 @@ export default function Examen() {
               ].filter(Boolean).join(" ")}
             >
               <RadioGroupItem value={String(i)} />
-              <span>{LETRAS[i]}) {o}</span>
+              <span className="flex items-center gap-2">
+                {LETRAS[i]}) <OpcionTexto texto={o} />
+              </span>
             </label>
           ))}
         </RadioGroup>

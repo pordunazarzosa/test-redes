@@ -669,6 +669,7 @@
     "id": "E37-P12",
     "tema": "Tema 5",
     "enunciado": "¿Qué tipo de modulación representa el diagrama de constelación de la siguiente figura?\n[Figura: diagrama de constelación con ejes horizontal y vertical con flechas en ambos sentidos; 8 puntos negros situados sobre una circunferencia punteada centrada en el origen, igualmente espaciados cada 45° (sobre los dos ejes y sobre las dos diagonales); líneas punteadas desde el origen hasta los cuatro puntos diagonales. Sin rótulos numéricos.]",
+    "imagen": "img/Examen37_P12_pag261.png",
     "opciones": [
       "QPSK",
       "8-QAM",

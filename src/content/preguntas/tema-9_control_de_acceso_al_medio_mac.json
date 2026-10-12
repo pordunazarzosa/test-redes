@@ -274,9 +274,9 @@
     "tema": "Tema 9",
     "enunciado": "Calcúlese la tabla de Walsh W2, a partir de W₁ = [−1]",
     "opciones": [
-      "Matriz 2x2: [−1 −1 ; −1 1]",
-      "Matriz 2x2: [1 −1 ; 1 −1]",
-      "Matriz 2x2: [−1 1 ; −1 1]",
+      "[−1 −1 ; −1 1]",
+      "[1 −1 ; 1 −1]",
+      "[−1 1 ; −1 1]",
       "No hay datos suficientes para calcularla"
     ],
     "correcta": 0,
@@ -346,9 +346,9 @@
     "tema": "Tema 9",
     "enunciado": "Calcúlese la tabla de Walsh W2, a partir de W₁ = [−1]",
     "opciones": [
-      "[ 1 −1 ; 1 −1 ] (matriz 2x2: fila 1 = 1, −1; fila 2 = 1, −1)",
-      "[ −1 1 ; −1 1 ] (matriz 2x2: fila 1 = −1, 1; fila 2 = −1, 1)",
-      "[ −1 −1 ; 1 1 ] (matriz 2x2: fila 1 = −1, −1; fila 2 = 1, 1)",
+      "[1 −1 ; 1 −1]",
+      "[−1 1 ; −1 1]",
+      "[−1 −1 ; 1 1]",
       "Ninguna de las otras opciones es correcta"
     ],
     "correcta": 3,
