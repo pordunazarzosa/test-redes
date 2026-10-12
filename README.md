@@ -6,7 +6,7 @@ La app funciona en el navegador, se puede instalar como aplicación (PWA) y sigu
 
 Es un **proyecto de aprendizaje**: el objetivo era desarrollar, con tecnologías actuales, una app sencilla que ayude a estudiar una asignatura concreta.
 
-> **Demo:** _(añade aquí la dirección de Netlify cuando la publiques)_
+> **Demo:** https://test-redesii.netlify.app/
 
 ---
 
