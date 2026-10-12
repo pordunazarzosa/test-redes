@@ -14,7 +14,14 @@ export default function Historial() {
   // useLiveQuery se actualiza solo cuando cambia la base de datos
   const intentos = useLiveQuery(() => db.intentos.orderBy("fecha").reverse().toArray(), []);
   const [mensaje, setMensaje] = useState<string | null>(null);
+  const [confirmarBorrado, setConfirmarBorrado] = useState(false);
   if (!intentos) return null; // todavía cargando
+
+  async function borrarHistorial() {
+    await db.intentos.clear();
+    setConfirmarBorrado(false);
+    setMensaje("Historial borrado.");
+  }
 
   async function restaurar(archivo: File | undefined) {
     if (!archivo) return;
@@ -131,6 +138,34 @@ export default function Historial() {
             </Button>
           </div>
           {mensaje && <p className="text-sm">{mensaje}</p>}
+        </CardContent>
+      </Card>
+
+      {/* Borrar historial */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Borrar historial</CardTitle>
+          <CardDescription>
+            Elimina todos los intentos y las estadísticas. Las preguntas importadas no se borran. Si quieres conservar
+            una copia, expórtala antes.
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-wrap items-center gap-2">
+          {!confirmarBorrado ? (
+            <Button variant="outline" disabled={intentos.length === 0} onClick={() => setConfirmarBorrado(true)}>
+              Borrar historial
+            </Button>
+          ) : (
+            <>
+              <span className="text-sm">¿Borrar los {intentos.length} intentos? No se puede deshacer.</span>
+              <Button variant="destructive" onClick={borrarHistorial}>
+                Sí, borrar
+              </Button>
+              <Button variant="outline" onClick={() => setConfirmarBorrado(false)}>
+                Cancelar
+              </Button>
+            </>
+          )}
         </CardContent>
       </Card>
     </div>
