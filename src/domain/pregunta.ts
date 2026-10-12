@@ -1,5 +1,8 @@
 import { z } from "zod";
 
+// Mensajes de error de validación en español
+z.config(z.locales.es());
+
 export const PreguntaSchema = z.object({
     id: z.string().min(1),                              // "E37-P12"
     tema: z.string().min(1),                            // "t03"

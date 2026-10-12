@@ -1,0 +1,722 @@
+[
+  {
+    "id": "E01-P02",
+    "tema": "Tema 14",
+    "enunciado": "El tamaño del campo opción de un datagrama IPv4 es 20 bytes. ¿ cuál es el valor de HLEN?",
+    "opciones": [
+      "20",
+      "10",
+      "5",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "HLEN se expresa en palabras de 4 bytes: (20 de cabecera fija + 20 de opciones)/4 = 10.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 2,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E01-P12",
+    "tema": "Tema 14",
+    "enunciado": "¿Para qué sirve el protocolo de mensajes de grupo de Internet, IGMP?",
+    "opciones": [
+      "Para facilitarla transmisión simultanea de un mensaje a un grupo de receptores",
+      "Mecanismo usado por el host y pasarela para enviar notificación sobre problemas encontrados en datagramas de vuelta al emisor",
+      "Permite a un host descubrir una dirección de Internet cuando solo conoce su dirección física",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "IGMP gestiona la pertenencia a grupos de multidifusión, es decir, facilita el envío simultáneo de un mensaje a un grupo de receptores.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 12,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P06",
+    "tema": "Tema 14",
+    "enunciado": "¿Para qué sirve el protocolo de mensajes de control de Internet, ICMP?",
+    "opciones": [
+      "Para facilitarla transmisión simultanea de un mensaje a un grupo de receptores",
+      "Mecanismo usado por el host y pasarela para enviar notificación sobre problemas encontrados en datagramas de vuelta al emisor",
+      "Permite a un host descubrir una dirección de Internet cuando solo conoce su dirección física",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "ICMP es el mecanismo que usan hosts y routers para notificar al emisor errores y problemas con los datagramas.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 6,
+      "paginaPdf": 7
+    }
+  },
+  {
+    "id": "E02-P11",
+    "tema": "Tema 14",
+    "enunciado": "El valor del campo longitud total en un datagrama IPv4 es 36 y el valor del campo longitud de la cabecera es 5. ¿cuántos bytes de datos transporta el paquete?",
+    "opciones": [
+      "36",
+      "26",
+      "16",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "Cabecera = 5 × 4 = 20 bytes → datos = 36 − 20 = 16 bytes.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 11,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E06-P11",
+    "tema": "Tema 14",
+    "enunciado": "¿Para qué sirve el protocolo de mensajes de control de Internet?",
+    "opciones": [
+      "Para facilitar la transmisión simultánea de un mensaje a un grupo de receptores",
+      "Mecanismo usado por el host y pasarela para enviar notificación sobre problemas encontrados en datagramas de vuelta al emisor",
+      "Permite a un host descubrir una dirección de Internet cuando sólo conoce su dirección física",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "ICMP notifica al emisor los problemas encontrados al procesar los datagramas.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 11,
+      "paginaPdf": 34
+    }
+  },
+  {
+    "id": "E08-P14",
+    "tema": "Tema 14",
+    "enunciado": "¿Para qué sirve el protocolo de mensajes de grupo de Internet (IGMP)?",
+    "opciones": [
+      "Para facilitar la transmisión simultánea de un mensaje a un grupo de receptores",
+      "Es el mecanismo usado por el host y pasarela para enviar notificación sobre los problemas encontrados en datagramas de vuelta al emisor",
+      "Permite a un host descubrir una dirección de Internet cuando sólo conoce su dirección física.",
+      "Ninguna de las otras es correcta."
+    ],
+    "correcta": 0,
+    "explicacion": "IGMP gestiona los grupos multicast: permite enviar simultáneamente un mensaje a un grupo de receptores.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 14,
+      "paginaPdf": 51
+    }
+  },
+  {
+    "id": "E11-P04",
+    "tema": "Tema 14",
+    "enunciado": "El valor del campo longitud total en un datagrama IPv4 es 50 y el valor del campo longitud de la cabecera es 5. ¿cuántos bytes de datos transporta el paquete?",
+    "opciones": [
+      "36",
+      "26",
+      "30",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Cabecera = 5 × 4 = 20 bytes → datos = 50 − 20 = 30 bytes.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 4,
+      "paginaPdf": 67
+    }
+  },
+  {
+    "id": "E14-P15",
+    "tema": "Tema 14",
+    "enunciado": "Supóngase válido el valor del campo longitud total en un datagrama IPv4 igual a 100 y el valor del campo longitud de la cabecera igual a 5. ¿Cuántos bytes de datos transporta el paquete?",
+    "opciones": [
+      "5",
+      "100",
+      "80",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Cabecera = 5 × 4 = 20 bytes → datos = 100 − 20 = 80 bytes.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 15,
+      "paginaPdf": 99
+    }
+  },
+  {
+    "id": "E16-P12",
+    "tema": "Tema 14",
+    "enunciado": "Supóngase válido el valor del campo longitud total en un datagrama IPv4 igual a 30 y el valor del campo longitud de la cabecera igual a 5. ¿Cuántos bytes de datos transporta el paquete?",
+    "opciones": [
+      "30",
+      "20",
+      "10",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "30 − 20 bytes de cabecera = 10 bytes de datos.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 12,
+      "paginaPdf": 107
+    }
+  },
+  {
+    "id": "E33-P04",
+    "tema": "Tema 14",
+    "enunciado": "Se envían 3400 bytes de datos de transporte mediante una red IP con una MTU de 1500 bytes. Supongamos que el datagrama original tiene un número de identificación 1000. En el caso de necesitar fragmentación, ¿cual será el valor del campo de desplazamiento de cada fragmento? Sunpóngase [sic] que el campo de opciones de los distintos datagramas IP está vacío.",
+    "opciones": [
+      "0, 185, 370",
+      "0, 1500, 3000",
+      "1000, 2500, 3500",
+      "1000, 1185, 1370"
+    ],
+    "correcta": 0,
+    "explicacion": "Datos por fragmento = 1500 − 20 = 1480 bytes (múltiplo de 8): fragmentos de 1480, 1480 y 440 bytes. Desplazamientos = bytes previos/8 = 0, 185 y 370.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 4,
+      "paginaPdf": 227
+    }
+  },
+  {
+    "id": "E34-P05",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IPv4 llega a un conmutador con la siguiente información en la cabecera expresada en hexadecimal 0x45 00-0054-0003-5850-20-06-0000-7C4E0302-B40E0F02\ndonde el campo de tiempo de vida contiene 0x20\n¿Cuántos saltos puede dar todavía este paquete?",
+    "opciones": [
+      "20",
+      "32",
+      "Ninguno más",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "TTL = 0x20 = 32 saltos.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 5,
+      "paginaPdf": 235
+    }
+  },
+  {
+    "id": "E34-P13",
+    "tema": "Tema 14",
+    "enunciado": "En un paquete ipv4 el valor de HLEN es 1001 (binario). ¿Cuántos bytes de opciones se transmiten en ese paquete?",
+    "opciones": [
+      "12 bytes",
+      "16 bytes",
+      "36 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "HLEN = 9 → cabecera = 36 bytes → opciones = 36 − 20 = 16 bytes.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 13,
+      "paginaPdf": 237
+    }
+  },
+  {
+    "id": "E35-P09",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IPv4 llega con la siguiente información en la cabecera expresada en hexadecimal:\n0x45-00-0054-0003-5850-20-06-0000-7C4E0302-B40E0F02\ndonde los campos de fragmentación contienen 0x5850\n¿Qué nos indica acerca de la fragmentación del paquete?",
+    "opciones": [
+      "Se puede fragmentar y es el primero",
+      "Se puede fragmentar y es el último",
+      "No se puede fragmentar y no es el primero",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x5850 = 010 1100001010000: D = 1 (no fragmentar), M = 0 y desplazamiento = 0x1850 ≠ 0 → no se puede fragmentar y no es el primer fragmento.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 9,
+      "paginaPdf": 244
+    }
+  },
+  {
+    "id": "E35-P16",
+    "tema": "Tema 14",
+    "enunciado": "Un paquete IPv4 ha llegado con los 8 primeros bits 01000010\nEl receptor descarta el paquete. ¿Por qué?",
+    "opciones": [
+      "Hay un error en el paquete. La versión es incorrecta",
+      "La longitud de cabecera es incorrecta. Indica 8 bytes cuando debía ser un mínimo de 20",
+      "El receptor no funciona bien",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "0100 0010: versión 4 (correcta) y HLEN = 2 → 8 bytes, menos que los 20 bytes mínimos de la cabecera.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 16,
+      "paginaPdf": 245
+    }
+  },
+  {
+    "id": "E36-P01",
+    "tema": "Tema 14",
+    "enunciado": "La capa de red recibe de la capa de transporte un paquete de 15000 bytes para su envío. La red subyacente trabaja con una MTU de 1500 bytes. ¿Cuantos bytes de datos de trasporte llevará el último fragmento IP?",
+    "opciones": [
+      "1500",
+      "1000",
+      "500",
+      "200"
+    ],
+    "correcta": 3,
+    "explicacion": "Cada fragmento lleva 1480 bytes de datos: 10 × 1480 = 14800 → el último lleva 15000 − 14800 = 200 bytes.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 1,
+      "paginaPdf": 251
+    }
+  },
+  {
+    "id": "E37-P06",
+    "tema": "Tema 14",
+    "enunciado": "La capa de transporte envía a la capa de red un paquete de 4480 bytes para su envío. La red trabaja con una MTU de 1500 bytes. Si no se incluye ningún tipo de opción en las distintas cabeceras ¿Cuantos fragmentos deberá realizar el protocolo IP para enviar todo el paquete?",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correcta": 3,
+    "explicacion": "1480 bytes de datos por fragmento: 4480 = 3 × 1480 + 40 → 4 fragmentos.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 6,
+      "paginaPdf": 259
+    }
+  },
+  {
+    "id": "E39-P10",
+    "tema": "Tema 14",
+    "enunciado": "Una respuesta HTTP contiene 2000 bytes de datos y debe enviarse a través de una red con MTU=1500 bytes. Supongamos que la capa de transporte no realiza ninguna segmentación y que ni la capa de transporte ni la de red incluyen opciones en la cabecera. ¿cuantos datos de ese mensaje HTTP viajarán en el último datagrama IP?",
+    "opciones": [
+      "500",
+      "520",
+      "540",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Datagrama = 2000 + 20 (TCP) = 2020 bytes de carga IP. Los fragmentos llevan 1480 bytes (20 TCP + 1460 HTTP) y 540 bytes: el último lleva 540 bytes HTTP.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 10,
+      "paginaPdf": 276
+    }
+  },
+  {
+    "id": "E39-P11",
+    "tema": "Tema 14",
+    "enunciado": "La capa de transporte envía a la capa de red un paquete de 1980 bytes para su envío. La red trabaja con una MTU de 1000 bytes. Si no se incluye ningún tipo de opción en las distintas cabeceras ¿Cuantos fragmentos deberá realizar el protocolo IP para enviar todo el paquete?",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correcta": 2,
+    "explicacion": "Con MTU 1000, cada fragmento lleva como máximo 976 bytes de datos (múltiplo de 8 ≤ 980): 976 + 976 + 28 → 3 fragmentos.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 11,
+      "paginaPdf": 276
+    }
+  },
+  {
+    "id": "E40-P09",
+    "tema": "Tema 14",
+    "enunciado": "¿Para qué sirve el protocolo de mensajes de grupo de Internet, IGMP?",
+    "opciones": [
+      "Para proporcionar multidifusión al protocolo IPv4",
+      "Mecanismo usado por el host y pasarela para enviar notificación sobre problemas encontrados en datagramas de vuelta al emisor",
+      "Permite a un host descubrir una dirección de Internet cuando solo conoce su dirección física",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "IGMP gestiona la pertenencia a grupos y permite la multidifusión en IPv4.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 9,
+      "paginaPdf": 284
+    }
+  },
+  {
+    "id": "E40-P17",
+    "tema": "Tema 14",
+    "enunciado": "Si en un datagrama IP establecemos a 1 el valor del campo TTL",
+    "opciones": [
+      "Garantizamos que el datagrama no saldrá de nuestra red local",
+      "El datagrama alcanzará la red de destino en un único salto y si no es posible el datagrama se descarta",
+      "El datagrama atravesará el primer router pero será descartado por el siguiente",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "El primer router decrementa el TTL a 0 y descarta el datagrama, así que no sale de la red local.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 17,
+      "paginaPdf": 286
+    }
+  },
+  {
+    "id": "E40-P18",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IP tiene el valor 200 en el campo desplazamiento de fragmento y el valor 1000 como longitud total. ¿Cuantos bytes han transportado en total los fragmentos previos? Supóngase que ninguno lleva opciones",
+    "opciones": [
+      "1000",
+      "25",
+      "200",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Desplazamiento 200 → 200 × 8 = 1600 bytes de datos en los fragmentos previos; no aparece.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 18,
+      "paginaPdf": 286
+    }
+  },
+  {
+    "id": "E42-P01",
+    "tema": "Tema 14",
+    "enunciado": "Un paquete IPv4 ha llegado con los 8 primeros bits 01000010\nEl receptor descarta el paquete. ¿Por qué?",
+    "opciones": [
+      "Hay un error en el paquete. La versión es incorrecta",
+      "Hay un error en el paquete. La longitud de cabecera es incorrecta",
+      "El receptor no funciona bien.",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Versión 4 correcta; HLEN = 2 → 8 bytes, menos que los 20 bytes mínimos de la cabecera.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 1,
+      "paginaPdf": 301
+    }
+  },
+  {
+    "id": "E42-P03",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IPv4 llega con la siguiente información en la cabecera expresada en hexadecimal:\n0x 45 00 00 54 00 03 58 50 20 06 00 00 7C 4E 03 02 B4 0E 0F 02\n¿Cuántos saltos puede dar este paquete?",
+    "opciones": [
+      "Hasta 20",
+      "Hasta 32",
+      "Ninguno más",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El 9º byte de la cabecera es el TTL: 0x20 = 32 saltos.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 3,
+      "paginaPdf": 301
+    }
+  },
+  {
+    "id": "E44-P04",
+    "tema": "Tema 14",
+    "enunciado": "Un paquete IPv4 ha llegado con los 8 primeros bits 01000010\nEl receptor descarta el paquete. ¿Por qué?",
+    "opciones": [
+      "Hay un error en el paquete. La versión es incorrecta",
+      "La longitud de cabecera es incorrecta. Indica 8 cuando, al menos, debía ser 20",
+      "El receptor no funciona bien",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "HLEN = 2 → 8 bytes < 20 bytes mínimos.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 4,
+      "paginaPdf": 319
+    }
+  },
+  {
+    "id": "E45-P07",
+    "tema": "Tema 14",
+    "enunciado": "Una respuesta HTTP contiene 2000 bytes de datos y debe enviarse a través de una red con MTU=1500 bytes. Supongamos que la capa de transporte no realiza ninguna segmentación y que ni la capa de transporte ni la de red incluyen opciones en la cabecera. ¿cuantos bytes de datos de ese mensaje HTTP viajarán en el último datagrama IP?",
+    "opciones": [
+      "500",
+      "520",
+      "540",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Carga IP = 2000 + 20 TCP = 2020 bytes → fragmentos de 1480 y 540 bytes: el último lleva 540 bytes HTTP.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 7,
+      "paginaPdf": 328
+    }
+  },
+  {
+    "id": "E46-P11",
+    "tema": "Tema 14",
+    "enunciado": "La capa de red de un emisor recibe un paquete de 3000 bytes de la capa de transporte. La MTU de la red es de 800 bytes por lo que debe producirse fragmentación IP. ¿cuantos bytes de ese paquete recibido de la capa de transporte viajarán en el primer fragmento?",
+    "opciones": [
+      "800",
+      "780",
+      "776",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Máximo de datos = 800 − 20 = 780, que debe redondearse a múltiplo de 8: 776 bytes.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 11,
+      "paginaPdf": 337
+    }
+  },
+  {
+    "id": "E46-P16",
+    "tema": "Tema 14",
+    "enunciado": "Ha llegado un datagrama IP con la siguiente información parcial en la cabecera (notación hexadecimal): 4500 0054 0003 0000 2006 ...\n¿Cuál es tamaño de la cabecera? y ¿Hay alguna opción en el paquete?",
+    "opciones": [
+      "Cabecera de 20 bytes y 16 bytes de opciones",
+      "Cabecera de 16 bytes y hay opciones de cabecera",
+      "Cabecera 20 bytes. No hay opciones",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x45: versión 4 y HLEN = 5 → 20 bytes, sin opciones.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 16,
+      "paginaPdf": 338
+    }
+  },
+  {
+    "id": "E47-P13",
+    "tema": "Tema 14",
+    "enunciado": "En un paquete IPv4 el Valor HLEN en binario es 0001",
+    "opciones": [
+      "El paquete se ha corrompido en la transmisión. El valor mínimo debe ser 20 bytes",
+      "El paquete indica que continúa un datagrama más después de este",
+      "La cabecera HLEN es de 5 bits. Falta un bit",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "HLEN = 1 → cabecera de 4 bytes, menos que los 20 mínimos: el paquete está corrupto.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 13,
+      "paginaPdf": 345
+    }
+  },
+  {
+    "id": "E47-P16",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IP contiene 2000 bytes de datos y debe fragmentarse para pasar por una red con una MTU de 1000 bytes. ¿Cuántos bytes llevará cada fragmento de datagrama?",
+    "opciones": [
+      "3 fragmentos con 980, 980 y 40 bytes respectivamente",
+      "2 fragmentos con 1000 bytes cada uno",
+      "3 fragmentos con 976, 976 y 48 bytes respectivamente",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "1000 − 20 = 980, que se redondea a múltiplo de 8: 976. Fragmentos de 976, 976 y 48 bytes.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 16,
+      "paginaPdf": 345
+    }
+  },
+  {
+    "id": "E48-P16",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IP contiene 2000 bytes de datos y debe fragmentarse para pasar por una red con una MTU de 1000. ¿Cuáles serán los valores del campo desplazamiento de cada fragmento?",
+    "opciones": [
+      "0 y 1000",
+      "0, 980 y 1960",
+      "0, 122 y 245",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Fragmentos de 976, 976 y 48 bytes → desplazamientos 0, 122 y 244. La opción C dice 245, así que ninguna es correcta.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 16,
+      "paginaPdf": 354
+    }
+  },
+  {
+    "id": "E48-P18",
+    "tema": "Tema 14",
+    "enunciado": "Tenemos una red con una MTU de 1000 bytes. Supongamos que no existe fragmentación a nivel de red y que ni el protocolo IP ni TCP emplean opciones. Si los datos de la capa de aplicación son 2000 bytes. ¿Cuantos bytes totales tendrá cada datagrama IP?",
+    "opciones": [
+      "2 datagramas con 1000 bytes cada uno",
+      "3 datagramas con 1000, 1000 y 120 bytes",
+      "3 datagramas con 980, 980 y 40 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "MSS = 960 → segmentos de 960, 960 y 80 bytes + 40 de cabeceras → datagramas de 1000, 1000 y 120 bytes.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 18,
+      "paginaPdf": 354
+    }
+  },
+  {
+    "id": "E49-P01",
+    "tema": "Tema 14",
+    "enunciado": "¿Qué campo de la cabecera IPv4 se utiliza para evitar que un datagrama quede atrapado en un bucle infinito?",
+    "opciones": [
+      "Protocol",
+      "TTL (Time To Live)",
+      "Header checksum",
+      "Time limit"
+    ],
+    "correcta": 1,
+    "explicacion": "El TTL se decrementa en cada router y, al llegar a 0, el datagrama se descarta, lo que evita los bucles infinitos.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 1,
+      "paginaPdf": 359
+    }
+  },
+  {
+    "id": "E49-P16",
+    "tema": "Tema 14",
+    "enunciado": "Durante una transmisión de video en una red doméstica, un paquete IPv4 de 1500 bytes debe atravesar una red intermedia con una MTU de 576 bytes, típica de enlaces antiguos o sistemas embebidos. El bit \"Don't Fragment\" (DF) no está activado, por lo que el rúter intermedio puede tomar decisiones según el estándar de fragmentación IPv4. En este escenario, ¿qué acción realiza el rúter con respecto al datagrama recibido?",
+    "opciones": [
+      "Lo fragmenta",
+      "Lo descarta",
+      "Sólo envía el primer fragmento para avisar de la fragmentación",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Con DF = 0, el router fragmenta el datagrama para que quepa en la MTU de 576 bytes.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 16,
+      "paginaPdf": 362
+    }
+  },
+  {
+    "id": "E49-P19",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IPv4 tiene un valor de HLEN = 6. ¿Cuál es la longitud de la cabecera en bytes?",
+    "opciones": [
+      "6 bytes",
+      "12 bytes",
+      "24 bytes",
+      "46 bytes"
+    ],
+    "correcta": 2,
+    "explicacion": "HLEN × 4 = 6 × 4 = 24 bytes.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 19,
+      "paginaPdf": 363
+    }
+  },
+  {
+    "id": "E50-P06",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IP llega a un rúter con un valor TTL=0",
+    "opciones": [
+      "El rúter reenviará ese datagrama una última vez",
+      "Salvo error esa situación no llegará a darse nunca",
+      "El rúter devolverá el datagrama al origen",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El router anterior habría descartado el datagrama al decrementar el TTL a 0, así que no debería llegar ninguno con TTL = 0.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 6,
+      "paginaPdf": 370
+    }
+  },
+  {
+    "id": "E50-P17",
+    "tema": "Tema 14",
+    "enunciado": "¿Qué provoca que un router genere un mensaje ICMP \"Fragmentation Needed\" (Type 3 Code 4)?",
+    "opciones": [
+      "La recepción de un paquete con TTL=0",
+      "Un paquete mayor que la MTU de salida del router",
+      "La incapacidad de resolver una dirección MAC remota",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El router lo genera cuando el paquete supera la MTU de salida y tiene activado el bit DF (no fragmentar).",
+    "origen": {
+      "examen": 50,
+      "pregunta": 17,
+      "paginaPdf": 372
+    }
+  },
+  {
+    "id": "E50-P19",
+    "tema": "Tema 14",
+    "enunciado": "Indique el campo de la cabecera IP que cambia necesariamente en cada salto que experimenta un datagrama al pasar a través de un router",
+    "opciones": [
+      "TTL",
+      "Longitud de la cabecera",
+      "Flags de fragmentación",
+      "Todas las opciones son válidas"
+    ],
+    "correcta": 0,
+    "explicacion": "El TTL se decrementa necesariamente en cada salto (y por eso también se recalcula el checksum).",
+    "origen": {
+      "examen": 50,
+      "pregunta": 19,
+      "paginaPdf": 372
+    }
+  },
+  {
+    "id": "E51-P08",
+    "tema": "Tema 14",
+    "enunciado": "Un datagrama IP llega a un rúter con un valor TTL=5 ¿Cuantos rúteres adicionales visitará el datagrama a partir de este momento?",
+    "opciones": [
+      "5",
+      "4",
+      "6",
+      "20"
+    ],
+    "correcta": 1,
+    "explicacion": "El router actual decrementa el TTL a 4; el datagrama llega a 4 routers más (el último lo decrementa a 0 y lo descarta).",
+    "origen": {
+      "examen": 51,
+      "pregunta": 8,
+      "paginaPdf": 380
+    }
+  },
+  {
+    "id": "E52-P03",
+    "tema": "Tema 14",
+    "enunciado": "En un paquete IPv4, el campo HLEN tiene el valor binario 1010. ¿Cuántos bytes de opciones contiene la cabecera?",
+    "opciones": [
+      "20 bytes",
+      "40 bytes",
+      "20 bytes de opciones",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "HLEN = 1010 = 10 → cabecera de 40 bytes → 40 − 20 = 20 bytes de opciones.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 3,
+      "paginaPdf": 387
+    }
+  },
+  {
+    "id": "E52-P05",
+    "tema": "Tema 14",
+    "enunciado": "¿Qué mensaje ICMP genera un router cuando recibe un paquete que no puede fragmentar pero cuyo tamaño supera la MTU del enlace de salida, y el bit DF está activo?",
+    "opciones": [
+      "ICMP Type 3 Code 0 – Network Unreachable",
+      "ICMP Type 3 Code 4 – Fragmentation Needed",
+      "ICMP Type 11 – Time Exceeded",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Si el paquete supera la MTU y DF = 1, el router lo descarta y envía ICMP Tipo 3 Código 4 (fragmentation needed).",
+    "origen": {
+      "examen": 52,
+      "pregunta": 5,
+      "paginaPdf": 387
+    }
+  }
+]

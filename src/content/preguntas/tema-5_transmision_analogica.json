@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "E01-P11",
+    "tema": "Tema 5",
+    "enunciado": "La línea telefónica tiene un ancho de banda de 4Khz, ¿ cuál es el máximo número de bits que se puede enviar usando QPSK?. Dato d=0.",
+    "opciones": [
+      "4kbps",
+      "8kbps",
+      "16kbps",
+      "24 kbps"
+    ],
+    "correcta": 1,
+    "explicacion": "B = (1+d)·S → S = 4 kbaudios. QPSK transporta 2 bits por baudio → N = 8 kbps.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 11,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P12",
+    "tema": "Tema 5",
+    "enunciado": "La línea telefónica tiene un ancho de banda de 4Khz, ¿ cuál es el máximo número de bits que se puede enviar usando ASK?. Dato d=0.",
+    "opciones": [
+      "4kbps",
+      "8kbps",
+      "16kbps",
+      "24 kbps"
+    ],
+    "correcta": 0,
+    "explicacion": "ASK con d = 0: S = B = 4 kbaudios y 1 bit por baudio → 4 kbps.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 12,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E07-P03",
+    "tema": "Tema 5",
+    "enunciado": "Dado un ancho de banda de 1 Mhz entre las frecuencias 0 y 1 Mhz: ¿Cuál es la tasa de bits si se modula con ASK y d=1?",
+    "opciones": [
+      "500 Kbps",
+      "1 Mbps",
+      "400 Kbps",
+      "500 Kbps"
+    ],
+    "correcta": 0,
+    "explicacion": "ASK: B = (1+d)·S → S = 1 MHz / 2 = 500 kbaudios; 1 bit por baudio → 500 kbps (las opciones 0 y 3 son idénticas).",
+    "origen": {
+      "examen": 7,
+      "pregunta": 3,
+      "paginaPdf": 41
+    }
+  },
+  {
+    "id": "E09-P15",
+    "tema": "Tema 5",
+    "enunciado": "¿ Cuál es el ancho de banda necesario para modular una señal de 10 Khz usando AM.",
+    "opciones": [
+      "5 KHz",
+      "10 KHz",
+      "20 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "En AM el ancho de banda es el doble del de la señal moduladora: 2 × 10 kHz = 20 kHz.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 15,
+      "paginaPdf": 60
+    }
+  },
+  {
+    "id": "E09-P16",
+    "tema": "Tema 5",
+    "enunciado": "Una linea tiene un ancho de banda de 2Khz, ¿ cuál es el máximo número de bits que se puede enviar usando BASK con d=0?",
+    "opciones": [
+      "2 kbps",
+      "4 kbps",
+      "1 kbps",
+      "16 kbps"
+    ],
+    "correcta": 0,
+    "explicacion": "BASK con d = 0: S = B = 2 kbaudios, 1 bit por baudio → 2 kbps.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 16,
+      "paginaPdf": 60
+    }
+  },
+  {
+    "id": "E11-P15",
+    "tema": "Tema 5",
+    "enunciado": "¿ Cuál es el ancho de banda necesario para modular una señal de 10 Khz usando FM con beta=4 (β=4)",
+    "opciones": [
+      "5 KHz",
+      "50 KHz",
+      "20 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "FM: B = 2(1+β)·Bm = 2 × 5 × 10 kHz = 100 kHz, que no aparece entre las opciones.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 15,
+      "paginaPdf": 70
+    }
+  },
+  {
+    "id": "E11-P16",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 8Khz, ¿ cuál es el máximo número de bits que se puede enviar usando QPSK?. Dato d=0.",
+    "opciones": [
+      "4 kbps",
+      "8 kbps",
+      "16 kbps",
+      "24 kbps"
+    ],
+    "correcta": 2,
+    "explicacion": "S = B/(1+d) = 8 kbaudios; QPSK (2 bits/baudio) → 16 kbps.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 16,
+      "paginaPdf": 70
+    }
+  },
+  {
+    "id": "E12-P17",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 4Khz, ¿ cuál es el máximo número de bits que se puede enviar usando QPSK?. Dato d=0.",
+    "opciones": [
+      "4 kbps",
+      "16 kbps",
+      "8 kbps",
+      "24 kbps"
+    ],
+    "correcta": 2,
+    "explicacion": "S = B = 4 kbaudios; QPSK → 2 bits/baudio → 8 kbps.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 17,
+      "paginaPdf": 80
+    }
+  },
+  {
+    "id": "E12-P19",
+    "tema": "Tema 5",
+    "enunciado": "¿ Cuál es el ancho de banda necesario para modular una señal de 100 Khz usando AM.",
+    "opciones": [
+      "50 KHz",
+      "100 KHz",
+      "200 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "AM: B = 2 × 100 kHz = 200 kHz.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 19,
+      "paginaPdf": 81
+    }
+  },
+  {
+    "id": "E13-P11",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda necesario para modular una señal de 100 Khz usando FM con beta=4 (β=4)?",
+    "opciones": [
+      "5000 KHz",
+      "1 MHz",
+      "9,5 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "FM: B = 2(1+β)·Bm = 2 × 5 × 100 kHz = 1 MHz.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 11,
+      "paginaPdf": 89
+    }
+  },
+  {
+    "id": "E13-P12",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 4Khz, ¿Cuál es el máximo número de bits que se puede enviar usando ASK?. Dato d=0.",
+    "opciones": [
+      "4 kbps",
+      "8 kbps",
+      "16 kbps",
+      "2 kbps"
+    ],
+    "correcta": 0,
+    "explicacion": "ASK d = 0: S = B = 4 kbaudios × 1 bit = 4 kbps.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 12,
+      "paginaPdf": 89
+    }
+  },
+  {
+    "id": "E14-P04",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 16Khz, ¿Cuál es el máximo número de bits que se puede enviar usando QPSK?. Dato d=0.",
+    "opciones": [
+      "4kbps",
+      "16kbps",
+      "32kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "S = B = 16 kbaudios; QPSK (2 bits/baudio) → 32 kbps.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 4,
+      "paginaPdf": 97
+    }
+  },
+  {
+    "id": "E16-P01",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda necesario para modular una señal de 2 Khz usando FM con beta=4 (β=4)",
+    "opciones": [
+      "5 Khz",
+      "50 Khz",
+      "20 Khz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "FM: B = 2(1+β)·Bm = 2 × 5 × 2 kHz = 20 kHz.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 1,
+      "paginaPdf": 105
+    }
+  },
+  {
+    "id": "E16-P17",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 100 Khz, ¿Cuál es el máximo número de bits que se puede enviar usando ASK?. Dato d=0.",
+    "opciones": [
+      "200 kbps",
+      "400 kbps",
+      "100kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "ASK, d = 0: S = B = 100 kbaudios × 1 bit = 100 kbps.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 17,
+      "paginaPdf": 108
+    }
+  },
+  {
+    "id": "E17-P04",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 16Khz, ¿ cuál es el máximo número de bits que se puede enviar usando QPSK?. Dato d=1.",
+    "opciones": [
+      "4 kbps",
+      "32 kbps",
+      "16 kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "d = 1: S = B/2 = 8 kbaudios; QPSK → 16 kbps.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 4,
+      "paginaPdf": 113
+    }
+  },
+  {
+    "id": "E17-P05",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda necesario para modular una señal de 250 Khz usando AM.",
+    "opciones": [
+      "125 kHz",
+      "250 kHz",
+      "500 kHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "AM: B = 2 × 250 kHz = 500 kHz.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 5,
+      "paginaPdf": 113
+    }
+  },
+  {
+    "id": "E18-P04",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 100 Khz, ¿Cuál es el máximo número de bits que se puede enviar usando ASK?. Dato d=1",
+    "opciones": [
+      "50 kbps",
+      "100 kbps",
+      "200 kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "d = 1: S = B/2 = 50 kbaudios × 1 bit = 50 kbps.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 4,
+      "paginaPdf": 121
+    }
+  },
+  {
+    "id": "E18-P05",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda necesario para modular una señal de 4 Khz usando FM con beta=1 (β=1)",
+    "opciones": [
+      "2 KHz",
+      "4 KHz",
+      "8 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "FM: B = 2(1+β)·Bm = 2 × 2 × 4 kHz = 16 kHz; no aparece.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 5,
+      "paginaPdf": 122
+    }
+  },
+  {
+    "id": "E19-P05",
+    "tema": "Tema 5",
+    "enunciado": "¿ Cuál es el ancho de banda necesario para modular una señal de 100 Khz usando AM?",
+    "opciones": [
+      "50 Khz",
+      "1000 Khz",
+      "2000 Khz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "AM: 2 × 100 kHz = 200 kHz, que no aparece.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 5,
+      "paginaPdf": 130
+    }
+  },
+  {
+    "id": "E21-P12",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 8Khz, ¿cuál es el máximo número de bits que se puede enviar usando QPSK? Dato: d=0.",
+    "opciones": [
+      "4kbps",
+      "8kbps",
+      "16kbps",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "S = B = 8 kbaudios; QPSK → 16 kbps.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 12,
+      "paginaPdf": 143
+    }
+  },
+  {
+    "id": "E21-P14",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda necesario para modular una señal de 10 Khz empleando AM?",
+    "opciones": [
+      "5 Khz",
+      "10 Khz",
+      "20 Khz",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "AM: 2 × 10 kHz = 20 kHz.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 14,
+      "paginaPdf": 143
+    }
+  },
+  {
+    "id": "E22-P06",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda necesario para modular una señal de 10 Khz empleando FM con beta=4 (β=4)",
+    "opciones": [
+      "5 Khz",
+      "50 Khz",
+      "20 Khz",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 3,
+    "explicacion": "FM: 2 × (1+4) × 10 kHz = 100 kHz, que no aparece.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 6,
+      "paginaPdf": 146
+    }
+  },
+  {
+    "id": "E22-P08",
+    "tema": "Tema 5",
+    "enunciado": "Una línea tiene un ancho de banda de 2Khz, ¿Cuál es el máximo número de bits que se puede enviar utilizando ASK? Dato: d=0.",
+    "opciones": [
+      "2kbps",
+      "4kbps",
+      "16kbps",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "ASK d = 0: 2 kbaudios × 1 bit = 2 kbps.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 8,
+      "paginaPdf": 146
+    }
+  },
+  {
+    "id": "E27-P01",
+    "tema": "Tema 5",
+    "enunciado": "Una compañía usa un medio con un canal de ancho de banda de 1MHz (paso bajo). Necesita crear 10 canales independientes cada uno de los cuales debe ser capaz de enviar al menos 1Mbps. Se decide usar tecnología QAM. ¿Cuál debe ser el valor de r (bits por baudio) mínimo para cada canal?. ¿ Cuantos puntos tendrá el diagrama de constelación para cada canal? Dato d=0",
+    "opciones": [
+      "r=10, y 1024 puntos que corresponde a 1024-QAM",
+      "r=10 y 10 puntos que corresponde a 16-QAM",
+      "r=100 y 16 puntos que corresponde a 16-QAM",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Cada canal dispone de 1 MHz/10 = 100 kHz → S = 100 kbaudios (d = 0). r = 1 Mbps / 100 kbaudios = 10 bits/baudio → 2¹⁰ = 1024 puntos (1024-QAM).",
+    "origen": {
+      "examen": 27,
+      "pregunta": 1,
+      "paginaPdf": 173
+    }
+  },
+  {
+    "id": "E27-P14",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de baudios para una señal modulada en QPSK con una tasa de bits de 6000bps",
+    "opciones": [
+      "1500 baudios",
+      "3000 baudios",
+      "6000 baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "QPSK: 2 bits/baudio → 6000/2 = 3000 baudios.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 14,
+      "paginaPdf": 175
+    }
+  },
+  {
+    "id": "E27-P15",
+    "tema": "Tema 5",
+    "enunciado": "En la modulación en frecuencia FM",
+    "opciones": [
+      "La frecuencia de la portadora se mantiene constante independientemente de la amplitud de la señal a modular",
+      "La amplitud y la fase de la portadora varían independientemente de la amplitud de la señal a modular",
+      "La frecuencia de la portadora varía en función de la amplitud de la señal a modular",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "En FM la frecuencia de la portadora varía con la amplitud de la señal moduladora; amplitud y fase permanecen constantes.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 15,
+      "paginaPdf": 176
+    }
+  },
+  {
+    "id": "E28-P07",
+    "tema": "Tema 5",
+    "enunciado": "Una compañía usa un medio con un canal de ancho de banda de 10MHz (paso bajo). Necesita crear 10 canales independientes cada uno de los cuales debe ser capaz de enviar al menos 10Mbps. Se decide usar tecnología QAM. ¿Cuál debe ser el valor de r (bits por baudio) mínimo para cada canal? ¿Cuantos puntos tendrá el diagrama de constelación para cada canal? Dato d=0",
+    "opciones": [
+      "r=10 y 1024 puntos que corresponde a 1024-QAM",
+      "r=10 y 10 puntos que corresponde a 16-QAM",
+      "r=100 y 16 puntos que corresponde a 16-QAM",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Cada canal 1 MHz → 1 Mbaudio; r = 10 Mbps / 1 Mbaudio = 10 → 1024 puntos (1024-QAM).",
+    "origen": {
+      "examen": 28,
+      "pregunta": 7,
+      "paginaPdf": 184
+    }
+  },
+  {
+    "id": "E28-P09",
+    "tema": "Tema 5",
+    "enunciado": "Dado un diagrama de constelación formado por 16 puntos que representan estados diferentes, si la tasa de bits para esta codificación es de 4800 bps. ¿cuál es la tasa de baudios?",
+    "opciones": [
+      "4800 baudios",
+      "1200 baudios",
+      "800 baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "16 puntos → 4 bits/baudio → 4800/4 = 1200 baudios.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 9,
+      "paginaPdf": 185
+    }
+  },
+  {
+    "id": "E28-P15",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de bits para una señal codificada en 16-QAM con tasa de señal de 1000 baudios.",
+    "opciones": [
+      "2000 bps",
+      "3000 bps",
+      "4000 baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "16-QAM: 4 bits/baudio → 1000 × 4 = 4000 bps (la opción C escribe por errata «baudios» en vez de bps).",
+    "origen": {
+      "examen": 28,
+      "pregunta": 15,
+      "paginaPdf": 186
+    }
+  },
+  {
+    "id": "E29-P02",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que transmite a 24 Mbps emplando QPSK? Sea el valor de d=0.",
+    "opciones": [
+      "3 MHz",
+      "6 MHz",
+      "12 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "QPSK: S = 24/2 = 12 Mbaudios; con d = 0, B = S = 12 MHz.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 2,
+      "paginaPdf": 193
+    }
+  },
+  {
+    "id": "E30-P09",
+    "tema": "Tema 5",
+    "enunciado": "Dado un diagrama de constelación formado por 16 puntos que representan estados diferentes, si la tasa de bits para esta codificación es de 4800 bps. ¿cuál es la tasa de baudios?",
+    "opciones": [
+      "4800 baudios",
+      "2400 baudios",
+      "1200 baudios",
+      "76800 baudios"
+    ],
+    "correcta": 2,
+    "explicacion": "16 puntos → 4 bits/baudio → 1200 baudios.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 9,
+      "paginaPdf": 202
+    }
+  },
+  {
+    "id": "E32-P05",
+    "tema": "Tema 5",
+    "enunciado": "Una compañía usa un medio con un canal de ancho de banda de 1MHz (paso bajo). Necesita crear 10 canales independientes y cada uno de los cuales debe ser capaz de enviar al menos 1Mbps. Se decide usar tecnología QAM. ¿Cuál debe ser el valor de r (bits por baudio) mínimo para cada canal?, ¿Cuántos puntos tendrá el diagrama de constelación para cada canal? Dato d=0",
+    "opciones": [
+      "r=10, y 1024 puntos que corresponde a 1024-QAM",
+      "r=10 y 10 puntos que corresponde a 10-QAM",
+      "r=100 y 16 puntos que corresponde a 16-QAM",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "100 kHz por canal → 100 kbaudios; r = 1 Mbps / 100 kbaudios = 10 → 1024-QAM.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 5,
+      "paginaPdf": 219
+    }
+  },
+  {
+    "id": "E33-P05",
+    "tema": "Tema 5",
+    "enunciado": "Una compañía usa un medio con un canal de ancho de banda de 10MHz (paso bajo). Necesita crear 10 canales independientes cada uno de los cuales debe ser capaz de enviar al menos 10Mbps. Se decide usar tecnología QAM. ¿Cuál debe ser el valor de r (bit por baudio) mínimo para cada canal? ¿Cuántos puntos tendrá el diagrama de constelación para cada canal?. Dato d=0",
+    "opciones": [
+      "r=10, y 1024 puntos que corresponde a 1024-QAM",
+      "r=10, y 10 puntos que corresponde a 16-QAM",
+      "r=100, y 16 puntos que corresponde a 16-QAM",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "1 MHz por canal → 1 Mbaudio; r = 10 Mbps / 1 Mbaudio = 10 → 1024-QAM.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 5,
+      "paginaPdf": 227
+    }
+  },
+  {
+    "id": "E33-P06",
+    "tema": "Tema 5",
+    "enunciado": "La línea telefónica tiene un ancho de banda de 4Khz, ¿cuál es el máximo número de bits que se puede enviar usando ASK? Dato d=1.",
+    "opciones": [
+      "4 Kbps",
+      "8 Kbps",
+      "16 Kbps",
+      "32 Kbps"
+    ],
+    "correcta": 0,
+    "explicacion": "Con d = 1: S = B/2 = 2 kbaudios → 2 kbps. Ninguna opción es exacta; 4 kbps sería el resultado con d = 0 (versión original de la pregunta).",
+    "origen": {
+      "examen": 33,
+      "pregunta": 6,
+      "paginaPdf": 228
+    }
+  },
+  {
+    "id": "E35-P01",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de bits para una señal codificada en 16-QAM con tasa de baudios de 1000 baudios.",
+    "opciones": [
+      "2000 bps",
+      "3000 bps",
+      "4000 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "16-QAM: 4 bits/baudio → 4000 bps.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 1,
+      "paginaPdf": 243
+    }
+  },
+  {
+    "id": "E36-P07",
+    "tema": "Tema 5",
+    "enunciado": "Una compañía usa un medio con un canal de ancho de banda de 1MHz (paso bajo). Necesita crear 10 canales independientes y cada uno de los cuales debe ser capaz de enviar al menos 1Mbps. Se decide usar tecnología QAM. ¿Cuál debe ser el valor de r (bits por baudio) mínimo para cada canal?, ¿Cuántos puntos tendrá el diagrama de constelación para cada canal? . Dato d=0",
+    "opciones": [
+      "r=10, y 1024 puntos que corresponde a 1024-QAM",
+      "r=10 y 10 puntos que corresponde a 16-QAM",
+      "r=100 y 16 puntos que corresponde a 16-QAM",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "r = 1 Mbps / 100 kbaudios = 10 bits/baudio → 1024-QAM.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 7,
+      "paginaPdf": 252
+    }
+  },
+  {
+    "id": "E37-P08",
+    "tema": "Tema 5",
+    "enunciado": "La línea telefónica tiene un ancho de banda de 4Khz, ¿Cuál es el máximo número de bits por segundo que se pueden enviar usando ASK multinivel?",
+    "opciones": [
+      "4 Kb/s",
+      "8 Kb/s",
+      "16 Kb/s",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Con ASK multinivel la tasa depende del número de niveles (y del ruido), que no se da: no se puede elegir ninguna cifra.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 8,
+      "paginaPdf": 260
+    }
+  },
+  {
+    "id": "E37-P12",
+    "tema": "Tema 5",
+    "enunciado": "¿Qué tipo de modulación representa el diagrama de constelación de la siguiente figura?\n[Figura: diagrama de constelación con ejes horizontal y vertical con flechas en ambos sentidos; 8 puntos negros situados sobre una circunferencia punteada centrada en el origen, igualmente espaciados cada 45° (sobre los dos ejes y sobre las dos diagonales); líneas punteadas desde el origen hasta los cuatro puntos diagonales. Sin rótulos numéricos.]",
+    "opciones": [
+      "QPSK",
+      "8-QAM",
+      "FSK",
+      "8-FSK"
+    ],
+    "correcta": 1,
+    "explicacion": "8 puntos en una circunferencia separados 45° (8 fases, misma amplitud): 8 estados de una modulación en cuadratura (8-PSK, caso particular de 8-QAM).",
+    "origen": {
+      "examen": 37,
+      "pregunta": 12,
+      "paginaPdf": 261
+    }
+  },
+  {
+    "id": "E38-P19",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que transmite a 48 Mbps para QPSK?. Sea el valor de d=0",
+    "opciones": [
+      "24 MHz",
+      "12 MHz",
+      "6 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "QPSK: S = 48/2 = 24 Mbaudios → B = 24 MHz con d = 0.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 19,
+      "paginaPdf": 270
+    }
+  },
+  {
+    "id": "E39-P17",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de baudios para una señal modulada en QPSK con una tasa de bits de 8Mbps",
+    "opciones": [
+      "4 KBd",
+      "2 KBd",
+      "1 KBd",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "QPSK: 8 Mbps / 2 = 4 Mbaudios; las opciones están en kbaudios (1000 veces menos), así que ninguna es correcta.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 17,
+      "paginaPdf": 277
+    }
+  },
+  {
+    "id": "E40-P03",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que transmite a 24 Mbps utilizando QPSK?. Sea el valor de d=0",
+    "opciones": [
+      "24 MHz",
+      "12 MHz",
+      "6 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "QPSK: 12 Mbaudios → B = 12 MHz con d = 0.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 3,
+      "paginaPdf": 283
+    }
+  },
+  {
+    "id": "E40-P06",
+    "tema": "Tema 5",
+    "enunciado": "Sean dos señales digitales de 100Mbps cada una que se modulan, una en ASK binario y otra utilizando QPSK con el mismo valor del factor d en ambos casos. En esta situación, respecto a la señal modulada resultante en cada caso:",
+    "opciones": [
+      "El ancho de banda de la señal BASK es el mismo que el de la señal QPSK",
+      "El ancho de banda de la señal BASK es el doble que el de la señal QPSK",
+      "El ancho de banda de la señal QPSK es el doble que el de la señal BASK",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "BASK: B = (1+d)·N; QPSK transmite 2 bits/baudio: B = (1+d)·N/2. El ancho de banda de BASK es el doble.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 6,
+      "paginaPdf": 284
+    }
+  },
+  {
+    "id": "E40-P13",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de bits para una señal transmitida mediante 16-QAM con tasa de baudios resultante de 1000 baudios.",
+    "opciones": [
+      "250 bps",
+      "2000 bps",
+      "4000 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "16-QAM: 4 bits/baudio → 4000 bps.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 13,
+      "paginaPdf": 285
+    }
+  },
+  {
+    "id": "E41-P06",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que transmite a 24 Mbps para QPSK?. Considere el valor de d=0",
+    "opciones": [
+      "24 MHz",
+      "12 MHz",
+      "6 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "QPSK: 24/2 = 12 Mbaudios → 12 MHz.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 6,
+      "paginaPdf": 292
+    }
+  },
+  {
+    "id": "E41-P19",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de bits para una señal codificada en 16-QAM con tasa de señal de 1000 baudios.",
+    "opciones": [
+      "2000 bps",
+      "3000 bps",
+      "4 kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "16-QAM: 4 bits/baudio → 4 kbps.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 19,
+      "paginaPdf": 294
+    }
+  },
+  {
+    "id": "E43-P16",
+    "tema": "Tema 5",
+    "enunciado": "Tenemos un diagrama de constelación formado por 16 puntos que representan estados diferentes (16-QAM). Si la tasa de bits para esta codificación es de 4800 bps. ¿cuál es la tasa de baudios?",
+    "opciones": [
+      "4800 Baudios",
+      "1200 Baudios",
+      "76800 Baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "16 puntos → 4 bits/baudio → 4800/4 = 1200 baudios.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 16,
+      "paginaPdf": 314
+    }
+  },
+  {
+    "id": "E44-P08",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que transmite 48 Mbps empleando QPSK?. Sea el valor de d=0",
+    "opciones": [
+      "24 MHz",
+      "12 Mhz",
+      "6 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "QPSK: 48/2 = 24 Mbaudios → 24 MHz.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 8,
+      "paginaPdf": 320
+    }
+  },
+  {
+    "id": "E45-P08",
+    "tema": "Tema 5",
+    "enunciado": "Calcúlese la tasa de bits para una señal codificada en 16-QAM con tasa de señal de 1000 baudios",
+    "opciones": [
+      "2000 bps",
+      "3000 bps",
+      "4000 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "16-QAM → 4 bits/baudio → 4000 bps.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 8,
+      "paginaPdf": 328
+    }
+  },
+  {
+    "id": "E45-P10",
+    "tema": "Tema 5",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que transmite a 24 Mbps empleando QPSK?. Sea el valor de d=0",
+    "opciones": [
+      "24 Mhz",
+      "12 MHz",
+      "6 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "QPSK → 12 Mbaudios → 12 MHz.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 10,
+      "paginaPdf": 328
+    }
+  },
+  {
+    "id": "E45-P16",
+    "tema": "Tema 5",
+    "enunciado": "Sean dos señales moduladas. Una en ASK binario y otra en PSK binario, Cada una de las señales transmite a 48 Mbps y el valor de d es el mismo para las dos.",
+    "opciones": [
+      "El ancho de banda de la señal ASK binaria es el mismo que la PSK binaria",
+      "El ancho de banda de la señal ASK binaria es el doble que la PSK binaria",
+      "El ancho de banda de la señal ASK binaria es la mitad que la PSK binaria",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "BASK y BPSK tienen el mismo ancho de banda: B = (1+d)·S con S = N.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 16,
+      "paginaPdf": 330
+    }
+  },
+  {
+    "id": "E46-P08",
+    "tema": "Tema 5",
+    "enunciado": "Dada una modulación del tipo FSK binaria con una tasa de 2000 baudios: Calcule la tasa de bits correspondiente",
+    "opciones": [
+      "1000 bps",
+      "2000 bps",
+      "4000 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "BFSK transporta 1 bit por baudio → 2000 bps.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 8,
+      "paginaPdf": 336
+    }
+  },
+  {
+    "id": "E47-P06",
+    "tema": "Tema 5",
+    "enunciado": "Dado un diagrama de constelación formado por 16 puntos que representan estados diferentes, si la tasa de bits para esta codificación es de 4800 bps. ¿Cuál es la tasa de Baudios?",
+    "opciones": [
+      "4800 Baudios",
+      "1200 Baudios",
+      "2400 Baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "16 estados → 4 bits/baudio → 1200 baudios.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 6,
+      "paginaPdf": 344
+    }
+  },
+  {
+    "id": "E47-P09",
+    "tema": "Tema 5",
+    "enunciado": "Sean dos señales moduladas. Una en ASK binario y otra en QPSK. Cada una de las señales transmite 48 Mbps y el valor de d es el mismo en los dos casos",
+    "opciones": [
+      "El ancho de banda de la señal ASK binaria es el mismo que la QPSK",
+      "El ancho de banda de la señal ASK binaria es el doble que QPSK",
+      "El ancho de banda de la señal QPSK es el doble ASK binaria",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "BASK: B = (1+d)·N; QPSK: B = (1+d)·N/2. El de BASK es el doble.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 9,
+      "paginaPdf": 344
+    }
+  },
+  {
+    "id": "E48-P05",
+    "tema": "Tema 5",
+    "enunciado": "Dada una codificación de constelación con 8 estados diferentes y una tasa de bits de 2400 bps, ¿cuál es la tasa de baudios?",
+    "opciones": [
+      "1200 baudios",
+      "800 baudios",
+      "600 baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "8 estados → 3 bits/baudio → 2400/3 = 800 baudios.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 5,
+      "paginaPdf": 351
+    }
+  },
+  {
+    "id": "E49-P15",
+    "tema": "Tema 5",
+    "enunciado": "Dado un diagrama de constelación formado por 16 puntos que representan estados diferentes, si la tasa de bits para esta codificación es de 4800 bps. ¿cuál es la tasa de baudios?",
+    "opciones": [
+      "4800",
+      "1200",
+      "800",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "16 puntos → 4 bits/baudio → 1200 baudios.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 15,
+      "paginaPdf": 362
+    }
+  },
+  {
+    "id": "E50-P09",
+    "tema": "Tema 5",
+    "enunciado": "Dado un diagrama de constelación formado por 16 puntos que representan estados diferentes, si la tasa de bits para esta codificación es de 44800 bps. ¿cuál es la tasa de baudios?",
+    "opciones": [
+      "11200 Baudios",
+      "16000 Baudios",
+      "2800 Baudios",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "16 puntos → 4 bits/baudio → 44800/4 = 11200 baudios.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 9,
+      "paginaPdf": 370
+    }
+  }
+]

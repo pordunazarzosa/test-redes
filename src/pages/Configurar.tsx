@@ -4,30 +4,33 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Slider } from "@/components/ui/slider";
-import { bancoBase, config } from "@/data/banco";
+import { config } from "@/data/banco";
+import { useBanco } from "@/data/useBanco";
 import { barajar, barajarOpciones, generarExamen } from "@/domain/sorteo";
+import { compararTemas } from "@/lib/temas";
 import { useExamen } from "@/store/examen";
 
 export default function Configurar() {
   const navigate = useNavigate();
   const iniciar = useExamen((s) => s.iniciar);
   const [minutos, setMinutos] = useState(config.minutosPorDefecto);
+  const { banco } = useBanco(); // preguntas del proyecto + importadas
 
   // Modo práctica
-  const temas = useMemo(() => [...new Set(bancoBase.map((p) => p.tema))].sort(), []);
+  const temas = useMemo(() => [...new Set(banco.map((p) => p.tema))].sort(compararTemas), [banco]);
   const [elegidos, setElegidos] = useState<string[]>([]);
   const [cuantas, setCuantas] = useState(10);
   const [conTiempo, setConTiempo] = useState(false);
-  const disponibles = bancoBase.filter((p) => elegidos.includes(p.tema)).length;
+  const disponibles = banco.filter((p) => elegidos.includes(p.tema)).length;
 
   function empezarSimulacro() {
-    const ps = generarExamen(bancoBase, config.reparto, config.numPreguntas);
+    const ps = generarExamen(banco, config.reparto, config.numPreguntas);
     iniciar(ps, minutos, "simulacro");
     navigate("/examen");
   }
 
   function empezarPractica() {
-    const ps = barajar(bancoBase.filter((p) => elegidos.includes(p.tema)))
+    const ps = barajar(banco.filter((p) => elegidos.includes(p.tema)))
       .slice(0, cuantas)
       .map(barajarOpciones);
     iniciar(ps, conTiempo ? minutos : null, "practica");
@@ -62,7 +65,7 @@ export default function Configurar() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <Button onClick={empezarSimulacro} disabled={bancoBase.length === 0}>
+          <Button onClick={empezarSimulacro} disabled={banco.length === 0}>
             Empezar simulacro
           </Button>
         </CardContent>
@@ -78,7 +81,7 @@ export default function Configurar() {
             {temas.map((t) => (
               <label key={t} className="flex cursor-pointer items-center gap-2">
                 <Checkbox checked={elegidos.includes(t)} onCheckedChange={(v) => alternarTema(t, v === true)} />
-                {t} ({bancoBase.filter((p) => p.tema === t).length})
+                {t} ({banco.filter((p) => p.tema === t).length})
               </label>
             ))}
           </div>

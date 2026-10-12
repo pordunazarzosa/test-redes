@@ -1,0 +1,470 @@
+[
+  {
+    "id": "E01-P08",
+    "tema": "Tema 1",
+    "enunciado": "¿Qué tipo de configuración de línea caracteriza a la topología bus?",
+    "opciones": [
+      "punto a punto con el concentrador",
+      "multipunto uno a uno de enlace dedicado.",
+      "multipunto",
+      "punto primario-secundario"
+    ],
+    "correcta": 2,
+    "explicacion": "En la topología en bus todos los dispositivos comparten un único cable troncal: configuración multipunto.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 8,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P10",
+    "tema": "Tema 1",
+    "enunciado": "Qué tipo de configuración de línea caracteriza a la topología anillo?",
+    "opciones": [
+      "punto a punto con los dispositivos a izquierda y derecha",
+      "multipunto uno a uno de enlace dedicado.",
+      "multipunto",
+      "punto primario-secundario"
+    ],
+    "correcta": 0,
+    "explicacion": "En un anillo cada dispositivo tiene una línea punto a punto dedicada con los dos dispositivos que tiene a cada lado.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 10,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E05-P03",
+    "tema": "Tema 1",
+    "enunciado": "El camino físico por el que viajan las señales es el:",
+    "opciones": [
+      "Protocolo",
+      "Medio",
+      "Canal",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "El medio de transmisión es el camino físico por el que viaja el mensaje del emisor al receptor.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 3,
+      "paginaPdf": 25
+    }
+  },
+  {
+    "id": "E05-P05",
+    "tema": "Tema 1",
+    "enunciado": "Las prestaciones de una red de comunicaciones de datos dependen de",
+    "opciones": [
+      "El número de usuarios",
+      "El medio de transmisión",
+      "El software de aplicación",
+      "Todas o ninguna de las otras"
+    ],
+    "correcta": 3,
+    "explicacion": "Las prestaciones dependen de muchos factores a la vez: número de usuarios, medio de transmisión, hardware y software, por lo que la opción correcta es la que las engloba.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 5,
+      "paginaPdf": 25
+    }
+  },
+  {
+    "id": "E05-P11",
+    "tema": "Tema 1",
+    "enunciado": "La frecuencia o tasa de fallos y el tiempo de recuperación de la red son medidas de:",
+    "opciones": [
+      "Rendimiento",
+      "Fiabilidad",
+      "Seguridad",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "La fiabilidad se mide por la frecuencia de fallos, el tiempo de recuperación tras un fallo y la robustez ante catástrofes.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 11,
+      "paginaPdf": 26
+    }
+  },
+  {
+    "id": "E06-P02",
+    "tema": "Tema 1",
+    "enunciado": "Una comunicación telefónica es un ejemplo de comunicación:",
+    "opciones": [
+      "Simplex si solo hay un interlocutor en cada extremo",
+      "Siempre se considera que es una comunicación dúplex",
+      "Es duplex si solo hay dos interlocutores y semiduplex si hay múltiples interlocutores",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "El teléfono es el ejemplo clásico de comunicación full-dúplex: ambos extremos pueden hablar a la vez.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 2,
+      "paginaPdf": 33
+    }
+  },
+  {
+    "id": "E06-P04",
+    "tema": "Tema 1",
+    "enunciado": "La capacidad de una red para soportar catástrofes naturales como inundaciones, cortes físicos, fuego, etc. es una característica de:",
+    "opciones": [
+      "Seguridad",
+      "Fiabilidad",
+      "Prestaciones",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "La robustez frente a catástrofes forma parte de la fiabilidad de la red (junto con tasa de fallos y tiempo de recuperación).",
+    "origen": {
+      "examen": 6,
+      "pregunta": 4,
+      "paginaPdf": 33
+    }
+  },
+  {
+    "id": "E06-P12",
+    "tema": "Tema 1",
+    "enunciado": "¿Cual de las siguientes siglas no se corresponde con un organismo de normalización con interés en la estandarización de redes de comunicaciones?",
+    "opciones": [
+      "OSI",
+      "CCITT",
+      "ANSI",
+      "Todas las anteriores corresponden a organismos de normalización"
+    ],
+    "correcta": 0,
+    "explicacion": "OSI es un modelo (Open Systems Interconnection), no un organismo; CCITT (hoy ITU-T) y ANSI sí son organismos de normalización.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 12,
+      "paginaPdf": 34
+    }
+  },
+  {
+    "id": "E07-P04",
+    "tema": "Tema 1",
+    "enunciado": "La topología de una red se refiere a:",
+    "opciones": [
+      "La forma geométrica de los medios de conexión",
+      "La forma física en que está diseñada la red y su estructura de conexionado",
+      "La ciencia que estudia la codificación de línea",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "La topología es la forma en que la red está dispuesta físicamente y cómo se conectan sus enlaces y dispositivos.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 4,
+      "paginaPdf": 41
+    }
+  },
+  {
+    "id": "E07-P19",
+    "tema": "Tema 1",
+    "enunciado": "En una red, el ancho de banda y la latencia o retardos son medidas de:",
+    "opciones": [
+      "Seguridad",
+      "Rendimiento",
+      "Fiabilidad",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "Ancho de banda (throughput) y latencia (retardo) son medidas de rendimiento.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 19,
+      "paginaPdf": 44
+    }
+  },
+  {
+    "id": "E08-P02",
+    "tema": "Tema 1",
+    "enunciado": "La principal ventaja de una red en malla es:",
+    "opciones": [
+      "Su reducido coste",
+      "Su elevada redundancia",
+      "Su simplicidad de estructura y posibilidades de modificaciones futuras",
+      "Su naturaleza multipunto"
+    ],
+    "correcta": 1,
+    "explicacion": "La malla tiene enlaces dedicados entre cada par de nodos: su gran ventaja es la redundancia (robustez); su inconveniente, el coste.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 2,
+      "paginaPdf": 49
+    }
+  },
+  {
+    "id": "E08-P18",
+    "tema": "Tema 1",
+    "enunciado": "Una comunicación telefónica es un ejemplo de comunicación:",
+    "opciones": [
+      "Simplex si solo hay un interlocutor en cada extremo",
+      "Siempre se considera que es una comunicación dúplex",
+      "Es duplex si solo hay dos interlocutores y semiduples si hay múltiples interlocutores",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "La comunicación telefónica es full-dúplex.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 18,
+      "paginaPdf": 52
+    }
+  },
+  {
+    "id": "E13-P08",
+    "tema": "Tema 1",
+    "enunciado": "El principal inconveniente de una red en bus es:",
+    "opciones": [
+      "La complejidad del cableado",
+      "El elevado coste de instalación",
+      "La dependencia de toda la red frente a un fallo puntual",
+      "Ninguna de las otras es un inconveniente en las redes de tipo bus"
+    ],
+    "correcta": 2,
+    "explicacion": "En un bus, un fallo o rotura del cable troncal detiene toda la transmisión.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 8,
+      "paginaPdf": 88
+    }
+  },
+  {
+    "id": "E25-P02",
+    "tema": "Tema 1",
+    "enunciado": "Una red de distribución de TV por cable es un ejemplo de red de tipo:",
+    "opciones": [
+      "LAN: Local Area Network",
+      "WAN: Wide Area Network",
+      "MAN: Metropolitan Area Network",
+      "PAN: Personal Area Network"
+    ],
+    "correcta": 2,
+    "explicacion": "Una red de TV por cable que cubre una ciudad es el ejemplo típico de MAN.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 2,
+      "paginaPdf": 157
+    }
+  },
+  {
+    "id": "E25-P14",
+    "tema": "Tema 1",
+    "enunciado": "¿Cual de las siguientes siglas no se corresponde con un organismo de normalización con interés en la estandarización de redes de comunicaciones?",
+    "opciones": [
+      "OSI",
+      "CCITT",
+      "ANSI",
+      "Todas las demás respuestas corresponden a organismos de normalización"
+    ],
+    "correcta": 0,
+    "explicacion": "OSI es un modelo, no un organismo (el organismo es ISO); CCITT/ITU-T y ANSI sí lo son.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 14,
+      "paginaPdf": 159
+    }
+  },
+  {
+    "id": "E26-P19",
+    "tema": "Tema 1",
+    "enunciado": "¿Cuántos enlaces físicos dúplex se necesitan para tener una red con 10 nodos que emplea una topología de malla completamente conectada?",
+    "opciones": [
+      "10",
+      "100",
+      "90",
+      "45"
+    ],
+    "correcta": 3,
+    "explicacion": "Malla completa: n(n−1)/2 = 10·9/2 = 45 enlaces dúplex.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 19,
+      "paginaPdf": 168
+    }
+  },
+  {
+    "id": "E27-P08",
+    "tema": "Tema 1",
+    "enunciado": "¿Qué tipo de configuración de línea caracteriza a la topología anillo?",
+    "opciones": [
+      "Punto a punto con los dispositivos a izquierda y derecha",
+      "Multipunto uno a uno de enlace dedicado",
+      "Punto primario-secundario",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "En un anillo cada dispositivo tiene una conexión punto a punto dedicada con sus vecinos de cada lado.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 8,
+      "paginaPdf": 174
+    }
+  },
+  {
+    "id": "E28-P02",
+    "tema": "Tema 1",
+    "enunciado": "En la transmisión full-duplex (se refiere al tipo de transmisión física no al canal)",
+    "opciones": [
+      "Se usa un único medio físico y mantiene dos flujos de datos uno de entrada y otro de salida, simultáneos",
+      "Se usa dos medios físicos uno para cada flujo de datos: uno de entrada y otro de salida",
+      "Se usa un único medio físico y mantiene dos flujos de datos uno de entrada y otro de salida, alternativos.",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "En full-dúplex ambos extremos transmiten y reciben simultáneamente; la descripción que lo recoge es la de dos flujos simultáneos por el mismo enlace (la de flujos alternativos es semidúplex). El libro admite también caminos físicos separados.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 2,
+      "paginaPdf": 183
+    }
+  },
+  {
+    "id": "E31-P02",
+    "tema": "Tema 1",
+    "enunciado": "¿ Qué tipo de configuración define una topología en malla?",
+    "opciones": [
+      "Cada dispositivo tiene un enlace punto a punto y dedicado con cualquier otro dispositivo.",
+      "Los dispositivos tienen conexión multipunto con cualquier otro dispositivo.",
+      "Los dispositivos están aislados unos de otros formando una malla",
+      "Todas las opciones son correctas"
+    ],
+    "correcta": 0,
+    "explicacion": "En una malla cada dispositivo tiene un enlace punto a punto dedicado con cada uno de los demás.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 2,
+      "paginaPdf": 209
+    }
+  },
+  {
+    "id": "E34-P07",
+    "tema": "Tema 1",
+    "enunciado": "El principal inconveniente de una red en bus es:",
+    "opciones": [
+      "La complejidad del cableado",
+      "El elevado coste de instalación",
+      "La dependencia de toda la red frente a un fallo puntual de la línea",
+      "Ninguna de las otras es un inconveniente en las redes de tipo bus"
+    ],
+    "correcta": 2,
+    "explicacion": "Si se rompe el cable troncal del bus, cae toda la red.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 7,
+      "paginaPdf": 236
+    }
+  },
+  {
+    "id": "E34-P15",
+    "tema": "Tema 1",
+    "enunciado": "Las prestaciones de una red de comunicaciones de datos dependen de:",
+    "opciones": [
+      "El número de usuarios",
+      "El medio de transmisión",
+      "El software de aplicación",
+      "Todas o ninguna de las otras opciones son válidas"
+    ],
+    "correcta": 3,
+    "explicacion": "Las prestaciones dependen del número de usuarios, del medio, del hardware y del software.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 15,
+      "paginaPdf": 237
+    }
+  },
+  {
+    "id": "E35-P02",
+    "tema": "Tema 1",
+    "enunciado": "La capacidad de una red para recuperarse de un fallo y su robustez ante una catástrofe es una característica de:",
+    "opciones": [
+      "Seguridad",
+      "Fiabilidad",
+      "Prestaciones",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "La recuperación ante fallos y la robustez frente a catástrofes son aspectos de la fiabilidad.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 2,
+      "paginaPdf": 243
+    }
+  },
+  {
+    "id": "E35-P18",
+    "tema": "Tema 1",
+    "enunciado": "Una característica de las redes de tipo bus es:",
+    "opciones": [
+      "La imposibilidad de establecer comunicaciones Full-Duplex",
+      "La alta flexibilidad a la hora de añadir nuevas estaciones",
+      "La dificultad para localizar los posibles fallos del medio utilizado",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "En un bus es difícil aislar y localizar fallos; añadir estaciones tampoco es flexible.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 18,
+      "paginaPdf": 246
+    }
+  },
+  {
+    "id": "E43-P19",
+    "tema": "Tema 1",
+    "enunciado": "La aplicación Packet Tracer nos permite:",
+    "opciones": [
+      "Diseñar y simular una arquitectura de red",
+      "Capturar tramas de tráfico real en una red",
+      "Medir la capacidad y estado de congestión de una red",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Packet Tracer es un simulador de Cisco para diseñar, configurar y simular redes (no captura tráfico real).",
+    "origen": {
+      "examen": 43,
+      "pregunta": 19,
+      "paginaPdf": 314
+    }
+  },
+  {
+    "id": "E49-P09",
+    "tema": "Tema 1",
+    "enunciado": "Se está realizando el diseño de una red de comunicaciones de 5 nodos donde se desea establecer una topología de malla completamente conectada. Considerando que cada nodo debe estar interconectado con todos los demás sin redundancia, ¿Cuál es el número mínimo de enlaces físicos independientes necesarios para lograr esta configuración?",
+    "opciones": [
+      "10",
+      "5",
+      "4",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Malla completa: n(n−1)/2 = 5·4/2 = 10 enlaces.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 9,
+      "paginaPdf": 360
+    }
+  },
+  {
+    "id": "E50-P12",
+    "tema": "Tema 1",
+    "enunciado": "En el ámbito de las comunicaciones digitales, los enlaces pueden clasificarse según su capacidad de transmisión bidireccional. ¿Cuál de las siguientes opciones describe con mayor precisión el comportamiento de un enlace full-duplex?",
+    "opciones": [
+      "Transmisión en un solo sentido a la vez",
+      "Transmisión simultánea en ambos sentidos",
+      "Transmisión bidireccional alterna mediante conmutación",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Full-dúplex: transmisión simultánea en ambos sentidos.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 12,
+      "paginaPdf": 371
+    }
+  }
+]

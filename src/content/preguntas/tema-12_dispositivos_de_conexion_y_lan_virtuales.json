@@ -1,0 +1,362 @@
+[
+  {
+    "id": "E05-P06",
+    "tema": "Tema 12",
+    "enunciado": "¿Qué se entiende por métrica a la hora de calcular un árbol de expansión?",
+    "opciones": [
+      "La longitud física de los enlaces",
+      "El coste de cada enlace basado en algún criterio medible",
+      "Las dimensiones del árbol de expansión",
+      "Todas las respuestas son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "La métrica es el coste asignado a cada enlace según algún criterio medible (saltos, retardo, ancho de banda…).",
+    "origen": {
+      "examen": 5,
+      "pregunta": 6,
+      "paginaPdf": 26
+    }
+  },
+  {
+    "id": "E05-P10",
+    "tema": "Tema 12",
+    "enunciado": "Un puente interconecta redes y para el encaminamiento de las tramas utiliza:",
+    "opciones": [
+      "Las direcciones físicas del nivel de enlace",
+      "Las direcciones lógicas del nivel de red",
+      "No necesita las direcciones de origen o destino puesto que sólo tiene un puerto de entrada y uno de salida",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "Un puente es un dispositivo de nivel de enlace: filtra y reenvía tramas según las direcciones físicas (MAC).",
+    "origen": {
+      "examen": 5,
+      "pregunta": 10,
+      "paginaPdf": 26
+    }
+  },
+  {
+    "id": "E05-P14",
+    "tema": "Tema 12",
+    "enunciado": "A la hora de calcular el árbol de expansión se utiliza una métrica que puede contemplar:",
+    "opciones": [
+      "El número de saltos entre redes",
+      "El tiempo de retardo de las tramas",
+      "El ancho de banda del enlace",
+      "Cualquiera de las demás características"
+    ],
+    "correcta": 3,
+    "explicacion": "La métrica puede basarse en cualquier criterio: número de saltos, retardo, ancho de banda, etc.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 14,
+      "paginaPdf": 27
+    }
+  },
+  {
+    "id": "E05-P18",
+    "tema": "Tema 12",
+    "enunciado": "¿Cual de los siguientes dispositivos realiza interconexión de redes a mayor nivel?",
+    "opciones": [
+      "Encaminador (enrutador)",
+      "Pasarela",
+      "Puente",
+      "Repetidor"
+    ],
+    "correcta": 1,
+    "explicacion": "La pasarela (gateway) interconecta hasta el nivel de aplicación, por encima de router, puente y repetidor.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 18,
+      "paginaPdf": 28
+    }
+  },
+  {
+    "id": "E06-P07",
+    "tema": "Tema 12",
+    "enunciado": "¿Qué función no realiza un repetidor?",
+    "opciones": [
+      "Chequear la posible existencia de errores en las tramas",
+      "Introducir un retardo de bit",
+      "Regenerar las señales físicas",
+      "Amplificar el nivel de señal"
+    ],
+    "correcta": 0,
+    "explicacion": "Un repetidor trabaja en el nivel físico: regenera la señal pero no comprueba errores en las tramas.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 7,
+      "paginaPdf": 34
+    }
+  },
+  {
+    "id": "E06-P16",
+    "tema": "Tema 12",
+    "enunciado": "El árbol de expansión es",
+    "opciones": [
+      "Una conversión de una red con topología física de malla en una red con topología lógica de árbol",
+      "La conexión de una nueva red de tipo árbol a una red existente",
+      "Una ampliación de una red de tipo árbol mediante otra red de tipo árbol en alguna de sus ramas",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "El algoritmo del árbol de expansión convierte una topología física con bucles (malla) en una topología lógica de árbol sin bucles.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 16,
+      "paginaPdf": 35
+    }
+  },
+  {
+    "id": "E06-P18",
+    "tema": "Tema 12",
+    "enunciado": "¿En qué nivel trabajan las pasarelas?",
+    "opciones": [
+      "En el nivel de Aplicación",
+      "En el nivel de Enlace",
+      "En el nivel de Transporte",
+      "En el nivel de Red"
+    ],
+    "correcta": 0,
+    "explicacion": "Las pasarelas (gateways) operan en el nivel de aplicación (pueden traducir entre protocolos de todas las capas).",
+    "origen": {
+      "examen": 6,
+      "pregunta": 18,
+      "paginaPdf": 35
+    }
+  },
+  {
+    "id": "E07-P17",
+    "tema": "Tema 12",
+    "enunciado": "Los problemas originados por los bucles",
+    "opciones": [
+      "Tienen su origen en el nivel de enlace. Si realizamos la conexión con un dispositivo de nivel de red desaparecen.",
+      "Tienen su origen en el nivel de enlace pero no se pueden eliminar utilizando interconexión de nivel de red",
+      "Tienen su origen en el nivel de red por lo que si solo interconectamos el nivel de enlace, no aparecerán nunca.",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "Los bucles son un problema de los conmutadores/puentes de nivel de enlace; si se interconecta con un router (nivel de red) desaparecen.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 17,
+      "paginaPdf": 43
+    }
+  },
+  {
+    "id": "E08-P19",
+    "tema": "Tema 12",
+    "enunciado": "La función de un repetidor en una red de computadoras es:",
+    "opciones": [
+      "Únicamente amplificar",
+      "Conectar segmentos de una misma red",
+      "Extender la longitud de red más allá de la limitación relacionada con la longitud de trama",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "Un repetidor conecta segmentos de una misma LAN regenerando la señal; no elimina la limitación de longitud impuesta por la trama mínima en CSMA/CD.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 19,
+      "paginaPdf": 52
+    }
+  },
+  {
+    "id": "E14-P18",
+    "tema": "Tema 12",
+    "enunciado": "El problema de los bucles está originado por:",
+    "opciones": [
+      "La existencia de redundancia en la interconexión de nivel de enlace",
+      "Es inherente a la interconexión de redes en el nivel de enlace independientemente de la topología utilizada",
+      "Es inherente a la interconexión de redes en el nivel de red",
+      "Un mal planteamiento de la interconexión de redes a cualquier nivel"
+    ],
+    "correcta": 0,
+    "explicacion": "Los bucles aparecen cuando hay enlaces redundantes al interconectar con puentes/conmutadores de nivel de enlace.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 18,
+      "paginaPdf": 100
+    }
+  },
+  {
+    "id": "E16-P09",
+    "tema": "Tema 12",
+    "enunciado": "Señale la afirmación correcta:",
+    "opciones": [
+      "Los puentes tienen una tabla que se usa para el correcto filtrado de tramas en el nivel de enlace",
+      "Los enrutadores de nivel de red utilizan las direcciones físicas para encaminar los paquetes",
+      "Los repetidores de la capa física utilizan las direcciones físicas para encaminar correctamente las tramas en el nivel físico",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Los puentes mantienen una tabla (dirección MAC – puerto) para filtrar tramas. Los routers usan direcciones lógicas y los repetidores no usan direcciones.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 9,
+      "paginaPdf": 106
+    }
+  },
+  {
+    "id": "E22-P03",
+    "tema": "Tema 12",
+    "enunciado": "¿Cual de los siguientes dispositivos de interconexión de redes no utiliza ningún tipo de direccionamiento?",
+    "opciones": [
+      "Repetidor",
+      "Encaminador (Enrutador)",
+      "Pasarela",
+      "Puente"
+    ],
+    "correcta": 0,
+    "explicacion": "El repetidor trabaja en el nivel físico y no usa direcciones; puentes (MAC), routers (IP) y pasarelas sí las usan.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 3,
+      "paginaPdf": 145
+    }
+  },
+  {
+    "id": "E25-P06",
+    "tema": "Tema 12",
+    "enunciado": "¿Cual de estos elementos no es necesario para desarrollar un árbol de expansión?",
+    "opciones": [
+      "Direcciones lógicas (nivel de red)",
+      "Identificador único para cada uno de los conmutadores utilizados",
+      "Un nodo raíz definido de manera automática o administrada",
+      "Posibilidad de bloquear puertos"
+    ],
+    "correcta": 0,
+    "explicacion": "Para el árbol de expansión hacen falta identificadores de los conmutadores, un puente raíz y poder bloquear puertos; las direcciones de red no intervienen.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 6,
+      "paginaPdf": 158
+    }
+  },
+  {
+    "id": "E25-P17",
+    "tema": "Tema 12",
+    "enunciado": "¿Qué característica no corresponde específicamente a una VLAN?",
+    "opciones": [
+      "Reducción de costes y tiempo al migrar estaciones",
+      "Creación de grupos virtuales",
+      "Mayor velocidad de transmisión",
+      "Seguridad al restringir las tramas a la VLAN particular"
+    ],
+    "correcta": 2,
+    "explicacion": "Las VLAN reducen costes y tiempo de migración, crean grupos virtuales y aumentan la seguridad, pero no aumentan la velocidad de transmisión.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 17,
+      "paginaPdf": 160
+    }
+  },
+  {
+    "id": "E26-P17",
+    "tema": "Tema 12",
+    "enunciado": "Señale cual de estos problemas no es consecuencia directa de los bucles de redundancia:",
+    "opciones": [
+      "Inundación de la red con una misma trama",
+      "Colisión de una trama consigo misma",
+      "Rechazo de la trama por parte del destinatario",
+      "Ninguna de la otras"
+    ],
+    "correcta": 2,
+    "explicacion": "Los bucles provocan inundación (tramas que circulan indefinidamente y copias duplicadas), pero no hacen que el destinatario rechace la trama.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 17,
+      "paginaPdf": 167
+    }
+  },
+  {
+    "id": "E26-P20",
+    "tema": "Tema 12",
+    "enunciado": "Criterios para definir la pertenencia a una VLAN:",
+    "opciones": [
+      "Número o identificador de puerto en un conmutador",
+      "Direcciones MAC",
+      "Direcciones IP",
+      "Cualquiera de las otras e incluso una combinación de varias"
+    ],
+    "correcta": 3,
+    "explicacion": "La pertenencia a una VLAN puede definirse por puerto, MAC, IP, multicast o una combinación.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 20,
+      "paginaPdf": 168
+    }
+  },
+  {
+    "id": "E43-P02",
+    "tema": "Tema 12",
+    "enunciado": "¿Cuál de los siguientes dispositivos trabaja exclusivamente en la capa física?",
+    "opciones": [
+      "Hub (concentrador)",
+      "Switch (conmutador)",
+      "Router (encaminador)",
+      "Bridge (puente)"
+    ],
+    "correcta": 0,
+    "explicacion": "El hub (concentrador) es un repetidor multipuerto que trabaja solo en el nivel físico.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 2,
+      "paginaPdf": 311
+    }
+  },
+  {
+    "id": "E47-P01",
+    "tema": "Tema 12",
+    "enunciado": "¿Qué dispositivo de interconexión tiene como capa superior de operación la capa de enlace de datos del modelo OSI?",
+    "opciones": [
+      "Switch",
+      "Router",
+      "Repetidor",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "El switch (conmutador de nivel 2) opera hasta la capa de enlace.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 1,
+      "paginaPdf": 343
+    }
+  },
+  {
+    "id": "E48-P01",
+    "tema": "Tema 12",
+    "enunciado": "¿Qué característica distingue a un rúter (router) de un conmutador (switch)?",
+    "opciones": [
+      "Opera exclusivamente en la capa física",
+      "Usa direcciones IP para reenviar paquetes",
+      "No trabaja en capa de enlace",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El router trabaja en el nivel de red y reenvía según las direcciones IP; el switch usa direcciones MAC.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 1,
+      "paginaPdf": 351
+    }
+  },
+  {
+    "id": "E49-P14",
+    "tema": "Tema 12",
+    "enunciado": "¿Qué dispositivo de red opera en la capa de enlace de datos del modelo OSI como capa superior de funcionamiento?",
+    "opciones": [
+      "Conmutador (Switch)",
+      "Rúter (Router)",
+      "Concentrador (Hub)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "El conmutador (switch) opera hasta la capa de enlace.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 14,
+      "paginaPdf": 361
+    }
+  }
+]

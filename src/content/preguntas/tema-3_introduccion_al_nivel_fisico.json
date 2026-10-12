@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "E01-P04",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de luz viaja a través de una fibra. ¿ cuál es el retraso de la señal si la longitud del cable de fibra óptica es de 10 metros? Dato velocidad de propagación 2x10⁸ m/s.",
+    "opciones": [
+      "0.05 ms",
+      "0.005 ms",
+      "0.5 ms",
+      "5 ms"
+    ],
+    "correcta": 0,
+    "explicacion": "Retardo de propagación = 10 m / 2·10⁸ m/s = 5·10⁻⁸ s = 0,05 µs. Ninguna opción tiene la unidad correcta (las opciones dicen ms); la cifra que coincide es 0,05.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 4,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E01-P06",
+    "tema": "Tema 3",
+    "enunciado": "¿ Cuál es la capacidad teórica de un canal con un ancho de banda de 20khz y SNRdb=40?",
+    "opciones": [
+      "267 Kbps",
+      "267 Mbps",
+      "100 Kbps",
+      "100 Mbps"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR = 10^(40/10) = 10⁴. C = B·log₂(1+SNR) = 20·10³ × log₂(10001) ≈ 20·10³ × 13,3 ≈ 266-267 kbps.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 6,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E01-P16",
+    "tema": "Tema 3",
+    "enunciado": "¿cuántos bits caben en un canal con un retraso de 2ms si el ancho de banda el enlace es de 1 Mbps?",
+    "opciones": [
+      "1000 bits",
+      "2000 bits",
+      "3000 bits",
+      "20000 bits"
+    ],
+    "correcta": 1,
+    "explicacion": "Producto ancho de banda × retardo: 1·10⁶ bit/s × 2·10⁻³ s = 2000 bits.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 16,
+      "paginaPdf": 3
+    }
+  },
+  {
+    "id": "E01-P17",
+    "tema": "Tema 3",
+    "enunciado": "Una señal viaja desde un punto A otro punto B. La potencia de una señal en A es 100 w y en el punto B la potencia de la señal es 90. ¿cuál es la atenuación en db? (la atenuación se considera negativa)",
+    "opciones": [
+      "-0.46db",
+      "-0.87 db",
+      "- 10 db",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "Atenuación = 10·log₁₀(P2/P1) = 10·log₁₀(90/100) = −0,46 dB.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 17,
+      "paginaPdf": 3
+    }
+  },
+  {
+    "id": "E02-P01",
+    "tema": "Tema 3",
+    "enunciado": "Supóngase que la longitud de un cable 10BASE5 es de 2500 metros. Si la velocidad de propagación en el cable es de 200.000.000 m/s. ¿ cuanto le cuesta a un bit viajar desde el principio de la red al final . Se asume que hay un retraso de 10 microsegundos en el equipo emisor.",
+    "opciones": [
+      "12.5 microsegundos",
+      "22.5 microsegundos",
+      "2.5 microsegundos",
+      "Ninguna de las anteriores."
+    ],
+    "correcta": 1,
+    "explicacion": "Propagación = 2500 m / 2·10⁸ m/s = 12,5 µs; sumando los 10 µs del emisor → 22,5 µs.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 1,
+      "paginaPdf": 7
+    }
+  },
+  {
+    "id": "E02-P05",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de luz viaja a través de una fibra. ¿ cuál es el retraso de la señal si la longitud del cable de fibra óptica es de 100 metros? Dato velocidad de propagación 2x10⁸ m/s",
+    "opciones": [
+      "0.05 ms",
+      "0.005 ms",
+      "0.5 ms",
+      "5 ms"
+    ],
+    "correcta": 2,
+    "explicacion": "Retardo = 100 m / 2·10⁸ m/s = 5·10⁻⁷ s = 0,5 µs. Las opciones ponen ms por errata; la cifra que coincide es 0,5.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 5,
+      "paginaPdf": 7
+    }
+  },
+  {
+    "id": "E02-P15",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 1 Mhz y SNRdb=20?",
+    "opciones": [
+      "6.67 Kbps",
+      "6.67 Mbps",
+      "100 Kbps",
+      "100 Mbps"
+    ],
+    "correcta": 1,
+    "explicacion": "SNR = 10² = 100. C = 10⁶ × log₂(101) ≈ 10⁶ × 6,66 ≈ 6,67 Mbps.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 15,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E02-P18",
+    "tema": "Tema 3",
+    "enunciado": "La atenuación de una señal es de -10db. ¿ cuál es la potencia final de la señal si originalmente tenía una potencia de 5 w? (la atenuación se considera negativa)",
+    "opciones": [
+      "-0.5 w",
+      "-0.15 w",
+      "-5 w",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 3,
+    "explicacion": "−10 dB = 10·log₁₀(P2/5) → P2 = 0,5 W. Una potencia nunca es negativa, así que ninguna opción es correcta.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 18,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E02-P19",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuántos bits caben en un canal con un retraso de 2ms si el ancho de banda el enlace es de 10 Mbps?",
+    "opciones": [
+      "1000 bits",
+      "2000 bits",
+      "3000 bits",
+      "20000 bits"
+    ],
+    "correcta": 3,
+    "explicacion": "Producto ancho de banda × retardo: 10·10⁶ × 2·10⁻³ = 20000 bits.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 19,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E03-P03",
+    "tema": "Tema 3",
+    "enunciado": "¿ Cuál es la capacidad teórica de un canal con un ancho de banda de 20khz y SNR_db=30?",
+    "opciones": [
+      "200 Kbps",
+      "200 Mbps",
+      "100 Kbps",
+      "100 Mbps"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR = 10³. C = 20·10³ × log₂(1001) ≈ 20·10³ × 10 ≈ 200 kbps.",
+    "origen": {
+      "examen": 3,
+      "pregunta": 3,
+      "paginaPdf": 13
+    }
+  },
+  {
+    "id": "E03-P08",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de luz viaja a través de una fibra. ¿ cuál es el retraso de la señal si la longitud del cable de fibra óptica es de 10 metros? Dato velocidad de propagación 2x10⁸ m/s.",
+    "opciones": [
+      "0.05 microsegundos",
+      "0.005 microsegundos",
+      "0.5 milisegundos",
+      "5 segundos"
+    ],
+    "correcta": 0,
+    "explicacion": "Retardo = 10 m / 2·10⁸ m/s = 5·10⁻⁸ s = 0,05 µs.",
+    "origen": {
+      "examen": 3,
+      "pregunta": 8,
+      "paginaPdf": 14
+    }
+  },
+  {
+    "id": "E03-P19",
+    "tema": "Tema 3",
+    "enunciado": "Una señal viaja desde un punto A otro punto B. La potencia de una señal en A es 100 w y en el punto B la potencia de la señal es 50w. ¿cuál es la atenuación en db? (El signo para la atenuación es positivo)",
+    "opciones": [
+      "3db",
+      "6 db",
+      "10 db",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "Atenuación = 10·log₁₀(100/50) = 10 × 0,301 ≈ 3 dB.",
+    "origen": {
+      "examen": 3,
+      "pregunta": 19,
+      "paginaPdf": 15
+    }
+  },
+  {
+    "id": "E04-P03",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 1 Mhz y SNR_db=10?",
+    "opciones": [
+      "3.33 Kbps",
+      "3.33 Mbps",
+      "6.67 Kbps",
+      "6.67 Mbps"
+    ],
+    "correcta": 1,
+    "explicacion": "SNR = 10. C = 10⁶ × log₂(11) ≈ 3,46 Mbps; con la aproximación C ≈ B·SNRdB/3 = 3,33 Mbps.",
+    "origen": {
+      "examen": 4,
+      "pregunta": 3,
+      "paginaPdf": 19
+    }
+  },
+  {
+    "id": "E04-P04",
+    "tema": "Tema 3",
+    "enunciado": "¿cuántos bits caben en un canal con un retraso de 2ms si el ancho de banda el enlace es de 100 Mbps?",
+    "opciones": [
+      "10000 bits",
+      "20000 bits",
+      "30000 bits",
+      "200000 bits"
+    ],
+    "correcta": 3,
+    "explicacion": "Producto ancho de banda × retardo: 100·10⁶ × 2·10⁻³ = 200000 bits.",
+    "origen": {
+      "examen": 4,
+      "pregunta": 4,
+      "paginaPdf": 19
+    }
+  },
+  {
+    "id": "E04-P08",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de luz viaja a través de una fibra. ¿ cuál es el retraso de la señal si la longitud del cable de fibra óptica es de 1000 metros? Dato velocidad de propagación 2x10⁸ m/s",
+    "opciones": [
+      "0.05 microsegundos",
+      "0.005 microsegundos",
+      "0.5 microsegundos",
+      "5 microsegundos"
+    ],
+    "correcta": 3,
+    "explicacion": "Retardo = 1000 m / 2·10⁸ m/s = 5·10⁻⁶ s = 5 µs.",
+    "origen": {
+      "examen": 4,
+      "pregunta": 8,
+      "paginaPdf": 20
+    }
+  },
+  {
+    "id": "E04-P19",
+    "tema": "Tema 3",
+    "enunciado": "La atenuación de una señal es de 10db. ¿ cuál es la potencia final de la señal si originalmente tenía una potencia de 5 w? (El signo para la atenuación es positivo)",
+    "opciones": [
+      "0.5 w",
+      "0.15 w",
+      "50 w",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "10 dB = 10·log₁₀(5/P2) → P2 = 5/10 = 0,5 W.",
+    "origen": {
+      "examen": 4,
+      "pregunta": 19,
+      "paginaPdf": 21
+    }
+  },
+  {
+    "id": "E05-P13",
+    "tema": "Tema 3",
+    "enunciado": "Una señal tiene una tasa de bits de 2Mbps. ¿Cuál es la duración del intervalo de bit?",
+    "opciones": [
+      "1 milisegundo",
+      "0,5 microsegundos",
+      "1 microsegundo",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "Intervalo de bit = 1 / 2·10⁶ = 0,5 µs.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 13,
+      "paginaPdf": 27
+    }
+  },
+  {
+    "id": "E05-P17",
+    "tema": "Tema 3",
+    "enunciado": "Se descompone una señal periódica en 3 ondas seno con frecuencias 10Hz, 100Hz y 200Hz. ¿Cual es su ancho de banda?",
+    "opciones": [
+      "310Hz",
+      "190Hz",
+      "250Hz",
+      "No hay datos suficientes para calcularlo"
+    ],
+    "correcta": 1,
+    "explicacion": "Ancho de banda = fmax − fmin = 200 − 10 = 190 Hz.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 17,
+      "paginaPdf": 28
+    }
+  },
+  {
+    "id": "E06-P05",
+    "tema": "Tema 3",
+    "enunciado": "Cual es el tiempo de propagación y de transmisión para un mensaje de 2,5 kbytes si el ancho de banda de la red es de 1Gbps. Supóngase que la distancia entre emisor y receptor es de 12000km y la luz viaja a 2,4x10⁸ m/s",
+    "opciones": [
+      "Tiempo Propagación: 50ms. Tiempo de Transmisión: 20 us",
+      "Tiempo Propagación: 20us. Tiempo de Transmisión: 50 ms",
+      "Tiempo Propagación: 50ms. Tiempo de Transmisión: 2,5 us",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "Tprop = 12·10⁶ m / 2,4·10⁸ m/s = 50 ms. Ttx = 2500 × 8 bits / 10⁹ bps = 20 µs.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 5,
+      "paginaPdf": 33
+    }
+  },
+  {
+    "id": "E06-P10",
+    "tema": "Tema 3",
+    "enunciado": "Una señal tiene un ancho de banda de 80MHz y la frecuencia más alta es 2,4 Ghz. ¿Cuál será la frecuencia más baja de su espectro?",
+    "opciones": [
+      "0 Hz",
+      "2320 MHz",
+      "40 MHz",
+      "Dependerá de la frecuencia de muestreo empleada"
+    ],
+    "correcta": 1,
+    "explicacion": "fmin = fmax − B = 2400 MHz − 80 MHz = 2320 MHz.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 10,
+      "paginaPdf": 34
+    }
+  },
+  {
+    "id": "E07-P10",
+    "tema": "Tema 3",
+    "enunciado": "Una fibra óptica es un medio de tipo",
+    "opciones": [
+      "Guiado",
+      "No guiado",
+      "Apantallado frente a interferencias eléctricas",
+      "Blindado para evitar roturas"
+    ],
+    "correcta": 0,
+    "explicacion": "La fibra óptica es un medio guiado (la señal va confinada en el cable), igual que el par trenzado y el coaxial.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 10,
+      "paginaPdf": 42
+    }
+  },
+  {
+    "id": "E07-P14",
+    "tema": "Tema 3",
+    "enunciado": "Si una comunicación es por un medio guiado significa que:",
+    "opciones": [
+      "Existe un esquema de direccionamiento para alcanzar el destino",
+      "Existe un sistema de señalización que encamina el paquete en cada enlace",
+      "Puede tratarse de un cable coaxial, par trenzado o fibra óptica entre otros",
+      "No existen medios guiados, sólo comunicaciones guiadas"
+    ],
+    "correcta": 2,
+    "explicacion": "Medios guiados son los que dirigen la señal por un conductor físico: par trenzado, coaxial, fibra óptica.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 14,
+      "paginaPdf": 43
+    }
+  },
+  {
+    "id": "E08-P10",
+    "tema": "Tema 3",
+    "enunciado": "Cuando un cable es de tipo UTP significa que:",
+    "opciones": [
+      "Está especialmente indicado para transferencia de paquetes",
+      "Se trata de un par trenzado sin blindaje",
+      "Se trata de un par trenzado con una malla o blindaje",
+      "Es un cable que además de datos proporciona alimentación"
+    ],
+    "correcta": 1,
+    "explicacion": "UTP = Unshielded Twisted Pair, par trenzado sin blindaje (STP es el blindado).",
+    "origen": {
+      "examen": 8,
+      "pregunta": 10,
+      "paginaPdf": 50
+    }
+  },
+  {
+    "id": "E08-P11",
+    "tema": "Tema 3",
+    "enunciado": "Si decimos que una fibra óptica es multimodo queremos decir que:",
+    "opciones": [
+      "Tiene un índice de reflexión/refracción contínuo",
+      "Tiene un índice de reflexión/refracción escalonado",
+      "Hay múltiples rayos de luz de una misma fuente luminosa",
+      "Se trata de una fibra de mayor flexibilidad lo que permite una mejor utilización en lugares de acceso dificultoso"
+    ],
+    "correcta": 2,
+    "explicacion": "En la fibra multimodo se propagan múltiples haces (modos) de la misma fuente luminosa por caminos distintos.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 11,
+      "paginaPdf": 51
+    }
+  },
+  {
+    "id": "E12-P05",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por dos longitudes de onda a) 1000nm y b)1200nm. La velocidad de propagación es 2x10⁸m/s. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "10 GHz",
+      "30 GHz",
+      "33 THz",
+      "3 THz"
+    ],
+    "correcta": 2,
+    "explicacion": "f = v/λ: 2·10⁸/1000 nm = 200 THz; 2·10⁸/1200 nm = 166,67 THz. Ancho de banda = 33,3 THz.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 5,
+      "paginaPdf": 77
+    }
+  },
+  {
+    "id": "E12-P10",
+    "tema": "Tema 3",
+    "enunciado": "¿ Cúal es la capacidad teórica de un canal con un ancho de banda de 10 khz y SNRdb=12",
+    "opciones": [
+      "40 kbps",
+      "33 kbps",
+      "100 kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR = 10^1,2 ≈ 15,85 → C = 10 kHz × log₂(16,85) ≈ 40,7 kbps (aprox. B·SNRdB/3 = 40 kbps).",
+    "origen": {
+      "examen": 12,
+      "pregunta": 10,
+      "paginaPdf": 79
+    }
+  },
+  {
+    "id": "E13-P02",
+    "tema": "Tema 3",
+    "enunciado": "¿ Cual es la capacidad teórica de un canal con un ancho de banda de 100 khz y SNRdb=3",
+    "opciones": [
+      "90 kbps",
+      "100 kbps",
+      "300 kbps",
+      "100 Mbps"
+    ],
+    "correcta": 1,
+    "explicacion": "Con la aproximación C ≈ B·SNRdB/3 = 100 kHz × 1 = 100 kbps. (El valor exacto, B·log₂(1+2) ≈ 158 kbps, no figura; la aproximación es poco precisa con SNR tan baja.)",
+    "origen": {
+      "examen": 13,
+      "pregunta": 2,
+      "paginaPdf": 87
+    }
+  },
+  {
+    "id": "E13-P13",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por dos longitudes de onda a) 1000 nm y b)1400 nm. La velocidad de propagación es 2x10⁸ m/sg. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "33 THz",
+      "57 THz",
+      "57 GHz",
+      "33 GHz"
+    ],
+    "correcta": 1,
+    "explicacion": "2·10⁸/1000 nm = 200 THz; 2·10⁸/1400 nm = 142,86 THz → 57,1 THz.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 13,
+      "paginaPdf": 89
+    }
+  },
+  {
+    "id": "E13-P19",
+    "tema": "Tema 3",
+    "enunciado": "Un cable de par tranzado [sic] blindado significa que:",
+    "opciones": [
+      "Incorpora una malla metálica exterior para impedir su manipulación",
+      "Se trata de un medio guiado que incorpora una malla metálica parra [sic] guiar la señal electromagnética confinada dentro y reducir las pérdidas de señal",
+      "Tiene una malla o envoltura metálica flexible para reducir la penetración de ruido e interferencias externas",
+      "No existen los cables de par trenzado blindados, sería un cable coaxial"
+    ],
+    "correcta": 2,
+    "explicacion": "El STP lleva una malla o lámina metálica que evita que penetren el ruido y las interferencias externas.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 19,
+      "paginaPdf": 91
+    }
+  },
+  {
+    "id": "E14-P01",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 40 khz y SNRdb=18",
+    "opciones": [
+      "240Kbps",
+      "122kbps",
+      "40kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR = 10^1,8 ≈ 63 → C = 40 kHz × log₂(64) ≈ 240 kbps.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 1,
+      "paginaPdf": 97
+    }
+  },
+  {
+    "id": "E16-P16",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 300 khz y SNRdb=6",
+    "opciones": [
+      "300 Kbps",
+      "150 Kbps",
+      "500 Kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "SNR ≈ 4 → C = 300 kHz × log₂(5) ≈ 697 kbps (aprox. B·SNRdB/3 = 600 kbps). Ninguna opción coincide.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 16,
+      "paginaPdf": 108
+    }
+  },
+  {
+    "id": "E17-P01",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 60 Khz y SNRdb=9",
+    "opciones": [
+      "180 kbps",
+      "122 kbps",
+      "240 kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR ≈ 7,94 → C = 60 kHz × log₂(8,94) ≈ 190 kbps; con la aproximación B·SNRdB/3 = 180 kbps.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 1,
+      "paginaPdf": 113
+    }
+  },
+  {
+    "id": "E17-P09",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por dos Longitudes de onda a)500nm y b)1000nm. La velocidad de propagación es 2x10⁸ m/seg. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "100 THz",
+      "200 THz",
+      "50 THz",
+      "12 THz"
+    ],
+    "correcta": 1,
+    "explicacion": "2·10⁸/500 nm = 400 THz; 2·10⁸/1000 nm = 200 THz → 200 THz.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 9,
+      "paginaPdf": 114
+    }
+  },
+  {
+    "id": "E18-P01",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 300 Khz y SNRdb=3",
+    "opciones": [
+      "600 kbps",
+      "300 kbps",
+      "500 kbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Con la aproximación C ≈ B·SNRdB/3 = 300 kHz × 1 = 300 kbps (el valor exacto, B·log₂3 ≈ 475 kbps, no figura).",
+    "origen": {
+      "examen": 18,
+      "pregunta": 1,
+      "paginaPdf": 121
+    }
+  },
+  {
+    "id": "E18-P09",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por dos Longitud de onda a) 1000 nm y b)1400 nm. La velocidad de propagación es 2x10⁸ m/seg. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "33 THz",
+      "57 THz",
+      "50 THz",
+      "12 THz"
+    ],
+    "correcta": 1,
+    "explicacion": "200 THz − 142,86 THz ≈ 57 THz.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 9,
+      "paginaPdf": 122
+    }
+  },
+  {
+    "id": "E19-P01",
+    "tema": "Tema 3",
+    "enunciado": "¿ Cúal es la capacidad teórica de un canal con un ancho de banda de 10 khz y SNRdb=12",
+    "opciones": [
+      "40 Kbps",
+      "33 Kbps",
+      "100 Kbps",
+      "100 Mbps"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR ≈ 15,85 → C ≈ 10 kHz × 4,07 ≈ 40 kbps.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 1,
+      "paginaPdf": 129
+    }
+  },
+  {
+    "id": "E19-P09",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por dos Longitud de onda a) 1000nm y b)1200nm. La velocidad de propagación es 2x10⁸ m/sg. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "10 Thz",
+      "33 Thz",
+      "50 Thz",
+      "12 Thz"
+    ],
+    "correcta": 1,
+    "explicacion": "200 THz − 166,67 THz ≈ 33 THz.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 9,
+      "paginaPdf": 130
+    }
+  },
+  {
+    "id": "E21-P04",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por las Longitudes de onda a) 1000nm y b)1200nm. La velocidad de propagación es 2x10⁸m/s. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "10THz",
+      "33THz",
+      "50 Thz",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "200 THz − 166,67 THz ≈ 33 THz.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 4,
+      "paginaPdf": 141
+    }
+  },
+  {
+    "id": "E21-P10",
+    "tema": "Tema 3",
+    "enunciado": "¿Cual es la capacidad teórica de un canal con un ancho de banda de 30 khz y SNRdb=9",
+    "opciones": [
+      "90 Kbps",
+      "300 Kbps",
+      "100 Kbps",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "C ≈ B·SNRdB/3 = 30 kHz × 3 = 90 kbps (exacto: 30k × log₂(8,94) ≈ 95 kbps).",
+    "origen": {
+      "examen": 21,
+      "pregunta": 10,
+      "paginaPdf": 142
+    }
+  },
+  {
+    "id": "E22-P14",
+    "tema": "Tema 3",
+    "enunciado": "¿ Cual es la capacidad teórica de un canal con un ancho de banda de 300 khz y SNRdb=3",
+    "opciones": [
+      "90 Kbps",
+      "300 Kbps",
+      "100 Kbps",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "C ≈ B·SNRdB/3 = 300 kbps (exacto ≈ 475 kbps).",
+    "origen": {
+      "examen": 22,
+      "pregunta": 14,
+      "paginaPdf": 147
+    }
+  },
+  {
+    "id": "E22-P15",
+    "tema": "Tema 3",
+    "enunciado": "Calcular el ancho de banda determinado por las longitud de onda a) 1000nm y b) 1400nm. La velocidad de propagación es 2x10⁸m/sg. Utilizad suficientes decimales para evitar redondeo excesivo.",
+    "opciones": [
+      "33THz",
+      "57THz",
+      "50 Thz",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "200 THz − 142,86 THz ≈ 57 THz.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 15,
+      "paginaPdf": 147
+    }
+  },
+  {
+    "id": "E25-P07",
+    "tema": "Tema 3",
+    "enunciado": "Un cable de par trenzado blindado significa que:",
+    "opciones": [
+      "Incorpora una malla metálica exterior para impedir su manipulación",
+      "Se trata de un medio guiado que incorpora una malla metálica parra [sic] guiar la señal electromagnética confinada dentro y reducir las pérdidas de señal",
+      "Tiene una malla o envoltura metálica flexible para reducir la penetración de ruido e interferencias externas",
+      "No existen los cables de par trenzado blindados, sería un cable coaxial"
+    ],
+    "correcta": 2,
+    "explicacion": "El blindaje del STP reduce la penetración de ruido e interferencias.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 7,
+      "paginaPdf": 158
+    }
+  },
+  {
+    "id": "E25-P19",
+    "tema": "Tema 3",
+    "enunciado": "Una fibra óptica es un medio de transmisión de tipo",
+    "opciones": [
+      "Guiado",
+      "No guiado",
+      "Apantallado frente a interferencias eléctricas",
+      "Blindado para evitar roturas"
+    ],
+    "correcta": 0,
+    "explicacion": "La fibra óptica es un medio guiado.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 19,
+      "paginaPdf": 160
+    }
+  },
+  {
+    "id": "E26-P13",
+    "tema": "Tema 3",
+    "enunciado": "A la hora de transmitir información a través de una red de comunicaciones:",
+    "opciones": [
+      "Los datos pueden ser analógicos o digitales pero las señales siempre son digitales",
+      "Los datos deben tener una naturaleza digital",
+      "Tanto los datos como las señales pueden ser analógicos o digitales",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tanto los datos como las señales pueden ser analógicos o digitales.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 13,
+      "paginaPdf": 167
+    }
+  },
+  {
+    "id": "E27-P11",
+    "tema": "Tema 3",
+    "enunciado": "Se descompone una señal periódica en 3 ondas seno de frecuencias: 1, 10 y 89 Hz respectivamente. ¿cuál es su ancho de banda?",
+    "opciones": [
+      "90 Hz",
+      "88 Hz",
+      "79 Mps",
+      "No hay datos para calcularlo"
+    ],
+    "correcta": 1,
+    "explicacion": "B = 89 − 1 = 88 Hz.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 11,
+      "paginaPdf": 175
+    }
+  },
+  {
+    "id": "E27-P16",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de digital tiene una tasa de bits de 1Kbps. ¿cuál es la duración del intervalo de bit?",
+    "opciones": [
+      "No se puede calcular con los datos ofrecidos",
+      "1 milisegundo",
+      "1 microsegundo",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Intervalo de bit = 1/1000 = 1 ms.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 16,
+      "paginaPdf": 176
+    }
+  },
+  {
+    "id": "E27-P18",
+    "tema": "Tema 3",
+    "enunciado": "Una señal viaja desde el punto A al punto B. La potencia de la señal en A es 100 W y en el punto B la potencia de la señal es 90W. ¿Cuál es la atenuación en dB? Notación: La atenuación se representa con valor negativo de decibelios.",
+    "opciones": [
+      "–0.46 dB",
+      "0.46 dB",
+      "–10 dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10·log₁₀(90/100) = −0,46 dB.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 18,
+      "paginaPdf": 176
+    }
+  },
+  {
+    "id": "E27-P19",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere saber cuál es la tasa de bit máxima teórica (capacidad del canal) para una línea con una ancho de banda de 1 MHz y una relación señal-ruido de 36 dB. Marcar el resultado que más se aproxime a la solución.",
+    "opciones": [
+      "12 Mbps",
+      "34860 Kbps",
+      "24 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "SNR = 10^3,6 ≈ 3981 → C = 1 MHz × log₂(3982) ≈ 11,96 Mbps ≈ 12 Mbps.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 19,
+      "paginaPdf": 176
+    }
+  },
+  {
+    "id": "E27-P20",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el tiempo de propagación y de transmisión para un mensaje de 100 Kbytes si el ancho de banda de la red es de 1Gbps. La distancia emisor y receptor es de 6000 km y la luz viaja a 2,4 x10⁸ m/s (2,4 por diez elevado a 8).",
+    "opciones": [
+      "Tiempo de propagación 25ms. Tiempo de transmisión 0,8ms",
+      "Tiempo de propagación 0,020 ms. Tiempo de transmisión 50 ms",
+      "Tiempo de propagación 150 ms. Tiempo de transmisión 120 ms",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tprop = 6·10⁶/2,4·10⁸ = 25 ms; Ttx = 800000 bits / 10⁹ bps = 0,8 ms.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 20,
+      "paginaPdf": 177
+    }
+  },
+  {
+    "id": "E28-P03",
+    "tema": "Tema 3",
+    "enunciado": "Se descompone una señal periódica en 5 ondas seno de frecuencias: 1, 10 ,20, 40 y 89 Hz respectivamente. ¿cuál es su ancho de banda?",
+    "opciones": [
+      "90 Hz",
+      "88 Hz",
+      "79 Mps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "B = 89 − 1 = 88 Hz.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 3,
+      "paginaPdf": 183
+    }
+  },
+  {
+    "id": "E28-P16",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de digital tiene una tasa de bits de 1Mbps. ¿cuál es la duración del intervalo de bit?",
+    "opciones": [
+      "no se puede calcular con los datos ofrecidos",
+      "1 milisegundo",
+      "1 microsegundo",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "1/10⁶ = 1 µs.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 16,
+      "paginaPdf": 186
+    }
+  },
+  {
+    "id": "E28-P18",
+    "tema": "Tema 3",
+    "enunciado": "La atenuación de una señal es de –10dB. ¿ cuál es la potencia final de la señal si originalmente tenía una potencia de 10 W? La atenuación se representa con valor negativo de dB.",
+    "opciones": [
+      "-1 W",
+      "1 W",
+      "9 W",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "−10 dB → P2 = P1/10 = 1 W.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 18,
+      "paginaPdf": 187
+    }
+  },
+  {
+    "id": "E28-P19",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere saber cuál es la tasa de bit máxima teórica (capacidad del canal sin ruido ) para una línea de telefónica que usa codificación NRZ. Se supone que el ancho de banda es de 3000Hz. Marcar el resultado que más se aproxime a la solución.",
+    "opciones": [
+      "6000 bps",
+      "34860 bps",
+      "35 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Nyquist: C = 2B·log₂L = 2 × 3000 × log₂2 = 6000 bps.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 19,
+      "paginaPdf": 187
+    }
+  },
+  {
+    "id": "E28-P20",
+    "tema": "Tema 3",
+    "enunciado": "Cuál es el tiempo de propagación y de transmisión para un mensaje de 10 Mbytes si el ancho de banda de la red es de 1Mbps. La distancia emisor y receptor es de 6000 km y la luz viaja a 2,4 x10⁸ m/s (2,4 por diez elevado a 8).",
+    "opciones": [
+      "Tiempo de propagación 25ms. Tiempo de transmisión 80 s",
+      "Tiempo de propagación 40 s. Tiempo de transmisión 50 ms",
+      "Tiempo de propagación 150ms. Tiempo de transmisión 120 s",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tprop = 6·10⁶/2,4·10⁸ = 25 ms; Ttx = 80·10⁶ bits / 10⁶ bps = 80 s.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 20,
+      "paginaPdf": 187
+    }
+  },
+  {
+    "id": "E29-P08",
+    "tema": "Tema 3",
+    "enunciado": "Supóngase que la longitud de un cable 10Base5 es 2500m. Si la velocidad de propagación en un cable coaxial fino es de 200.000.000 m/s, ¿Cuánto tiempo usa un bit para viajar desde el principio hasta el final de la red? Su póngase que hay 4 repetidores con un retardo cada uno de 5us.",
+    "opciones": [
+      "12,5 microsegundos",
+      "17,5 microsegundos",
+      "14,5 microsegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Propagación 2500/2·10⁸ = 12,5 µs + 4 × 5 µs de repetidores = 32,5 µs, que no aparece.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 8,
+      "paginaPdf": 194
+    }
+  },
+  {
+    "id": "E29-P14",
+    "tema": "Tema 3",
+    "enunciado": "Se descompone una señal periódica en 3 ondas seno de frecuencias 10, 100 y 200 Hz respectivamente. ¿cuál es su ancho de banda?",
+    "opciones": [
+      "200Hz",
+      "190Hz",
+      "310Hz",
+      "No hay datos suficientes para calcularlo"
+    ],
+    "correcta": 1,
+    "explicacion": "B = 200 − 10 = 190 Hz.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 14,
+      "paginaPdf": 195
+    }
+  },
+  {
+    "id": "E29-P18",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el ancho de banda necesario para un canal paso bajo de ancho de banda limitado si se necesita enviar 2 Mbps usando transmisión en banda base?. Se quieren usar dos armónicos (primero y tercero).",
+    "opciones": [
+      "2 MHz",
+      "1,5 MHz",
+      "3 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Con los armónicos 1.º y 3.º: B = 3·N/2 = 3 × 1 MHz = 3 MHz.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 18,
+      "paginaPdf": 196
+    }
+  },
+  {
+    "id": "E30-P06",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el ancho de banda necesario para un canal paso bajo de ancho de banda limitado si se necesita enviar 2 Mbps usando transmisión banda base?. Se quiere usar tres armónicos: primero, tercero y quinto.",
+    "opciones": [
+      "2 MHz",
+      "5 MHz",
+      "10 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Armónicos 1.º, 3.º y 5.º: B = 5·N/2 = 5 MHz.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 6,
+      "paginaPdf": 202
+    }
+  },
+  {
+    "id": "E30-P11",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido (SNRdb=40) y un ancho de banda de 20Khz?",
+    "opciones": [
+      "160 Kbps",
+      "80 Kbps",
+      "267 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "C = 20 kHz × log₂(10001) ≈ 20k × 13,3 ≈ 267 kbps.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 11,
+      "paginaPdf": 202
+    }
+  },
+  {
+    "id": "E30-P14",
+    "tema": "Tema 3",
+    "enunciado": "Se descompone una señal periódica en 3 ondas seno de frecuencias: 1, 10 y 89 Hz respectivamente. ¿Cuál es su ancho de banda?",
+    "opciones": [
+      "90 Hz",
+      "88 Hz",
+      "178 Hz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "B = 89 − 1 = 88 Hz.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 14,
+      "paginaPdf": 203
+    }
+  },
+  {
+    "id": "E31-P01",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la tasa de bit máxima teórica (capacidad del canal sin ruido) para una línea telefónica que usa codificación NRZ sobre un canal con 3000Hz de ancho de banda?",
+    "opciones": [
+      "6000 bps",
+      "3000 bps",
+      "1500 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Nyquist con 2 niveles: 2 × 3000 × 1 = 6000 bps.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 1,
+      "paginaPdf": 209
+    }
+  },
+  {
+    "id": "E31-P05",
+    "tema": "Tema 3",
+    "enunciado": "Una señal periódica está compuesta por 3 ondas seno de frecuencias: 1, 10 y 89 Hz respectivamente. ¿Cuál es su ancho de banda?",
+    "opciones": [
+      "90 Hz",
+      "88 Hz",
+      "89 Mps",
+      "No hay datos para calcularlo"
+    ],
+    "correcta": 1,
+    "explicacion": "B = 89 − 1 = 88 Hz.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 5,
+      "paginaPdf": 209
+    }
+  },
+  {
+    "id": "E31-P10",
+    "tema": "Tema 3",
+    "enunciado": "La distorsión es:",
+    "opciones": [
+      "La deformación de una señal compuesta porque las componentes simples que la constituyen se propagan a distintas velocidades",
+      "La pérdida de eficacia de un receptor cuando transmitimos a velocidades muy altas",
+      "La pérdida de datos por efecto del ruido eléctrico en el medio",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "La distorsión es el cambio de forma de una señal compuesta porque sus componentes de distinta frecuencia viajan a velocidades distintas (llegan con retardos distintos).",
+    "origen": {
+      "examen": 31,
+      "pregunta": 10,
+      "paginaPdf": 210
+    }
+  },
+  {
+    "id": "E31-P12",
+    "tema": "Tema 3",
+    "enunciado": "El intervalo de bit es",
+    "opciones": [
+      "Directamente proporcional a la velocidad de propagación",
+      "Directamente proporcional a la duración del bit",
+      "Es la distancia que ocupa un bit en un medio de transmisión",
+      "Todas las opciones son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "El intervalo de bit es el tiempo necesario para enviar un bit (1/tasa de bits), es decir, la propia duración del bit; la distancia que ocupa un bit en el medio es la longitud de bit.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 12,
+      "paginaPdf": 211
+    }
+  },
+  {
+    "id": "E31-P14",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de luz viaja a través de una fibra. ¿Cuál es el retardo de propagación de la señal si la longitud del cable de fibra óptica es de 10 metros? Dato: velocidad de propagación 2x10⁸ m/s.",
+    "opciones": [
+      "0.05 micro segundos",
+      "0.005 micro segundos",
+      "0.5 micro segundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10 m / 2·10⁸ m/s = 0,05 µs.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 14,
+      "paginaPdf": 211
+    }
+  },
+  {
+    "id": "E31-P18",
+    "tema": "Tema 3",
+    "enunciado": "Señale el fenómeno físico que limita las posibilidades de transmisión de una señal:",
+    "opciones": [
+      "Atenuación",
+      "Distorsión",
+      "Ruido",
+      "Todas las opciones son correctas"
+    ],
+    "correcta": 3,
+    "explicacion": "Atenuación, distorsión y ruido son las tres causas de deterioro de la transmisión.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 18,
+      "paginaPdf": 212
+    }
+  },
+  {
+    "id": "E32-P04",
+    "tema": "Tema 3",
+    "enunciado": "Una señal de luz transporta paquetes de 1000bits a través de una fibra óptica con un bitrate de 1Gbps. ¿Cuál es el retraso de la señal si la longitud del cable de fibra óptica es de 10 metros?\nDato: Velocidad de propagación 2x10⁸ m/s.",
+    "opciones": [
+      "0.05 microsegundos",
+      "0.01 microsegundos",
+      "0.5 microsegundos",
+      "1 microsegundo"
+    ],
+    "correcta": 0,
+    "explicacion": "El retardo de propagación es 10 m / 2·10⁸ m/s = 0,05 µs (el tamaño del paquete y la tasa solo influirían en el tiempo de transmisión).",
+    "origen": {
+      "examen": 32,
+      "pregunta": 4,
+      "paginaPdf": 219
+    }
+  },
+  {
+    "id": "E32-P10",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido (SNRdb=40) y un ancho de banda de 20 KHz?",
+    "opciones": [
+      "200 Mbps",
+      "267 Kbps",
+      "800 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "C = 20 kHz × log₂(10001) ≈ 267 kbps.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 10,
+      "paginaPdf": 220
+    }
+  },
+  {
+    "id": "E32-P11",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuántos bits son necesarios para llenar un enlace unidireccional con un retraso de 2ms si el ancho de banda del enlace es de 1 Mbps?",
+    "opciones": [
+      "1000 bits",
+      "2000 bits",
+      "4000 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "10⁶ × 2·10⁻³ = 2000 bits.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 11,
+      "paginaPdf": 220
+    }
+  },
+  {
+    "id": "E32-P12",
+    "tema": "Tema 3",
+    "enunciado": "Durante el viaje de una señal desde un punto A hacia otro punto B su potencia se reduce a la mitad. ¿Cuál es la atenuación en decibelios?",
+    "opciones": [
+      "–3 dB",
+      "3 dB",
+      "6 dB",
+      "–2 dB"
+    ],
+    "correcta": 0,
+    "explicacion": "10·log₁₀(0,5) = −3 dB (la pérdida se expresa con signo negativo).",
+    "origen": {
+      "examen": 32,
+      "pregunta": 12,
+      "paginaPdf": 221
+    }
+  },
+  {
+    "id": "E32-P14",
+    "tema": "Tema 3",
+    "enunciado": "Una señal digital tiene una tasa de bits de 1Kbps. ¿Cuál es la duración del intervalo temporal de bit?",
+    "opciones": [
+      "1 milisegundo",
+      "1 microsegundo",
+      "1 nanosegundo",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "1/1000 s = 1 ms.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 14,
+      "paginaPdf": 221
+    }
+  },
+  {
+    "id": "E32-P15",
+    "tema": "Tema 3",
+    "enunciado": "Una señal compuesta se descompone de 3 ondas seno de frecuencias 100, 110 y 200 Hz respectivamente. ¿cuál es su ancho de banda?",
+    "opciones": [
+      "410 Hz",
+      "100 Hz",
+      "200 Hz",
+      "400 Hz"
+    ],
+    "correcta": 1,
+    "explicacion": "B = 200 − 100 = 100 Hz.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 15,
+      "paginaPdf": 221
+    }
+  },
+  {
+    "id": "E33-P10",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido y un ancho de banda de 1 MHz y SNR=100?",
+    "opciones": [
+      "6,7 Mbps",
+      "67 Mbps",
+      "70 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C = 1 MHz × log₂(101) ≈ 6,66 Mbps.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 10,
+      "paginaPdf": 228
+    }
+  },
+  {
+    "id": "E33-P12",
+    "tema": "Tema 3",
+    "enunciado": "Una señal es amplificada a la salida de un amplificador al doble de su potencia de entrada. ¿Cuál es la amplificación en decibelios?",
+    "opciones": [
+      "–3 dB",
+      "+3 dB",
+      "+6 dB",
+      "+2 dB"
+    ],
+    "correcta": 1,
+    "explicacion": "10·log₁₀(2) = +3 dB.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 12,
+      "paginaPdf": 229
+    }
+  },
+  {
+    "id": "E33-P14",
+    "tema": "Tema 3",
+    "enunciado": "Dos hosts están conectados mediante un conmutador que trabaja en el modo Store and Forward (reenvía cada trama después de recibirla completamente) y sin retardo de procesamiento ni de encolamiento. El enlace de cada host con el conmutador tiene 100m y 100Mbps. Si la velocidad de propagación es de 2x10⁸ m/s ¿Cuanto tardará en enviarse completamente un paquete de 1000 bits de un host a otro?",
+    "opciones": [
+      "21 microsegundos",
+      "10,5 microsegundos",
+      "11 microsegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Cada tramo: Ttx = 1000/10⁸ = 10 µs y Tprop = 100/2·10⁸ = 0,5 µs. Con almacenamiento y reenvío se repite dos veces: 2 × 10,5 = 21 µs.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 14,
+      "paginaPdf": 229
+    }
+  },
+  {
+    "id": "E34-P01",
+    "tema": "Tema 3",
+    "enunciado": "Tenemos una línea de comunicación de 1Gbps de 6000Km donde la señal eléctrica viaja a 2,4x10⁸m/s. ¿Cual es el tiempo de transmisión y el de propagación para un mensaje de 100Kbytes?",
+    "opciones": [
+      "Tiempo de propagación 25ms. Tiempo de transmisión 0,8ms",
+      "Tiempo de propagación 0,8 ms. Tiempo de transmisión 25 ms",
+      "Tiempo de propagación 150 ms. Tiempo de transmisión 120 ms",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tprop = 6·10⁶/2,4·10⁸ = 25 ms; Ttx = 800000/10⁹ = 0,8 ms.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 1,
+      "paginaPdf": 235
+    }
+  },
+  {
+    "id": "E34-P10",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere enviar una trama de 5 millones de bits a través de un enlace formado por 10 enrutadores. Cada enrutador tiene un tiempo de encolamiento de 10 microsegundos y un tiempo de procesamiento de 1 microsegundo.\nSabiendo que la longitud total del enlace es de 2.000Km y que el ancho de banda de cada enlace es de 5 Mbps. Calcular la latencia de la trama e indicar que componente de la latencia es el dominante. Dato: se asume que la velocidad de la señal en todos los enlaces tiene un valor de 2x10⁸ m/s (2 por diez elevado a 8).",
+    "opciones": [
+      "Tiempo transmisión dominante",
+      "Tiempo de procesamiento (+ encolamiento) es el dominante",
+      "El tiempo de propagación es dominante.",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ttx = 5·10⁶/5·10⁶ = 1 s; Tprop = 2·10⁶/2·10⁸ = 10 ms; encolamiento + procesamiento = 10 × 11 µs = 110 µs. Domina la transmisión.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 10,
+      "paginaPdf": 236
+    }
+  },
+  {
+    "id": "E34-P18",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de 2un [sic] canal con ruido y un ancho de banda de 20KHz y SNR=40dB?",
+    "opciones": [
+      "266,67 Kbps",
+      "267,66 Mbps",
+      "40 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C = 20 kHz × log₂(10⁴+1) ≈ 266,7 kbps.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 18,
+      "paginaPdf": 238
+    }
+  },
+  {
+    "id": "E35-P04",
+    "tema": "Tema 3",
+    "enunciado": "Supóngase que la longitud de un cable 10Base5 es 2500m. Si la velocidad de propagación en un cable coaxial fino es de 200.000.000 m/s, ¿Cuánto le cuesta a un bit viajar desde el principio hasta el final de la red? Asuma que hay un retraso de 10 microsegundos en el equipo.",
+    "opciones": [
+      "12,5 microsegundos",
+      "22,5 microsegundos",
+      "32,5 microsegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2500/2·10⁸ = 12,5 µs + 10 µs = 22,5 µs.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 4,
+      "paginaPdf": 243
+    }
+  },
+  {
+    "id": "E35-P08",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere enviar una trama de 5000 bits a través de un enlace formado por 10 enrutadores. Cada enrutador tiene un tiempo de encolamiento de 10 microsegundos y un tiempo de procesamiento de 1 microsegundo.\nSabiendo que la longitud total del enlace es de 20.000Km.y que el ancho de banda del enlace es de 5Mbps. Calcular la latencia de la trama e indicar que componente de la latencia es el dominante y cuál es el menos significativo. Dato: se asume que la velocidad de la señal en todos los enlaces tiene un valor de 2x10⁸m/s (2 por diez elevado a 8).",
+    "opciones": [
+      "Tiempo propagación dominante y el encolamiento (+ procesamiento) el más irrelevante",
+      "El tiempo de procesamiento es dominante y el de transmisión el más irrelevante",
+      "El tiempo de transmisión es dominante y el de transmisión el más irrelevante",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ttx = 5000/5·10⁶ = 1 ms; Tprop = 2·10⁷/2·10⁸ = 100 ms; encolamiento + procesamiento = 110 µs. Domina la propagación y lo menos relevante es encolamiento + procesamiento.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 8,
+      "paginaPdf": 244
+    }
+  },
+  {
+    "id": "E35-P20",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido y un ancho de banda de 1 Mhz y SNR=20dB?",
+    "opciones": [
+      "6,67 Kbps",
+      "100 Kbps",
+      "6,67 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "C = 1 MHz × log₂(101) ≈ 6,67 Mbps.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 20,
+      "paginaPdf": 246
+    }
+  },
+  {
+    "id": "E36-P02",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuántos bits son necesarios para llenar un enlace con un retraso de 2ms si el ancho de banda del enlace es de 1 Mbps?",
+    "opciones": [
+      "1000 bits",
+      "2000 bits",
+      "4000 bits",
+      "2Mbits"
+    ],
+    "correcta": 1,
+    "explicacion": "10⁶ × 2·10⁻³ = 2000 bits.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 2,
+      "paginaPdf": 251
+    }
+  },
+  {
+    "id": "E36-P11",
+    "tema": "Tema 3",
+    "enunciado": "Una señal digital tiene una tasa de bits de 1Kbps. ¿Cuál es la duración del intervalo de bit?",
+    "opciones": [
+      "No se puede calcular con los datos ofrecidos",
+      "1 milisegundo",
+      "1 microsegundo",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "1/1000 s = 1 ms.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 11,
+      "paginaPdf": 252
+    }
+  },
+  {
+    "id": "E36-P13",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido y un ancho de banda de 20 KHz y SNRdb=40. Supóngase SNR>>1",
+    "opciones": [
+      "266,7 Kbps",
+      "266,7 Mbps",
+      "100 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C ≈ B·SNRdB/3 = 20 kHz × 40/3 ≈ 266,7 kbps.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 13,
+      "paginaPdf": 253
+    }
+  },
+  {
+    "id": "E36-P16",
+    "tema": "Tema 3",
+    "enunciado": "Una señal viaja desde un punto A otro punto B. Si su potencia se reduce a la mitad. ¿Cuál es la atenuación en decibelios?",
+    "opciones": [
+      "–3dB",
+      "33dB",
+      "–6dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10·log₁₀(1/2) = −3 dB.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 16,
+      "paginaPdf": 253
+    }
+  },
+  {
+    "id": "E37-P03",
+    "tema": "Tema 3",
+    "enunciado": "Un repetidor de señal recibe a la entrada una señal de 1V y entrega a la salida otra de 2V ¿Cual es la ganancia en tensión de la amplificación?",
+    "opciones": [
+      "3 dB",
+      "6 dB",
+      "– 3dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Ganancia en tensión = 20·log₁₀(2/1) ≈ 6 dB.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 3,
+      "paginaPdf": 259
+    }
+  },
+  {
+    "id": "E38-P10",
+    "tema": "Tema 3",
+    "enunciado": "Tenemos un canal de 20MHz y 5 picowatios de nivel de ruido. Si el medio tiene una atenuación tal que la potencia se reduce a la mitad cada 6 metros.\n¿Cual de las siguientes distancias sería la máxima que se podría alcanzar manteniendo una tasa de transferencia de 300Mbps?",
+    "opciones": [
+      "1 Km",
+      "10 Km",
+      "100 m",
+      "10 m"
+    ],
+    "correcta": 2,
+    "explicacion": "Para 300 Mbps en 20 MHz: log₂(1+SNR) = 15 → SNR ≈ 32767 → potencia recibida ≥ 32767 × 5 pW ≈ 1,64·10⁻⁷ W. El enunciado no da la potencia de emisión; suponiendo 1 W, la atenuación admisible es ≈ 22,5 mitades × 6 m ≈ 135 m, así que la mayor distancia válida es 100 m.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 10,
+      "paginaPdf": 268
+    }
+  },
+  {
+    "id": "E40-P05",
+    "tema": "Tema 3",
+    "enunciado": "La atenuación de una señal es de 10db. ¿Cuál es la potencia final de la señal si originalmente tenía una potencia de P1?",
+    "opciones": [
+      "2 P1",
+      "P1/2",
+      "P1/10",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "10 dB de atenuación → la potencia se divide entre 10: P1/10.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 5,
+      "paginaPdf": 283
+    }
+  },
+  {
+    "id": "E40-P08",
+    "tema": "Tema 3",
+    "enunciado": "La descomposición de una señal periódica proporciona las frecuencias 200, 300, 400, 600 y 800 Hz. ¿Cual es la frecuencia central del ancho de banda de la señal original?",
+    "opciones": [
+      "400 Hz",
+      "500 Hz",
+      "300 Hz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Banda 200-800 Hz → frecuencia central = (200 + 800)/2 = 500 Hz.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 8,
+      "paginaPdf": 284
+    }
+  },
+  {
+    "id": "E40-P10",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el tiempo de propagación y de transmisión para un mensaje de 200 Kbytes si el ancho de banda de la red es de 2 Gbps? Supóngase que la distancia emisor y receptor es de 3000 km y la luz viaja a 2,4 x10⁸ m/s (2,4 por diez elevado a 8)",
+    "opciones": [
+      "Tiempo de propagación 12,5 ms. Tiempo de transmisión 0,8 ms",
+      "Tiempo de propagación 0,020 ms. Tiempo de transmisión 50 ms",
+      "Tiempo de propagación 150 ms. Tiempo de transmisión 120 ms",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tprop = 3·10⁶/2,4·10⁸ = 12,5 ms; Ttx = 1,6·10⁶ bits / 2·10⁹ bps = 0,8 ms.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 10,
+      "paginaPdf": 284
+    }
+  },
+  {
+    "id": "E41-P04",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con un ancho de banda de 20kHz y una relación señal ruido relativamente grande de SNRdB=40?. Debido a las diferentes precisiones en el cálculo considere solo la parte entera de las respuestas.",
+    "opciones": [
+      "266,67 kbps",
+      "266,67 Mbps",
+      "40 kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C = 20 kHz × log₂(10⁴+1) ≈ 266 kbps.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 4,
+      "paginaPdf": 291
+    }
+  },
+  {
+    "id": "E42-P09",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el tiempo de propagación y de transmisión para un mensaje de 200 kbytes si la tasa de bits de la red es de 2 Gbps?.\nLa distancia emisor y receptor es de 3000 Km y la señal viaja a 2,4 x10⁸ m/s (2,4 por diez elevado a 8).",
+    "opciones": [
+      "Tiempo de propagación: 12,5 ms / Tiempo de transmisión: 0,8 ms",
+      "Tiempo de propagación: 12,5 ms / Tiempo de transmisión: 0,1 ms",
+      "Tiempo de propagación: 150 ms / Tiempo de transmisión: 0,1 ms",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tprop = 12,5 ms; Ttx = 1,6·10⁶/2·10⁹ = 0,8 ms.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 9,
+      "paginaPdf": 302
+    }
+  },
+  {
+    "id": "E42-P12",
+    "tema": "Tema 3",
+    "enunciado": "Se amplifica una señal 10 decibelios. ¿cuál es la potencia final de la señal si originalmente tenía una potencia de P1?",
+    "opciones": [
+      "2 P1",
+      "P1/2",
+      "10 P1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "+10 dB → la potencia se multiplica por 10.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 12,
+      "paginaPdf": 303
+    }
+  },
+  {
+    "id": "E42-P13",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere enviar un paquete de 5000 bits a través de un enlace formado por 10 enrutadores. Cada enrutador tiene un tiempo de encolamiento de 10 microsegundos y un tiempo de procesamiento de 1 microsegundo.\nSabiendo que la longitud total del enlace es de 20 000 km y que el ancho de banda del enlace es de 5Mbps. Calcular la latencia del paquete. Indicar que componente de la latencia es el dominante y cuál es el menos significativo. Dato: se asume que la velocidad de luz dentro del enlace tiene un valor de 2x10⁸m/s (2 por diez elevado a 8).",
+    "opciones": [
+      "Latencia 101,11 milisegundos. Tiempo propagación dominante.",
+      "Latencia 101,03 milisegundos. El tiempo de procesamiento es dominante.",
+      "Latencia 100,11 milisegundos. Tiempo propagación dominante.",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ttx = 1 ms + Tprop = 100 ms + 10 × (10+1) µs = 0,11 ms → 101,11 ms. Domina la propagación.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 13,
+      "paginaPdf": 303
+    }
+  },
+  {
+    "id": "E42-P14",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido y un ancho de banda de 1 MHz y una relación señal ruido SNRdB=20?\nDebido a las diferentes precisiones en el cálculo aproxime a la solución más correcta.",
+    "opciones": [
+      "Aproximadamente 6.67 Kbps",
+      "Aproximadamente 6.67 Mbps",
+      "Aproximadamente 20 Kbps",
+      "Superior a 10 Mbps"
+    ],
+    "correcta": 1,
+    "explicacion": "C = 1 MHz × log₂(101) ≈ 6,66 Mbps.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 14,
+      "paginaPdf": 304
+    }
+  },
+  {
+    "id": "E43-P04",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el ancho de banda necesario para un canal paso bajo de ancho de banda limitado si se necesita enviar 4 Mbps usando transmisión banda base? Se quiere usar dos armónicos: primero (fundamental) y tercero.",
+    "opciones": [
+      "3 MHz",
+      "6 MHz",
+      "2 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Con armónicos 1.º y 3.º: B = 3·N/2 = 3 × 2 MHz = 6 MHz.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 4,
+      "paginaPdf": 311
+    }
+  },
+  {
+    "id": "E43-P12",
+    "tema": "Tema 3",
+    "enunciado": "Una señal viaja desde un punto A hasta otro punto B. Si en el trayecto su potencia se amplifica al doble ¿Cuál es la ganancia en decibelios?",
+    "opciones": [
+      "La ganancia es de 3 dB",
+      "La ganancia es de 9 db",
+      "La ganancia es de 6 db",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10·log₁₀(2) ≈ 3 dB.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 12,
+      "paginaPdf": 313
+    }
+  },
+  {
+    "id": "E44-P12",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere enviar una trama de 5 millones de bits a través de un enlace formado por 10 enrutadores. Cada enrutador tiene un tiempo de encolamiento de 10 microsegundos y un tiempo de procesamiento de 1 microsegundo. Sabiendo que la longitud total del enlace es de 2000Km y que el ancho de banda del enlace es de 5 Mbps. Indicar que componente de la latencia es el dominante. Dato: se asume que la velocidad de propagación de la señal dentro de cada enlace es, aproximadamente, de 2x10⁸ m/s (2 por diez elevado a 8).",
+    "opciones": [
+      "Tiempo transmisión dominante",
+      "El tiempo de procesamiento es dominante",
+      "El tiempo de propagación es dominante",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ttx = 5·10⁶/5·10⁶ = 1 s frente a Tprop = 10 ms y 110 µs de nodos: domina la transmisión.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 12,
+      "paginaPdf": 321
+    }
+  },
+  {
+    "id": "E45-P13",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es la capacidad teórica de un canal con ruido y un ancho de banda de 20kHz y SNRdb=40?",
+    "opciones": [
+      "266,67 kbps",
+      "267,66 Mbps",
+      "40 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C ≈ 20 kHz × 13,29 ≈ 266,67 kbps.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 13,
+      "paginaPdf": 329
+    }
+  },
+  {
+    "id": "E45-P15",
+    "tema": "Tema 3",
+    "enunciado": "Se quiere enviar una trama de 5000 bits a través de un enlace formado por 10 enrutadores. Cada enrutador tiene un tiempo de encolamiento de 10 microsegundos y un tiempo de procesamiento de 1 microsegundo.\nSabiendo que la longitud total del enlace es de 2000km y que el ancho de banda del enlace es de 5 Mbps. Calcular la latencia total de la trama. Dato: se asume que la velocidad de propagación de la señal en cada enlace tiene un valor de 2x10⁸ m/s (2 por diez elevado a 8).",
+    "opciones": [
+      "11,11 milisegundos",
+      "21,11 milisegundos",
+      "21,11 microsegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ttx = 1 ms; Tprop = 2·10⁶/2·10⁸ = 10 ms; nodos = 10 × 11 µs = 0,11 ms → 11,11 ms.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 15,
+      "paginaPdf": 329
+    }
+  },
+  {
+    "id": "E46-P02",
+    "tema": "Tema 3",
+    "enunciado": "¿Cuál es el ancho de banda de una señal que se puede descomponer en cuatro ondas seno con frecuencias 0, 20,100 y 200 Hz?",
+    "opciones": [
+      "200 Hz",
+      "180 Hz",
+      "100 Hz",
+      "Por ser ondas senoidales, la señal tiene un ancho de banda infinito"
+    ],
+    "correcta": 0,
+    "explicacion": "B = 200 − 0 = 200 Hz.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 2,
+      "paginaPdf": 335
+    }
+  },
+  {
+    "id": "E46-P03",
+    "tema": "Tema 3",
+    "enunciado": "Una señal periódica está formada por dos ondas seno. La primera tiene una frecuencia de 200 Hz y amplitud máxima de 20 voltios, la segunda tiene una amplitud de 5 voltios. ¿Cuál es la frecuencia de la segunda onda si el ancho de banda de la señal compuesta es 2000 Hz?",
+    "opciones": [
+      "40 kHz",
+      "2200 Hz",
+      "50 Hz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Ancho de banda = |f₂ − 200| = 2000 Hz → f₂ = 2200 Hz.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 3,
+      "paginaPdf": 335
+    }
+  },
+  {
+    "id": "E46-P04",
+    "tema": "Tema 3",
+    "enunciado": "Un dispositivo está enviando datos con una tasa de 1000 bps. ¿Cuánto tarda en enviar 10 bits?",
+    "opciones": [
+      "0,01 segundos",
+      "0,001 segundos",
+      "10 segundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10 bits / 1000 bps = 0,01 s.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 4,
+      "paginaPdf": 335
+    }
+  },
+  {
+    "id": "E47-P05",
+    "tema": "Tema 3",
+    "enunciado": "Una señal pasa a través de un canal con un ancho de banda de 1 MHz y una relación Señal-Ruido relativamente grande de 30 dB. ¿Cuál es la máxima tasa de datos?",
+    "opciones": [
+      "10 Mbps",
+      "5 Mbps",
+      "1 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C = 1 MHz × log₂(1001) ≈ 9,97 Mbps ≈ 10 Mbps.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 5,
+      "paginaPdf": 343
+    }
+  },
+  {
+    "id": "E47-P08",
+    "tema": "Tema 3",
+    "enunciado": "Se amplifica una señal 20 decibelios. ¿Cuál es la potencia final de la señal si originalmente tenía una potencia de P1?",
+    "opciones": [
+      "2 x P1",
+      "P1 / 2",
+      "100 x P1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "+20 dB → ×10² = 100·P1.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 8,
+      "paginaPdf": 344
+    }
+  },
+  {
+    "id": "E48-P02",
+    "tema": "Tema 3",
+    "enunciado": "Una señal pasa a través de un canal con un ancho de banda de 1 MHz y una relación señal-ruido pequeña de SNR=127. ¿Cuál es la tasa máxima de datos teórica?",
+    "opciones": [
+      "10 Mbps",
+      "7 Mbps",
+      "1 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "C = 1 MHz × log₂(128) = 7 Mbps.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 2,
+      "paginaPdf": 351
+    }
+  },
+  {
+    "id": "E49-P03",
+    "tema": "Tema 3",
+    "enunciado": "¿Qué tipo de retraso se produce cuando un paquete espera en la cola de un rúter para ser procesado?",
+    "opciones": [
+      "Retraso de transmisión",
+      "Retraso de propagación",
+      "Retraso de procesamiento",
+      "Retraso de cola"
+    ],
+    "correcta": 3,
+    "explicacion": "El tiempo que el paquete espera en la cola del router es el retardo de cola (encolamiento).",
+    "origen": {
+      "examen": 49,
+      "pregunta": 3,
+      "paginaPdf": 359
+    }
+  },
+  {
+    "id": "E49-P10",
+    "tema": "Tema 3",
+    "enunciado": "En un enlace se instala un amplificador de 30dB para poder extender la longitud del segmento sin degradación excesiva de la señal. Si P1 es la potencia de la señal a la entrada del amplificador ¿Cuál será la potencia final de la señal amplificada en términos de P1?",
+    "opciones": [
+      "10 P1",
+      "30 P1",
+      "1000 P1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "+30 dB → ×10³ = 1000·P1.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 10,
+      "paginaPdf": 361
+    }
+  },
+  {
+    "id": "E50-P03",
+    "tema": "Tema 3",
+    "enunciado": "En un enlace inalámbrico, la potencia recibida en un punto P2 es 20 dB menor que la potencia transmitida P1 debido a pérdidas en el canal.\n¿Cuál es la relación entre la potencia recibida y la transmitida?",
+    "opciones": [
+      "P2 = P1/20",
+      "P2 = P1/100",
+      "P2 = P1/10",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "−20 dB → P2 = P1/10² = P1/100.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 3,
+      "paginaPdf": 369
+    }
+  },
+  {
+    "id": "E50-P14",
+    "tema": "Tema 3",
+    "enunciado": "Se está diseñando un sistema de comunicación para una estación meteorológica remota. El canal disponible tiene un ancho de banda de 1 MHz, y gracias a un sistema de amplificación y antenas direccionales, ha logrado obtener una relación señal a ruido (SNR) de 255 en la frecuencia utilizada. ¿cuál es la máxima capacidad teórica del canal para la transmisión de datos, en megabits por segundo (Mbps)?",
+    "opciones": [
+      "8 Mbps",
+      "10 Mbps",
+      "20 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C = 1 MHz × log₂(1+255) = 8 Mbps.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 14,
+      "paginaPdf": 371
+    }
+  },
+  {
+    "id": "E50-P16",
+    "tema": "Tema 3",
+    "enunciado": "El tiempo de propagación en un enlace de 1000 km con velocidad 2×10⁸ m/s es:",
+    "opciones": [
+      "0,2 milisegundos",
+      "5 milisegundos",
+      "2 milisegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "10⁶ m / 2·10⁸ m/s = 5 ms.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 16,
+      "paginaPdf": 372
+    }
+  },
+  {
+    "id": "E52-P08",
+    "tema": "Tema 3",
+    "enunciado": "Un canal sin ruido tiene un ancho de banda de 3 MHz y se utiliza una codificación con 8 niveles de señal. ¿Cuál es la tasa máxima de datos según Nyquist?",
+    "opciones": [
+      "6 Mbps",
+      "12 Mbps",
+      "18 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Nyquist: 2 × 3 MHz × log₂8 = 18 Mbps.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 8,
+      "paginaPdf": 388
+    }
+  },
+  {
+    "id": "E52-P10",
+    "tema": "Tema 3",
+    "enunciado": "Un canal de 500 kHz tiene SNR = 31. ¿Cuál es su capacidad máxima teórica?",
+    "opciones": [
+      "2,5 Mbps",
+      "5 Mbps",
+      "2 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "C = 500 kHz × log₂(32) = 2,5 Mbps.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 10,
+      "paginaPdf": 388
+    }
+  },
+  {
+    "id": "E52-P20",
+    "tema": "Tema 3",
+    "enunciado": "Una trama de 10 Mbits se envía por un enlace de 10 Mbps que atraviesa 5 routers. Cada router tiene latencia de encolamiento 5 microseg y procesamiento 2 microseg. La longitud total del enlace es 1000 km (velocidad propagación 2x10⁸ m/s). ¿Cuál es el componente dominante?",
+    "opciones": [
+      "Tiempo de propagación",
+      "Tiempo de transmisión",
+      "Tiempo de procesamiento",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Ttx = 10⁷/10⁷ = 1 s, frente a Tprop = 5 ms y 5 × 7 µs en los routers: domina la transmisión.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 20,
+      "paginaPdf": 390
+    }
+  }
+]

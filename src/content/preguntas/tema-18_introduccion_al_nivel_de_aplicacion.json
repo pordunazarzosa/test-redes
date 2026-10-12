@@ -1,0 +1,38 @@
+[
+  {
+    "id": "E38-P02",
+    "tema": "Tema 18",
+    "enunciado": "Señale la afirmación más acertada",
+    "opciones": [
+      "P2P es un protocolo de acceso al correo electrónico que hay en un servidor de email",
+      "P2P es un paradigma de comunicación de carácter absolutamente asimétrico donde ambos extremos de la comunicación ejecutan procesos radicalmente distintos",
+      "Una característica específica de P2P es su alto nivel de seguridad intrínseca",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "P2P es un paradigma simétrico (los pares son a la vez cliente y servidor), no es un protocolo de correo y no ofrece seguridad intrínseca.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 2,
+      "paginaPdf": 267
+    }
+  },
+  {
+    "id": "E45-P02",
+    "tema": "Tema 18",
+    "enunciado": "Señale la afirmación que considere más acertada",
+    "opciones": [
+      "P2P es un protocolo de acceso al correo electrónico que hay en un servidor de email",
+      "P2P es un paradigma de comunicación de carácter simétrico donde ambos extremos de la comunicación ejecutan procesos funcionalmente equivalentes",
+      "Una característica específica de P2P es su alto nivel de seguridad",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "P2P es un paradigma simétrico en el que cada par actúa a la vez como cliente y servidor.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 2,
+      "paginaPdf": 327
+    }
+  }
+]

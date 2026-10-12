@@ -1,0 +1,1208 @@
+[
+  {
+    "id": "E01-P07",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000002 00000000 500207FF 00000000\n¿Cuál es el número de secuencia?",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "Ninguno de los anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "En la cabecera TCP la 2ª palabra de 32 bits es el número de secuencia: 0x00000002 = 2.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 7,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E01-P15",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n06 32 00 0D 00 1C E2 17 ¿Cuál es el número de puerto destino?",
+    "opciones": [
+      "1586",
+      "13",
+      "28",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "Cabecera UDP: puerto origen (0x0632), puerto destino (0x000D) = 13, longitud, checksum.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 15,
+      "paginaPdf": 3
+    }
+  },
+  {
+    "id": "E02-P03",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 500207FF 00000000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "0x007FF",
+      "0x007F",
+      "0x007",
+      "Ninguno de los anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "Tras los 16 bits de HLEN/flags (0x5002) viene la ventana: 0x07FF (= 0x007FF, mismo valor numérico).",
+    "origen": {
+      "examen": 2,
+      "pregunta": 3,
+      "paginaPdf": 7
+    }
+  },
+  {
+    "id": "E02-P14",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n06 32 00 0A 00 1C E2 17 ¿Cuál es el número de puerto destino?",
+    "opciones": [
+      "1586",
+      "10",
+      "28",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "Puerto destino = 3er y 4º byte de la cabecera UDP: 0x000A = 10.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 14,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E03-P15",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000005 00000000 500207FF 00000000\n¿Cuál es el número de secuencia?",
+    "opciones": [
+      "0",
+      "1",
+      "5",
+      "Ninguno de los anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "El número de secuencia es la 2ª palabra: 0x00000005 = 5.",
+    "origen": {
+      "examen": 3,
+      "pregunta": 15,
+      "paginaPdf": 15
+    }
+  },
+  {
+    "id": "E04-P15",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 5002077F 00000000\n¿Cuál es el tamaño de ventana? (el número que lo determina en la trama presentada)",
+    "opciones": [
+      "0x077F",
+      "0x07F0",
+      "0x0700",
+      "Ninguno de los anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "El campo ventana son los 16 bits que siguen a 0x5002: 0x077F.",
+    "origen": {
+      "examen": 4,
+      "pregunta": 15,
+      "paginaPdf": 21
+    }
+  },
+  {
+    "id": "E05-P20",
+    "tema": "Tema 17",
+    "enunciado": "En el protocolo TCP:",
+    "opciones": [
+      "La segmentación debe estar gestionada por el nivel de red",
+      "La comunicación es orientada a conexión",
+      "Los datos se envían sin diálogo previo entre emisor y receptor lo que acelera el proceso",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "TCP es un protocolo orientado a conexión (establecimiento en tres pasos antes de enviar datos); la segmentación la hace el propio TCP.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 20,
+      "paginaPdf": 28
+    }
+  },
+  {
+    "id": "E06-P06",
+    "tema": "Tema 17",
+    "enunciado": "Una conexión TCP:",
+    "opciones": [
+      "Establece un camino virtual entre el origen y el destino",
+      "Transmite los datos en Full-dúplex",
+      "Realiza un proceso de negociación en tres pasos",
+      "Todas las respuestas son correctas"
+    ],
+    "correcta": 3,
+    "explicacion": "TCP establece una conexión virtual extremo a extremo, es full-dúplex y usa un establecimiento en tres pasos: todas son ciertas.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 6,
+      "paginaPdf": 33
+    }
+  },
+  {
+    "id": "E07-P12",
+    "tema": "Tema 17",
+    "enunciado": "En el nivel de Transporte, si utilizamos UDP",
+    "opciones": [
+      "Se puede crear una cola de entrada y una cola de salida asociada al número de puerto",
+      "Se crea una única cola (de entrada o de salida) por que un proceso actúa como cliente (cola de salida) o como servidor (cola de entrada)",
+      "Se utiliza siempre una única cola tanto para entrada como para salida pues se asocian al mismo proceso.",
+      "En el nivel de transporte con UDP nunca se utilizan colas"
+    ],
+    "correcta": 0,
+    "explicacion": "En UDP cada puerto tiene asociadas una cola de entrada y una cola de salida.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 12,
+      "paginaPdf": 42
+    }
+  },
+  {
+    "id": "E08-P01",
+    "tema": "Tema 17",
+    "enunciado": "Señale la afirmación correcta relativa al nivel de Transporte en TCP-IP",
+    "opciones": [
+      "Todas las comunicaciones son orientadas a conexión",
+      "Nunca se utilizan comunicaciones orientadas a conexión",
+      "UDP es orientado a conexión y TCP no",
+      "TCP es orientado a conexión y UDP no"
+    ],
+    "correcta": 3,
+    "explicacion": "En TCP/IP, TCP es orientado a conexión y UDP no.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 1,
+      "paginaPdf": 49
+    }
+  },
+  {
+    "id": "E09-P02",
+    "tema": "Tema 17",
+    "enunciado": "En el protocolo TCP:",
+    "opciones": [
+      "La segmentación debe ser gestionada por el nivel de red",
+      "La comunicación es orientada a conexión",
+      "Los datos se envían sin diáologo [sic] previo entre emisor y receptor lo que acelera el proceso",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "TCP es orientado a conexión.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 2,
+      "paginaPdf": 57
+    }
+  },
+  {
+    "id": "E09-P03",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 500207FF 00000000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "0x07FF",
+      "0x007F",
+      "0x007",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ventana = 16 bits siguientes a 0x5002 → 0x07FF.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 3,
+      "paginaPdf": 57
+    }
+  },
+  {
+    "id": "E09-P13",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal 06 32 00 0A 00 1B E2 17\n¿ cuál es la longitud total del datagrama de usuario?",
+    "opciones": [
+      "15 bytes",
+      "10 bytes",
+      "27 bytes",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Longitud total UDP = 5º-6º byte: 0x001B = 27 bytes.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 13,
+      "paginaPdf": 59
+    }
+  },
+  {
+    "id": "E11-P13",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000002 00000000 500207FF 00000000\n¿Cuál es el número de secuencia?",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Número de secuencia = 2ª palabra de 32 bits: 0x00000002 = 2.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 13,
+      "paginaPdf": 70
+    }
+  },
+  {
+    "id": "E12-P12",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000006 00000000 500207FF 00000000\n¿Cuál es el número de secuencia?",
+    "opciones": [
+      "0 en decimal",
+      "17 en decimal",
+      "6 en decimal",
+      "17 en hexadecimal"
+    ],
+    "correcta": 2,
+    "explicacion": "2ª palabra = 0x00000006 = 6 en decimal.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 12,
+      "paginaPdf": 79
+    }
+  },
+  {
+    "id": "E12-P13",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n0632 000B 001C E217\n¿Cuál es el número de puerto destino?",
+    "opciones": [
+      "1586 (en decimal)",
+      "11 (en decimal)",
+      "28 (en decimal)",
+      "632 (en hexadecimal)"
+    ],
+    "correcta": 1,
+    "explicacion": "Puerto destino = 2º campo de 16 bits: 0x000B = 11.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 13,
+      "paginaPdf": 79
+    }
+  },
+  {
+    "id": "E12-P15",
+    "tema": "Tema 17",
+    "enunciado": "En el protocolo UDP del nivel de Transporte de TCP-IP:",
+    "opciones": [
+      "Un servidor utiliza la misma cola de entrada para todas las computadoras cliente",
+      "Un proceso servidor utiliza una cola distinta para cada computadora cliente",
+      "El protocolo UDP no utiliza colas porque no contempla control de flujo",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "En UDP la cola está asociada al puerto, no al cliente: un servidor usa una única cola de entrada para todos los clientes.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 15,
+      "paginaPdf": 80
+    }
+  },
+  {
+    "id": "E13-P16",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n0632 000A 002B E217\n¿Cuál es la longitud total del datagrama de usuario?",
+    "opciones": [
+      "15 bytes (en decimal)",
+      "10 bytes (en decimal)",
+      "B2 bytes (en hexadecimal)",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Longitud total = 3er campo: 0x002B = 43 bytes. No coincide con ninguna opción.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 16,
+      "paginaPdf": 90
+    }
+  },
+  {
+    "id": "E13-P18",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 500207AA 00000000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "Son los16 bits 0x07AA (en hexadecimal)",
+      "Son los 32 bits 0x05320017 (en hexadecimal)",
+      "Son los 32 bits 0x500207AA (en hexadecimal)",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "La ventana TCP es un campo de 16 bits: 0x07AA.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 18,
+      "paginaPdf": 90
+    }
+  },
+  {
+    "id": "E14-P16",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n06 32 00 0B 00 1C E2 17\n¿Cuál es el número de puerto destino?",
+    "opciones": [
+      "1586",
+      "11",
+      "28",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Puerto destino = 0x000B = 11.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 16,
+      "paginaPdf": 99
+    }
+  },
+  {
+    "id": "E14-P17",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 0000000A 00000000 500207FF 00000000\n¿Cuál es el número de secuencia en decimal?",
+    "opciones": [
+      "0",
+      "20",
+      "10",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x0000000A = 10.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 17,
+      "paginaPdf": 100
+    }
+  },
+  {
+    "id": "E14-P20",
+    "tema": "Tema 17",
+    "enunciado": "En el protocolo TCP:",
+    "opciones": [
+      "La segmentación debe ser gestionada por el nivel de red",
+      "La comunicación es orientada a conexión",
+      "Los datos se envían sin diálogo previo entre emisor y receptor lo que acelera el proceso",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "TCP es orientado a conexión.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 20,
+      "paginaPdf": 100
+    }
+  },
+  {
+    "id": "E16-P06",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n06 32 00 0A 00 0B E2 17\n¿cuál es la longitud total del datagrama de usuario?",
+    "opciones": [
+      "15 bytes",
+      "10 bytes",
+      "11 bytes",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Longitud total = 0x000B = 11 bytes.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 6,
+      "paginaPdf": 106
+    }
+  },
+  {
+    "id": "E16-P10",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 500207BB 00000000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "0x07BB",
+      "0x007B",
+      "0x007",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ventana = 0x07BB.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 10,
+      "paginaPdf": 107
+    }
+  },
+  {
+    "id": "E16-P13",
+    "tema": "Tema 17",
+    "enunciado": "Señale la afirmación correcta relativa al nivel de Transporte en TCP-IP",
+    "opciones": [
+      "En TCP-IP todas las comunicaciones son orientadas a conexión",
+      "En TCP-IP nunca se utilizan comunicaciones orientadas a conexión",
+      "UDP es orientado a conexión y TCP no",
+      "TCP es orientado a conexión y UDP no"
+    ],
+    "correcta": 3,
+    "explicacion": "TCP es orientado a conexión y UDP no.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 13,
+      "paginaPdf": 107
+    }
+  },
+  {
+    "id": "E17-P16",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n00 0B 06 32 00 1C E2 17 ¿Cuál es el número de puerto de origen?",
+    "opciones": [
+      "1586",
+      "11",
+      "28",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El puerto de origen es el primer campo: 0x000B = 11.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 16,
+      "paginaPdf": 116
+    }
+  },
+  {
+    "id": "E17-P17",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 0000000B 00000000 500207FF 00000000\n¿Cuál es el número de secuencia en decimal?",
+    "opciones": [
+      "0",
+      "20",
+      "11",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x0000000B = 11.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 17,
+      "paginaPdf": 116
+    }
+  },
+  {
+    "id": "E17-P20",
+    "tema": "Tema 17",
+    "enunciado": "Cuando llega un datagrama UDP a una computadora destino y no existe una cola asociada al número de puerto destino:",
+    "opciones": [
+      "El nivel de transporte crea una nueva cola",
+      "El nivel de transporte descarta el datagrama de manera silenciosa",
+      "Descarta el datagrama e informa al emisor del problema mediante un mensaje ICMP",
+      "Ninguna de las otras"
+    ],
+    "correcta": 2,
+    "explicacion": "Si no existe la cola del puerto, UDP descarta el datagrama y pide a ICMP que envíe al emisor un mensaje de «puerto inalcanzable».",
+    "origen": {
+      "examen": 17,
+      "pregunta": 20,
+      "paginaPdf": 116
+    }
+  },
+  {
+    "id": "E18-P16",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n06 32 00 0A 00 0A E2 17\n¿Cuál es la longitud total del datagrama de usuario?",
+    "opciones": [
+      "15 bytes",
+      "11 bytes",
+      "10 bytes",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Longitud total = 0x000A = 10 bytes.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 16,
+      "paginaPdf": 124
+    }
+  },
+  {
+    "id": "E18-P17",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 500207AA 00000000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "0x07AA",
+      "0x007A",
+      "0x007",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ventana = 0x07AA.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 17,
+      "paginaPdf": 124
+    }
+  },
+  {
+    "id": "E19-P17",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000006 00000000 500207FF 00000000\n¿Cuál es el número de secuencia?",
+    "opciones": [
+      "0 en decimal",
+      "1 en decimal",
+      "6 en decimal",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x00000006 = 6.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 17,
+      "paginaPdf": 132
+    }
+  },
+  {
+    "id": "E20-P15",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n05320017 00000001 00000000 500207AA 00000000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "Son los 16 bits 0x07AA",
+      "Son los 32 bits 0x05320017",
+      "Son los 8 bits 0xAA",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ventana = 16 bits: 0x07AA.",
+    "origen": {
+      "examen": 20,
+      "pregunta": 15,
+      "paginaPdf": 139
+    }
+  },
+  {
+    "id": "E20-P16",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n0632 000A 002B E217\n¿Cuál es la longitud total del datagrama de usuario?",
+    "opciones": [
+      "15 bytes",
+      "10 bytes",
+      "43 bytes",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Longitud total = 0x002B = 43 bytes.",
+    "origen": {
+      "examen": 20,
+      "pregunta": 16,
+      "paginaPdf": 139
+    }
+  },
+  {
+    "id": "E21-P02",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n06 32 00 0A 00 1C E2 17\n¿Cuál es el número del puerto destino?",
+    "opciones": [
+      "1586",
+      "10",
+      "28",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "Puerto destino = 0x000A = 10.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 2,
+      "paginaPdf": 141
+    }
+  },
+  {
+    "id": "E22-P05",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal:\n05320017 00000001 00000000 500207FF 00000000\n¿Cuál es el tamaño de ventana en formato hexadecimal?",
+    "opciones": [
+      "07FF",
+      "207FF",
+      "07",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "Ventana = 0x07FF.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 5,
+      "paginaPdf": 145
+    }
+  },
+  {
+    "id": "E25-P12",
+    "tema": "Tema 17",
+    "enunciado": "El protocolo UDP del nivel de Transporte TCP-IP:",
+    "opciones": [
+      "Tiene una cabecera muy simple que sólo contempla las direcciones de los puertos de origen y destino",
+      "Además de las direcciones de los puertos, la cabecera también incluye un campo para detección de errores",
+      "La cabecera sólo incluye las direcciones de los puertos, la longitud de los datos y un campo para control de errores",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "La cabecera UDP tiene 8 bytes: puerto origen, puerto destino, longitud total y suma de comprobación.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 12,
+      "paginaPdf": 159
+    }
+  },
+  {
+    "id": "E28-P10",
+    "tema": "Tema 17",
+    "enunciado": "El protocolo UDP del nivel de Transporte TCP-IP:",
+    "opciones": [
+      "Tiene una cabecera muy simple que sólo contempla las direcciones de los puertos de origen y destino",
+      "Además de las direcciones de los puertos, la cabecera también incluye un campo para detección de errores",
+      "La cabecera sólo incluye las direcciones de los puertos y un campo para control de errores",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "La cabecera UDP contiene puertos, longitud y suma de comprobación (detección de errores). La C no vale porque omite el campo longitud.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 10,
+      "paginaPdf": 185
+    }
+  },
+  {
+    "id": "E34-P06",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera TCP en formato hexadecimal\n0532-0017- 00000001-00000000-5002-07FF-0000-0000\n¿Cuál es el tamaño de ventana?",
+    "opciones": [
+      "0x007FF",
+      "0x007F",
+      "0x007",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ventana = 0x07FF (0x007FF tiene el mismo valor).",
+    "origen": {
+      "examen": 34,
+      "pregunta": 6,
+      "paginaPdf": 236
+    }
+  },
+  {
+    "id": "E34-P11",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n06 32 00 0A 00 1C E2 17\n¿Cual es el número del puerto de destino?",
+    "opciones": [
+      "1586",
+      "10",
+      "32",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Puerto destino = 0x000A = 10.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 11,
+      "paginaPdf": 237
+    }
+  },
+  {
+    "id": "E35-P19",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n06 32 00 0A 00 1C E2 17\n¿Cuál es el número de puerto origen?",
+    "opciones": [
+      "1586",
+      "32",
+      "6",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Puerto origen = 0x0632 = 1586.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 19,
+      "paginaPdf": 246
+    }
+  },
+  {
+    "id": "E37-P02",
+    "tema": "Tema 17",
+    "enunciado": "En el nivel de transporte del modelo TCP-IP",
+    "opciones": [
+      "El protocolo UDP define una comunicación de flujos",
+      "El protocolo TCP define una comunicación de flujos",
+      "Tanto UDP como TCP definen una comunicación de flujos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "TCP es un protocolo orientado a flujo de bytes; UDP está orientado a mensajes.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 2,
+      "paginaPdf": 259
+    }
+  },
+  {
+    "id": "E38-P01",
+    "tema": "Tema 17",
+    "enunciado": "Señale la afirmación correcta",
+    "opciones": [
+      "TCP es un protocolo de capa de transporte que garantiza que los paquetes IP lleguen en orden al destino",
+      "UDP es un protocolo del nivel de red que no garantiza que los paquetes lleguen ordenados al destino",
+      "TCP es un protocolo de capa de red que resuelve los problemas del protocolo IP",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "TCP es un protocolo de transporte fiable que entrega los datos en orden. UDP no es de nivel de red y TCP tampoco.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 1,
+      "paginaPdf": 267
+    }
+  },
+  {
+    "id": "E40-P18b",
+    "tema": "Tema 17",
+    "enunciado": "[sic] En el protocolo TCP:",
+    "opciones": [
+      "El tamaño de la ventana de emisión lo controla el receptor",
+      "El tamaño de la ventana de recepción lo controla el emisor",
+      "El espacio disponible en la ventana de recepción es constante",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "En TCP el receptor anuncia el tamaño de su ventana (rwnd) y con él controla la ventana de emisión del emisor.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 18,
+      "paginaPdf": 286
+    }
+  },
+  {
+    "id": "E40-P20",
+    "tema": "Tema 17",
+    "enunciado": "En el modelo TCP/IP, el protocolo SCTP pertenece al nivel de:",
+    "opciones": [
+      "Transporte",
+      "Red",
+      "No existe ese protocolo en el modelo TCP/IP",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "SCTP es un protocolo del nivel de transporte de TCP/IP.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 20,
+      "paginaPdf": 286
+    }
+  },
+  {
+    "id": "E41-P02",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n06 32 00 0A 00 1C E2 17\n¿cuál es el número de puerto origen?",
+    "opciones": [
+      "632",
+      "13",
+      "3206",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Puerto origen = 0x0632 = 1586 en decimal; no figura entre las opciones.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 2,
+      "paginaPdf": 291
+    }
+  },
+  {
+    "id": "E41-P10",
+    "tema": "Tema 17",
+    "enunciado": "Dos máquinas establecen una comunicación mediante TCP en la que el cliente envía al servidor un paquete de 1000bytes de datos. Si el número de secuencia de inicio de conexión es 245, ¿Cual será el número de secuencia del reconocimiento final (ACK) que enviará el servidor al cliente antes del cierre de la conexión?",
+    "opciones": [
+      "246",
+      "1246",
+      "1247",
+      "1245"
+    ],
+    "correcta": 2,
+    "explicacion": "El SYN consume el nº 245; los datos van del 246 al 1245 (ACK = 1246) y el FIN del cliente consume el 1246, así que el último reconocimiento del servidor es 1247.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 10,
+      "paginaPdf": 293
+    }
+  },
+  {
+    "id": "E43-P15",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente inicia una conexión contra un servidor web (HTTP). En la petición de conexión, el cliente utiliza el número de secuencia 5546. El servidor acepta la conexión. ¿Qué número de ACK enviará el servidor al cliente en ese mensaje de respuesta a la petición de conexión?",
+    "opciones": [
+      "5547",
+      "5546",
+      "1",
+      "5544"
+    ],
+    "correcta": 0,
+    "explicacion": "El SYN consume un número de secuencia: el SYN+ACK del servidor lleva ACK = 5546 + 1 = 5547.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 15,
+      "paginaPdf": 313
+    }
+  },
+  {
+    "id": "E44-P18",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n06 32 00 0A 00 1C E2 17\n¿cuál es el número de puerto destino (en decimal)?",
+    "opciones": [
+      "1586",
+      "10",
+      "28",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Puerto destino = 0x000A = 10.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 18,
+      "paginaPdf": 322
+    }
+  },
+  {
+    "id": "E46-P10",
+    "tema": "Tema 17",
+    "enunciado": "Un servidor responde a la petición HTTP de un cliente enviando una página HTML de 2000 bytes. Si la MTU de la red es de 800 bytes. ¿Cuales serán los números de secuencia de los distintos segmentos necesarios para hacer el envío de la página completa?\nSupóngase que las cabeceras de IP y TCP no utilizan opciones y que no hay fragmentación a nivel IP.",
+    "opciones": [
+      "0, 1 y 2",
+      "0, 760, 1520",
+      "0, 800, 1600",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "MSS = 800 − 20 (IP) − 20 (TCP) = 760 bytes. Segmentos de 760, 760 y 480 bytes, con números de secuencia relativos 0, 760 y 1520.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 10,
+      "paginaPdf": 336
+    }
+  },
+  {
+    "id": "E46-P19",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente usa UDP para enviar datos a un servidor. Los datos útiles son 16 bytes. Calcule la eficiencia de esta transmisión a nivel UDP (relación entre los bytes útiles y los bytes totales)",
+    "opciones": [
+      "1/3 %",
+      "2/3 %",
+      "50 %",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Cabecera UDP de 8 bytes: 16/(16+8) = 2/3 (≈ 66,7 %; la opción escribe «2/3 %» por errata).",
+    "origen": {
+      "examen": 46,
+      "pregunta": 19,
+      "paginaPdf": 338
+    }
+  },
+  {
+    "id": "E47-P14",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal:\n06 32 00 0A 00 1C E2 17 ¿Cuál es la longitud total del datagrama de usuario?",
+    "opciones": [
+      "28 bytes",
+      "10 bytes",
+      "34 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Longitud total = 0x001C = 28 bytes.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 14,
+      "paginaPdf": 345
+    }
+  },
+  {
+    "id": "E47-P15",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente usa TCP para enviar 80 bytes de datos a un servidor. ¿Cuál es la eficiencia de esta transmisión a nivel TCP?",
+    "opciones": [
+      "100%",
+      "20%",
+      "80%",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Cabecera TCP mínima de 20 bytes: 80/(80+20) = 80 %.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 15,
+      "paginaPdf": 345
+    }
+  },
+  {
+    "id": "E47-P18",
+    "tema": "Tema 17",
+    "enunciado": "Tenemos una red con una MTU de 1000 bytes. Supongamos que no existe fragmentación a nivel de red y que ni el protocolo IP ni TCP emplean opciones. Si los datos de la capa de aplicación son 2000 bytes. ¿Cuantos bytes de datos de aplicación viajarán en cada segmento TCP?",
+    "opciones": [
+      "2 segmentos con 1000 bytes cada uno",
+      "3 segmentos con 960, 960 y 80 bytes",
+      "3 segmentos con 980, 980 y 40 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "MSS = 1000 − 20 − 20 = 960 bytes: segmentos de 960, 960 y 80 bytes.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 18,
+      "paginaPdf": 346
+    }
+  },
+  {
+    "id": "E48-P14",
+    "tema": "Tema 17",
+    "enunciado": "Dado el siguiente volcado de una cabecera UDP en formato hexadecimal\n06 32 00 A0 00 1C E2 17 ¿Cuál es el número de puerto destino en decimal?",
+    "opciones": [
+      "1586",
+      "10",
+      "160",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Puerto destino = 0x00A0 = 160.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 14,
+      "paginaPdf": 353
+    }
+  },
+  {
+    "id": "E48-P15",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente usa UDP para enviar datos a un servidor. Los datos que envía son 16 bytes. ¿Cuál es la eficiencia de esta transmisión a nivel UDP (bytes útiles / bytes totales)",
+    "opciones": [
+      "100%",
+      "66,67%",
+      "33,33%",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "16/(16+8) = 66,67 %.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 15,
+      "paginaPdf": 353
+    }
+  },
+  {
+    "id": "E49-P04",
+    "tema": "Tema 17",
+    "enunciado": "Durante el análisis de tráfico en una red empresarial, se captura un segmento TCP con la siguiente cabecera en formato hexadecimal:\nC00A0035 00000002 00000000 50100400 00000000\nEl analista desea identificar el tamaño de la ventana de recepción que el host anuncia.¿Cuál es el valor del campo Window Size (tamaño de ventana) expresado en hexadecimal?",
+    "opciones": [
+      "x0400",
+      "x0040",
+      "x4000",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tras 0x5010 (HLEN + flags) viene la ventana: 0x0400.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 4,
+      "paginaPdf": 359
+    }
+  },
+  {
+    "id": "E50-P01",
+    "tema": "Tema 17",
+    "enunciado": "¿Cual es el máximo número de bytes de datos de aplicación que podemos enviar en un datagrama de usuario UDP si debe incluirse completamente en un datagrama IP? Suponga que no se utilizan opciones.",
+    "opciones": [
+      "65535",
+      "1500",
+      "1480",
+      "65507"
+    ],
+    "correcta": 3,
+    "explicacion": "65535 (máximo del datagrama IP) − 20 (IP) − 8 (UDP) = 65507 bytes.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 1,
+      "paginaPdf": 369
+    }
+  },
+  {
+    "id": "E50-P05",
+    "tema": "Tema 17",
+    "enunciado": "¿Qué campo de la cabecera TCP permite multiplexar/demultiplexar varias conexiones en un mismo host?",
+    "opciones": [
+      "Checksum",
+      "Flags",
+      "Números de puerto",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Los números de puerto (origen y destino) permiten multiplexar y demultiplexar las conexiones.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 5,
+      "paginaPdf": 370
+    }
+  },
+  {
+    "id": "E50-P15",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente TCP inicia la transmisión de un archivo de 4000 bytes. El número de secuencia inicial es 10000. Sabemos que la MTU de la red es 1500 bytes y que no se emplean opciones en ninguna capa. ¿Cuál será el número de secuencia del último segmento enviado?",
+    "opciones": [
+      "13999",
+      "12920",
+      "14000",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "MSS = 1460 → segmentos de 1460, 1460 y 1080 bytes. Tomando 10000 como número del primer byte de datos, los segmentos empiezan en 10000, 11460 y 12920.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 15,
+      "paginaPdf": 372
+    }
+  },
+  {
+    "id": "E50-P18",
+    "tema": "Tema 17",
+    "enunciado": "Durante el establecimiento de una conexión TCP correcta, las banderas que intercambian cliente y servidor en el orden clásico del three-way handshake son:",
+    "opciones": [
+      "SYN → SYN → ACK",
+      "SYN → SYN+ACK → ACK",
+      "SYN → ACK → FIN",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Establecimiento en tres pasos: SYN → SYN+ACK → ACK.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 18,
+      "paginaPdf": 372
+    }
+  },
+  {
+    "id": "E51-P01",
+    "tema": "Tema 17",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente una característica de UDP?",
+    "opciones": [
+      "Proporciona entrega fiable con reintentos automáticos",
+      "Establece una conexión orientada (handshake) antes de enviar datos",
+      "No garantiza ni la entrega ni el orden de los datagramas",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "UDP no es fiable ni orientado a conexión: no garantiza ni la entrega ni el orden.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 1,
+      "paginaPdf": 379
+    }
+  },
+  {
+    "id": "E51-P06",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente envía un segmento TCP con un número de secuencia de 5000 y 800 bytes de datos. Inmediatamente después, envía otro segmento con 400 bytes de datos. ¿Cuál es el número de secuencia del segundo segmento?",
+    "opciones": [
+      "5001",
+      "5800",
+      "5801",
+      "5400"
+    ],
+    "correcta": 1,
+    "explicacion": "El segundo segmento empieza en 5000 + 800 = 5800.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 6,
+      "paginaPdf": 380
+    }
+  },
+  {
+    "id": "E51-P18",
+    "tema": "Tema 17",
+    "enunciado": "¿Qué flags de control se activan durante el establecimiento de una conexión en el protocolo UDP?",
+    "opciones": [
+      "SYN",
+      "SYN y ACK",
+      "ACK",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "UDP no establece conexión ni tiene flags de control.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 18,
+      "paginaPdf": 382
+    }
+  },
+  {
+    "id": "E51-P20",
+    "tema": "Tema 17",
+    "enunciado": "Si en un entorno TCP un sistema recibe un segmento de 250 bytes con número de secuencia 25 ¿Qué número de secuencia se enviará en el correspondiente ACK?",
+    "opciones": [
+      "26",
+      "275",
+      "250",
+      "276"
+    ],
+    "correcta": 1,
+    "explicacion": "El ACK indica el siguiente byte esperado: 25 + 250 = 275.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 20,
+      "paginaPdf": 382
+    }
+  },
+  {
+    "id": "E52-P06",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente UDP envía un segmento con 32 bytes de datos de aplicación. ¿Cuál es la eficiencia a nivel UDP (datos útiles / total)?",
+    "opciones": [
+      "60%",
+      "80%",
+      "50%",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "32/(32+8) = 80 %.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 6,
+      "paginaPdf": 388
+    }
+  },
+  {
+    "id": "E52-P09",
+    "tema": "Tema 17",
+    "enunciado": "Un cliente TCP inicia la transmisión de un archivo de 6000 bytes. El número de secuencia inicial (ISN) es 5000. La MTU de la red es 1500 bytes y no se usan opciones. ¿Cuál es el número de secuencia del último segmento?",
+    "opciones": [
+      "10999",
+      "11000",
+      "10960",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "MSS = 1460: segmentos de 1460 × 4 + 160 bytes. Con 5000 como primer byte, el último empieza en 5000 + 4 × 1460 = 10840 (10841 si el SYN consume el 5000). Ninguna opción coincide.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 9,
+      "paginaPdf": 388
+    }
+  },
+  {
+    "id": "E52-P15",
+    "tema": "Tema 17",
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre el cálculo del checksum en UDP es correcta?",
+    "opciones": [
+      "El checksum en UDP es obligatorio y su cálculo incluye un pseudoencabezado, el encabezado UDP y los datos.",
+      "El checksum en UDP es opcional y, si no se calcula, el campo se rellena completamente con unos.",
+      "El checksum en UDP es opcional y, si no se calcula, el campo se rellena con todos ceros.",
+      "El checksum en UDP solo cubre el encabezado UDP, no los datos de la aplicación."
+    ],
+    "correcta": 2,
+    "explicacion": "En UDP (sobre IPv4) la suma de comprobación es opcional; si no se calcula, el campo se pone a todo ceros.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 15,
+      "paginaPdf": 389
+    }
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "E01-P13",
+    "tema": "Tema 2",
+    "enunciado": "¿Cuál es la función del nivel de sesión?",
+    "opciones": [
+      "control del diálogo y sincronización",
+      "transporte , compresión y cifrado",
+      "entrega de mensaje desde un proceso a otro",
+      "ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "El nivel de sesión (OSI) se encarga del control del diálogo y de la sincronización (puntos de control).",
+    "origen": {
+      "examen": 1,
+      "pregunta": 13,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P17",
+    "tema": "Tema 2",
+    "enunciado": "Cuál es la función de la capa de transporte?",
+    "opciones": [
+      "control del diálogo y sincronización",
+      "transporte , compresión y cifrado",
+      "entrega de mensaje desde un proceso a otro",
+      "ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "El nivel de transporte se encarga de la entrega proceso a proceso de los mensajes.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 17,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E05-P08",
+    "tema": "Tema 2",
+    "enunciado": "¿Cual es la función del nivel de sesión?",
+    "opciones": [
+      "Control de diálogo y sincronización",
+      "Transporte, Compresión y Cifrado",
+      "Entrega de mensaje de un proceso a otro",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "El nivel de sesión controla el diálogo y la sincronización.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 8,
+      "paginaPdf": 26
+    }
+  },
+  {
+    "id": "E06-P14",
+    "tema": "Tema 2",
+    "enunciado": "¿Cual es la función de la capa de Transporte?",
+    "opciones": [
+      "Control del diálogo y sincronización",
+      "Transporte, Compresión y Cifrado",
+      "Entrega de un mensaje desde un proceso a otro",
+      "Ninguna de las otras"
+    ],
+    "correcta": 2,
+    "explicacion": "El nivel de transporte entrega mensajes de un proceso a otro.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 14,
+      "paginaPdf": 35
+    }
+  },
+  {
+    "id": "E07-P16",
+    "tema": "Tema 2",
+    "enunciado": "¿Cual es la misión del nivel de red?",
+    "opciones": [
+      "No existe un nivel específico de red en los modelos de red más extendidos sino que hace referencia al conjunto de niveles.",
+      "Responsable de la entrega de paquetes desde el sistema origen al sistema final.",
+      "Controla la sincronización entre pares",
+      "Todas las demás opciones son erróneas"
+    ],
+    "correcta": 1,
+    "explicacion": "El nivel de red es responsable de la entrega de paquetes desde el host origen al host destino (extremo a extremo).",
+    "origen": {
+      "examen": 7,
+      "pregunta": 16,
+      "paginaPdf": 43
+    }
+  },
+  {
+    "id": "E25-P04",
+    "tema": "Tema 2",
+    "enunciado": "En el modelo OSI el direccionamiento lógico es una tarea de la capa de:",
+    "opciones": [
+      "Física",
+      "Transporte",
+      "Red",
+      "Enlace"
+    ],
+    "correcta": 2,
+    "explicacion": "El direccionamiento lógico (IP) es tarea del nivel de red.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 4,
+      "paginaPdf": 157
+    }
+  },
+  {
+    "id": "E25-P09",
+    "tema": "Tema 2",
+    "enunciado": "¿Cuál es la función del nivel de sesión en el modelo de red de TCP-IP?",
+    "opciones": [
+      "Control de diálogo y sincronización",
+      "Transporte, compresión y cifrado",
+      "Entrega de mensajes de un proceso a otro",
+      "El modelo TCP-IP no contempla el nivel de sesión"
+    ],
+    "correcta": 3,
+    "explicacion": "El modelo TCP/IP no tiene nivel de sesión: sus funciones se integran en la capa de aplicación.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 9,
+      "paginaPdf": 158
+    }
+  },
+  {
+    "id": "E25-P15",
+    "tema": "Tema 2",
+    "enunciado": "En el modelo TCP-IP",
+    "opciones": [
+      "Las capas de Sesión y Presentación de OSI se agrupan junto con la capa de Transporte",
+      "La capa de Aplicación engloba a las capas de Transporte y Aplicación de OSI",
+      "La capa de Aplicación engloba a las capas de Sesión, Presentación y Aplicación de OSI",
+      "Ninguna de las otras es correcta."
+    ],
+    "correcta": 2,
+    "explicacion": "La capa de aplicación de TCP/IP engloba las capas de sesión, presentación y aplicación de OSI.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 15,
+      "paginaPdf": 159
+    }
+  },
+  {
+    "id": "E26-P05",
+    "tema": "Tema 2",
+    "enunciado": "En el modelo OSI las tareas de Compresión y Cifrado corresponden a la capa:",
+    "opciones": [
+      "Presentación",
+      "Sesión",
+      "Aplicación",
+      "Ninguna de las otras es correcta."
+    ],
+    "correcta": 0,
+    "explicacion": "Compresión y cifrado (y traducción) son funciones de la capa de presentación OSI.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 5,
+      "paginaPdf": 165
+    }
+  },
+  {
+    "id": "E26-P07",
+    "tema": "Tema 2",
+    "enunciado": "¿Cuál es la función del nivel de sesión?",
+    "opciones": [
+      "Control de diálogo y sincronización",
+      "Transporte, compresión y cifrado",
+      "Entrega de mensajes de un proceso a otro",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Nivel de sesión: control de diálogo y sincronización.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 7,
+      "paginaPdf": 166
+    }
+  },
+  {
+    "id": "E26-P10",
+    "tema": "Tema 2",
+    "enunciado": "En el modelo TCP-IP:",
+    "opciones": [
+      "El control de acceso a la red corresponde a la capa física",
+      "No se establecen protocolos específicos para la capa física ni de enlace",
+      "Se establece que la capa física es la norma de Ethernet (IEEE 802.3)",
+      "Ninguna de las otras es correcta."
+    ],
+    "correcta": 1,
+    "explicacion": "TCP/IP no define protocolos propios para los niveles físico y de enlace: admite todos los estándar y propietarios.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 10,
+      "paginaPdf": 166
+    }
+  },
+  {
+    "id": "E29-P19",
+    "tema": "Tema 2",
+    "enunciado": "¿Cuál es la función del nivel de sesión?",
+    "opciones": [
+      "Control del diálogo. Establece, mantiene y sincroniza la interacción entre sistemas de comunicación",
+      "Transporte , compresión y cifrado entre sistemas de comunicación",
+      "Entrega de mensaje desde un proceso a otro entre sistemas de comunicación",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "El nivel de sesión es el controlador del diálogo: establece, mantiene y sincroniza la interacción.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 19,
+      "paginaPdf": 196
+    }
+  },
+  {
+    "id": "E32-P16",
+    "tema": "Tema 2",
+    "enunciado": "¿Cual es la misión del nivel de red?",
+    "opciones": [
+      "Hacer fiable a las capas inferiores",
+      "Responsable de la entrega de paquetes desde el sistema origen al sistema final.",
+      "Controlar la sincronización entre pares",
+      "Todas las opciones son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "El nivel de red entrega los paquetes desde el host origen hasta el destino.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 16,
+      "paginaPdf": 221
+    }
+  },
+  {
+    "id": "E46-P01",
+    "tema": "Tema 2",
+    "enunciado": "En una red cambiamos la tecnología de la LAN (por ejemplo de Ethernet a Wifi) ¿qué niveles del conjunto de protocolos se ven afectados?",
+    "opciones": [
+      "Ninguno",
+      "Todos los niveles se ven afectados",
+      "Los niveles físico y de enlace",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Cambiar la tecnología de la LAN solo afecta a los niveles físico y de enlace.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 1,
+      "paginaPdf": 335
+    }
+  },
+  {
+    "id": "E49-P11",
+    "tema": "Tema 2",
+    "enunciado": "¿Cuál es la función principal del nivel de red en el modelo TCP/IP?",
+    "opciones": [
+      "Proporcionar servicios de transporte confiables",
+      "Encapsular y desencapsular paquetes entre el host origen y el host destino",
+      "Gestionar la conexión física entre dispositivos",
+      "Traducir nombres de dominio a direcciones IP"
+    ],
+    "correcta": 1,
+    "explicacion": "El nivel de red se encarga de la comunicación host a host: encapsula los segmentos en datagramas y los lleva del host origen al destino.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 11,
+      "paginaPdf": 361
+    }
+  },
+  {
+    "id": "E49-P13",
+    "tema": "Tema 2",
+    "enunciado": "¿Cuál de los siguientes problemas podría causar un fallo en la capa física de una red?",
+    "opciones": [
+      "Congestión de red",
+      "Colisión de datos",
+      "Dirección IP incorrecta",
+      "Cable de red desconectado"
+    ],
+    "correcta": 3,
+    "explicacion": "Un cable desconectado es un fallo del nivel físico; las demás opciones son de otras capas.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 13,
+      "paginaPdf": 361
+    }
+  },
+  {
+    "id": "E49-P17",
+    "tema": "Tema 2",
+    "enunciado": "Un sistema de monitorización médica transmite en tiempo real información vital desde sensores hacia una aplicación central. Para asegurar que los datos lleguen sin congestionar al receptor, y que puedan ser manejados, aunque el emisor envíe más rápidamente de lo que el receptor puede procesar, se requiere un mecanismo que:\na) Divida los datos en unidades manejables\nb) Implemente control de flujo\nc) Aplique técnicas de recuperación ante errores en caso de que los paquetes no lleguen o lleguen dañados\n¿Qué capa del modelo OSI es responsable de estas funciones?",
+    "opciones": [
+      "Aplicación",
+      "Red",
+      "Transporte",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "La capa de transporte segmenta los datos y hace control de flujo y de errores extremo a extremo.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 17,
+      "paginaPdf": 362
+    }
+  }
+]

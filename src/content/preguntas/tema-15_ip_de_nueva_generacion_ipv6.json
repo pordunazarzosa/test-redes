@@ -1,0 +1,74 @@
+[
+  {
+    "id": "E33-P11",
+    "tema": "Tema 15",
+    "enunciado": "¿Cuál es la longitud de una dirección de capa de enlace en el estándar IPv6?",
+    "opciones": [
+      "32 bits",
+      "128 bits",
+      "64 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Las direcciones IPv6, incluidas las de enlace local, tienen 128 bits.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 11,
+      "paginaPdf": 228
+    }
+  },
+  {
+    "id": "E39-P03",
+    "tema": "Tema 15",
+    "enunciado": "Si no tenemos opciones ¿cual es la longitud de una cabecera IPv6?",
+    "opciones": [
+      "20 bytes",
+      "40 bytes",
+      "60 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "La cabecera base IPv6 tiene 40 bytes fijos.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 3,
+      "paginaPdf": 275
+    }
+  },
+  {
+    "id": "E45-P09",
+    "tema": "Tema 15",
+    "enunciado": "Un rúter recibe un datagrama IPv6 de 2000 bytes que debe encaminar a través de una red cuyo MTU es de 1500bytes:",
+    "opciones": [
+      "Fragmentará el datagrama original en dos y lo enviará a la red de salida",
+      "En IPv6 los rúteres no pueden fragmentar los datagramas",
+      "Solicitará al origen que le reenvíe el datagrama empleando IPv4",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En IPv6 solo el origen puede fragmentar; el router descarta el paquete y envía un ICMPv6 «paquete demasiado grande».",
+    "origen": {
+      "examen": 45,
+      "pregunta": 9,
+      "paginaPdf": 328
+    }
+  },
+  {
+    "id": "E46-P17",
+    "tema": "Tema 15",
+    "enunciado": "¿De qué tipo es la siguiente dirección IPv6? FE80::12/10",
+    "opciones": [
+      "Link local",
+      "Unicast único local",
+      "Multicast",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "El prefijo FE80::/10 corresponde a direcciones unicast de enlace local.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 17,
+      "paginaPdf": 338
+    }
+  }
+]

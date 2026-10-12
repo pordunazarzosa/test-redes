@@ -1,0 +1,830 @@
+[
+  {
+    "id": "E01-P03",
+    "tema": "Tema 6",
+    "enunciado": "Se quieren multiplexar en frecuencia 8 canales de ancho de banda de 100KHz. ¿Cuál es el ancho de banda necesaria si se necesita una banda de guarda de 10KHz?",
+    "opciones": [
+      "810 KHz",
+      "870 KHz",
+      "25 KHz",
+      "No hay ninguna opción anterior es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "FDM: 8 × 100 kHz + 7 bandas de guarda × 10 kHz = 800 + 70 = 870 kHz.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 3,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E01-P10",
+    "tema": "Tema 6",
+    "enunciado": "Un sistema FHSS utiliza una secuencia PN de 4 bits. Si la tasa de bits del PN es 64 bits por segundo, ¿Cuál es el número total de saltos posibles?",
+    "opciones": [
+      "64",
+      "32",
+      "16",
+      "8"
+    ],
+    "correcta": 2,
+    "explicacion": "Con una secuencia PN de k = 4 bits se pueden generar 2⁴ = 16 patrones, es decir, 16 frecuencias de salto.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 10,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P08",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 704 Mbps. ¿cuántos canales de 64 kbps se puede transmitir por este medio si se usa DSSS con secuencia Baker?",
+    "opciones": [
+      "704 canales",
+      "1000 canales",
+      "10000 canales",
+      "64 canales"
+    ],
+    "correcta": 1,
+    "explicacion": "La secuencia Barker tiene 11 chips: cada canal de 64 kbps ocupa 64 × 11 = 704 kbps → 704 Mbps / 704 kbps = 1000 canales.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 8,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E02-P16",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación síncrona por división de tiempo de 4 canales de 1 kbps y suponiendo que la unidad de multiplexación es de un bit. ¿Cuál es la duración de cada trama? ¿ Cuántos bits hay en cada trama?",
+    "opciones": [
+      "1ms y 4 bits",
+      "4ms y 4bits",
+      "4ms y 1 bits",
+      "Ninguna de las opciones anteriores es correcta."
+    ],
+    "correcta": 0,
+    "explicacion": "Cada trama lleva 1 bit de cada canal: 4 bits. La trama dura lo mismo que un bit de entrada: 1/1 kbps = 1 ms.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 16,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E05-P07",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación en tiempo síncrona de 4 canales de 1kbps y suponiendo que la unidad de multiplexación es de 100bits ¿Cuál es la duración de cada trama en el canal multiplexado? ¿Cuántos bits hay en cada trama?",
+    "opciones": [
+      "0,1 segundo y 400 bits",
+      "1 milisegundo y 400 bits",
+      "4 milisegundos y 400 bits",
+      "Ninguna de la otras"
+    ],
+    "correcta": 0,
+    "explicacion": "Cada trama lleva 100 bits de cada canal: 400 bits. Llenar 100 bits a 1 kbps lleva 100 ms → trama de 0,1 s.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 7,
+      "paginaPdf": 26
+    }
+  },
+  {
+    "id": "E07-P01",
+    "tema": "Tema 6",
+    "enunciado": "¿Qué ancho de banda tiene un grupo y cuántos canales de voz soporta?",
+    "opciones": [
+      "64 Khz y 24 canales",
+      "48 KHz y 12 canales",
+      "48 Khz y 6 canales",
+      "64 Khz y 8 canales"
+    ],
+    "correcta": 1,
+    "explicacion": "En la jerarquía analógica, un grupo multiplexa 12 canales de voz de 4 kHz → 48 kHz.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 1,
+      "paginaPdf": 41
+    }
+  },
+  {
+    "id": "E08-P08",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación en tiempo síncrona de 4 canales de 1Kbps cada uno y suponiendo que la unidad de multiplexación es de 100 bits ¿Cuál es la duración de cada trama en el canal multiplexado? Y ¿cuántos bits hay en cada trama?",
+    "opciones": [
+      "1 milisegundo y 400 bits",
+      "4 milisegundos y 400 bits",
+      "0,1 segundo y 400 bits",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Trama = 4 × 100 bits = 400 bits; duración = 100 bits / 1 kbps = 100 ms = 0,1 s.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 8,
+      "paginaPdf": 50
+    }
+  },
+  {
+    "id": "E09-P04",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 704 Mbps. ¿cuántos canales de 128 kbps se puede transmitir por este medio si se usa DSSS con secuencia Baker y sin solapamiento de bandas?",
+    "opciones": [
+      "704",
+      "1000",
+      "500",
+      "64"
+    ],
+    "correcta": 2,
+    "explicacion": "Barker de 11 chips: 128 kbps × 11 = 1,408 Mbps por canal → 704 / 1,408 = 500 canales.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 4,
+      "paginaPdf": 57
+    }
+  },
+  {
+    "id": "E09-P10",
+    "tema": "Tema 6",
+    "enunciado": "Calcúlese el ancho de banda necesario para multiplexar 10 canales con bandas de guarda de 200Hz utilizando FDM. Cada canal tiene 4Khz de ancho de banda.",
+    "opciones": [
+      "40 KHz",
+      "41,8 KHz",
+      "1,8 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "10 × 4 kHz + 9 bandas de guarda × 200 Hz = 40 + 1,8 = 41,8 kHz.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 10,
+      "paginaPdf": 59
+    }
+  },
+  {
+    "id": "E09-P12",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía TAZA\nFuente 2 envía TE\nFuente 3 está en silencio\nFuente 4 envía YES\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ _ A]  [S _ _ Z]  [E _ E A]  [Y _ T T]",
+      "[T T _ Y]  [A E _ E]  [Z _ _ S]  [A _ _ _]",
+      "[T T Y _]  [A E _ _]  [Z S _ _]  [A _ _ _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "TDM síncrono: cada trama tiene una ranura por fuente (aunque esté vacía). Tramas: (T,T,–,Y), (A,E,–,E), (Z,–,–,S), (A,–,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha, que es como aparece en la opción A. La opción B muestra las mismas tramas leídas en sentido contrario a la flecha.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 12,
+      "paginaPdf": 59
+    }
+  },
+  {
+    "id": "E10-P01",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía TAZA\nFuente 2 envía TE\nFuente 3 está en silencio\nFuente 4 envía YES\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ _ A]  [S _ _ Z]  [E _ E A]  [Y _ T T]",
+      "[T T _ Y]  [A E _ E]  [Z _ _ S]  [A _ _ _]",
+      "[T T Y _]  [A E _ _]  [Z S _ _]  [A _ _ _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas TDM síncrono: (T,T,–,Y), (A,E,–,E), (Z,–,–,S), (A,–,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 aparecen a la derecha, como en la opción A. La opción B muestra las mismas tramas leídas en sentido contrario a la flecha.",
+    "origen": {
+      "examen": 10,
+      "pregunta": 1,
+      "paginaPdf": 62
+    }
+  },
+  {
+    "id": "E11-P03",
+    "tema": "Tema 6",
+    "enunciado": "Sea un canal con un ancho de banda de 4Khz. Se necesitan multiplexar 20 canales de este tipo con bandas de guarda de 500Hz utilizando FDM. Calcúlese el ancho de banda necesario.",
+    "opciones": [
+      "80 KHz",
+      "89,5 KHz",
+      "9,5 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "20 × 4 kHz + 19 × 0,5 kHz = 80 + 9,5 = 89,5 kHz.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 3,
+      "paginaPdf": 67
+    }
+  },
+  {
+    "id": "E11-P07",
+    "tema": "Tema 6",
+    "enunciado": "Un sistema FHSS utiliza una secuencia PN de 8 bits.¿Cuál es el número total de saltos posibles?",
+    "opciones": [
+      "512",
+      "256",
+      "8",
+      "64"
+    ],
+    "correcta": 1,
+    "explicacion": "PN de 8 bits → 2⁸ = 256 saltos posibles.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 7,
+      "paginaPdf": 68
+    }
+  },
+  {
+    "id": "E11-P11",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía FOCA\nFuente 2 envía TE\nFuente 3 está en silencio\nFuente 4 está en silencio\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ _ A]  [S _ _ C]  [_ _ E O]  [Y _ T F]",
+      "[F T _ Y]  [O E _ _]  [C _ _ _]  [A _ _ _]",
+      "[F O C A]  [T E _ _]  [_ _ _ _]  [_ _ _ _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Tramas correctas: (F,T,–,–), (O,E,–,–), (C,–,–,–), (A,–,–,–). La opción A incluye una S y una Y que no envía nadie, la B una Y y la C no respeta las ranuras por fuente: ninguna es correcta.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 11,
+      "paginaPdf": 69
+    }
+  },
+  {
+    "id": "E12-P07",
+    "tema": "Tema 6",
+    "enunciado": "Sea un canal de voz con ancho de banda de 4Khz. Se necesitan multiplexar 20 canales con bandas de guarda de 500Hz utilizando FDM. Calcúlese el ancho de banda necesario.",
+    "opciones": [
+      "80 KHz",
+      "89,5 KHz",
+      "9,5 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "20 × 4 kHz + 19 × 0,5 kHz = 89,5 kHz.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 7,
+      "paginaPdf": 78
+    }
+  },
+  {
+    "id": "E12-P14",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía COTO\nFuente 2 envía RATO\nFuente 3 está en silencio\n(El enunciado original no menciona la fuente 4; las opciones corresponden a una fuente 4 que envía YES.)\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ O O]  [S _ T T]  [E _ A O]  [Y _ R C]",
+      "[R C _ Y]  [A _ O T]  [T _ A O]  [O _ O C]",
+      "[R A T O]  [C O T O]  [_ _ _ _]  [Y E S _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Con la fuente 4 enviando YES (falta en el enunciado), las tramas son (C,R,–,Y), (O,A,–,E), (T,T,–,S), (O,O,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 14,
+      "paginaPdf": 80
+    }
+  },
+  {
+    "id": "E13-P03",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía PALA\nFuente 2 envía PATO\nFuente 3 está en silencio\nFuente 4 envía YES\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ O A]  [S _ T L]  [E _ A A]  [Y _ P P]",
+      "[P P _ Y]  [A A _ E]  [L T _ S]  [O A _ _]",
+      "[P A L A]  [P A T O]  [_ _ _ _]  [Y E S _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (P,P,–,Y), (A,A,–,E), (L,T,–,S), (A,O,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A. La B invierte la última trama (O,A).",
+    "origen": {
+      "examen": 13,
+      "pregunta": 3,
+      "paginaPdf": 87
+    }
+  },
+  {
+    "id": "E13-P10",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 704 Mbps. ¿Cuántos canales de 128 kbps se puede transmitir por este medio si se usa DSSS con secuencia Baker?",
+    "opciones": [
+      "704",
+      "1000",
+      "500",
+      "64"
+    ],
+    "correcta": 2,
+    "explicacion": "128 kbps × 11 chips = 1,408 Mbps por canal → 704/1,408 = 500 canales.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 10,
+      "paginaPdf": 89
+    }
+  },
+  {
+    "id": "E14-P06",
+    "tema": "Tema 6",
+    "enunciado": "Sea un canal de voz con ancho de banda de 2Khz. Se necesitan multiplexar 40 canales con bandas de guarda de 500Hz utilizando FDM. Calcúlese el ancho de banda necesario.",
+    "opciones": [
+      "80 Khz",
+      "89.5 Khz",
+      "9.5 Khz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "40 × 2 kHz + 39 × 0,5 kHz = 80 + 19,5 = 99,5 kHz, que no aparece.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 6,
+      "paginaPdf": 98
+    }
+  },
+  {
+    "id": "E14-P07",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía PALA\nFuente 2 envía PATO\nFuente 3 está en silencio\nFuente 4 envía NOT\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ O A]  [T _ T L]  [O _ A A]  [N _ P P]",
+      "[P P _ N]  [A A _ O]  [L T _ T]  [O A _ _]",
+      "[P A L A]  [P A T O]  [_ _ _ _]  [N O T _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (P,P,–,N), (A,A,–,O), (L,T,–,T), (A,O,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A. La B invierte la última trama.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 7,
+      "paginaPdf": 98
+    }
+  },
+  {
+    "id": "E15-P15",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía PALA\nFuente 2 envía PATO\nFuente 3 está en silencio\nFuente 4 envía NOT\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ O A]  [T _ T L]  [O _ A A]  [N _ P P]",
+      "[P P _ N]  [A A _ O]  [L T _ T]  [O A _ _]",
+      "[P A L A]  [P A T O]  [_ _ _ _]  [N O T _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (P,P,–,N), (A,A,–,O), (L,T,–,T), (A,O,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A.",
+    "origen": {
+      "examen": 15,
+      "pregunta": 15,
+      "paginaPdf": 103
+    }
+  },
+  {
+    "id": "E16-P03",
+    "tema": "Tema 6",
+    "enunciado": "Calcúlese el ancho de banda necesario para multiplexar 20 canales con bandas de guarda de 100Hz utilizando FDM. Cada canal tiene 4Khz de ancho de banda.",
+    "opciones": [
+      "40 Khz",
+      "81.9 Khz",
+      "41.9 Khz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "20 × 4 kHz + 19 × 0,1 kHz = 81,9 kHz.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 3,
+      "paginaPdf": 105
+    }
+  },
+  {
+    "id": "E16-P11",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 704 Mbps. ¿cuántos canales de 256 kbps se puede transmitir por este medio si se usa DSSS con secuencia Baker?",
+    "opciones": [
+      "704",
+      "250",
+      "500",
+      "64"
+    ],
+    "correcta": 1,
+    "explicacion": "256 kbps × 11 = 2,816 Mbps por canal → 704/2,816 = 250 canales.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 11,
+      "paginaPdf": 107
+    }
+  },
+  {
+    "id": "E16-P18",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía FOCA\nFuente 2 envía TE\nFuente 3 está en silencio\nFuente 4 está en silencio\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ _ A]  [_ _ _ C]  [_ _ E O]  [_ _ T F]",
+      "[F T _ _]  [O E _ _]  [C _ _ _]  [A _ _ _]",
+      "[F T _ _]  [O E _ _]  [C _ _ _]  [_ _ _ _]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (F,T,–,–), (O,E,–,–), (C,–,–,–), (A,–,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A. La opción B muestra las mismas tramas leídas en sentido contrario a la flecha.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 18,
+      "paginaPdf": 108
+    }
+  },
+  {
+    "id": "E17-P06",
+    "tema": "Tema 6",
+    "enunciado": "Sea un canal de voz con ancho de banda de 6Khz. Se necesitan multiplexar 30 canales con bandas de guarda de 200Hz utilizando FDM. Calcúlese el ancho de banda necesario.",
+    "opciones": [
+      "180 kHz",
+      "185,8 kHz",
+      "5,8 kHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "30 × 6 kHz + 29 × 0,2 kHz = 180 + 5,8 = 185,8 kHz.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 6,
+      "paginaPdf": 114
+    }
+  },
+  {
+    "id": "E17-P07",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía TAPA\nFuente 2 envía PATO\nFuente 3 está en silencio\nFuente 4 envía NOTA\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[A _ O A]  [T _ T P]  [O _ A A]  [N _ P T]",
+      "[T P _ N]  [A A _ O]  [P T _ T]  [A O _ A]",
+      "[T A P A]  [P A T O]  [_ _ _ _]  [N O T A]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (T,P,–,N), (A,A,–,O), (P,T,–,T), (A,O,–,A). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A (la B muestra las mismas tramas leídas en sentido contrario a la flecha).",
+    "origen": {
+      "examen": 17,
+      "pregunta": 7,
+      "paginaPdf": 114
+    }
+  },
+  {
+    "id": "E17-P08",
+    "tema": "Tema 6",
+    "enunciado": "Un sistema FHSS utiliza una secuencia PN de 10 bits. ¿Cuál es el número total de saltos posibles?",
+    "opciones": [
+      "20",
+      "1024",
+      "10",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "PN de 10 bits → 2¹⁰ = 1024 saltos.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 8,
+      "paginaPdf": 114
+    }
+  },
+  {
+    "id": "E18-P06",
+    "tema": "Tema 6",
+    "enunciado": "Calcúlese el ancho de banda necesario para multiplexar 40 canales con bandas de guarda de 100Hz utilizando FDM. Cada canal tiene 5 Khz de ancho de banda.",
+    "opciones": [
+      "3,9 KHz",
+      "203,9 KHz",
+      "103,9 KHz",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "40 × 5 kHz + 39 × 0,1 kHz = 203,9 kHz.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 6,
+      "paginaPdf": 122
+    }
+  },
+  {
+    "id": "E18-P07",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía COTO\nFuente 2 envía RATO\nFuente 3 está en silencio\nFuente 4 envía SACO\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[O _ O O]  [C _ T T]  [A _ A O]  [S _ R C]",
+      "[R C S _]  [A O A _]  [T T C _]  [O O O _]",
+      "[R A T O]  [C O T O]  [_ _ _ _]  [S A C O]",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (C,R,–,S), (O,A,–,A), (T,T,–,C), (O,O,–,O). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 7,
+      "paginaPdf": 122
+    }
+  },
+  {
+    "id": "E18-P08",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 10 Mbps. ¿cuántos canales de 64 kbps se puede transmitir por este medio si se usa DSSS con secuencia Baker?",
+    "opciones": [
+      "10",
+      "14",
+      "7",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "64 kbps × 11 = 704 kbps por canal → 10 Mbps / 704 kbps ≈ 14 canales.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 8,
+      "paginaPdf": 122
+    }
+  },
+  {
+    "id": "E21-P15",
+    "tema": "Tema 6",
+    "enunciado": "Un sistema FHSS utiliza una secuencia PN de 8 bits. ¿Cuál es el número total de saltos posibles?",
+    "opciones": [
+      "512",
+      "256",
+      "64",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "2⁸ = 256 saltos.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 15,
+      "paginaPdf": 143
+    }
+  },
+  {
+    "id": "E22-P16",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 704 Mbps. ¿Cuántos canales de 128 kbps se pueden transmitir por este medio si se usa DSSS con secuencia Barker?",
+    "opciones": [
+      "704",
+      "1000",
+      "500",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "128 × 11 = 1408 kbps por canal → 704000/1408 = 500.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 16,
+      "paginaPdf": 147
+    }
+  },
+  {
+    "id": "E22-P17",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía FOCA\nFuente 2 envía TE\nFuente 3 está en silencio\nFuente 4 está en silencio\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ _ A]  [_ _ _ C]  [_ _ E O]  [_ _ T F]",
+      "[F T _ _]  [O E _ _]  [C _ _ _]  [A _ _ _]",
+      "[F T _ _]  [O E _ _]  [C _ _ _]  [_ _ _ _]",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (F,T,–,–), (O,E,–,–), (C,–,–,–), (A,–,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A. La opción B muestra las mismas tramas leídas en sentido contrario a la flecha.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 17,
+      "paginaPdf": 148
+    }
+  },
+  {
+    "id": "E23-P10",
+    "tema": "Tema 6",
+    "enunciado": "¿Cuál es el contenido de las tramas de salida para un multiplexor TDM síncrono que combina cuatro fuentes que envían los siguientes caracteres? Los caracteres se envían en el orden en que se teclean.\nFuente 1 envía TAZA\nFuente 2 envía TE\nFuente 3 está en silencio\nFuente 4 envía YES\n[Figura: una flecha indica que la transmisión va hacia la derecha. Cada opción muestra 4 tramas de 4 ranuras, de izquierda a derecha; «_» = ranura vacía.]",
+    "opciones": [
+      "[_ _ _ A]  [S _ _ Z]  [E _ E A]  [Y _ T T]",
+      "[T T _ Y]  [A E _ E]  [Z _ _ S]  [A _ _ _]",
+      "[T T Y _]  [A E _ _]  [Z S _ _]  [A _ _ _]",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "Tramas: (T,T,–,Y), (A,E,–,E), (Z,–,–,S), (A,–,–,–). Con la transmisión hacia la derecha, la primera trama y la fuente 1 quedan a la derecha: opción A. La opción B muestra las mismas tramas leídas en sentido contrario a la flecha.",
+    "origen": {
+      "examen": 23,
+      "pregunta": 10,
+      "paginaPdf": 150
+    }
+  },
+  {
+    "id": "E24-P07",
+    "tema": "Tema 6",
+    "enunciado": "Si se tiene un medio digital con una tasa de datos de 704 Mbps. ¿Cuántos canales de 128 kbps se pueden transmitir por este medio si se usa DSSS con secuencia Baker [sic]?",
+    "opciones": [
+      "704",
+      "1000",
+      "500",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "128 × 11 = 1,408 Mbps por canal → 500 canales.",
+    "origen": {
+      "examen": 24,
+      "pregunta": 7,
+      "paginaPdf": 154
+    }
+  },
+  {
+    "id": "E26-P16",
+    "tema": "Tema 6",
+    "enunciado": "En la multiplexación en frecuencia de líneas telefónicas ¿Qué ancho de banda tiene un grupo y cuántos canales de voz soporta?",
+    "opciones": [
+      "64 Khz y 24 canales",
+      "48 KHz y 12 canales",
+      "48 Khz y 6 canales",
+      "64 Khz y 8 canales"
+    ],
+    "correcta": 1,
+    "explicacion": "Un grupo multiplexa 12 canales de voz → 48 kHz.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 16,
+      "paginaPdf": 167
+    }
+  },
+  {
+    "id": "E29-P16",
+    "tema": "Tema 6",
+    "enunciado": "Se quieren multiplexar, por división en frecuencia, 8 canales de ancho de banda de 100KHz cada uno. ¿Cúal es el ancho de banda necesario si se necesita una banda de guarda de 10KHz?",
+    "opciones": [
+      "810 KHz",
+      "870 KHz",
+      "8000 KHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "8 × 100 + 7 × 10 = 870 kHz.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 16,
+      "paginaPdf": 195
+    }
+  },
+  {
+    "id": "E30-P10",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación síncrona por división de tiempo de 4 canales de 1 Kbps y suponiendo que la unidad de multiplexación es de un bit. ¿Cuál es la duración de cada trama compuesta de salida? ¿Cuál es la tasa de transmisión del enlace?",
+    "opciones": [
+      "1ms y 4Kbps",
+      "4ms y 1Kbps",
+      "4ms y 4Kbps",
+      "1ms y 2Kbps"
+    ],
+    "correcta": 0,
+    "explicacion": "Trama de 4 bits (1 por canal) cada 1 ms → la trama dura 1 ms y el enlace va a 4 kbps.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 10,
+      "paginaPdf": 202
+    }
+  },
+  {
+    "id": "E31-P09",
+    "tema": "Tema 6",
+    "enunciado": "Se quieren multiplexar por división en frecuencia 8 canales de ancho de banda de 100KHz. ¿Cúal es el ancho de banda necesario si se necesita una banda de guarda de 10KHz?",
+    "opciones": [
+      "810 KHz",
+      "870 KHz",
+      "880 KHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "8 × 100 + 7 × 10 = 870 kHz.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 9,
+      "paginaPdf": 210
+    }
+  },
+  {
+    "id": "E38-P08",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación síncrona por división de tiempo de 8 canales de 2 Kbps y suponiendo que la unidad de multiplexación es de un bit. ¿Cuál es la duración de cada trama? ¿Cuál es la tasa de transmisión del enlace?",
+    "opciones": [
+      "0,5 ms, 16 Kbps",
+      "1 ms, 4 Kbps",
+      "4 ms, 8 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Trama de 8 bits cada 1/2000 s = 0,5 ms; enlace = 8 × 2 kbps = 16 kbps.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 8,
+      "paginaPdf": 268
+    }
+  },
+  {
+    "id": "E39-P06",
+    "tema": "Tema 6",
+    "enunciado": "Se quieren multiplexar por división en frecuencia 10 canales de ancho de banda de 100KHz. ¿Cúal es el ancho de banda necesario si se necesita una banda de guarda de 10KHz",
+    "opciones": [
+      "1090 KHz",
+      "870 KHz",
+      "25 KHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10 × 100 + 9 × 10 = 1090 kHz.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 6,
+      "paginaPdf": 276
+    }
+  },
+  {
+    "id": "E40-P16",
+    "tema": "Tema 6",
+    "enunciado": "Tenemos un multiplexor en tiempo estadístico con 28 canales de entrada",
+    "opciones": [
+      "Cada entrada se etiqueta con un bit",
+      "Cada entrada se etiqueta con un mínimo de 5 bits",
+      "No se requiere etiquetado porque funciona de manera síncrona",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En TDM estadístico cada ranura lleva la dirección de la entrada: ⌈log₂ 28⌉ = 5 bits.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 16,
+      "paginaPdf": 285
+    }
+  },
+  {
+    "id": "E41-P05",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación síncrona por división de tiempo de 6 canales de 4 kbps cada uno y suponiendo que la unidad de multiplexación es de un bit.\n1.- ¿Cuál es la duración de una trama de salida del multiplexor?\n2.- ¿Cuál era la duración de un bit antes de la multiplexación?",
+    "opciones": [
+      "250ms y 250ms",
+      "500ms y 500ms",
+      "100ms y 180ms",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Cada trama lleva 1 bit por canal y dura lo que un bit de entrada: 1/4 kbps = 250 µs, y el bit antes de multiplexar también dura 250 µs. Las opciones dicen ms, así que ninguna es correcta.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 5,
+      "paginaPdf": 292
+    }
+  },
+  {
+    "id": "E43-P18",
+    "tema": "Tema 6",
+    "enunciado": "Se quieren multiplexar, por división en frecuencia, 10 canales de ancho de banda de 200 kHz cada uno ¿Cuál es el ancho de banda necesario si se necesita una banda de guarda de 10 kHz? El cálculo se pide para el mínimo de bandas de guarda requerido.",
+    "opciones": [
+      "1 MHz",
+      "2,09 MHz",
+      "25 kHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "10 × 200 + 9 × 10 = 2090 kHz = 2,09 MHz.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 18,
+      "paginaPdf": 314
+    }
+  },
+  {
+    "id": "E45-P03",
+    "tema": "Tema 6",
+    "enunciado": "Dada una multiplexación síncrona por división de tiempo de 8 canales de 2 kbps cada uno y suponiendo que la unidad de multiplexación es de un bit. ¿Cuál es la duración de cada trama? ¿Cuál es la tasa de transmisión del enlace?",
+    "opciones": [
+      "0,5 ms, 16kbps",
+      "1 ms, 4kbps",
+      "4 ms, 8kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Trama de 8 bits cada 1/2000 s = 0,5 ms; enlace = 16 kbps.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 3,
+      "paginaPdf": 327
+    }
+  },
+  {
+    "id": "E46-P09",
+    "tema": "Tema 6",
+    "enunciado": "Se utiliza TDM síncrono para combinar 20 fuentes digitales, cada una de 100 kbps. Cada ranura de salida transporta 4 bits de cada fuente digital, y se añade un bit extra a cada trama para sincronizar. ¿Cuál es el tamaño de la trama de salida?",
+    "opciones": [
+      "84 bits",
+      "100 bits",
+      "81 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "20 fuentes × 4 bits + 1 bit de sincronización = 81 bits.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 9,
+      "paginaPdf": 336
+    }
+  }
+]

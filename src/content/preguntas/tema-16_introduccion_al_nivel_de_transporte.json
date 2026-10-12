@@ -1,0 +1,650 @@
+[
+  {
+    "id": "E01-P09",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿ cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ de parada y espera?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 2⁵ y ventana de recepción 2⁵",
+      "Ventana de envío 0 y ventana de recepción 1",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "En parada y espera solo hay una trama pendiente: ventana de envío = 1 y de recepción = 1, sea cual sea el número de bits de secuencia.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 9,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P04",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ con vuelta atrás N?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 31 y ventana de recepción 1",
+      "Ventana de envío 32 y ventana de recepción 32",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N: ventana de envío ≤ 2^m − 1 = 31 y ventana de recepción = 1.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 4,
+      "paginaPdf": 7
+    }
+  },
+  {
+    "id": "E05-P04",
+    "tema": "Tema 16",
+    "enunciado": "Los rangos IANA (Internet Assigned Number Authority) son",
+    "opciones": [
+      "Las asignaciones de números de puerto a distintos servicios o protocolos",
+      "La división en clases en el direccionamiento IP",
+      "El direccionamiento sin clases relativo a los rangos de direcciones IP privadas",
+      "Ninguno de los otros"
+    ],
+    "correcta": 0,
+    "explicacion": "IANA/ICANN divide los números de puerto en rangos: bien conocidos (0-1023), registrados (1024-49151) y dinámicos (49152-65535).",
+    "origen": {
+      "examen": 5,
+      "pregunta": 4,
+      "paginaPdf": 25
+    }
+  },
+  {
+    "id": "E07-P08",
+    "tema": "Tema 16",
+    "enunciado": "En el protocolo ARQ con vuelta atrás N, si utilizamos m bits para numerar las tramas, el tamaño de la ventana de envío debe ser:",
+    "opciones": [
+      "Menor que 2^(m) (2 elevado a m)",
+      "Igual o mayor que 2^(m)",
+      "Menor que m² (m al cuadrado)",
+      "Menor que 2^(m-1)"
+    ],
+    "correcta": 0,
+    "explicacion": "Vuelta atrás N: la ventana de envío debe ser menor que 2^m (como máximo 2^m − 1).",
+    "origen": {
+      "examen": 7,
+      "pregunta": 8,
+      "paginaPdf": 42
+    }
+  },
+  {
+    "id": "E09-P20",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ con vuelta atrás N?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 31 y ventana de recepción 1",
+      "Ventana de envío 32 y ventana de recepción 32",
+      "Ventana de envío 16 y ventana de recepción 1"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N con m = 5: ventana de envío 2⁵ − 1 = 31 y de recepción 1.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 20,
+      "paginaPdf": 61
+    }
+  },
+  {
+    "id": "E11-P05",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿ cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ de parada y espera?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 2⁵ y ventana de recepción 1",
+      "Ventana de envío (2⁵) – 1 y ventana de recepción 1",
+      "Ventana de envío y de recepción 2^(5 – 1)"
+    ],
+    "correcta": 0,
+    "explicacion": "Parada y espera: ventana de envío 1 y de recepción 1.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 5,
+      "paginaPdf": 67
+    }
+  },
+  {
+    "id": "E11-P20",
+    "tema": "Tema 16",
+    "enunciado": "Los rangos IANA (Internet Assigned Number Authority) son:",
+    "opciones": [
+      "Las asignaciones de números de puerto a distintos servicios o protocolos del nivel de transporte",
+      "La división en clases en el direccionamiento IP",
+      "El direccionamiento sin clases relativo",
+      "Las asignaciones de números de puerto a distintos servicios o protocolos del nivel de aplicación"
+    ],
+    "correcta": 3,
+    "explicacion": "Los rangos de IANA/ICANN asignan números de puerto (bien conocidos, registrados, dinámicos) a servicios o procesos del nivel de aplicación (HTTP 80, SMTP 25…).",
+    "origen": {
+      "examen": 11,
+      "pregunta": 20,
+      "paginaPdf": 71
+    }
+  },
+  {
+    "id": "E12-P04",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 10 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ de parada y espera?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 2⁵ y ventana de recepción 2⁵",
+      "Ventana de envío 0 y ventana de recepción 1",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "En parada y espera las ventanas de envío y recepción son siempre 1, sea cual sea el número de bits de secuencia.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 4,
+      "paginaPdf": 77
+    }
+  },
+  {
+    "id": "E13-P14",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 6 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ con vuelta atrás N?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 63 y ventana de recepción 1",
+      "Ventana de envío 31 y ventana de recepción 1",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 6: ventana de envío 2⁶ − 1 = 63 y de recepción 1.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 14,
+      "paginaPdf": 89
+    }
+  },
+  {
+    "id": "E14-P11",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 4 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ de parada y espera?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 2⁴ y ventana de recepción 2⁴",
+      "Ventana de envío 0 y ventana de recepción 1",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Parada y espera: ventanas de envío y recepción = 1.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 11,
+      "paginaPdf": 99
+    }
+  },
+  {
+    "id": "E16-P07",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 4 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ con vuelta atrás N?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 15 y ventana de recepción 1",
+      "Ventana de envío 8 y ventana de recepción 8",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 4: envío 2⁴ − 1 = 15, recepción 1.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 7,
+      "paginaPdf": 106
+    }
+  },
+  {
+    "id": "E17-P11",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 4 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ con repetición selectiva?",
+    "opciones": [
+      "Ventana de envío = 8 y ventana de recepción = 8",
+      "Ventana de envío = 2⁴ y ventana de recepción = 2⁴",
+      "Ventana de envío = 0 y ventana de recepción = 1",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Repetición selectiva: ventanas de envío y recepción ≤ 2^(m−1) = 8.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 11,
+      "paginaPdf": 115
+    }
+  },
+  {
+    "id": "E19-P11",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 10 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ de parada y espera?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 2⁵ y ventana de recepción 1",
+      "Ventana de envío 2⁹ y ventana de recepción 1",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Parada y espera: ventanas = 1.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 11,
+      "paginaPdf": 131
+    }
+  },
+  {
+    "id": "E20-P04",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 6 bits, ¿cuál es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ con vuelta atrás N?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 63 y ventana de recepción 1",
+      "Ventana de envío 32 y ventana de recepción 32",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 6: 63 y 1.",
+    "origen": {
+      "examen": 20,
+      "pregunta": 4,
+      "paginaPdf": 137
+    }
+  },
+  {
+    "id": "E21-P01",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿cuál se considera que es el tamaño máximo de ventana de envío y recepción para el protocolo ARQ de parada y espera?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 2⁵ y ventana de recepción 2⁵",
+      "Ventana de envío 0 y ventana de recepción 1",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "Parada y espera: ventanas de envío y recepción = 1.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 1,
+      "paginaPdf": 141
+    }
+  },
+  {
+    "id": "E22-P01",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿cuál es el tamaño máximo de las ventanas de envío y recepción para el protocolo ARQ con vuelta atrás N?",
+    "opciones": [
+      "Ventana de envío 1 y ventana de recepción 1",
+      "Ventana de envío 31 y ventana de recepción 1",
+      "Ventana de envío 32 y ventana de recepción 32",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 5: 31 y 1.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 1,
+      "paginaPdf": 145
+    }
+  },
+  {
+    "id": "E26-P03",
+    "tema": "Tema 16",
+    "enunciado": "En el protocolo ARQ con vuelta atrás N, si utilizamos m bits para numerar las tramas, el tamaño máximo de la ventana de envío debe ser:",
+    "opciones": [
+      "Menor que 2^(m) (2 elevado a m)",
+      "Menor o igual que 2^(m – 1) (2 elevado a m – 1)",
+      "Menor que m² (m al cuadrado)",
+      "Menor que 2^(m-1)"
+    ],
+    "correcta": 0,
+    "explicacion": "Vuelta atrás N: la ventana de envío debe ser menor que 2^m (como máximo 2^m − 1). 2^(m−1) es el límite de la repetición selectiva, no de vuelta atrás N.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 3,
+      "paginaPdf": 165
+    }
+  },
+  {
+    "id": "E27-P17",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con vuelta atrás N",
+    "opciones": [
+      "Ventana de envío= 1. Ventana de recepción=1",
+      "Ventana de envío=31. Ventana de recepción=1",
+      "Ventana de envío=16. Ventana de recepción=16",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 5: 31 y 1.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 17,
+      "paginaPdf": 176
+    }
+  },
+  {
+    "id": "E28-P05",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con repetición selectiva.",
+    "opciones": [
+      "Ventana de envío= 1. Ventana de recepción=1",
+      "Ventana de envío=31. Ventana de recepción=1",
+      "Ventana de envío=16. Ventana de recepción=16",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Repetición selectiva, m = 5: ventanas ≤ 2^(m−1) = 16.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 5,
+      "paginaPdf": 184
+    }
+  },
+  {
+    "id": "E29-P07",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits ¿ Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con vuelta atrás N",
+    "opciones": [
+      "Ventana de envío = 1, Ventana de recepción = 1",
+      "Ventana de envío = 31, Ventana de recepción = 1",
+      "Ventana de envío = 32, Ventana de recepción = 1",
+      "Ventana de envío = 31, Ventana de recepción = 31"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 5: envío 31, recepción 1.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 7,
+      "paginaPdf": 194
+    }
+  },
+  {
+    "id": "E30-P04",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits ¿Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con repetición selectiva.",
+    "opciones": [
+      "Ventana de envío = 32. Ventana de recepción = 1",
+      "Ventana de envío = 31. Ventana de recepción = 1",
+      "Ventana de envío = 16. Ventana de recepción = 16",
+      "Ventana de envío = 31. Ventana de recepción = 31"
+    ],
+    "correcta": 2,
+    "explicacion": "Repetición selectiva, m = 5: 16 y 16.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 4,
+      "paginaPdf": 201
+    }
+  },
+  {
+    "id": "E32-P03",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con vuelta atrás N?.",
+    "opciones": [
+      "Ventana de envío = 32. Ventana de recepción = 1",
+      "Ventana de envío =31. Ventana de recepción = 1",
+      "Ventana de envío = 1. Ventana de recepción = 31",
+      "Ventana de envío = 16. Ventana de recepción = 1"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N, m = 5: 31 y 1.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 3,
+      "paginaPdf": 219
+    }
+  },
+  {
+    "id": "E33-P03",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 5 bits, ¿Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con repetición selectiva?",
+    "opciones": [
+      "Ventana de envío = 15. Ventana de recepción = 1",
+      "Ventana de envío = 31. Ventana de recepción = 1",
+      "Ventana de envío = 16. Ventana de recepción = 16",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Repetición selectiva, m = 5: 16 y 16.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 3,
+      "paginaPdf": 227
+    }
+  },
+  {
+    "id": "E34-P12",
+    "tema": "Tema 16",
+    "enunciado": "En ARQ con vuelta atrás N con m bits para identificar las tramas, el tamaño de la ventana de envío debe ser:",
+    "opciones": [
+      "Menor que 2^(m) [2 elevado a m]",
+      "Menor que 2^(m-1) [2 elevado a (m-1)]",
+      "Menor o igual que 2^(m) [2 elevado a m]",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Vuelta atrás N: ventana de envío < 2^m (máximo 2^m − 1).",
+    "origen": {
+      "examen": 34,
+      "pregunta": 12,
+      "paginaPdf": 237
+    }
+  },
+  {
+    "id": "E35-P14",
+    "tema": "Tema 16",
+    "enunciado": "En ARQ con vuelta atrás selectiva con m bits para identificar las tramas, el tamaño de la ventana del receptor debe ser:",
+    "opciones": [
+      "Menor que 2^(m) [2 elevado a m]",
+      "1",
+      "Menor que 2^(m-1) [2 elevado a (m–1)]",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "En repetición selectiva las ventanas de envío y de recepción son como máximo 2^(m−1).",
+    "origen": {
+      "examen": 35,
+      "pregunta": 14,
+      "paginaPdf": 245
+    }
+  },
+  {
+    "id": "E36-P17",
+    "tema": "Tema 16",
+    "enunciado": "Supóngase implementado un protocolo ARQ vuelta atrás N con tamaño de ventana 7 en un sistema bidireccional simétrico. Si cada trama es de 1000 bits de datos. ¿Cuánto tiempo se necesitará para enviar 700Kbits. La distancia entre emisor y receptor es de 5000 Km? y ¿Cuántas ventanas serán necesarias?\nDatos:\nVelocidad de propagación de la señal: 2x 10⁸ m/s\nEl bitrate del canal es de 1 Mbps.\nTiempo de transmisión de ACK despreciable y se ignora el retraso de transmisión, espera y procesamiento.\nNo se pierde ninguna trama de datos o control.\nIgnorar la sobrecarga debida a la cabecera y cola.\nConsidérese que el ACK se envía cuando toda la ventana ha sido enviada y recibida.",
+    "opciones": [
+      "1,3s y 700 ventanas",
+      "1,3 s y 100 ventanas",
+      "2,1 s y 100 ventanas",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "700 tramas / 7 = 100 ventanas. Cada ventana: 7 × 1 ms + RTT (2 × 25 ms) = 57 ms → 5,7 s. Ninguna opción coincide.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 17,
+      "paginaPdf": 254
+    }
+  },
+  {
+    "id": "E37-P13",
+    "tema": "Tema 16",
+    "enunciado": "Supóngase implementado un protocolo ARQ vuelta atrás selectiva con 4 bits para etiquetar las tramas. Si cada trama es de 8000 bits de datos. ¿Cuánto tiempo se necesitará para enviar 40Kbytes si la distancia entre emisor y receptor es de 10000 Km?\nDatos:\nVelocidad de propagación de la señal en el medio: 2x10⁸ m/s\nEl bitrate es de 10 Mb/s.\nTiempo de transmisión de ACK despreciable y se ignora el retraso de transmisión, espera y procesamiento.\nNo se pierde ninguna trama de datos o control.\nIgnorar la sobrecarga debida a la cabecera y cola.\nConsidérese que el ACK se envía cuando toda la ventana ha sido enviada y recibida.",
+    "opciones": [
+      "320,5 ms",
+      "36 ms",
+      "32,5 ms",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Ventana = 2³ = 8 tramas; Ttx = 8000/10⁷ = 0,8 ms. 320000 bits = 40 tramas = 5 ventanas × (6,4 ms + RTT de 100 ms) = 532 ms. Ninguna opción coincide.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 13,
+      "paginaPdf": 261
+    }
+  },
+  {
+    "id": "E39-P07",
+    "tema": "Tema 16",
+    "enunciado": "Usando números de secuencia de 12 bits, ¿Cuál es el tamaño máximo de la ventana de envío y recepción para el protocolo ARQ con repetición selectiva?.",
+    "opciones": [
+      "Ventana de envío= 10. Ventana de recepción=10",
+      "Ventana de envío=20. Ventana de recepción=1",
+      "Ventana de envío= 2048. Ventana de recepción=2048",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Repetición selectiva, m = 12: ventanas ≤ 2¹¹ = 2048.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 7,
+      "paginaPdf": 276
+    }
+  },
+  {
+    "id": "E41-P16",
+    "tema": "Tema 16",
+    "enunciado": "En el protocolo ARQ con vuelta atrás N, que emplea m bits para el campo identificador de secuencia, el tamaño máximo de la ventana de envío debe ser:",
+    "opciones": [
+      "2^(m–1) 2 elevado a (m menos 1)",
+      "(2^(m)) – 1 (2 elevado a m) menos 1",
+      "Mayor que 2^(m)+1 (2 elevado a m) mas 1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N: ventana de envío máxima 2^m − 1.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 16,
+      "paginaPdf": 294
+    }
+  },
+  {
+    "id": "E42-P17",
+    "tema": "Tema 16",
+    "enunciado": "En el protocolo ARQ con vuelta atrás N que emplea m bits para el campo identificador de secuencia, el tamaño de la ventana del receptor debe ser:",
+    "opciones": [
+      "Estrictamente menor que 2^(m) (2 elevado a m)",
+      "Siempre es 1",
+      "Mayor que 2^(m) (2 elevado a m)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En vuelta atrás N la ventana de recepción es siempre 1.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 17,
+      "paginaPdf": 304
+    }
+  },
+  {
+    "id": "E44-P15",
+    "tema": "Tema 16",
+    "enunciado": "Si se emplean m bits para el identificador de secuencia, en ARQ con vuelta atrás N el tamaño de la ventana del receptor debe ser:",
+    "opciones": [
+      "Menor que 2^(m) (2 elevado a m)",
+      "Siempre es 1",
+      "Mayor que 2^(m) (2 elevado a m)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En vuelta atrás N la ventana del receptor es siempre 1.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 15,
+      "paginaPdf": 321
+    }
+  },
+  {
+    "id": "E46-P18",
+    "tema": "Tema 16",
+    "enunciado": "Tenemos una comunicación con el protocolo ARQ con parada y espera y modelamos al emisor mediante una máquina de estados finitos. Cuando el emisor está en el estado de disponible para enviar y el número de secuencia es S=0 ¿cuál será el número de secuencia del próximo paquete que se envíe?",
+    "opciones": [
+      "SegNo = 1",
+      "SegNo = 0",
+      "SegNo = ACK que se espera recibir",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En el estado «listo», el emisor de parada y espera envía el paquete con seqNo = S = 0 y después actualiza S a 1.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 18,
+      "paginaPdf": 338
+    }
+  },
+  {
+    "id": "E49-P08",
+    "tema": "Tema 16",
+    "enunciado": "En un protocolo de control de errores tipo ARQ Go-Back-N (Vuelta atrás N), se utiliza un campo de número de secuencia codificado con 3 bits. ¿Cuál es el tamaño máximo permitido para la ventana de transmisión que garantiza un funcionamiento correcto del protocolo sin ambigüedad en la identificación de tramas?",
+    "opciones": [
+      "8",
+      "2",
+      "3",
+      "7"
+    ],
+    "correcta": 3,
+    "explicacion": "Vuelta atrás N: ventana ≤ 2^m − 1 = 7.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 8,
+      "paginaPdf": 360
+    }
+  },
+  {
+    "id": "E50-P20",
+    "tema": "Tema 16",
+    "enunciado": "En un protocolo tipo ARQ Go-Back-N, se utiliza un campo de número de secuencia codificado con 4 bits. Considerando esta limitación en la codificación, ¿cuál es el tamaño máximo permitido para la ventana de transmisión que garantiza un funcionamiento correcto del protocolo sin ambigüedad en la identificación de tramas?",
+    "opciones": [
+      "8",
+      "15",
+      "4",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Vuelta atrás N con m = 4: ventana máxima 2⁴ − 1 = 15.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 20,
+      "paginaPdf": 373
+    }
+  },
+  {
+    "id": "E51-P16",
+    "tema": "Tema 16",
+    "enunciado": "En ARQ con vuelta atrás N el tamaño de la ventana de recepción es:",
+    "opciones": [
+      "Menor que 2^(m)",
+      "1",
+      "Menor que 2^(m-1)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En vuelta atrás N la ventana de recepción es 1.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 16,
+      "paginaPdf": 382
+    }
+  },
+  {
+    "id": "E52-P19",
+    "tema": "Tema 16",
+    "enunciado": "En un protocolo ARQ Go-Back-N con un campo de número de secuencia de 3 bits, ¿cuál es el tamaño máximo de la ventana de transmisión?",
+    "opciones": [
+      "7",
+      "8",
+      "4",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Vuelta atrás N con m = 3: ventana máxima 7.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 19,
+      "paginaPdf": 390
+    }
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "E19-P18",
+    "tema": "Tema 11",
+    "enunciado": "¿Cuál es la diferencia entre un BBS y un ESS?",
+    "opciones": [
+      "Una EES está formada por dos o más BSS con AP",
+      "ESS hace referencia a una red inalámbrica Ad-Hoc y BSS a una de infraestructura",
+      "Una BSS está formada por dos EES con AP",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Un BSS es un conjunto básico (con o sin AP). Un ESS está formado por dos o más BSS con AP unidos por un sistema de distribución.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 18,
+      "paginaPdf": 132
+    }
+  },
+  {
+    "id": "E20-P12",
+    "tema": "Tema 11",
+    "enunciado": "¿ Cuál es el método de acceso usado habitualmente por las LAN inalámbricas?",
+    "opciones": [
+      "CSMA-CA",
+      "LLC",
+      "CSMA-CD",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Las LAN inalámbricas (802.11, DCF) usan CSMA/CA.",
+    "origen": {
+      "examen": 20,
+      "pregunta": 12,
+      "paginaPdf": 138
+    }
+  },
+  {
+    "id": "E25-P03",
+    "tema": "Tema 11",
+    "enunciado": "En una red inalámbrica bajo la norma IEEE 802.11:\nDCF: Función de Coordinación Distribuido\nPCF: Función de Coordinación Puntual",
+    "opciones": [
+      "Una red en modo infraestructura puede utilizar tanto DCF como PCF de manera simultánea",
+      "Si la red emplea el modo DCF no puede utilizar el modo PCF",
+      "Solo las redes Ad-hoc pueden utilizar los modos DCF y PCF simultáneamente",
+      "Todas las respuestas son ciertas"
+    ],
+    "correcta": 0,
+    "explicacion": "PCF es opcional y se implementa sobre DCF en redes de infraestructura (con AP): ambos conviven alternando periodo libre de contención (PCF) y periodo de contención (DCF).",
+    "origen": {
+      "examen": 25,
+      "pregunta": 3,
+      "paginaPdf": 157
+    }
+  },
+  {
+    "id": "E25-P05",
+    "tema": "Tema 11",
+    "enunciado": "Las redes WiFi con el estándar IEEE-802.11:",
+    "opciones": [
+      "Ofrecen servicios BSS sólo cuando utilizan un punto de acceso",
+      "Ofrecen servicios ESS cuando trabajan sin punto de acceso definido",
+      "BSS contempla la comunicación entre distintos puntos de acceso",
+      "Los servicios BSS son posibles en redes Ad-Hoc o de Infraestructura"
+    ],
+    "correcta": 3,
+    "explicacion": "Un BSS puede ser ad hoc (sin AP) o de infraestructura (con AP).",
+    "origen": {
+      "examen": 25,
+      "pregunta": 5,
+      "paginaPdf": 157
+    }
+  },
+  {
+    "id": "E26-P09",
+    "tema": "Tema 11",
+    "enunciado": "En una red WiFi (IEEE-802.11)",
+    "opciones": [
+      "La Función de Coordinación Puntual debe ser soportada por todas las estaciones",
+      "Tanto la Función de Coordinación Puntual como la Función de Coordinación Distribuida debe ser soportada por todas las estaciones",
+      "La Función de Coordinación Distribuida debe ser soportada por todas las estaciones",
+      "Ninguna de las dos funciones de coordinación es obligatoria"
+    ],
+    "correcta": 2,
+    "explicacion": "DCF es obligatoria y la soportan todas las estaciones; PCF es opcional.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 9,
+      "paginaPdf": 166
+    }
+  },
+  {
+    "id": "E26-P18",
+    "tema": "Tema 11",
+    "enunciado": "En una red inalámbrica bajo la norma IEEE 802.11:",
+    "opciones": [
+      "La Función de Coordinación Distribuida utiliza un esquema basado en balizas (beacon)",
+      "En la Función de Coordinación Puntual, el punto de acceso envía balizas de manera regular para señalizar el inicio del periodo libre de contención",
+      "Las balizas se utilizar [sic] para delimitar el intervalo de contención",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En PCF el AP envía periódicamente una baliza que inicia el periodo libre de contención; DCF no usa balizas para el acceso.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 18,
+      "paginaPdf": 168
+    }
+  },
+  {
+    "id": "E27-P09",
+    "tema": "Tema 11",
+    "enunciado": "Recordando que en una red WiFi bajo la norma IEEE 802.11, DCF es la Función de Coordinación Distribuida y PCF es la función de Coordinación Puntual señale la afirmación correcta:",
+    "opciones": [
+      "Las estaciones en el modo PCF utilizan un método basado en contención para acceder al medio",
+      "PCF requiere un punto de acceso para controlar el acceso al medio de todas las estaciones de la red",
+      "El modo PCF es obligado por la norma mientras que el modo DCF es opcional",
+      "Todas las respuestas son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "PCF es un método de sondeo centralizado: requiere un AP que controle el acceso; es opcional (DCF es la obligatoria) y no usa contención.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 9,
+      "paginaPdf": 174
+    }
+  },
+  {
+    "id": "E29-P09",
+    "tema": "Tema 11",
+    "enunciado": "En una red inalámbrica bajo la norma IEEE 802.11:",
+    "opciones": [
+      "La Función de Coordinación Distribuida utiliza un esquema basado en balizas (beacon)",
+      "En la Función de Coordinación Puntual, el punto de acceso envía balizas de manera regular para señalizar el inicio del periodo libre de contención",
+      "Las balizas se utilizan para delimitar el intervalo de contención",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En PCF el AP emite balizas periódicas que marcan el inicio del periodo libre de contención.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 9,
+      "paginaPdf": 194
+    }
+  },
+  {
+    "id": "E29-P20",
+    "tema": "Tema 11",
+    "enunciado": "Para controlar el acceso al medio (subcapa MAC) una red Bluetooth emplea",
+    "opciones": [
+      "El método Aloha ranurado",
+      "FSSH (Ensanchamiento del espectro por salto de frecuencias)",
+      "CSMA-CD",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Bluetooth usa como MAC una forma de TDMA (TDD-TDMA, con ranuras de 625 µs); FHSS es su técnica del nivel físico.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 20,
+      "paginaPdf": 196
+    }
+  },
+  {
+    "id": "E30-P20",
+    "tema": "Tema 11",
+    "enunciado": "El protocolo RTS/CTS de las redes inalámbricas:",
+    "opciones": [
+      "Permite resolver el problema de la estación oculta",
+      "Permite resolver el problema de la estación expuesta",
+      "Permite resolver el problema de la estación expuesta y de la estación oculta",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "RTS/CTS resuelve el problema de la estación oculta, no el de la estación expuesta.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 20,
+      "paginaPdf": 204
+    }
+  },
+  {
+    "id": "E32-P07",
+    "tema": "Tema 11",
+    "enunciado": "El protocolo RTS/CTS de las redes inalámbricas:",
+    "opciones": [
+      "Permite resolver el problema de la estación oculta pero no el de la expuesta",
+      "Permite resolver el problema de la estación expuesta pero no el de la oculta",
+      "Permite resolver los problemas de la estación expuesta y de la estación oculta",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "RTS/CTS resuelve la estación oculta pero no la expuesta.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 7,
+      "paginaPdf": 220
+    }
+  },
+  {
+    "id": "E33-P07",
+    "tema": "Tema 11",
+    "enunciado": "En una LAN inalámbrica",
+    "opciones": [
+      "Se ofrecen servicios básicos (BSS) solo cuando no hay un punto de acceso",
+      "Se ofrecen servicios extendidos (ESS) cuando hay un único punto de acceso",
+      "Se pueden ofrecer servicios básicos (BSS) tanto si hay punto de acceso como si no",
+      "Solo se pueden ofrecer servicios extendidos cuando la arquitectura de la red es de tipo Ad-Hoc"
+    ],
+    "correcta": 2,
+    "explicacion": "Un BSS puede formarse con AP (infraestructura) o sin él (ad hoc).",
+    "origen": {
+      "examen": 33,
+      "pregunta": 7,
+      "paginaPdf": 228
+    }
+  },
+  {
+    "id": "E34-P19",
+    "tema": "Tema 11",
+    "enunciado": "Las tramas de las redes inalámbricas IEEE-802.11",
+    "opciones": [
+      "Utilizan 2 direcciones MAC compatibles con Ethernet para identificar el emisor y el receptor de cada trama",
+      "Utilizan siempre 3 direcciones MAC compatibles con Ethernet",
+      "Utilizan 3 o 4 direcciones MAC compatibles con Ethernet",
+      "El esquema de direccionamiento inalámbrico es incompatible con el direccionamiento Ethernet"
+    ],
+    "correcta": 2,
+    "explicacion": "La trama 802.11 tiene hasta 4 campos de dirección MAC de 48 bits; según los bits To DS/From DS se usan 3 o 4.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 19,
+      "paginaPdf": 238
+    }
+  },
+  {
+    "id": "E34-P20",
+    "tema": "Tema 11",
+    "enunciado": "Señale la afirmación que considere verdadera:",
+    "opciones": [
+      "Las redes inalámbricas utilizan CSMA-CA (Carrier Sense Multiple Access – Collision Avoidance) y por lo tanto nunca se producen colisiones",
+      "En una red inalámbrica, solo se pueden producir colisiones durante el proceso RTS/CTS de alguna estación",
+      "En una red inalámbrica se pueden producir colisiones en cualquier trama y se resuelven mediante reenvío de la trama afectada",
+      "En una red inalámbrica se reenvía una trama cuando se ha detectado colisión de la misma"
+    ],
+    "correcta": 2,
+    "explicacion": "CSMA/CA reduce las colisiones pero no las elimina; como no se pueden detectar, se infieren por la falta de ACK y la trama se retransmite.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 20,
+      "paginaPdf": 238
+    }
+  },
+  {
+    "id": "E36-P09",
+    "tema": "Tema 11",
+    "enunciado": "¿Cuantas estaciones podemos tener activas simultáneamente un una misma red Bluetooth?",
+    "opciones": [
+      "No hay un limite máximo",
+      "Un máximo de 256",
+      "Depende de la capacidad de direccionamiento del primario",
+      "Un máximo de 8"
+    ],
+    "correcta": 3,
+    "explicacion": "Una piconet Bluetooth tiene como máximo 8 estaciones activas: 1 primaria y 7 secundarias.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 9,
+      "paginaPdf": 252
+    }
+  },
+  {
+    "id": "E37-P09",
+    "tema": "Tema 11",
+    "enunciado": "Respecto a una red inalámbrica basada en IEEE 802.11 señale la afirmación correcta.\nDCF: Función de Coordinación Distribuida\nPCF: Función de Coordinación Puntual",
+    "opciones": [
+      "Sólo las redes de tipo Infraestructura pueden utilizar PCF",
+      "Sólo las redes Ad-hoc pueden utilizar DCF",
+      "Sólo las redes Ad-hoc pueden utilizar PCF",
+      "Cualquier red inalámbrica, tanto si es de tipo Ad-hoc como de tipo Infraestructura puede utilizar el método DCF o el método PCF"
+    ],
+    "correcta": 0,
+    "explicacion": "PCF necesita un AP que haga el sondeo, por lo que solo pueden usarla las redes de infraestructura.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 9,
+      "paginaPdf": 260
+    }
+  },
+  {
+    "id": "E39-P18",
+    "tema": "Tema 11",
+    "enunciado": "Indique la banda(s) frecuencial(es) en la que trabaja Bluetooth",
+    "opciones": [
+      "2,4 GHz",
+      "5 GHz",
+      "2,4 o 5 GHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Bluetooth trabaja en la banda ISM de 2,4 GHz.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 18,
+      "paginaPdf": 278
+    }
+  },
+  {
+    "id": "E41-P20",
+    "tema": "Tema 11",
+    "enunciado": "Señale la afirmación correcta respecto a una red inalámbrica en modo BSS o en modo ESS",
+    "opciones": [
+      "BSS es siempre de tipo Ad-hoc mientras que ESS es siempre de tipo infraestructura",
+      "BSS es siempre de tipo infraestructura y ESS es siempre de tipo Ad-Hoc",
+      "Una red con BSS puede configurarse como Ad-hoc o como Infraestructura",
+      "Una red con ESS puede configurarse como Ad-hoc o como Infraestructura"
+    ],
+    "correcta": 2,
+    "explicacion": "Un BSS puede ser ad hoc (sin AP) o de infraestructura (con AP); un ESS siempre usa AP.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 20,
+      "paginaPdf": 295
+    }
+  },
+  {
+    "id": "E42-P10",
+    "tema": "Tema 11",
+    "enunciado": "Recordando que en una red WiFi bajo la norma IEEE 802.11, DCF es la Función de Coordinación Distribuida y PCF es la función de Coordinación Puntual, señale la afirmación correcta:",
+    "opciones": [
+      "Las estaciones en el modo PCF utilizan un método basado en contención para acceder al medio",
+      "PCF requiere un punto de acceso para controlar el acceso al medio de todas las estaciones de la red",
+      "El modo PCF es obligado por la norma mientras que el modo DCF es opcional",
+      "Todas las opciones son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "PCF necesita un AP que controle el acceso mediante sondeo; no usa contención y es opcional.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 10,
+      "paginaPdf": 303
+    }
+  },
+  {
+    "id": "E46-P14",
+    "tema": "Tema 11",
+    "enunciado": "Supóngase que una trama Ethernet, que viaja por un sistema DS, pasa a una red inalámbrica que usa el protocolo 802.11. Supóngase que la transformación se produce en el punto de acceso que se encuentra en el límite entre las dos redes. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "La MAC de destino se almacena en el campo Dirección 1 y la MAC de origen se almacena en el campo Dirección 3",
+      "La MAC de destino se almacena en el campo Dirección 3 y la MAC de origen se almacena en el campo Dirección 2",
+      "La MAC de destino se almacena en el campo Dirección 1 y la MAC de origen se almacena en el campo Dirección 4",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Del DS hacia la celda (To DS = 0, From DS = 1): Dirección 1 = destino, Dirección 2 = AP emisor y Dirección 3 = origen.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 14,
+      "paginaPdf": 337
+    }
+  },
+  {
+    "id": "E50-P07",
+    "tema": "Tema 11",
+    "enunciado": "Una trama pasa de una red cableada que utiliza el protocolo 802.3 a una red inalámbrica que usa el protocolo 802.11. Supóngase que la transformación se produce en el punto de acceso que se encuentra en el límite entre las dos redes. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "La dirección destino se almacena en el campo Dirección 1 y la dirección origen se almacena en el campo Dirección 3",
+      "La dirección destino se almacena en el campo Dirección 3 y la dirección origen se almacena en el campo Dirección 2",
+      "La dirección destino se almacena en el campo Dirección 1 y la dirección origen se almacena en el campo Dirección 2",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "De la red cableada hacia la inalámbrica (From DS = 1): Dirección 1 = destino, Dirección 2 = AP y Dirección 3 = origen.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 7,
+      "paginaPdf": 370
+    }
+  }
+]

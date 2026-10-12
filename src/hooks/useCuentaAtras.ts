@@ -3,7 +3,10 @@ import { useEffect, useRef, useState } from "react";
 export function useCuentaAtras(finEn: number | null, alAcabar: () => void) {
   const [restante, setRestante] = useState(() => (finEn ? Math.max(0, finEn - Date.now()) : 0));
   const callback = useRef(alAcabar);
-  callback.current = alAcabar;
+  // Guarda siempre la última versión de alAcabar sin reiniciar el temporizador
+  useEffect(() => {
+    callback.current = alAcabar;
+  });
 
   useEffect(() => {
     if (!finEn) return;

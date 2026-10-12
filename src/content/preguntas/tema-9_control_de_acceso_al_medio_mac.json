@@ -1,0 +1,956 @@
+[
+  {
+    "id": "E01-P18",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 100 Mbps?",
+    "opciones": [
+      "2500 m",
+      "250 m",
+      "25m",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "En CSMA/CD la longitud máxima es inversamente proporcional a la tasa (trama mínima fija): ×10 la tasa → ÷10 la distancia: 2500/10 = 250 m.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 18,
+      "paginaPdf": 3
+    }
+  },
+  {
+    "id": "E02-P09",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 1Gbps?",
+    "opciones": [
+      "2500 m",
+      "250 m",
+      "25m",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "La tasa se multiplica por 100 → la distancia máxima se divide por 100: 2500/100 = 25 m.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 9,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E04-P10",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 10Gbps?",
+    "opciones": [
+      "2500 m",
+      "250 m",
+      "2.5m",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "La tasa se multiplica por 1000 → la distancia se divide por 1000: 2500/1000 = 2,5 m.",
+    "origen": {
+      "examen": 4,
+      "pregunta": 10,
+      "paginaPdf": 20
+    }
+  },
+  {
+    "id": "E05-P16",
+    "tema": "Tema 9",
+    "enunciado": "Suponiendo que una red trabaja a 10Mbps sobre un medio con una velocidad de propagación de 2x10⁸ m/s y que la trama mínima tiene 72 bytes. Para que el método CSMA-CD funcione correctamente, la longitud de la red debe ser:",
+    "opciones": [
+      "Mayor que 5760 metros",
+      "Menor que 5760 metros",
+      "Menor que 7200 metros",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "Trama mínima = 576 bits → Tfr = 57,6 µs. Debe cumplirse Tfr ≥ 2·Tp → Tp ≤ 28,8 µs → L ≤ 28,8 µs × 2·10⁸ m/s = 5760 m.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 16,
+      "paginaPdf": 27
+    }
+  },
+  {
+    "id": "E07-P13",
+    "tema": "Tema 9",
+    "enunciado": "Una red Aloha con ranura transmite tramas de 200 bits sobre un canal compartido de 200Kbps ¿Cuál es la productividad si el sistema (todas las estaciones juntas) produce 1000 tramas por segundo?",
+    "opciones": [
+      "13,5% lo que supone una productividad de 135 tramas por segundo",
+      "50% lo que supone que se pierden la mitad de las tramas",
+      "36,8% lo que supone una productividad de 368 tramas por segundo",
+      "La productividad de Aloha ranurado es justo el doble que la del Aloha sin ranurar"
+    ],
+    "correcta": 2,
+    "explicacion": "Tfr = 200/200·10³ = 1 ms; G = 1000 × 1 ms = 1. ALOHA ranurado: S = G·e^(−G) = 0,368 → 368 tramas/s.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 13,
+      "paginaPdf": 43
+    }
+  },
+  {
+    "id": "E09-P14",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD [sic] con una tasa de 10Mps [sic] la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 100 Mbps?",
+    "opciones": [
+      "2500m",
+      "250m",
+      "25000m",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tasa ×10 → distancia ÷10: 2500/10 = 250 m.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 14,
+      "paginaPdf": 60
+    }
+  },
+  {
+    "id": "E11-P02",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 1Gbps?",
+    "opciones": [
+      "2500m",
+      "250m",
+      "25m",
+      "25000m"
+    ],
+    "correcta": 2,
+    "explicacion": "Tasa ×100 → distancia ÷100: 25 m.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 2,
+      "paginaPdf": 67
+    }
+  },
+  {
+    "id": "E14-P12",
+    "tema": "Tema 9",
+    "enunciado": "En una red CSMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 10Gps?",
+    "opciones": [
+      "2500m",
+      "250m",
+      "2,5m",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tasa ×1000 → distancia ÷1000 = 2,5 m.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 12,
+      "paginaPdf": 99
+    }
+  },
+  {
+    "id": "E16-P08",
+    "tema": "Tema 9",
+    "enunciado": "En una red CSMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 1Gbps?",
+    "opciones": [
+      "2500m",
+      "250m",
+      "25m",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tasa ×100 → distancia ÷100 = 25 m.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 8,
+      "paginaPdf": 106
+    }
+  },
+  {
+    "id": "E17-P12",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿Cuál debería ser la distancia máxima si se incrementa la tasa de datos a 1Gps?",
+    "opciones": [
+      "25000 m",
+      "250 m",
+      "25 m",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tasa ×100 → 25 m.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 12,
+      "paginaPdf": 115
+    }
+  },
+  {
+    "id": "E21-P18",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mbps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿Cuál debería ser la distancia máxima si se incrementa la tasa de datos a 1Gbps?",
+    "opciones": [
+      "2500 m",
+      "250 m",
+      "25 m",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "Tasa ×100 → distancia ÷100 = 25 m.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 18,
+      "paginaPdf": 144
+    }
+  },
+  {
+    "id": "E25-P13",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 100 Mbps?",
+    "opciones": [
+      "2500 metros",
+      "250 metros",
+      "25 metros",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tasa ×10 → 250 m.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 13,
+      "paginaPdf": 159
+    }
+  },
+  {
+    "id": "E26-P15",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿ cuál debería ser la distancia máxima si se incrementa la tasa de datos a 100 Mbps?",
+    "opciones": [
+      "2,5 metros",
+      "250 metros",
+      "25 metros",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tasa ×10 → 250 m.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 15,
+      "paginaPdf": 167
+    }
+  },
+  {
+    "id": "E27-P05",
+    "tema": "Tema 9",
+    "enunciado": "Una red implementa un método de acceso aleatorio del tipo ALOHA puro y transmite tramas de 100 bits sobre un canal de 200kbps ¿cuál es la productividad si el sistema (todas las estaciones juntas) producen 500 tramas por segundo. Usad 3 decimales para el cálculo",
+    "opciones": [
+      "13,5 % lo que supone que 135 tramas de 1000 probablemente sobrevivirán",
+      "18,4 % lo que supone que 184 tramas de 1000 probablemente sobrevivirán",
+      "15,2 % lo que supone que 152 tramas de 1000 probablemente sobrevivirán",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tfr = 100/200·10³ = 0,5 ms; G = 500 × 0,5 ms = 0,25. ALOHA puro: S = G·e^(−2G) = 0,25·e^(−0,5) ≈ 0,152 → 15,2 %.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 5,
+      "paginaPdf": 174
+    }
+  },
+  {
+    "id": "E28-P17",
+    "tema": "Tema 9",
+    "enunciado": "Una red implementa un método de acceso aleatorio del tipo ALOHA puro y transmite tramas de 100 bits sobre un canal de 200kbps ¿Cuál es la productividad si el sistema (todas las estaciones juntas) produce 1000 tramas por segundo. Usad 3 decimales para el cálculo",
+    "opciones": [
+      "13,5 % lo que supone que 125 tramas de 1000 probablemente sobrevivirán",
+      "18,4 % lo que supone que 184 tramas de 1000 probablemente sobrevivirán",
+      "15,2 % lo que supone que 152 tramas de 1000 probablemente sobrevivirán",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tfr = 0,5 ms; G = 1000 × 0,5 ms = 0,5; S = 0,5·e^(−1) ≈ 0,184 → 18,4 %.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 17,
+      "paginaPdf": 186
+    }
+  },
+  {
+    "id": "E29-P03",
+    "tema": "Tema 9",
+    "enunciado": "Calcúlese la tabla de Walsh W2, a partir de W₁ = [−1]",
+    "opciones": [
+      "Matriz 2x2: [−1 −1 ; −1 1]",
+      "Matriz 2x2: [1 −1 ; 1 −1]",
+      "Matriz 2x2: [−1 1 ; −1 1]",
+      "No hay datos suficientes para calcularla"
+    ],
+    "correcta": 0,
+    "explicacion": "W₂ = [W₁ W₁ ; W₁ −W₁] = [−1 −1 ; −1 1].",
+    "origen": {
+      "examen": 29,
+      "pregunta": 3,
+      "paginaPdf": 193
+    }
+  },
+  {
+    "id": "E29-P11",
+    "tema": "Tema 9",
+    "enunciado": "Una red implementa un método de acceso aleatorio del tipo ALOHA puro y transmite tramas de 100 bits sobre un canal de 200kbps ¿Cuál es la productividad si el sistema (todas las estaciones juntas) produce 1000 tramas por segundo. Usad 3 decimales para el cálculo",
+    "opciones": [
+      "12,5% lo que supone que 125 tramas de cada 1000 probablemente sobrevivirán",
+      "18,4% lo que supone que 184 tramas de cada 1000 probablemente sobrevivirán",
+      "36,8% lo que supone que 368 tramas de cada 1000 probablemente sobrevivirán",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "G = 1000 × 0,5 ms = 0,5 → S = 0,5·e^(−1) ≈ 18,4 %.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 11,
+      "paginaPdf": 194
+    }
+  },
+  {
+    "id": "E29-P13",
+    "tema": "Tema 9",
+    "enunciado": "Se dispone de una red ALOHA pura con 100 estaciones. Si el tiempo de transmisión medio es de 1 milisegundo. ¿Cuál es el número de tramas por segundo que cada estación puede enviar para conseguir máxima eficiencia?",
+    "opciones": [
+      "500 tramas por segundo",
+      "5 tramas por segundo",
+      "20 tramas por segundo",
+      "200 tramas por segundo"
+    ],
+    "correcta": 1,
+    "explicacion": "ALOHA puro alcanza el máximo con G = 1/2: medio frame por Tfr = 500 tramas/s en total → 500/100 = 5 tramas/s por estación.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 13,
+      "paginaPdf": 195
+    }
+  },
+  {
+    "id": "E29-P17",
+    "tema": "Tema 9",
+    "enunciado": "Si una red que utiliza CSMA-CD opera a 10 Mbps, con una velocidad de propagación de 200.000Km/s y que una trama mínima tiene 72 bytes. ¿Cual será la longitud máxima de la red?",
+    "opciones": [
+      "5760 metros",
+      "7200 metros",
+      "2000 metros",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tfr = 576 bits/10 Mbps = 57,6 µs; Tp ≤ 28,8 µs → L ≤ 28,8 µs × 2·10⁸ m/s = 5760 m.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 17,
+      "paginaPdf": 195
+    }
+  },
+  {
+    "id": "E30-P05",
+    "tema": "Tema 9",
+    "enunciado": "Calcúlese la tabla de Walsh W2, a partir de W₁ = [−1]",
+    "opciones": [
+      "[ 1 −1 ; 1 −1 ] (matriz 2x2: fila 1 = 1, −1; fila 2 = 1, −1)",
+      "[ −1 1 ; −1 1 ] (matriz 2x2: fila 1 = −1, 1; fila 2 = −1, 1)",
+      "[ −1 −1 ; 1 1 ] (matriz 2x2: fila 1 = −1, −1; fila 2 = 1, 1)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "W₂ = [W₁ W₁ ; W₁ −W₁] = [−1 −1 ; −1 1], que no figura entre las opciones.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 5,
+      "paginaPdf": 201
+    }
+  },
+  {
+    "id": "E30-P08",
+    "tema": "Tema 9",
+    "enunciado": "Se dispone de una red ALOHA pura de 100 estaciones. Si el tiempo de transmisión medio es de 1 microsegundo. ¿Cuál es el número de tramas por segundo que cada estación puede enviar para conseguir máxima eficiencia?",
+    "opciones": [
+      "5.000 Tramas por segundo",
+      "50.000 Tramas por segundo",
+      "500.000 Tramas por segundo",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tfr = 1 µs; máximo con G = 1/2 → 500000 tramas/s en total → 5000 tramas/s por estación.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 8,
+      "paginaPdf": 202
+    }
+  },
+  {
+    "id": "E30-P15",
+    "tema": "Tema 9",
+    "enunciado": "Una red implementa un método de acceso aleatorio del tipo ALOHA puro y transmite tramas de 100 bits sobre un canal de 200kbps ¿Cuál es la productividad si el sistema (todas las estaciones juntas) produce 500 tramas por segundo?. Usad 3 decimales para el cálculo.",
+    "opciones": [
+      "13,5 % lo que supone que sobrvivirán [sic] 135 tramas de cada 1000 emitidas",
+      "18,4 % lo que supone que sobrvivirán [sic] 184 tramas de cada 1000 emitidas",
+      "15,2 % lo que supone que sobrvivirán [sic] 152 tramas de cada 1000 emitidas",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "G = 0,25 → S = 0,25·e^(−0,5) ≈ 15,2 %.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 15,
+      "paginaPdf": 203
+    }
+  },
+  {
+    "id": "E30-P19",
+    "tema": "Tema 9",
+    "enunciado": "Si una red que utiliza CSMA-CD opera a 10 Mbps, con una velocidad de propagación de 200.000Km/s y que una trama mínima tiene 512 bits. ¿Cual será la longitud máxima de la red?",
+    "opciones": [
+      "2560 metros",
+      "5120 metros",
+      "10240 metros",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tfr = 51,2 µs → Tp ≤ 25,6 µs → L ≤ 5120 m.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 19,
+      "paginaPdf": 204
+    }
+  },
+  {
+    "id": "E31-P17",
+    "tema": "Tema 9",
+    "enunciado": "Una red Aloha con ranura transmite tramas de 200 bits sobre un canal compartido de 200Kbps ¿Cuál es la productividad si el sistema (todas las estaciones juntas) produce 1000 tramas por segundo?",
+    "opciones": [
+      "18,4% lo que supone una productividad de 184 tramas por segundo",
+      "50% lo que supone que se pierden la mitad de las tramas",
+      "36,8% lo que supone una productividad de 368 tramas por segundo",
+      "La productividad de Aloha ranurado es justo el triple que la del Aloha sin ranurar"
+    ],
+    "correcta": 2,
+    "explicacion": "ALOHA ranurado con G = 1: S = G·e^(−G) = 36,8 % → 368 tramas/s.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 17,
+      "paginaPdf": 212
+    }
+  },
+  {
+    "id": "E32-P01",
+    "tema": "Tema 9",
+    "enunciado": "En una red CSMA/CD con una tasa de 10Mbps la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. ¿Cuál debería ser la distancia máxima si se incrementa la tasa de datos a 100Mbps?",
+    "opciones": [
+      "2500 m",
+      "250 m",
+      "25 m",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tasa ×10 → 250 m.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 1,
+      "paginaPdf": 219
+    }
+  },
+  {
+    "id": "E37-P11",
+    "tema": "Tema 9",
+    "enunciado": "Si un enlace trabaja con CSMA-CD y tiene un retardo máximo entre extremos de 100 microsegundos. ¿Cual es la longitud mínima de la trama si el bitrate es de 100Mb/s?",
+    "opciones": [
+      "2 Mbits",
+      "20 Mbits",
+      "100 Mbits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Tfr ≥ 2·Tp → longitud mínima = 2 × 100 µs × 100 Mbps = 20000 bits (20 kbits), que no aparece.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 11,
+      "paginaPdf": 260
+    }
+  },
+  {
+    "id": "E38-P04",
+    "tema": "Tema 9",
+    "enunciado": "Una red que utiliza CSMA/CD tiene un ancho de banda de 60 Mbps. Si el tiempo máximo de propagación es de 30 microsegundos. ¿Cúal es el tamaño mínimo de la trama?",
+    "opciones": [
+      "3600 bits",
+      "1600 bits",
+      "900 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tmin = 2·Tp·R = 2 × 30 µs × 60 Mbps = 3600 bits.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 4,
+      "paginaPdf": 267
+    }
+  },
+  {
+    "id": "E38-P13",
+    "tema": "Tema 9",
+    "enunciado": "Tenemos una red que trabaja en el modo CSMA en un medio compartido de longitud máxima 5Km, con una velocidad de propagación de 2x10e8 m/s y un Bitrate de 1Mbps. ¿Cual es la probabilidad de que se produzca una colisión después de transcurridos 25 us desde el inicio de emisión de cualquier trama?",
+    "opciones": [
+      "Depende del número de estaciones de la red",
+      "Depende del número de estaciones de la red y del número de tramas que estas generen",
+      "En las condiciones del enunciado, nunca se producirá una colisión",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tp = 5000/2·10⁸ = 25 µs. Pasado ese tiempo todas las estaciones detectan la portadora y, en CSMA, ya no transmiten: no puede haber colisión.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 13,
+      "paginaPdf": 269
+    }
+  },
+  {
+    "id": "E38-P20",
+    "tema": "Tema 9",
+    "enunciado": "¿Qué método de acceso al medio es usado por TOKEN RING?",
+    "opciones": [
+      "CSMA/CD",
+      "Paso de testigo",
+      "QFSK",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Token Ring usa paso de testigo (acceso controlado).",
+    "origen": {
+      "examen": 38,
+      "pregunta": 20,
+      "paginaPdf": 270
+    }
+  },
+  {
+    "id": "E39-P04",
+    "tema": "Tema 9",
+    "enunciado": "Tenemos una red que utiliza CSMA sin detección de colisiones. La máxima distancia entre estaciones es de 3Km y el medio tiene una velocidad de propagación de 300.000 Km/s. ¿Cual es el periodo vulnerable de esta red?",
+    "opciones": [
+      "10 microsegundos",
+      "9 microsegundos",
+      "10 milisegundos",
+      "20 microsegundos"
+    ],
+    "correcta": 0,
+    "explicacion": "En CSMA el tiempo vulnerable es Tp = 3000 m / 3·10⁸ m/s = 10 µs.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 4,
+      "paginaPdf": 275
+    }
+  },
+  {
+    "id": "E39-P12",
+    "tema": "Tema 9",
+    "enunciado": "Si un enlace trabaja con CSMA/CD y tiene un retardo máximo entre extremos de 100 microsegundos. ¿Cual es la longitud mínima de la trama si el bitrate es de 100Mb/s?",
+    "opciones": [
+      "2 Kbits",
+      "20 Kbits",
+      "2 Mbits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Lmin = 2 × 100 µs × 100 Mbps = 20000 bits = 20 kbits.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 12,
+      "paginaPdf": 277
+    }
+  },
+  {
+    "id": "E39-P20",
+    "tema": "Tema 9",
+    "enunciado": "Tenemos una red de 1Km de longitud máxima con un medio compartido de 2x10e8 m/s de velocidad de propagación y que emplea CSMA/CD. Dos estaciones intentan enviar una trama en el mismo instante. ¿cual es el tiempo máximo que transcurrirá para que ambas detecten la colisión?",
+    "opciones": [
+      "5 microsegundos",
+      "10 microsegundos",
+      "2,5 microsegundos",
+      "Dependerá de la velocidad de transmisión de la red"
+    ],
+    "correcta": 0,
+    "explicacion": "Las estaciones de los extremos emiten a la vez y la colisión tarda Tp = 1000/2·10⁸ = 5 µs en llegar a cada una.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 20,
+      "paginaPdf": 278
+    }
+  },
+  {
+    "id": "E40-P07",
+    "tema": "Tema 9",
+    "enunciado": "Tenemos una red que utiliza CSMA sin detección de colisiones. La máxima distancia entre estaciones es de 6Km y el medio tiene una velocidad de propagación de 300.000 Km/s. ¿Cual es el periodo vulnerable de esta red?",
+    "opciones": [
+      "20 microsegundos",
+      "10 microsegundos",
+      "10 milisegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tiempo vulnerable en CSMA = Tp = 6 km / 3·10⁵ km/s = 20 µs.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 7,
+      "paginaPdf": 284
+    }
+  },
+  {
+    "id": "E41-P07",
+    "tema": "Tema 9",
+    "enunciado": "Tenemos una red que utiliza CSMA sin detección de colisiones. La máxima distancia entre estaciones es de 4km y el medio tiene una velocidad de propagación de 200.000 km/s. ¿Cuál es el periodo vulnerable de esta red?",
+    "opciones": [
+      "20 microsegundos",
+      "10 microsegundos",
+      "40 microsegundos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tp = 4 km / 2·10⁵ km/s = 20 µs.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 7,
+      "paginaPdf": 292
+    }
+  },
+  {
+    "id": "E42-P15",
+    "tema": "Tema 9",
+    "enunciado": "Se quiere crear una red usando CSMA/CD para conectar 5 centrales de alarma. El tiempo de propagación de extremo a extremo es de 30 microsegundos. Si la longitud máxima de la trama de emergencia será de 3600 bits ¿cual es la distancia y la tasa bits máximos que podemos utilizar en esta red?\nNOTA considérese la velocidad de propagación 2*10⁸m/sg.",
+    "opciones": [
+      "6 km, 60 Mbps",
+      "3 km, 30Mbps",
+      "6 km, 3Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Distancia = 30 µs × 2·10⁸ m/s = 6 km. Tasa máxima: Tfr ≥ 2·Tp → R ≤ 3600 bits / 60 µs = 60 Mbps.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 15,
+      "paginaPdf": 304
+    }
+  },
+  {
+    "id": "E43-P07",
+    "tema": "Tema 9",
+    "enunciado": "Una red que utiliza CSMA/CD tiene un ancho de banda de 60 Mbps. Si el tiempo máximo de propagación es de 30 microsegundos. ¿Cuál es el tamaño mínimo de la trama?",
+    "opciones": [
+      "3600 bits",
+      "1800 bits",
+      "900 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "2 × 30 µs × 60 Mbps = 3600 bits.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 7,
+      "paginaPdf": 312
+    }
+  },
+  {
+    "id": "E43-P13",
+    "tema": "Tema 9",
+    "enunciado": "Una red ALOHA con ranuras transmite tramas de 100 bits sobre un canal de 200 kbps de ancho de banda. Si se generan 1000 tramas por segundo, calcule la productividad de la red y el número de tramas que se generan durante la duración de una trama (G).\nSe consideran los 3 primeros decimales de potencia de e.",
+    "opciones": [
+      "13,5 % y G=1",
+      "30,3% y G=1/2",
+      "18,4% y G=1/2",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Tfr = 0,5 ms; G = 1000 × 0,5 ms = 0,5. ALOHA ranurado: S = G·e^(−G) = 0,5 × 0,606 ≈ 30,3 %.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 13,
+      "paginaPdf": 313
+    }
+  },
+  {
+    "id": "E44-P05",
+    "tema": "Tema 9",
+    "enunciado": "Una red que utiliza CSMA/CD tiene un ancho de banda de 100 Mbps. Si el tiempo máximo de propagación es de 25,6 microsegundos. ¿Cúal [sic] es el tamaño mínimo de la trama?",
+    "opciones": [
+      "512 bits",
+      "5120 bits",
+      "51200 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2 × 25,6 µs × 100 Mbps = 5120 bits.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 5,
+      "paginaPdf": 319
+    }
+  },
+  {
+    "id": "E44-P07",
+    "tema": "Tema 9",
+    "enunciado": "¿Qué método de acceso al medio es usado por TOKEN RING?",
+    "opciones": [
+      "CSMA/CD",
+      "Paso de testigo",
+      "QPSK",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Token Ring usa paso de testigo.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 7,
+      "paginaPdf": 320
+    }
+  },
+  {
+    "id": "E45-P11",
+    "tema": "Tema 9",
+    "enunciado": "En una red CDMA/CD con una tasa de 10Mbps, la máxima distancia entre cualquier par de estaciones es de 2500 metros para la correcta operación del proceso de detección de colisiones. Si no se modifica la longitud mínima de trama ¿Cuál debería ser la distancia máxima si se incrementa la tasa de datos a 10 Gbps?",
+    "opciones": [
+      "250 m",
+      "25 m",
+      "2,5 m",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tasa ×1000 → 2500/1000 = 2,5 m.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 11,
+      "paginaPdf": 329
+    }
+  },
+  {
+    "id": "E45-P14",
+    "tema": "Tema 9",
+    "enunciado": "Una red que utiliza CSMA/CD tiene un ancho de banda de 1Gbps. Si el tiempo máximo de propagación es de 25,6 microsegundos. ¿Cúal es el tamaño mínimo de la trama?",
+    "opciones": [
+      "5120 bits",
+      "51200 bits",
+      "512000 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2 × 25,6 µs × 10⁹ bps = 51200 bits.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 14,
+      "paginaPdf": 329
+    }
+  },
+  {
+    "id": "E46-P12",
+    "tema": "Tema 9",
+    "enunciado": "Se sabe que la productividad (S) de una red ALOHA pura es S=Ge^(-2G). Determinar el valor de G que hace que la productividad sea máxima y encontrar el valor máximo de la productividad.",
+    "opciones": [
+      "G=1 y Smax=1/(2e)",
+      "G=1/2 y Smax=1",
+      "G=1/2 y Smax=1/(2e)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "dS/dG = e^(−2G)(1 − 2G) = 0 → G = 1/2; Smax = (1/2)·e^(−1) = 1/(2e) ≈ 0,184.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 12,
+      "paginaPdf": 337
+    }
+  },
+  {
+    "id": "E47-P02",
+    "tema": "Tema 9",
+    "enunciado": "¿Cuál de las siguientes opciones puede causar una colisión en una red Ethernet con CSMA/CD?",
+    "opciones": [
+      "Dos dispositivos transmiten datos al mismo tiempo",
+      "Una dirección IP duplicada en dos máquinas",
+      "Dirección MAC mal configurada",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "En CSMA/CD hay colisión cuando dos estaciones transmiten a la vez en el medio compartido.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 2,
+      "paginaPdf": 343
+    }
+  },
+  {
+    "id": "E47-P04",
+    "tema": "Tema 9",
+    "enunciado": "¿Cuál sería el tamaño mínimo de una trama Ethernet trabajando con CSMA/CD si el tiempo máximo de propagación fuese de 80μs y el bitrate de 100 Mbps?",
+    "opciones": [
+      "320 bytes",
+      "64 bytes",
+      "2000 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "2 × 80 µs × 100 Mbps = 16000 bits = 2000 bytes.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 4,
+      "paginaPdf": 343
+    }
+  },
+  {
+    "id": "E48-P03",
+    "tema": "Tema 9",
+    "enunciado": "¿Cuál es el tamaño mínimo de una trama Ethernet si el tiempo máximo de propagación es 25,6 μs y el ancho de banda del canal es de 10 Mbps?",
+    "opciones": [
+      "32 bytes",
+      "64 bytes",
+      "128 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2 × 25,6 µs × 10 Mbps = 512 bits = 64 bytes.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 3,
+      "paginaPdf": 351
+    }
+  },
+  {
+    "id": "E48-P04",
+    "tema": "Tema 9",
+    "enunciado": "Una estación de una red que trabaja con CSMA/CD detecta una colisión ¿Qué ocurre inmediatamente después de esa detección?",
+    "opciones": [
+      "La transmisión se cancela inmediatamente",
+      "Se termina de enviar la cabecera y se aborta la transmisión",
+      "Se envía una señal de interferencia",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Al detectar la colisión, la estación deja de transmitir los datos y envía una señal de interferencia (jamming) para que todas la detecten.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 4,
+      "paginaPdf": 351
+    }
+  },
+  {
+    "id": "E48-P07",
+    "tema": "Tema 9",
+    "enunciado": "Si el número medio de tramas generadas por un sistema ALOHA puro durante el tiempo de transmisión es 0,5. ¿Qué productividad tiene esta red?",
+    "opciones": [
+      "La máxima",
+      "La mínima",
+      "Depende del tiempo de transmisión",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "En ALOHA puro la productividad máxima (18,4 %) se alcanza con G = 0,5.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 7,
+      "paginaPdf": 352
+    }
+  },
+  {
+    "id": "E49-P18",
+    "tema": "Tema 9",
+    "enunciado": "Se sabe que la productividad (S) de una red ALOHA ranurada es S=G e^(-G) (G · e^(-G)) Determinar el valor de G que hace que la productividad sea máxima y encontrar el valor máximo de la productividad.",
+    "opciones": [
+      "Gmax=1 y Smax=1/(e)",
+      "Gmax=1/2 y Smax=1",
+      "Gmax=1/2 y Smax=1/(e)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "dS/dG = e^(−G)(1 − G) = 0 → G = 1; Smax = 1/e ≈ 0,368.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 18,
+      "paginaPdf": 362
+    }
+  },
+  {
+    "id": "E50-P10",
+    "tema": "Tema 9",
+    "enunciado": "En una red que utiliza CSMA/CD como método de control de acceso al medio, si duplicamos la velocidad de transmisión, la distancia máxima entre estaciones debe:",
+    "opciones": [
+      "Mantenerse igual",
+      "Duplicarse",
+      "Reducirse a la mitad",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Con la trama mínima fija, la distancia máxima es inversamente proporcional a la tasa: si la tasa se duplica, la distancia se reduce a la mitad.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 10,
+      "paginaPdf": 371
+    }
+  },
+  {
+    "id": "E51-P05",
+    "tema": "Tema 9",
+    "enunciado": "En una red CSMA/CD de 100 Mbps, con tiempo máximo de propagación de extremo a extremo de 5,12 microsegundos, ¿cuál es el tamaño mínimo de trama?",
+    "opciones": [
+      "512 bits",
+      "1024 bits",
+      "10240 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2 × 5,12 µs × 100 Mbps = 1024 bits.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 5,
+      "paginaPdf": 379
+    }
+  },
+  {
+    "id": "E51-P12",
+    "tema": "Tema 9",
+    "enunciado": "En CSMA/CD el peor caso ocurre cuando:",
+    "opciones": [
+      "La colisión se detecta inmediatamente",
+      "La colisión ocurre justo antes de que finalice la trama",
+      "No se producen colisiones",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El caso crítico es que la señal de colisión llegue justo antes de que termine de emitirse la trama (tras 2·Tp); por eso se exige Tfr ≥ 2·Tp.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 12,
+      "paginaPdf": 381
+    }
+  },
+  {
+    "id": "E52-P04",
+    "tema": "Tema 9",
+    "enunciado": "¿Cuál es el valor de G (carga o número de tramas emitidas durante el tiempo de transmisión de una trama) que maximiza la productividad en ALOHA puro, y cuál es esa productividad máxima?",
+    "opciones": [
+      "G=0,5 y S=0,184",
+      "G=1 y S=0,368",
+      "G=0,5 y S=0,368",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "ALOHA puro: máximo con G = 0,5 y S = 1/(2e) ≈ 0,184.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 4,
+      "paginaPdf": 387
+    }
+  },
+  {
+    "id": "E52-P18",
+    "tema": "Tema 9",
+    "enunciado": "Una red CSMA/CD tiene un ancho de banda de 10 Mbps. El tiempo máximo de propagación es de 25,6 microsegundos. Si se aumenta la velocidad a 100 Mbps manteniendo la misma geometría de red, ¿cuál es el nuevo tamaño mínimo de trama?",
+    "opciones": [
+      "512 bits",
+      "5120 bits",
+      "51200 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2 × 25,6 µs × 100 Mbps = 5120 bits.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 18,
+      "paginaPdf": 390
+    }
+  }
+]

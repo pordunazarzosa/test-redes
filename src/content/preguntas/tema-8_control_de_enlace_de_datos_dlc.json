@@ -1,0 +1,290 @@
+[
+  {
+    "id": "E05-P09",
+    "tema": "Tema 8",
+    "enunciado": "En el mecanismo de control de flujo por parada y espera:",
+    "opciones": [
+      "No se envían datos hasta recibir una trama ACK",
+      "Se envían datos constantemente y se puede saturar el receptor",
+      "Se envían datos al ritmo que marque la especificación del protocolo",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "En parada y espera el emisor envía una trama y no envía la siguiente hasta recibir la confirmación (ACK).",
+    "origen": {
+      "examen": 5,
+      "pregunta": 9,
+      "paginaPdf": 26
+    }
+  },
+  {
+    "id": "E08-P13",
+    "tema": "Tema 8",
+    "enunciado": "En el mecanismo de control de flujo por parada y espera en un canal sin ruido:",
+    "opciones": [
+      "No se envían nuevos datos hasta recibir una trama ACK",
+      "Se envían datos constantemente y se puede saturar el receptor",
+      "El protocolo de control de flujo por parada y espera no se puede utilizar en un canal sin ruido",
+      "Se envían datos al ritmo que marque la especificación del protocolo"
+    ],
+    "correcta": 0,
+    "explicacion": "En parada y espera el emisor envía una trama y espera el ACK antes de enviar la siguiente.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 13,
+      "paginaPdf": 51
+    }
+  },
+  {
+    "id": "E09-P01",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocol [sic] ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para envir [sic] un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK.",
+    "opciones": [
+      "50ms",
+      "1050ms",
+      "1seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "1000 paquetes. Cada uno: Ttx = 1 ms + RTT = 2 × (10⁷ m / 2·10⁸ m/s) = 100 ms → 101 ms × 1000 = 101 s. Ninguna opción coincide.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 1,
+      "paginaPdf": 57
+    }
+  },
+  {
+    "id": "E11-P18",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocol ARQ con parada y espera donde cada paquete transporta 10000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 2000 Km y la velocidad de propagación es 2x10⁸ m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK.",
+    "opciones": [
+      "50ms",
+      "110ms",
+      "1,1seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "100 paquetes. Cada uno: 1 ms + RTT (2 × 2·10⁶ m / 2·10⁸ m/s = 20 ms) = 21 ms → 2,1 s. No coincide con ninguna opción.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 18,
+      "paginaPdf": 71
+    }
+  },
+  {
+    "id": "E12-P11",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocol ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para envir [sic] un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸ m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK.",
+    "opciones": [
+      "50 ms",
+      "101 seg",
+      "1 seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "1000 paquetes; cada uno 1 ms + RTT (2 × 50 ms) = 101 ms → 101 s.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 11,
+      "paginaPdf": 79
+    }
+  },
+  {
+    "id": "E13-P15",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK. Ancho de Banda del canal 1Mbit por segundo.",
+    "opciones": [
+      "50 ms",
+      "101 ms",
+      "1 seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "1000 paquetes × (1 ms + RTT de 100 ms) = 101 s. «101 ms» sería el tiempo de un solo paquete: ninguna opción es correcta.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 15,
+      "paginaPdf": 90
+    }
+  },
+  {
+    "id": "E14-P10",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK.",
+    "opciones": [
+      "50ms",
+      "101ms",
+      "1s",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "1000 paquetes × 101 ms (1 ms + RTT de 100 ms) = 101 s; ninguna opción coincide.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 10,
+      "paginaPdf": 98
+    }
+  },
+  {
+    "id": "E16-P15",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK. Ancho de Banda del canal 1Mega bit por segundo.",
+    "opciones": [
+      "50ms",
+      "101s",
+      "51ms",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "1000 × (1 ms + 100 ms de RTT) = 101 s.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 15,
+      "paginaPdf": 107
+    }
+  },
+  {
+    "id": "E17-P10",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸ m/seg?. El tiempo de transmisión de un frame es 1 ms. Se ignora los retrasos de transmisión, espera y procesamiento. Se asume que no se pierde ni daña ninguna trama.",
+    "opciones": [
+      "50 seg",
+      "101 seg",
+      "1 seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "1000 × (1 ms + 2 × 50 ms) = 101 s.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 10,
+      "paginaPdf": 115
+    }
+  },
+  {
+    "id": "E18-P10",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 5000 Km y la velocidad de propagación es 2x10⁸ m/seg?. Tiempo de transmisión de un frame es 1 ms. Se ignora los retrasos de transmisión, espera y procesamiento. Se asume que no se pierde ni daña ninguna trama. Ancho de Banda del canal 1Mega bit por segundo.",
+    "opciones": [
+      "101 seg",
+      "51 seg",
+      "1 seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "RTT = 2 × 5·10⁶ / 2·10⁸ = 50 ms; 1000 × 51 ms = 51 s.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 10,
+      "paginaPdf": 123
+    }
+  },
+  {
+    "id": "E19-P10",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸ m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK.",
+    "opciones": [
+      "50 ms",
+      "101 ms",
+      "1 seg",
+      "Ninguna de las otras respuestas es correcta."
+    ],
+    "correcta": 3,
+    "explicacion": "1000 × 101 ms = 101 s; ninguna opción coincide.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 10,
+      "paginaPdf": 130
+    }
+  },
+  {
+    "id": "E21-P09",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/s? El tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK.",
+    "opciones": [
+      "50s",
+      "101s",
+      "1sg",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "1000 paquetes × (1 ms + RTT de 100 ms) = 101 s.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 9,
+      "paginaPdf": 142
+    }
+  },
+  {
+    "id": "E22-P10",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocolo ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/s? Se desprecia el tiempo de transmisión de un ACK. El Ancho de Banda del canal es 1Megabit por segundo.",
+    "opciones": [
+      "50ms",
+      "101s",
+      "1sg",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "Ttx = 1000/10⁶ = 1 ms; RTT = 100 ms → 1000 × 101 ms = 101 s.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 10,
+      "paginaPdf": 146
+    }
+  },
+  {
+    "id": "E26-P04",
+    "tema": "Tema 8",
+    "enunciado": "Dado un sistema que usa el protocol ARQ con parada y espera donde cada paquete transporta 1000 bits de datos. ¿ Cuánto tiempo se necesita para enviar un millón de bits si la distancia entre el emisor y el receptor es 10000 Km y la velocidad de propagación es 2x10⁸m/sg?. Tiempo de transmisión de un frame es 1 ms. Se desprecia el tiempo de transmisión de un ACK. Ancho de Banda del canal 1 Mbp.",
+    "opciones": [
+      "50,1 seg",
+      "101 seg",
+      "1,1 seg",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "1000 × (1 ms + 100 ms de RTT) = 101 s.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 4,
+      "paginaPdf": 165
+    }
+  },
+  {
+    "id": "E38-P18",
+    "tema": "Tema 8",
+    "enunciado": "Indique la capa en la que se ejecuta el protocolo PPP (Point to Point Protocol):",
+    "opciones": [
+      "Aplicación",
+      "Red",
+      "Enlace",
+      "Transporte"
+    ],
+    "correcta": 2,
+    "explicacion": "PPP es un protocolo del nivel de enlace.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 18,
+      "paginaPdf": 270
+    }
+  },
+  {
+    "id": "E39-P01",
+    "tema": "Tema 8",
+    "enunciado": "El protocolo HDLC (High-level Data Link Control) se lleva a cabo en el nivel:",
+    "opciones": [
+      "Físico",
+      "Enlace",
+      "Transporte",
+      "Aplicación"
+    ],
+    "correcta": 1,
+    "explicacion": "HDLC es un protocolo del nivel de enlace.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 1,
+      "paginaPdf": 275
+    }
+  }
+]

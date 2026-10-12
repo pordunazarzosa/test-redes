@@ -1,0 +1,416 @@
+[
+  {
+    "id": "E01-P05",
+    "tema": "Tema 19",
+    "enunciado": "¿Cuál es el objetivo del dominio inverso en DNS?",
+    "opciones": [
+      "Mapear direcciones IP en nombres.",
+      "Invertir la secuencia IP de una dirección",
+      "Mapear nombres en direcciones IP.",
+      "Ninguna de las anteriores."
+    ],
+    "correcta": 0,
+    "explicacion": "El dominio inverso (in-addr.arpa) sirve para la resolución inversa: obtener el nombre a partir de una dirección IP.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 5,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E02-P07",
+    "tema": "Tema 19",
+    "enunciado": "¿ En un DDNS, cuando se determina un enlace entre un nombre y una dirección quién envía normalmente la información ?",
+    "opciones": [
+      "Un BOOTP",
+      "Un DHCP",
+      "UN DNS",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "En DDNS, cuando se establece la asociación nombre-dirección, normalmente es el servidor DHCP quien envía la información al servidor DNS primario.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 7,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E05-P01",
+    "tema": "Tema 19",
+    "enunciado": "Señale la afirmación correcta:",
+    "opciones": [
+      "El protocolo POP3 establece el proceso de comunicación entre servidores de correo electrónico",
+      "Con el protocolo POP3 el usuario puede realizar búsquedas en el contenido de los mensajes electrónicos antes de descargarlos localmente.",
+      "El protocolo POP3 tiene dos modos de funcionamiento: modo borrado y modo mantenimiento",
+      "Ninguna de las otras"
+    ],
+    "correcta": 2,
+    "explicacion": "POP3 tiene dos modos: borrado (delete) y mantenimiento (keep). No sirve entre servidores (eso es SMTP) ni permite buscar en el servidor (eso es IMAP).",
+    "origen": {
+      "examen": 5,
+      "pregunta": 1,
+      "paginaPdf": 25
+    }
+  },
+  {
+    "id": "E06-P01",
+    "tema": "Tema 19",
+    "enunciado": "En el protocolo de correo electrónico el Agente de Usuario se encarga de:",
+    "opciones": [
+      "Almacenar y recuperar los mensajes en el buzón personal del usuario",
+      "Editar, leer, responder y reenviar los mensajes",
+      "Embeber el protocolo de correo electrónico sobre un servidor WEB",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "El agente de usuario (UA) es el programa con el que el usuario compone, lee, responde y reenvía mensajes.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 1,
+      "paginaPdf": 33
+    }
+  },
+  {
+    "id": "E06-P13",
+    "tema": "Tema 19",
+    "enunciado": "El sistema DNS:",
+    "opciones": [
+      "Es un protocolo de la capa de Transporte",
+      "Es un sistema con estructura Cliente/Servidor",
+      "Es un sistema que funciona entre pares con las demás estaciones de la red",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "DNS sigue el paradigma cliente-servidor (resolvedor-servidores de nombres) y es un protocolo del nivel de aplicación.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 13,
+      "paginaPdf": 35
+    }
+  },
+  {
+    "id": "E06-P20",
+    "tema": "Tema 19",
+    "enunciado": "Señale la afirmación correcta:",
+    "opciones": [
+      "En un servidor WEB se utiliza el lenguaje JavaScript para responder dinámicamente a las peticiones de los clientes.",
+      "El lenguaje JavaScript se utiliza en los navegadores para mejorar la interacción con el usuario",
+      "PHP es un lenguaje utilizado para ejecutarse en los navegadores",
+      "Todas las respuestas son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "JavaScript es un lenguaje que se ejecuta en el navegador para documentos activos/interacción con el usuario; PHP se ejecuta en el servidor.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 20,
+      "paginaPdf": 36
+    }
+  },
+  {
+    "id": "E08-P09",
+    "tema": "Tema 19",
+    "enunciado": "El puerto utilizado por el protocolo de transferencia de ficheros FTP:",
+    "opciones": [
+      "Debe ser necesariamente el puerto 20 o el 21",
+      "Puede ser cualquiera pero habitualmente se utilizan los puertos 20 y 21 conjuntamente",
+      "Puede ser cualquiera pero habitualmente se utiliza el puerto 20 o el 21",
+      "Puede utilizarse cualquiera pero habitualmente se utiliza el puerto 25"
+    ],
+    "correcta": 1,
+    "explicacion": "FTP usa dos conexiones: control en el puerto 21 y datos en el puerto 20; habitualmente se usan ambos.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 9,
+      "paginaPdf": 50
+    }
+  },
+  {
+    "id": "E19-P20",
+    "tema": "Tema 19",
+    "enunciado": "¿Qué se entiende por Terminal Virtual de Red (NVT)?",
+    "opciones": [
+      "Una conexión que simula la presencia de una estación o un servidor",
+      "Es la interfaz lógica utilizada por Telnet para usar remotamente una computadora",
+      "Cada una de las conexiones que recibe un servidor Web",
+      "Uno de los agentes responsables de la gestión de correo electrónico"
+    ],
+    "correcta": 1,
+    "explicacion": "El NVT es el conjunto de caracteres/interfaz universal que usa TELNET para el acceso remoto, independiente de los terminales locales.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 20,
+      "paginaPdf": 132
+    }
+  },
+  {
+    "id": "E20-P20",
+    "tema": "Tema 19",
+    "enunciado": "En el correo electrónico el MTA (Mail Transfer Agent):",
+    "opciones": [
+      "Es el encargado de enviar los correos del servidor al ordenador del usuario",
+      "Es el encargado de enviar los correos del ordenador del usuario al servidor exclusivamente.",
+      "Es el encargado de enviar los correos del ordenador del usuario al servidor y del servidor de origen al servidor de destino.",
+      "Es utilizado exclusivamente por los servidores pero no por los sistemas de usuario."
+    ],
+    "correcta": 2,
+    "explicacion": "El MTA (cliente/servidor SMTP) transfiere el correo del equipo del usuario a su servidor y del servidor origen al servidor destino; la recuperación del buzón es tarea del MAA (POP3/IMAP).",
+    "origen": {
+      "examen": 20,
+      "pregunta": 20,
+      "paginaPdf": 140
+    }
+  },
+  {
+    "id": "E27-P06",
+    "tema": "Tema 19",
+    "enunciado": "¿Qué se entiende por Terminal Virtual de Red (NVT)?",
+    "opciones": [
+      "Una conexión que simula la presencia de una estación o un servidor FTP",
+      "Cada una de las conexiones que recibe un servidor Web",
+      "Uno de los agentes responsables de la gestión de correo electrónico",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "El NVT es el conjunto de caracteres/interfaz universal que usa TELNET para el acceso remoto; ninguna de las opciones lo describe.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 6,
+      "paginaPdf": 174
+    }
+  },
+  {
+    "id": "E36-P05",
+    "tema": "Tema 19",
+    "enunciado": "Señale la afirmación que considere más acertada.",
+    "opciones": [
+      "Un dominio es un subárbol del espacio de nombres de dominio",
+      "Un dominio recursivo tiene prioridad sobre un dominio iterativo",
+      "Un nombre de dominio cualificado puede admitir peticiones de cualquier nivel de la pila de protocolos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Un dominio es un subárbol del espacio de nombres de dominio.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 5,
+      "paginaPdf": 251
+    }
+  },
+  {
+    "id": "E37-P01",
+    "tema": "Tema 19",
+    "enunciado": "Señale la afirmación que considere más acertada",
+    "opciones": [
+      "Cada etiqueta de un nombre de dominio puede tener hasta 128 caracteres",
+      "Un servidor podría tener más de 50 etiquetas de nivel separadas por puntos",
+      "Un dominio con doble punto representa al dominio padre",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Un nombre puede tener hasta 127 niveles (etiquetas) por debajo de la raíz, así que más de 50 etiquetas es posible. Cada etiqueta tiene como máximo 63 caracteres.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 1,
+      "paginaPdf": 259
+    }
+  },
+  {
+    "id": "E38-P11",
+    "tema": "Tema 19",
+    "enunciado": "Señale la afirmación correcta",
+    "opciones": [
+      "El protocolo POP3 se utiliza para el envío de correos electrónicos de un servidor de correo a otro",
+      "El protocolo POP3 tiene dos modos de funcionamiento: modo borrado y modo mantenimiento",
+      "Con el protocolo POP3 el usuario puede organizar los correos en distintas carpetas en el propio servidor",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "POP3 tiene dos modos: borrado y mantenimiento. No se usa entre servidores y no gestiona carpetas en el servidor (eso es IMAP).",
+    "origen": {
+      "examen": 38,
+      "pregunta": 11,
+      "paginaPdf": 269
+    }
+  },
+  {
+    "id": "E38-P14",
+    "tema": "Tema 19",
+    "enunciado": "Indique el protocolo que opera en la capa de aplicación",
+    "opciones": [
+      "SSH",
+      "ICMP",
+      "SCTP",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "SSH es un protocolo de aplicación; ICMP es de red y SCTP de transporte.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 14,
+      "paginaPdf": 269
+    }
+  },
+  {
+    "id": "E48-P20",
+    "tema": "Tema 19",
+    "enunciado": "Indique la información correcta respecto al protocolo HTTP",
+    "opciones": [
+      "Utiliza siempre conexiones persistentes",
+      "Utiliza conexiones persistentes con TCP y no persistentes con UDP",
+      "Trabaja siempre sobre una conexión fiable",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "HTTP funciona siempre sobre TCP (fiable); puede usar conexiones persistentes o no persistentes.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 20,
+      "paginaPdf": 354
+    }
+  },
+  {
+    "id": "E49-P06",
+    "tema": "Tema 19",
+    "enunciado": "En el protocolo HTTP, ¿qué tipo de conexión es la predeterminada en la versión 1.1?",
+    "opciones": [
+      "Conexión intermitente",
+      "Conexión cifrada",
+      "Conexión no persistente",
+      "Conexión persistente"
+    ],
+    "correcta": 3,
+    "explicacion": "En HTTP/1.1 la conexión por defecto es persistente.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 6,
+      "paginaPdf": 360
+    }
+  },
+  {
+    "id": "E49-P12",
+    "tema": "Tema 19",
+    "enunciado": "¿Cuál de los siguientes protocolos se diseñó específicamente para transferir archivos de un host a otro en el modelo TCP/IP?",
+    "opciones": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "UDP"
+    ],
+    "correcta": 1,
+    "explicacion": "FTP es el protocolo diseñado para transferir archivos.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 12,
+      "paginaPdf": 361
+    }
+  },
+  {
+    "id": "E51-P09",
+    "tema": "Tema 19",
+    "enunciado": "¿Qué puerto utiliza por defecto el protocolo DNS?",
+    "opciones": [
+      "80",
+      "110",
+      "53",
+      "No utiliza número de puerto porque es un paso previo al establecimiento de conexión"
+    ],
+    "correcta": 2,
+    "explicacion": "DNS usa el puerto 53.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 9,
+      "paginaPdf": 380
+    }
+  },
+  {
+    "id": "E51-P10",
+    "tema": "Tema 19",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente la relación entre HTTP y TCP?",
+    "opciones": [
+      "HTTP utiliza TCP porque necesita un canal fiable orientado a conexión para transportar peticiones y respuestas",
+      "HTTP utiliza siempre UDP porque una baja latencia es prioritaria",
+      "HTTP puede elegir dinámicamente entre TCP y UDP en función del tamaño del contenido",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "HTTP necesita un transporte fiable y orientado a conexión: TCP.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 10,
+      "paginaPdf": 380
+    }
+  },
+  {
+    "id": "E51-P14",
+    "tema": "Tema 19",
+    "enunciado": "Respecto a DNS, ¿cuál es la afirmación correcta?",
+    "opciones": [
+      "DNS utiliza siempre el protocolo UDP con el número de puerto destino 53",
+      "DNS usa siempre el puerto 80",
+      "DNS usa exclusivamente TCP en el puerto 53 para todas las consultas",
+      "DNS usa UDP por defecto y TCP cuando las respuestas son grandes"
+    ],
+    "correcta": 3,
+    "explicacion": "DNS usa UDP (puerto 53) por defecto, y TCP cuando la respuesta supera los 512 bytes o en transferencias de zona.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 14,
+      "paginaPdf": 381
+    }
+  },
+  {
+    "id": "E52-P01",
+    "tema": "Tema 19",
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre el protocolo SSH es correcta?",
+    "opciones": [
+      "SSH ofrece mecanismos de autenticación del cliente, pero no del servidor.",
+      "SSH utiliza el puerto 23 por defecto y trabaja con texto plano.",
+      "SSH proporciona un canal seguro que puede ser usado para multiplexar múltiples conexiones lógicas.",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "SSH crea un canal seguro (autenticando cliente y servidor) sobre el que se multiplexan varios canales lógicos. Usa el puerto 22 y cifra el tráfico.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 1,
+      "paginaPdf": 387
+    }
+  },
+  {
+    "id": "E52-P07",
+    "tema": "Tema 19",
+    "enunciado": "¿Cuál es la principal función del protocolo MIME en el correo electrónico?",
+    "opciones": [
+      "Añadir una capa de seguridad al correo electrónico cifrando todos los mensajes.",
+      "Transformar datos no ASCII a formato ASCII NVT (Network Virtual Terminal) para poder ser enviados por SMTP.",
+      "Reemplazar completamente al protocolo SMTP en el envío de correos.",
+      "Establecer la conexión TCP entre el cliente y el servidor de correo."
+    ],
+    "correcta": 1,
+    "explicacion": "MIME convierte datos no ASCII a ASCII NVT para que puedan enviarse por SMTP.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 7,
+      "paginaPdf": 388
+    }
+  },
+  {
+    "id": "E52-P11",
+    "tema": "Tema 19",
+    "enunciado": "En el contexto del DNS, ¿qué es un servidor primario y cuál es su función principal?",
+    "opciones": [
+      "Es un servidor que solo almacena en caché las respuestas de otros servidores.",
+      "Es el servidor que resuelve todas las consultas de forma recursiva sin ayuda de otros.",
+      "Es un servidor que almacena el archivo de zona, lo crea, mantiene y actualiza.",
+      "Es un servidor que se encuentra en la raíz de la jerarquía y contiene todas las direcciones IP del mundo."
+    ],
+    "correcta": 2,
+    "explicacion": "El servidor primario guarda el archivo de zona del que es autoridad: lo crea, mantiene y actualiza.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 11,
+      "paginaPdf": 389
+    }
+  }
+]

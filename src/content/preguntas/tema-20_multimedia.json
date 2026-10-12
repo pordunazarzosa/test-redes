@@ -1,0 +1,56 @@
+[
+  {
+    "id": "E07-P07",
+    "tema": "Tema 20",
+    "enunciado": "La retransmisión mediante streaming utiliza:",
+    "opciones": [
+      "Un servidor web y el protocolo HTTP",
+      "Un servidor de medios y el protocolo RTSP",
+      "Un servidor de medios y el protocolo HTTP",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El streaming real usa un servidor de medios y RTSP para controlar la reproducción.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 7,
+      "paginaPdf": 42
+    }
+  },
+  {
+    "id": "E26-P01",
+    "tema": "Tema 20",
+    "enunciado": "La retransmisión mediante streaming utiliza:",
+    "opciones": [
+      "Un servidor web y el protocolo SMTP",
+      "Un servidor de medios y el protocolo RTSP",
+      "Un servidor de medios y el protocolo FTP",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El streaming usa un servidor de medios y RTSP.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 1,
+      "paginaPdf": 165
+    }
+  },
+  {
+    "id": "E37-P05",
+    "tema": "Tema 20",
+    "enunciado": "El protocolo RTP (Real-time Transport Protocol):",
+    "opciones": [
+      "Puede trabajar directamente con la capa de red sin emplear ni TCP ni UDP",
+      "Debe trabajar sobre TCP",
+      "Trabaja sobre UDP",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "RTP se encapsula sobre UDP.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 5,
+      "paginaPdf": 259
+    }
+  }
+]

@@ -1,0 +1,1640 @@
+[
+  {
+    "id": "E01-P14",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 1 Mhz ¿ cuál es la tasa de datos para este canal si se usa el esquema de codificación NRZ-L ?. Dato c=1/2",
+    "opciones": [
+      "1 Mbps",
+      "2Mbps",
+      "3Mbps",
+      "4 Mbps"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ-L: r = 1. B = c·N/r → N = B·r/c = 1 MHz × 1 / 0,5 = 2 Mbps.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 14,
+      "paginaPdf": 2
+    }
+  },
+  {
+    "id": "E02-P02",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 1 Mhz ¿ cuál es la tasa de datos para este canal si se usa el esquema de codificación Manchester ?. Dato c=1/2",
+    "opciones": [
+      "1 Mbps",
+      "2Mbps",
+      "3Mbps",
+      "4 Mbps"
+    ],
+    "correcta": 0,
+    "explicacion": "Manchester: r = 1/2. N = B·r/c = 1 MHz × 0,5 / 0,5 = 1 Mbps.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 2,
+      "paginaPdf": 7
+    }
+  },
+  {
+    "id": "E05-P02",
+    "tema": "Tema 4",
+    "enunciado": "La música se digitaliza suponiendo una frecuencia máxima de 20kHz. Suponiendo que se usan 16 bits para cada muestra de cada uno de los dos canales estéreo, ¿Cuál será la tasa de bits mínima necesaria?",
+    "opciones": [
+      "La que establezca el teorema del muestreo",
+      "640 Kbps",
+      "1,28 Mbps",
+      "Dependerá de la frecuencia de muestreo utilizada"
+    ],
+    "correcta": 2,
+    "explicacion": "Muestreo a 2 × 20 kHz = 40000 muestras/s; 40000 × 16 bits × 2 canales = 1,28 Mbps.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 2,
+      "paginaPdf": 25
+    }
+  },
+  {
+    "id": "E05-P15",
+    "tema": "Tema 4",
+    "enunciado": "En la codificación Manchester:",
+    "opciones": [
+      "Cada elemento de señal transporta un elemento de datos",
+      "Se necesitan dos elementos de señal para cada elemento de datos",
+      "Cada elemento de señal transporta un elemento de datos",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "En Manchester cada bit tiene una transición a mitad de intervalo: r = 1/2, se necesitan 2 elementos de señal por cada bit (las opciones 0 y 2 son idénticas y falsas).",
+    "origen": {
+      "examen": 5,
+      "pregunta": 15,
+      "paginaPdf": 27
+    }
+  },
+  {
+    "id": "E06-P09",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ ¿cuántos datos trasporta cada elemento de señal?",
+    "opciones": [
+      "1 elemento de datos por cada elemento de señal",
+      "2 elementos de datos por cada elemento de señal",
+      "1 elemento de datos por cada dos elementos de señal",
+      "Ninguna de las otras"
+    ],
+    "correcta": 0,
+    "explicacion": "En NRZ r = 1: cada elemento de señal transporta un elemento de datos.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 9,
+      "paginaPdf": 34
+    }
+  },
+  {
+    "id": "E06-P19",
+    "tema": "Tema 4",
+    "enunciado": "Si consideramos que la música tiene un ancho de banda que va de los 20Hz a los 20kHz. Suponiendo que se usan 10 bits para cada muestra de un solo canal de audio, ¿Cuál será la tasa de bits mínima necesaria?",
+    "opciones": [
+      ">19980x10 bits por segundo",
+      "2x199800 bits por segundo",
+      ">400 kbps",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "Tratando la señal como paso banda, fs = 2·B = 2 × 19980 Hz; con 10 bits/muestra → 2 × 199800 = 399600 bps. (Como paso bajo sería 2 × 20 kHz × 10 = 400 kbps, pero esa opción dice «>».)",
+    "origen": {
+      "examen": 6,
+      "pregunta": 19,
+      "paginaPdf": 36
+    }
+  },
+  {
+    "id": "E07-P02",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ ¿cuántos datos transporta un elemento de señal?",
+    "opciones": [
+      "1 elemento de señal 1 dato",
+      "1 elemento de señal 2 datos",
+      "2 elementos de señal 1 dato",
+      "No utiliza elementos de señal"
+    ],
+    "correcta": 0,
+    "explicacion": "NRZ: r = 1, un dato por cada elemento de señal.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 2,
+      "paginaPdf": 41
+    }
+  },
+  {
+    "id": "E07-P05",
+    "tema": "Tema 4",
+    "enunciado": "Si tenemos una señal con un factor r= 1 y un valor c=0,5 ¿Cuál es el valor medio de la tasa de baudios si la tasa de bits es de 200 Kbps?",
+    "opciones": [
+      "200 KBd",
+      "100 KBd",
+      "50 KBd",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "S = c·N·(1/r) = 0,5 × 200 kbps × 1 = 100 kbaudios.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 5,
+      "paginaPdf": 41
+    }
+  },
+  {
+    "id": "E08-P04",
+    "tema": "Tema 4",
+    "enunciado": "Digitalizamos una señal de audio asumiendo una frecuencia máxima de 20KHz. Suponiendo que se utilizan 16 bits para cada muestra de cada uno de los dos canales estéreo: ¿Cuál será la tasa de bits mínima necesaria?",
+    "opciones": [
+      "La que establezca el teorema de muestreo",
+      "640 Kbps",
+      "1,28 Mbps",
+      "Dependerá de la frecuencia de muestreo utilizada"
+    ],
+    "correcta": 2,
+    "explicacion": "2 × 20 kHz = 40000 muestras/s × 16 bits × 2 canales = 1,28 Mbps.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 4,
+      "paginaPdf": 49
+    }
+  },
+  {
+    "id": "E08-P05",
+    "tema": "Tema 4",
+    "enunciado": "Se escoge codificación NRZ-I para transferir datos a 20 Mbps. ¿cuál es el ancho de banda medio?",
+    "opciones": [
+      "500 KHz",
+      "10 MHz",
+      "200 KHz",
+      "20 KHz"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ-I: Bmedio = N/2 = 20 Mbps / 2 = 10 MHz.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 5,
+      "paginaPdf": 49
+    }
+  },
+  {
+    "id": "E09-P09",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 200Khz utilizando 1024 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "1024 Mbps",
+      "200 Mbps",
+      "4 Mbps",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 2 × 200 kHz = 400 kmuestras/s; 1024 niveles = 10 bits → 400·10³ × 10 = 4 Mbps.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 9,
+      "paginaPdf": 58
+    }
+  },
+  {
+    "id": "E09-P17",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le [sic] tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", con rejilla punteada de 8 intervalos de bit rotulados abajo 0 1 0 0 0 1 1 0. La señal es: bit 0 → nivel cero; bit 1 → nivel positivo; bits 0 0 0 → nivel cero; bit 1 → nivel negativo; bit 1 → nivel positivo; bit 0 → nivel cero. Cada nivel se mantiene durante todo el intervalo de bit.]",
+    "opciones": [
+      "AMI",
+      "Manchester",
+      "Manchester Diferencial",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "Los ceros son nivel 0 y los unos alternan entre positivo y negativo: es AMI (bipolar).",
+    "origen": {
+      "examen": 9,
+      "pregunta": 17,
+      "paginaPdf": 60
+    }
+  },
+  {
+    "id": "E11-P10",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 8 intervalos de bit etiquetados abajo 0 1 0 0 0 1 1 0. Señal de dos niveles (alto/bajo) con una transición en mitad de cada bit. Niveles (primera mitad – segunda mitad) por bit: 0: alto–bajo; 1: bajo–alto; 0: alto–bajo; 0: alto–bajo; 0: alto–bajo; 1: bajo–alto; 1: bajo–alto; 0: alto–bajo. A la derecha, fuera de la gráfica, aparecen dos pequeñas marcas verticales sin rótulo.]",
+    "opciones": [
+      "AMI-Bipolar",
+      "Manchester",
+      "Manchester Diferencial",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "Todos los 0 tienen la misma forma (alto→bajo) y todos los 1 la contraria (bajo→alto), con transición a mitad de bit: es Manchester (en Manchester diferencial la forma dependería del bit anterior).",
+    "origen": {
+      "examen": 11,
+      "pregunta": 10,
+      "paginaPdf": 69
+    }
+  },
+  {
+    "id": "E11-P19",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 100Khz utilizando 256 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "256 Kbps",
+      "100 Kbps",
+      "1600 Kbps",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 2 × 100 kHz = 200 kmuestras/s; 256 niveles = 8 bits → 1600 kbps.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 19,
+      "paginaPdf": 71
+    }
+  },
+  {
+    "id": "E12-P06",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 10 intervalos de bit etiquetados abajo 1 1 0 1 0 0 1 0 0 1. Señal de dos niveles (bajo/alto), sin transiciones a mitad de bit; nivel en cada bit: 1: bajo; 1: bajo; 0: alto; 1: bajo; 0: alto; 0: alto; 1: bajo; 0: alto; 0: alto; 1: bajo.]",
+    "opciones": [
+      "AMI-Bipolar",
+      "NRZ–L",
+      "Manchester Diferencial",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Dos niveles, sin transiciones a mitad de bit, y el nivel depende solo del valor del bit (0 → alto, 1 → bajo): NRZ-L.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 6,
+      "paginaPdf": 78
+    }
+  },
+  {
+    "id": "E12-P16",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 200Khz utilizando 256 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "1024 Mbps",
+      "200 Mbps",
+      "3,2 Mbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 400 kmuestras/s × 8 bits (256 niveles) = 3,2 Mbps.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 16,
+      "paginaPdf": 80
+    }
+  },
+  {
+    "id": "E13-P05",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 100Khz utilizando 256 niveles de cuantificación. Determinar la mínima tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "2000 bps",
+      "160 kbps",
+      "1,6 Mbps",
+      "800 kbps"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 2 × 100 kHz = 200 kmuestras/s × 8 bits = 1,6 Mbps.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 5,
+      "paginaPdf": 88
+    }
+  },
+  {
+    "id": "E13-P20",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 10 intervalos de bit etiquetados abajo 1 1 0 1 0 0 1 0 0 1. Señal de dos niveles con transición en mitad de cada bit. Niveles por medio bit (1.ª mitad→2.ª mitad): bit 1 (1): alto→bajo; bit 2 (1): bajo→alto; bit 3 (0): bajo→alto; bit 4 (1): alto→bajo; bit 5 (0): alto→bajo; bit 6 (0): alto→bajo; bit 7 (1): bajo→alto; bit 8 (0): bajo→alto; bit 9 (0): bajo→alto; bit 10 (1): alto→bajo. Hay transición en el límite de bit antes de cada 0 y no la hay antes de cada 1.]",
+    "opciones": [
+      "Manchester diferencial",
+      "Manchester",
+      "AMI",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Siempre hay transición a mitad de bit, y en el inicio del bit hay transición si el bit es 0 y no la hay si es 1: Manchester diferencial.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 20,
+      "paginaPdf": 91
+    }
+  },
+  {
+    "id": "E14-P02",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar el tipo de codificación usada.\n[Figura: gráfica titulada \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\", rejilla punteada con 8 intervalos de bit etiquetados abajo 0 1 1 1 1 0 0 1. Señal de dos niveles con transición en mitad de cada bit. Niveles por medio bit (1.ª mitad→2.ª mitad): bit 1 (0): bajo→alto; bit 2 (1): alto→bajo; bit 3 (1): bajo→alto; bit 4 (1): alto→bajo; bit 5 (1): bajo→alto; bit 6 (0): bajo→alto; bit 7 (0): bajo→alto; bit 8 (1): alto→bajo. Hay transición en el límite de bit antes de los bits 6 y 7 y en ningún otro límite.]",
+    "opciones": [
+      "AMI-Bipolar",
+      "Manchester",
+      "Manchester-Diferencial",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Transición a mitad de cada bit, y en el límite solo antes de los ceros (bits 6 y 7): Manchester diferencial.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 2,
+      "paginaPdf": 97
+    }
+  },
+  {
+    "id": "E14-P03",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 300 Khz utilizando 1024 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "1024 Mbps",
+      "300 Mbps",
+      "6 Mbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 600 kmuestras/s; 1024 niveles = 10 bits → 6 Mbps.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 3,
+      "paginaPdf": 97
+    }
+  },
+  {
+    "id": "E16-P02",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar el tipo de codificación usada.\n[Figura: gráfico titulado \"Señal codificada:\", eje vertical \"Nivel de voltaje\", eje horizontal \"Tiempo\". Rejilla punteada con línea central horizontal discontinua y 3 divisiones por encima y 3 por debajo de ella. 7 intervalos rotulados abajo con pares de bits: 01, 11, 10, 00, 00, 00, 01. Señal escalonada de cuatro niveles; nivel en cada intervalo (en divisiones respecto a la línea central): 01 → +1; 11 → −3 (nivel más bajo); 10 → −1; 00 → +3 (nivel más alto); 00 → +3; 00 → +3; 01 → +1.]",
+    "opciones": [
+      "AMI",
+      "2B1Q",
+      "8B6T",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Señal de cuatro niveles en la que cada elemento de señal codifica 2 bits: 2B1Q (AMI y 8B6T usan tres niveles).",
+    "origen": {
+      "examen": 16,
+      "pregunta": 2,
+      "paginaPdf": 105
+    }
+  },
+  {
+    "id": "E16-P19",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 100 Khz utilizando 1024 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "256 Kbps",
+      "10240kbps",
+      "1 Mbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "fs = 200 kmuestras/s × 10 bits = 2 Mbps; no aparece.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 19,
+      "paginaPdf": 108
+    }
+  },
+  {
+    "id": "E17-P03",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 600 Khz utilizando 256 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "1024 Mbps",
+      "600 Mbps",
+      "4,8 Mbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "fs = 1,2 Mmuestras/s × 8 bits = 9,6 Mbps; no aparece.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 3,
+      "paginaPdf": 113
+    }
+  },
+  {
+    "id": "E18-P03",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 100 Khz utilizando 1024 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "256 Kbps",
+      "100 kbps",
+      "1 Mbps",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "fs = 200 kmuestras/s × 10 bits = 2 Mbps; no aparece.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 3,
+      "paginaPdf": 121
+    }
+  },
+  {
+    "id": "E21-P11",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación utilizada.\n[Figura: señal digital de dos niveles (positivo y negativo, sin rótulos de tensión) frente a un eje horizontal \"tiempo\" con flecha a la derecha. Ocho celdas de bit etiquetadas debajo: 0 1 0 0 0 1 1 0. Cada celda tiene una transición en su mitad: en los bits 0 la señal pasa de nivel alto a nivel bajo a mitad de bit; en los bits 1 pasa de nivel bajo a nivel alto a mitad de bit. Secuencia de niveles por medio bit: 0: alto→bajo; 1: bajo→alto; 0: alto→bajo; 0: alto→bajo; 0: alto→bajo; 1: bajo→alto; 1: bajo→alto; 0: alto→bajo (con transiciones adicionales en los límites de celda cuando es necesario).]",
+    "opciones": [
+      "AMI-Bipolar",
+      "Manchester",
+      "Manchester Diferencial",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada 0 es siempre alto→bajo y cada 1 bajo→alto, con transición a mitad de bit: Manchester.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 11,
+      "paginaPdf": 143
+    }
+  },
+  {
+    "id": "E25-P11",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 100Khz utilizando 1024 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "2 Mbps",
+      "200 Kbps",
+      "1024 Mbps",
+      "Ninguna de las otras respuestas"
+    ],
+    "correcta": 0,
+    "explicacion": "fs = 200 kmuestras/s × 10 bits (1024 niveles) = 2 Mbps.",
+    "origen": {
+      "examen": 25,
+      "pregunta": 11,
+      "paginaPdf": 159
+    }
+  },
+  {
+    "id": "E26-P02",
+    "tema": "Tema 4",
+    "enunciado": "Se muestrea una señal paso bajo con ancho de banda de 200Khz utilizando 256 niveles de cuantificación. Determinar la tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "1024 Mbps",
+      "200 Mbps",
+      "3,2 Mbps",
+      "400 Kbps"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 400 kmuestras/s × 8 bits = 3,2 Mbps.",
+    "origen": {
+      "examen": 26,
+      "pregunta": 2,
+      "paginaPdf": 165
+    }
+  },
+  {
+    "id": "E27-P02",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ-L polar ¿cuántos elementos de señal es necesario para enviar un bit?",
+    "opciones": [
+      "1 elemento de señal 1 bit",
+      "1 elemento de señal 2 bit",
+      "2 elementos de señal 1 bit",
+      "No usa elementos de señal"
+    ],
+    "correcta": 0,
+    "explicacion": "NRZ-L: un elemento de señal por bit (r = 1).",
+    "origen": {
+      "examen": 27,
+      "pregunta": 2,
+      "paginaPdf": 173
+    }
+  },
+  {
+    "id": "E27-P03",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda de 250kHz se ha muestreado usando 1024 niveles de cuantificación.\na) Cuál es la tasa de bits de la señal digitalizada.\nb) Calcúlese el valor SNRdB para esta señal.\nc) Calcule el ancho de banda PCM de esta señal.",
+    "opciones": [
+      "Tasa de bits 4Mbps, SNRdB= 250, Bpcm= 250MHz",
+      "Tasa de bits 5Mbps, SNRdB= 61,96, Bpcm= 2,5MHz",
+      "Tasa de bits 2Mbps, SNRdB= 96,61, Bpcm= 25MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "N = 2 × 250 kHz × 10 bits = 5 Mbps; SNRdB = 6,02·10 + 1,76 = 61,96; Bpcm = nb × Banalógico = 10 × 250 kHz = 2,5 MHz.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 3,
+      "paginaPdf": 173
+    }
+  },
+  {
+    "id": "E27-P04",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 10 Mhz ¿Cuál es la tasa de datos máxima para este canal si se usa el esquema de codificación NRZ-L ?. Dato c=1/2",
+    "opciones": [
+      "10 Mbps",
+      "20Mbps",
+      "30Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "N = B·r/c = 10 MHz × 1 / 0,5 = 20 Mbps.",
+    "origen": {
+      "examen": 27,
+      "pregunta": 4,
+      "paginaPdf": 173
+    }
+  },
+  {
+    "id": "E28-P04",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación Manchester ¿cuántos elementos de señal es necesario para enviar un bit?",
+    "opciones": [
+      "1 elemento de señal 1 bit",
+      "1 elemento de señal 2 bit",
+      "2 elementos de señal 1 bit",
+      "No usa elementos de señal"
+    ],
+    "correcta": 2,
+    "explicacion": "Manchester: r = 1/2, dos elementos de señal por bit.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 4,
+      "paginaPdf": 183
+    }
+  },
+  {
+    "id": "E28-P06",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 10 Mhz ¿ cuál es la tasa de datos máxima para este canal si se usa el esquema de codificación Manchester ?. Dato c=1/2",
+    "opciones": [
+      "10 Mbps",
+      "1Mbps",
+      "30Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "N = B·r/c = 10 MHz × 0,5 / 0,5 = 10 Mbps.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 6,
+      "paginaPdf": 184
+    }
+  },
+  {
+    "id": "E28-P11",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 200 khz se ha muestreado usando 256 niveles de cuantificación.\na) Cuál es la tasa de bits de la señal digitalizada.\nb) Calcúlese el valor SNRdB para esta señal.\nc) Calcule el ancho de Banda PCM de esta señal.",
+    "opciones": [
+      "Tasa de bits 2 MBps, SNRdb= 96,61, Bpcm= 160 MHz",
+      "Tasa de bits 2,3 MBps, SNRdb= 92,49, Bpcm= 16 MHz",
+      "Tasa de bits 3,2 MBps, SNRdb= 49,92, Bpcm= 1,6 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "N = 400 kmuestras/s × 8 = 3,2 Mbps; SNRdB = 6,02·8 + 1,76 = 49,92; Bpcm = 8 × 200 kHz = 1,6 MHz.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 11,
+      "paginaPdf": 185
+    }
+  },
+  {
+    "id": "E28-P12",
+    "tema": "Tema 4",
+    "enunciado": "Se quiere digitalizar el canto del grillo. Sabiendo que el ancho de banda del canto del grillo es de 1800 Hz y que se usan 16 bits para codificar cada muestra ¿cuál sería la tasa de bits mínima necesaria para digitalizarlo?",
+    "opciones": [
+      "57,6 kbps",
+      "576 kbps",
+      "3600 bps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "fs = 2 × 1800 Hz = 3600 muestras/s × 16 bits = 57,6 kbps.",
+    "origen": {
+      "examen": 28,
+      "pregunta": 12,
+      "paginaPdf": 185
+    }
+  },
+  {
+    "id": "E29-P05",
+    "tema": "Tema 4",
+    "enunciado": "Una señal paso bajo con ancho de banda de 250Khz se ha muestreado usando 1024 niveles de cuantificación. Determinar la tasa de bits necesaria y el ruido de cuantización:",
+    "opciones": [
+      "Tasa de bits de 4Mbps y SNR(dB)=250",
+      "Tasa de bits de 500Mbps y SNR(dB)=62",
+      "Tasa de bits de 5Mbps y SNR(dB)=96",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "N = 500 kmuestras/s × 10 bits = 5 Mbps y SNRdB = 6,02·10 + 1,76 ≈ 62 dB. Ninguna opción combina ambos valores.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 5,
+      "paginaPdf": 193
+    }
+  },
+  {
+    "id": "E29-P12",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 10 Mhz ¿Cuál es la tasa de datos máxima para este canal si se usa el esquema de codificación NRZ-L ?. Dato c=1/2",
+    "opciones": [
+      "10 Mbps",
+      "20 Mbps",
+      "5 Mbps",
+      "30 Mbps"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ-L: N = B·r/c = 10 MHz / 0,5 = 20 Mbps.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 12,
+      "paginaPdf": 195
+    }
+  },
+  {
+    "id": "E29-P15",
+    "tema": "Tema 4",
+    "enunciado": "Se quiere digitalizar el canto del grillo. Sabiendo que el ancho de banda del canto del grillo es de 20Khz y que se usan 16 bits para codificar cada muestra ¿cuál sería la tasa de bits mínima necesaria para digitalizarlo?",
+    "opciones": [
+      "320 Kbps",
+      "40 Kbps",
+      "640 Kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 40 kmuestras/s × 16 bits = 640 kbps.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 15,
+      "paginaPdf": 195
+    }
+  },
+  {
+    "id": "E30-P13",
+    "tema": "Tema 4",
+    "enunciado": "Una señal paso bajo con ancho de banda de 200Khz se ha muestreado usando 256 niveles de cuantificación. Determinar la tasa de bits necesaria y el ruido de cuantización:",
+    "opciones": [
+      "Tasa de bits de 3,2Mbps y SNR(dB)=50",
+      "Tasa de bits de 6,4Mbps y SNR(dB)=25",
+      "Tasa de bits de 1,6Mbps y SNR(dB)=40",
+      "Tasa de bits de 3,2Mbps y SNR(dB)=8"
+    ],
+    "correcta": 0,
+    "explicacion": "N = 400 kmuestras/s × 8 = 3,2 Mbps; SNRdB = 6,02·8 + 1,76 ≈ 50 dB.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 13,
+      "paginaPdf": 203
+    }
+  },
+  {
+    "id": "E30-P18",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 10 Mhz ¿Cuál es la tasa de datos máxima para este canal si se usa el esquema de codificación Manchester?. Dato c=1/2",
+    "opciones": [
+      "10Mbps",
+      "1Mbps",
+      "20Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Manchester: N = B·r/c = 10 MHz × 0,5 / 0,5 = 10 Mbps.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 18,
+      "paginaPdf": 204
+    }
+  },
+  {
+    "id": "E31-P03",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ-L polar cuántos elementos de señal son necesarios para enviar un bit.",
+    "opciones": [
+      "1 elemento de señal 1 bit",
+      "1 elemento de señal 2 bit",
+      "2 elementos de señal 1 bit",
+      "La transmisión digital no usa elementos de señal"
+    ],
+    "correcta": 0,
+    "explicacion": "NRZ-L: 1 elemento de señal por bit.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 3,
+      "paginaPdf": 209
+    }
+  },
+  {
+    "id": "E31-P04",
+    "tema": "Tema 4",
+    "enunciado": "La tasa de señal",
+    "opciones": [
+      "Es la versión logarítmica de la tasa de datos",
+      "Puede ser mayor, menor o igual que la tasa de datos",
+      "Está relacionada con la tasa de datos mediante el número de baudios por segundo",
+      "La tasa de señal es siempre igual a la tasa de datos"
+    ],
+    "correcta": 1,
+    "explicacion": "S = c·N/r, así que la tasa de señal puede ser mayor, menor o igual que la de datos según r.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 4,
+      "paginaPdf": 209
+    }
+  },
+  {
+    "id": "E31-P07",
+    "tema": "Tema 4",
+    "enunciado": "¿Qué se entiende por baudio?",
+    "opciones": [
+      "Es una medida logarítmica de la atenuación de una señal",
+      "Es una medida logarítmica del ancho de banda de una señal",
+      "Es una medida logarítmica de la tasa de señal transmitida por un medio",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "El baudio es la unidad de la tasa de señal (elementos de señal por segundo); no es ninguna medida logarítmica.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 7,
+      "paginaPdf": 210
+    }
+  },
+  {
+    "id": "E31-P13",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 250kHz se ha muestreado usando 1024 niveles de cuantificación.\n• ¿Cuál es la tasa de bits de la señal digitalizada?\n• Calcule el ancho de Banda mínimo para transmitir esta señal mediante PCM",
+    "opciones": [
+      "Tasa de bits 4MBps, BWpcm= 250MHz",
+      "Tasa de bits 5MBps, BWpcm= 2,5MHz",
+      "Tasa de bits 2MBps, BWpcm= 25MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "N = 500 kmuestras/s × 10 bits = 5 Mbps; Bpcm mínimo = nb × B = 10 × 250 kHz = 2,5 MHz.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 13,
+      "paginaPdf": 211
+    }
+  },
+  {
+    "id": "E31-P16",
+    "tema": "Tema 4",
+    "enunciado": "La codificación AMI:",
+    "opciones": [
+      "Presenta problemas de nivel de continua pero no tienen problemas de sincronización",
+      "No tiene problema de nivel de continua y tampoco presenta problemas de sincronización",
+      "No tiene nivel de continua pero tiene problemas de sincronización cuanto se presentan largas secuencias de unos en los datos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "AMI no tiene componente continua, pero pierde la sincronización con largas secuencias de ceros (los unos alternan de polaridad). La opción C habla de unos, así que no es correcta.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 16,
+      "paginaPdf": 211
+    }
+  },
+  {
+    "id": "E32-P08",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 250 KHz se ha muestreado usando 1024 niveles de cuantificación.\n• ¿Cuál es la tasa de bits de la señal digitalizada?\n• Calcúlese el valor SNRdb para esta señal.",
+    "opciones": [
+      "Tasa de bits 4Mbps, SNRdb= 250",
+      "Tasa de bits 5Mbps, SNRdb= 61,96",
+      "Tasa de bits 2Mbps, SNRdb= 96,61",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "N = 500 kmuestras/s × 10 = 5 Mbps; SNRdB = 6,02·10 + 1,76 = 61,96.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 8,
+      "paginaPdf": 220
+    }
+  },
+  {
+    "id": "E32-P09",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ cuantos datos transporta un elemento de señal.",
+    "opciones": [
+      "1 elemento de señal, 1 elemento de datos",
+      "1 elemento de señal, 2 elementos de datos",
+      "2 elementos de señal, 1 elemento de datos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "NRZ: un elemento de señal por cada elemento de datos.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 9,
+      "paginaPdf": 220
+    }
+  },
+  {
+    "id": "E33-P08",
+    "tema": "Tema 4",
+    "enunciado": "Una señal paso bajo con ancho de banda 200 KHz se ha muestreado usando 256 niveles de cuantificación.\n• ¿Cuál es la tasa de bits de la señal digitalizada?\n• Calcúlese el valor SNRdb para esta señal.",
+    "opciones": [
+      "Tasa de bits 3,2 MBps, SNRdb= 49,92",
+      "Tasa de bits 400 MBps, SNRdb= 1/256",
+      "Tasa de bits 400 MBps, SNRdb= 49,92",
+      "Tasa de bits 3,2 MBps, SNRdb= 1/8"
+    ],
+    "correcta": 0,
+    "explicacion": "N = 400 kmuestras/s × 8 = 3,2 Mbps; SNRdB = 6,02·8 + 1,76 = 49,92.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 8,
+      "paginaPdf": 228
+    }
+  },
+  {
+    "id": "E33-P09",
+    "tema": "Tema 4",
+    "enunciado": "Se escoge codificación 8B6T para transferir datos a 40 Mbps. ¿Cuál es el ancho de banda mínimo necesario?",
+    "opciones": [
+      "20MHz",
+      "30MHz",
+      "40MHz",
+      "80MHz"
+    ],
+    "correcta": 1,
+    "explicacion": "8B6T: B ≈ 3N/4 = 0,75 × 40 = 30 MHz (6 elementos ternarios por cada 8 bits).",
+    "origen": {
+      "examen": 33,
+      "pregunta": 9,
+      "paginaPdf": 228
+    }
+  },
+  {
+    "id": "E34-P17",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación Manchester diferencial ¿cuántos elementos de señal son necesarios para enviar un bit de datos?",
+    "opciones": [
+      "2 elementos de señal por cada bit",
+      "2 bits por elemento de señal",
+      "1 elemento de señal por cada bit",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Manchester diferencial: r = 1/2, dos elementos de señal por bit.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 17,
+      "paginaPdf": 238
+    }
+  },
+  {
+    "id": "E35-P13",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ cuantos datos transporta un elemento de señal.",
+    "opciones": [
+      "2 elementos de señal 1 dato",
+      "1 elemento de señal 2 datos",
+      "1 elemento de señal 1 dato",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "NRZ: un elemento de señal por dato.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 13,
+      "paginaPdf": 245
+    }
+  },
+  {
+    "id": "E36-P06",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ ¿Cuantos datos transporta un elemento de señal?",
+    "opciones": [
+      "1 elemento de señal 1 dato",
+      "1 elemento de señal 2 datos",
+      "2 elementos de señal 1 dato",
+      "No usa elementos de señal"
+    ],
+    "correcta": 0,
+    "explicacion": "NRZ: un elemento de señal por dato.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 6,
+      "paginaPdf": 252
+    }
+  },
+  {
+    "id": "E36-P14",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: forma de onda digital sobre un eje vertical (flecha hacia arriba) y un eje horizontal de tiempo (flecha a la derecha), con dos niveles (alto y cero). Siete intervalos de bit separados por líneas verticales discontinuas y etiquetados debajo: 0, 1, 0, 0, 1, 1, 0. En cada intervalo hay una transición en la mitad: bit 0 → alto en la primera mitad y bajo en la segunda; bit 1 → bajo en la primera mitad y alto en la segunda; bit 0 → alto/bajo; bit 0 → alto/bajo; bit 1 → bajo/alto; bit 1 → bajo/alto; bit 0 → alto/bajo.]",
+    "opciones": [
+      "AMI",
+      "Manchester",
+      "Manchester Diferencial",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Todos los 0 tienen la misma forma (alto→bajo) y todos los 1 la contraria, con transición a mitad de bit: Manchester.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 14,
+      "paginaPdf": 253
+    }
+  },
+  {
+    "id": "E36-P20",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda 4 Khz. Si se muestrea a la mínima tasa posible y se envía a través de un canal de 32Kbps ¿Cuál será su valor SNRdb de cuantización?",
+    "opciones": [
+      "25,8",
+      "7,74",
+      "10",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "fs = 8000 muestras/s → nb = 32000/8000 = 4 bits → SNRdB = 6,02·4 + 1,76 = 25,84 dB.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 20,
+      "paginaPdf": 254
+    }
+  },
+  {
+    "id": "E37-P04",
+    "tema": "Tema 4",
+    "enunciado": "Si tenemos una señal analógica que puede tomar valores entre -1V y +1V y una frecuencia máxima de 20KHz ¿Con cuantos bits debemos digitalizarla con un error menor de 1mv?",
+    "opciones": [
+      "1024",
+      "10",
+      "16",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Rango 2 V; error máximo Δ/2 < 1 mV → Δ < 2 mV → L > 1000 niveles → 10 bits (1024 niveles).",
+    "origen": {
+      "examen": 37,
+      "pregunta": 4,
+      "paginaPdf": 259
+    }
+  },
+  {
+    "id": "E37-P07",
+    "tema": "Tema 4",
+    "enunciado": "Se escoge codificación 8B6T para transferir datos a 40 Mbps. ¿Cuál es el ancho de banda mínimo necesario?",
+    "opciones": [
+      "40 Khz",
+      "40MHz",
+      "30 MHz",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "8B6T: B ≈ 3N/4 = 30 MHz.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 7,
+      "paginaPdf": 260
+    }
+  },
+  {
+    "id": "E37-P17",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda 4 Khz. Se muestrea al doble de su tasa mínima de muestreo y se obtiene un flujo de 160Kbps ¿Cuál será su valor de SNRdb de cuantización?",
+    "opciones": [
+      "Entre 10 y 20 dB",
+      "Entre 20 y 40 dB",
+      "Entre 40 y 60 dB",
+      "Más de 60 dB"
+    ],
+    "correcta": 3,
+    "explicacion": "fs = 2 × 4 kHz × 2 = 16000 muestras/s → nb = 160000/16000 = 10 bits → SNRdB = 61,96 dB > 60 dB.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 17,
+      "paginaPdf": 262
+    }
+  },
+  {
+    "id": "E37-P18",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le tipo de codificación usada.\n[Figura: señal codificada sobre un eje de tiempo con eje vertical de amplitud; 7 intervalos de bit separados por líneas verticales punteadas, con los bits 0 1 0 0 1 1 0 debajo. Niveles: bit 0 → nivel cero; bit 1 → nivel positivo; bit 0 → cero; bit 0 → cero; bit 1 → nivel negativo; bit 1 → nivel positivo; bit 0 → cero.]",
+    "opciones": [
+      "AMI",
+      "MLT-3",
+      "8B6T",
+      "RZ-Polar"
+    ],
+    "correcta": 0,
+    "explicacion": "Los ceros son nivel 0 y los unos alternan entre positivo y negativo: AMI.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 18,
+      "paginaPdf": 262
+    }
+  },
+  {
+    "id": "E38-P12",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda 8KHz se muestrea y se envía a través de un canal de 300Kbps ¿Cuál será su valor de SNRdb?",
+    "opciones": [
+      "116,14 dB",
+      "110,12 dB",
+      "52 dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "fs = 16000 muestras/s → nb = ⌊300000/16000⌋ = 18 bits → SNRdB = 6,02·18 + 1,76 = 110,12 dB.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 12,
+      "paginaPdf": 269
+    }
+  },
+  {
+    "id": "E38-P15",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ ¿cuantos datos transporta cada elemento de señal?",
+    "opciones": [
+      "1 elemento de señal, 1 dato",
+      "1 elemento de señal, 2 datos",
+      "2 elementos de señal, 1 dato",
+      "No usa elementos de señal"
+    ],
+    "correcta": 0,
+    "explicacion": "NRZ: un elemento de señal por dato.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 15,
+      "paginaPdf": 269
+    }
+  },
+  {
+    "id": "E39-P02",
+    "tema": "Tema 4",
+    "enunciado": "Si tenemos una señal analógica que puede tomar valores entre -5V y +5V y una frecuencia máxima de 1MHz ¿Cual es el mínimo número de bits de cuantificación para obtener una SNR>20dB?",
+    "opciones": [
+      "4",
+      "8",
+      "10",
+      "16"
+    ],
+    "correcta": 0,
+    "explicacion": "SNRdB = 6,02·nb + 1,76 > 20 → nb > 3,03 → 4 bits.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 2,
+      "paginaPdf": 275
+    }
+  },
+  {
+    "id": "E39-P09",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda 4KHz se muestrea y se envía a través de un canal de 10Kbps ¿ Cuál será su valor de SNRdb?",
+    "opciones": [
+      "13,8 dB",
+      "7,78 dB",
+      "5 dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "fs = 8000 muestras/s → nb = ⌊10000/8000⌋ = 1 bit → SNRdB = 6,02 + 1,76 = 7,78 dB.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 9,
+      "paginaPdf": 276
+    }
+  },
+  {
+    "id": "E40-P02",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ cuantos datos transporta un elemento de señal",
+    "opciones": [
+      "1 elemento de señal 2 dato",
+      "1 elemento de señal 1 datos",
+      "2 elementos de señal 1 dato",
+      "No usa elementos de señal"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ: 1 elemento de señal por dato.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 2,
+      "paginaPdf": 283
+    }
+  },
+  {
+    "id": "E40-P11",
+    "tema": "Tema 4",
+    "enunciado": "Se quiere digitalizar y transmitir el canto del grillo. Sabiendo que el ancho de banda del canto del grillo es de 20Khz y que se usan 16 bits para codificar cada muestra obtenida con la tasa mínima del teorema de Nyquist ¿cuál será la tasa de bits mínima necesaria para digitalizarlo en monofónico (no en estéreo)?",
+    "opciones": [
+      "4000 bps",
+      "320 kbps",
+      "640 kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 40 kmuestras/s × 16 bits = 640 kbps.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 11,
+      "paginaPdf": 285
+    }
+  },
+  {
+    "id": "E40-P12",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 200 KHz que se a muestrea usando 256 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist.\n• ¿Cuál es la tasa de bits de la señal digitalizada?\n• Calcúlese el valor SNRdb para esta señal",
+    "opciones": [
+      "Tasa de bits 2,3 MBps, SNRdb= 92,49",
+      "Tasa de bits 3,2 MBps, SNRdb= 49,92",
+      "Tasa de bits 2 MBps, SNRdb= 96,61",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "N = 400 kmuestras/s × 8 bits = 3,2 Mbps; SNRdB = 6,02·8 + 1,76 = 49,92.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 12,
+      "paginaPdf": 285
+    }
+  },
+  {
+    "id": "E41-P03",
+    "tema": "Tema 4",
+    "enunciado": "Para un documental se digitalizan en estéreo (2 canales) los cantos de las ballenas que tienen una frecuencia máxima de 40kHz. Suponiendo que se usan 8 bits para cada muestra de cada uno de los dos canales estéreo,\n1.- ¿Cuál será la tasa de bits mínima necesaria?\n2.- Si la frecuencia máxima se reduce a la mitad y se aumenta el tamaño de cada muestra al doble ¿qué ocurriría a la tasa de bits?",
+    "opciones": [
+      "1,28 Mbps y Sería la misma que la calculada en la opción 1",
+      "0,640 Mbps y Seria la mitad que la calculada en la opción 1",
+      "640 kbps y Sería doble que la calculada en la opción 1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "2 × 40 kHz × 8 bits × 2 canales = 1,28 Mbps. Con fmax a la mitad y el doble de bits por muestra, la tasa no cambia.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 3,
+      "paginaPdf": 291
+    }
+  },
+  {
+    "id": "E41-P08",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 200 kHz se ha muestreado usando 256 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist.\n1. Cuál es la tasa de bits de la señal digitalizada\n2. Calcúlese el valor SNRdB para esta señal",
+    "opciones": [
+      "Tasa de bits 1,6 Mbps y SNRdB= 92,49",
+      "Tasa de bits 3,2 Mbps y SNRdB= 96,61",
+      "Tasa de bits 3,2 Mbps y SNRdB= 49,92",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "N = 400 kmuestras/s × 8 = 3,2 Mbps; SNRdB = 49,92.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 8,
+      "paginaPdf": 292
+    }
+  },
+  {
+    "id": "E41-P11",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda de 8kHz. Se muestrea en el límite de Nyquist y se envía a través de un canal de 304 kbps ¿Cuál será la mejor SNRdB de cuantización que podemos enviar por ese canal?",
+    "opciones": [
+      "116,14 dB",
+      "218,48 dB",
+      "304 dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "fs = 16000 muestras/s → nb = 304000/16000 = 19 bits → SNRdB = 6,02·19 + 1,76 = 116,14 dB.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 11,
+      "paginaPdf": 293
+    }
+  },
+  {
+    "id": "E41-P15",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ, ¿cuantos datos transporta un elemento de señal?",
+    "opciones": [
+      "1 elemento de señal, 2 de datos",
+      "1 elemento de señal, 1 de datos",
+      "2 elementos de señal, 1 de dato",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ: 1 elemento de señal por dato.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 15,
+      "paginaPdf": 294
+    }
+  },
+  {
+    "id": "E42-P16",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación polar bifásica de tipo Manchester ¿cuántos elementos de señal son necesarios para enviar un bit?",
+    "opciones": [
+      "1 elemento de señal, 1 bit",
+      "1 elemento de señal, 2 bits",
+      "2 elementos de señal, 1 bit",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Manchester: 2 elementos de señal por bit.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 16,
+      "paginaPdf": 304
+    }
+  },
+  {
+    "id": "E42-P20",
+    "tema": "Tema 4",
+    "enunciado": "Se ha digitalizado en estero [sic] una señal con una frecuencia máxima de 20kHz. Suponiendo que se usan 16 bits para cada muestra de cada uno de los dos canales estéreo:\n1.- ¿Cuál será la tasa de bits mínima necesaria?\n2.- Si la frecuencia máxima se reduce a la mitad y se aumenta el tamaño de la muestra al doble ¿qué le ocurre a la tasa de bits?",
+    "opciones": [
+      "1.- 1,28 Mbps / 2.- Sería la misma que la calculada en la opción 1",
+      "1.- 0,640 Mbps / 2.- Seria la mitad que la calculada en la opción 1",
+      "1.- 640 Kbps / 2.- Sería doble que la calculada en la opción 1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "2 × 20 kHz × 16 × 2 = 1,28 Mbps; con fmax/2 y muestras de 32 bits, la tasa no cambia.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 20,
+      "paginaPdf": 305
+    }
+  },
+  {
+    "id": "E43-P03",
+    "tema": "Tema 4",
+    "enunciado": "Dado el siguiente gráfico de una señal binaria codificada. Indicar le [sic] tipo de codificación usada.\n[Figura: señal digital de dos niveles (positivo/negativo) respecto a un eje horizontal, con 8 intervalos de bit delimitados por líneas verticales discontinuas y etiquetados debajo con los bits 0 1 0 0 0 1 1 0. En cada intervalo hay una transición en mitad del bit: en los bits 0 la señal pasa de nivel alto a nivel bajo, y en los bits 1 pasa de nivel bajo a nivel alto. Recorrido: bit 0 alto→bajo; bit 1 bajo→alto; bit 0 alto→bajo; bit 0 (sube en la frontera) alto→bajo; bit 0 (sube en la frontera) alto→bajo; bit 1 bajo→alto; bit 1 (baja en la frontera) bajo→alto; bit 0 alto→bajo.]",
+    "opciones": [
+      "AMI",
+      "Manchester",
+      "Manchester diferencial",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada 0 es alto→bajo y cada 1 bajo→alto a mitad de bit, independientemente del bit anterior: Manchester.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 3,
+      "paginaPdf": 311
+    }
+  },
+  {
+    "id": "E43-P05",
+    "tema": "Tema 4",
+    "enunciado": "Se tiene un canal de banda base con una ancho de banda de 10 MHz ¿Cuál es la tasa de datos máxima para este canal si se usa el esquema de codificación Manchester? Dato c=1/2",
+    "opciones": [
+      "10 Mbps",
+      "20 Mbps",
+      "40 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Manchester: N = B·r/c = 10 MHz × 0,5 / 0,5 = 10 Mbps.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 5,
+      "paginaPdf": 312
+    }
+  },
+  {
+    "id": "E43-P10",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 500 kHz que se ha muestreado usando 1024 niveles de cuantificación ¿cual es la tasa de bits mínima de la señal digitalizada?",
+    "opciones": [
+      "250 kbps",
+      "5 Mbps",
+      "10 Mbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "fs = 1 Mmuestras/s × 10 bits = 10 Mbps.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 10,
+      "paginaPdf": 312
+    }
+  },
+  {
+    "id": "E43-P17",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda de 8 kHz. Se muestrea y se envía a través de un canal de 300 kbps ¿Cuál será la mejor relación señal ruido de cuantificación expresado en dB (SNRdb) que podemos utilizar?",
+    "opciones": [
+      "116,14 dB",
+      "110,12 dB",
+      "52 dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "fs = 16000 muestras/s → nb = ⌊300000/16000⌋ = 18 → SNRdB = 6,02·18 + 1,76 = 110,12 dB.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 17,
+      "paginaPdf": 314
+    }
+  },
+  {
+    "id": "E43-P20",
+    "tema": "Tema 4",
+    "enunciado": "Un sistema de transmisión de datos utiliza la codificación NRZ (No Return to Zero) para enviar información binaria a través de un canal de comunicación. La señal enviada fue: 0110100011011101 y la secuencia recibida en el destino fue la siguiente: 0101100011010101.",
+    "opciones": [
+      "La transmisión usando NRZ sustituye el primer uno consecutivo por un cero.",
+      "Si las secuencias de salida y llegada son diferentes es porque ha habido algún problema en la transmisión",
+      "Es normal, NRZ solo admite un número par de ceros en la secuencia",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ no modifica los bits; si la secuencia recibida difiere de la enviada, ha habido errores en la transmisión.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 20,
+      "paginaPdf": 314
+    }
+  },
+  {
+    "id": "E44-P01",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 200 kHz se ha muestreado usando 256 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist.\na) cuál es la tasa de bits de la señal digitalizada\nb) Calcúlese el valor SNRdb para esta señal",
+    "opciones": [
+      "3,2 Mbps y 49,92dB",
+      "2,3 Mbps y 92,49dB",
+      "2 Mbps y 96,61dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "N = 400 kmuestras/s × 8 bits = 3,2 Mbps; SNRdB = 49,92 dB.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 1,
+      "paginaPdf": 319
+    }
+  },
+  {
+    "id": "E44-P14",
+    "tema": "Tema 4",
+    "enunciado": "La voz humana (analógica) se considera que tiene un ancho de banda 8kHz se muestrea en el límite de Nyquist y se envía a través de un canal de 304 kbps ¿Cuál será su ruido de cuantización en decibelios?",
+    "opciones": [
+      "116,14 dB",
+      "110,12 dB",
+      "52 dB",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "nb = 304000/16000 = 19 bits → SNRdB = 116,14 dB.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 14,
+      "paginaPdf": 321
+    }
+  },
+  {
+    "id": "E45-P05",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación NRZ ¿cuantos datos transporta un elemento de señal?",
+    "opciones": [
+      "1 elemento de señal, 2 de datos",
+      "1 elemento de señal, 1 de datos",
+      "2 elementos de señal, 1 de dato",
+      "No usa elementos de señal"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ: 1 elemento de señal por dato.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 5,
+      "paginaPdf": 327
+    }
+  },
+  {
+    "id": "E45-P06",
+    "tema": "Tema 4",
+    "enunciado": "Para un documental se digitalizan en estéreo los cantos de las ballenas, que tienen una frecuencia máxima de 20kHz. Suponiendo que se usan 4 bits para cada muestra de cada uno de los dos canales estéreo:\n1.- ¿Cuál será la tasa de bits mínima necesaria?\n2.- Si la frecuencia máxima se reduce a la mitad y se aumenta el tamaño de la muestra al doble (8 bits) ¿qué ocurriría a la tasa de bits?",
+    "opciones": [
+      "1,28 Mbps y Sería la misma que la calculada en la opción 1",
+      "320 kbps y Sería la misma que la calculada en la opción 1",
+      "1,28 kbps y Sería doble que la calculada en la opción 2",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "2 × 20 kHz × 4 bits × 2 canales = 320 kbps; con fmax/2 y 8 bits por muestra, la tasa no cambia.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 6,
+      "paginaPdf": 328
+    }
+  },
+  {
+    "id": "E45-P19",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación Manchester bifásica polar ¿cuántos elementos de señal es necesario para enviar un bit?",
+    "opciones": [
+      "1 elemento de señal, 1 bit",
+      "1 elemento de señal, 2 bits",
+      "2 elementos de señal, 1 bit",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Manchester: 2 elementos de señal por bit.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 19,
+      "paginaPdf": 330
+    }
+  },
+  {
+    "id": "E46-P05",
+    "tema": "Tema 4",
+    "enunciado": "Indique la afirmación que considere más acertada para describir los sistemas de codificación basados en aleatorización",
+    "opciones": [
+      "Son una modificación del esquema AMI para poder garantizar sincronización sin incrementar el ancho de banda necesario",
+      "Sustituyen una secuencia dada por un patrón completamente aleatorio",
+      "Intercambian el significado lógico de los ceros y los unos",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "La aleatorización (B8ZS, HDB3) modifica AMI sustituyendo largas secuencias de ceros por patrones con violaciones, para mantener la sincronización sin aumentar el ancho de banda.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 5,
+      "paginaPdf": 335
+    }
+  },
+  {
+    "id": "E46-P06",
+    "tema": "Tema 4",
+    "enunciado": "¿Cuál es la tasa de muestreo de Nyquist para una señal paso bajo con ancho de banda de 300 kHz?",
+    "opciones": [
+      "200 000 muestras por segundo",
+      "600 000 muestras por segundo",
+      "150 000 muestras por segundo",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "fs = 2 × 300 kHz = 600000 muestras/s.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 6,
+      "paginaPdf": 336
+    }
+  },
+  {
+    "id": "E46-P07",
+    "tema": "Tema 4",
+    "enunciado": "Se ha muestreado una señal paso bajo con un ancho de banda de 300 kHz utilizando 1024 niveles de cuantificación. Calcúlese la mínima tasa de bits de la señal digitalizada.",
+    "opciones": [
+      "6 Mbps",
+      "300 Mbps",
+      "600 Mbps",
+      "150 Mbps"
+    ],
+    "correcta": 0,
+    "explicacion": "600000 muestras/s × 10 bits = 6 Mbps.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 7,
+      "paginaPdf": 336
+    }
+  },
+  {
+    "id": "E47-P03",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación Manchester, ¿Cuál es la relación entre la tasa de baudios y la tasa de bits? (baudios:bits)",
+    "opciones": [
+      "1:1",
+      "1:2",
+      "2:1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Manchester: 2 baudios por bit → baudios:bits = 2:1.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 3,
+      "paginaPdf": 343
+    }
+  },
+  {
+    "id": "E47-P10",
+    "tema": "Tema 4",
+    "enunciado": "Una señal paso bajo con ancho de banda 100 kHz se ha muestreado usando 128 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist.\n¿Cuál es la tasa de bits de la señal digitalizada y el SNRdB de cuantización?",
+    "opciones": [
+      "Tasa de bits 1400 kbps, SNRdb= 43,9",
+      "Tasa de bits 0,7 Mbps, SNRdb= 43,9",
+      "Tasa de bits 1,4 Mbps, SNRdb= 96,61",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "128 niveles = 7 bits; 200 kmuestras/s × 7 = 1400 kbps; SNRdB = 6,02·7 + 1,76 ≈ 43,9 dB.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 10,
+      "paginaPdf": 344
+    }
+  },
+  {
+    "id": "E48-P09",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 400 kHz se ha muestreado usando 128 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist.\n¿Cuál es la tasa de bits de la señal digitalizada y el valor SNRdb de cuantización?",
+    "opciones": [
+      "Tasa de bits 5,6 Mbps, SNRdb= 43,9",
+      "Tasa de bits 2,8 Mbps, SNRdb= 43,9",
+      "Tasa de bits 2 Mbps, SNRdb= 96,61",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "800 kmuestras/s × 7 bits = 5,6 Mbps; SNRdB = 6,02·7 + 1,76 ≈ 43,9 dB.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 9,
+      "paginaPdf": 352
+    }
+  },
+  {
+    "id": "E50-P02",
+    "tema": "Tema 4",
+    "enunciado": "Un sistema de transmisión de datos utiliza la codificación NRZ (No Return to Zero) para enviar información binaria a través de un canal de comunicación. La señal enviada fue 0110100011011101 y la secuencia recibida en el destino fue la siguiente: 0101100011010101.",
+    "opciones": [
+      "La transmisión usando NRZ sustituye el primer uno consecutivo por un cero.",
+      "Si las secuencias de salida y llegada son diferentes es porque ha habido algún error en la transmisión",
+      "Es normal, NRZ solo admite un número par de ceros en la secuencia.",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ no modifica los bits enviados; si llegan distintos, ha habido errores en la transmisión.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 2,
+      "paginaPdf": 369
+    }
+  },
+  {
+    "id": "E50-P04",
+    "tema": "Tema 4",
+    "enunciado": "En NRZ, un elemento de señal transporta:",
+    "opciones": [
+      "2 bits",
+      "1 bit",
+      "3 bits",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "NRZ: un elemento de señal transporta 1 bit.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 4,
+      "paginaPdf": 369
+    }
+  },
+  {
+    "id": "E51-P11",
+    "tema": "Tema 4",
+    "enunciado": "En una codificación Manchester, ¿cuál es la relación entre la tasa de bits y la tasa de Baudios? (bits : Baudios)",
+    "opciones": [
+      "1:1",
+      "1:2",
+      "2:1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Manchester: 1 bit = 2 baudios → bits:baudios = 1:2.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 11,
+      "paginaPdf": 381
+    }
+  },
+  {
+    "id": "E51-P15",
+    "tema": "Tema 4",
+    "enunciado": "Una señal paso bajo con ancho de banda 200 kHz se ha muestreado usando 256 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist.\n1- ¿Cuál es la tasa de bits de la señal digitalizada?\n2- Calcúlese el valor SNRdB de cuantización para esta señal",
+    "opciones": [
+      "Tasa de bits 3,2 Mbps, SNRdb= 49,92",
+      "Tasa de bits 2,3 Mbps, SNRdb= 92,49",
+      "Tasa de bits 2 Mbps, SNRdb= 96,61",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "400 kmuestras/s × 8 bits = 3,2 Mbps; SNRdB = 6,02·8 + 1,76 = 49,92 dB.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 15,
+      "paginaPdf": 381
+    }
+  },
+  {
+    "id": "E52-P17",
+    "tema": "Tema 4",
+    "enunciado": "Dada una señal paso bajo con ancho de banda 100 kHz se ha muestreado usando 512 niveles de cuantificación a la frecuencia mínima del teorema de Nyquist. ¿Cuál es la tasa de bits de la señal digitalizada?",
+    "opciones": [
+      "900 kbps",
+      "1800 kbps",
+      "3600 kbps",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "512 niveles = 9 bits; 200 kmuestras/s × 9 = 1800 kbps.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 17,
+      "paginaPdf": 390
+    }
+  }
+]

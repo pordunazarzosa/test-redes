@@ -1,0 +1,146 @@
+[
+  {
+    "id": "E05-P12",
+    "tema": "Tema 7",
+    "enunciado": "El protocolo RARP",
+    "opciones": [
+      "Permite a una estación descubrir una dirección física cuando solo se conoce la dirección de Internet",
+      "Permite a una estación descubrir una dirección de Internet cuando sólo se conoce la dirección física",
+      "Es un protocolo de control de flujo en el nivel de enlace como ARQ",
+      "Ninguna de las otras"
+    ],
+    "correcta": 1,
+    "explicacion": "RARP (ARP inverso) permite a una estación conocer su dirección IP cuando solo conoce su dirección física.",
+    "origen": {
+      "examen": 5,
+      "pregunta": 12,
+      "paginaPdf": 27
+    }
+  },
+  {
+    "id": "E07-P20",
+    "tema": "Tema 7",
+    "enunciado": "Los protocolos ARP e ICMP son protocolos del nivel de",
+    "opciones": [
+      "Red",
+      "Transporte",
+      "Sesión",
+      "Pertenecen a niveles distintos"
+    ],
+    "correcta": 0,
+    "explicacion": "ICMP es un protocolo de red y ARP es un protocolo auxiliar del nivel de red (el libro lo explica en el nivel de enlace pero «pertenece al nivel de red»).",
+    "origen": {
+      "examen": 7,
+      "pregunta": 20,
+      "paginaPdf": 44
+    }
+  },
+  {
+    "id": "E08-P15",
+    "tema": "Tema 7",
+    "enunciado": "El protocolo RARP",
+    "opciones": [
+      "Permite a una estación descubrir una dirección física cuando sólo se conoce la dirección de Internet",
+      "Permite a una estación descubrir una dirección de Internet cuando sólo se conoce la dirección física.",
+      "Es un protocolo de control de flujo en el nivel de enlace, al igual que ARQ",
+      "Ninguna de las otras afirmaciones es correcta."
+    ],
+    "correcta": 1,
+    "explicacion": "RARP obtiene la dirección IP a partir de la dirección física.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 15,
+      "paginaPdf": 51
+    }
+  },
+  {
+    "id": "E30-P01",
+    "tema": "Tema 7",
+    "enunciado": "El protocolo RARP",
+    "opciones": [
+      "Permite a una estación descubrir una dirección física cuando solo conoce la dirección de Internet",
+      "Permite a una estación descubrir una dirección de Internet cuando solo conoce la dirección física",
+      "Es un protocolo de control de flujo ARQ con vuelta atrás-N",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "RARP: obtener la dirección IP a partir de la física.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 1,
+      "paginaPdf": 201
+    }
+  },
+  {
+    "id": "E33-P16",
+    "tema": "Tema 7",
+    "enunciado": "Según el texto base, los protocolos ARP e ICMP son protocolos del nivel de",
+    "opciones": [
+      "Red",
+      "Transporte",
+      "Sesión",
+      "Pertenecen a niveles distintos"
+    ],
+    "correcta": 0,
+    "explicacion": "Según el libro, ARP es un protocolo auxiliar del nivel de red e ICMP también pertenece al nivel de red.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 16,
+      "paginaPdf": 229
+    }
+  },
+  {
+    "id": "E43-P14",
+    "tema": "Tema 7",
+    "enunciado": "¿Qué capas se encuentran involucradas en el protocolo ARP?",
+    "opciones": [
+      "Física y Enlace",
+      "Enlace y Red",
+      "Red y Transporte",
+      "Transporte y Aplicación"
+    ],
+    "correcta": 1,
+    "explicacion": "ARP relaciona direcciones del nivel de red (IP) con direcciones del nivel de enlace (MAC).",
+    "origen": {
+      "examen": 43,
+      "pregunta": 14,
+      "paginaPdf": 313
+    }
+  },
+  {
+    "id": "E48-P06",
+    "tema": "Tema 7",
+    "enunciado": "¿Qué protocolo se utiliza para traducir direcciones IP a direcciones MAC en redes locales?",
+    "opciones": [
+      "DNS",
+      "RARP",
+      "ICMP",
+      "ARP"
+    ],
+    "correcta": 3,
+    "explicacion": "ARP traduce direcciones IP a direcciones MAC.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 6,
+      "paginaPdf": 352
+    }
+  },
+  {
+    "id": "E51-P07",
+    "tema": "Tema 7",
+    "enunciado": "¿Cuál es la razón técnica por la que ARP no funciona a través de routers?",
+    "opciones": [
+      "Porque usa puertos UDP reservados",
+      "Porque es un protocolo orientado a conexión",
+      "Porque opera en broadcast limitado a un dominio de capa 2",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Las peticiones ARP se envían por difusión de nivel 2, que los routers no reenvían.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 7,
+      "paginaPdf": 380
+    }
+  }
+]

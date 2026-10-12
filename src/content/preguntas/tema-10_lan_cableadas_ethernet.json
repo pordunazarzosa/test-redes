@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "E01-P19",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 43:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿ Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido.",
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección de Ethernet.",
+      "Ninguna de las anteriores."
+    ],
+    "correcta": 1,
+    "explicacion": "Primer byte 0x43 = 0100 0011: el bit menos significativo es 1 → dirección multicast, que nunca puede usarse como dirección de origen.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 19,
+      "paginaPdf": 3
+    }
+  },
+  {
+    "id": "E01-P20",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué codificación de línea y de bloque se usa en la red 100Base-TX?",
+    "opciones": [
+      "Manchester y 6B/7B",
+      "NRZ y MLT-3",
+      "MLT-3 y 4B/5B",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "100Base-TX usa codificación de bloque 4B/5B y codificación de línea MLT-3.",
+    "origen": {
+      "examen": 1,
+      "pregunta": 20,
+      "paginaPdf": 3
+    }
+  },
+  {
+    "id": "E02-P20",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué codificación de línea y de bloque se usa en la red 100Base-FX?",
+    "opciones": [
+      "Manchester y 6B/7B",
+      "NRZ y MLT-3",
+      "NRZ-I y 4B/5B",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "100Base-FX usa codificación de bloque 4B/5B y codificación de línea NRZ-I.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 20,
+      "paginaPdf": 9
+    }
+  },
+  {
+    "id": "E06-P08",
+    "tema": "Tema 10",
+    "enunciado": "¿Cuál es tamaño de una dirección física en Ethernet?",
+    "opciones": [
+      "32 bits",
+      "128 bits",
+      "48 bits",
+      "4 bytes"
+    ],
+    "correcta": 2,
+    "explicacion": "La dirección MAC de Ethernet tiene 6 bytes = 48 bits.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 8,
+      "paginaPdf": 34
+    }
+  },
+  {
+    "id": "E06-P15",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué codificación de línea utiliza Gigabit Ethernet sobre par trenzado (1000BaseT)?",
+    "opciones": [
+      "MLT-3 y 4B/5B",
+      "4D-PAM5",
+      "Ami",
+      "Manchester con 8B/10B"
+    ],
+    "correcta": 1,
+    "explicacion": "1000Base-T emplea la codificación 4D-PAM5 sobre los 4 pares.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 15,
+      "paginaPdf": 35
+    }
+  },
+  {
+    "id": "E06-P17",
+    "tema": "Tema 10",
+    "enunciado": "La red Ethernet estándar utiliza como procedimiento de acceso al medio:",
+    "opciones": [
+      "CSMA",
+      "CSMA-CD 1 persistente",
+      "CSMA-CD sin persistencia",
+      "Aloha ranurado"
+    ],
+    "correcta": 1,
+    "explicacion": "La Ethernet estándar usa CSMA/CD 1-persistente.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 17,
+      "paginaPdf": 35
+    }
+  },
+  {
+    "id": "E08-P12",
+    "tema": "Tema 10",
+    "enunciado": "La dirección de destino de una trama Ethernet es 0B:01:02:03:04:05 ¿Cuál es el tipo de la dirección?",
+    "opciones": [
+      "Multicast",
+      "Broadcast",
+      "Unicast",
+      "Anicast"
+    ],
+    "correcta": 0,
+    "explicacion": "0x0B = 0000 1011: bit menos significativo del primer byte = 1 → multicast (no es broadcast porque no es FF:FF:FF:FF:FF:FF).",
+    "origen": {
+      "examen": 8,
+      "pregunta": 12,
+      "paginaPdf": 51
+    }
+  },
+  {
+    "id": "E09-P06",
+    "tema": "Tema 10",
+    "enunciado": "La dirección C1:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿ Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama. Al menos 3 bits se han corrompido",
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección de Ethernet válida",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0xC1 = 1100 0001: bit menos significativo = 1 → multicast, no válida como origen.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 6,
+      "paginaPdf": 58
+    }
+  },
+  {
+    "id": "E11-P09",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 43:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿ Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama. Al menos 3 bits se han corrompido",
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección válida de Ethernet",
+      "Es una dirección de broadcast y no puede ser una dirección de origen"
+    ],
+    "correcta": 1,
+    "explicacion": "0x43 tiene a 1 el bit menos significativo → multicast, no puede ser dirección origen.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 9,
+      "paginaPdf": 68
+    }
+  },
+  {
+    "id": "E13-P17",
+    "tema": "Tema 10",
+    "enunciado": "La dirección C1:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido.",
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección de Ethernet.",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0xC1 = 1100 0001 → bit menos significativo a 1 → multicast, no válida como origen.",
+    "origen": {
+      "examen": 13,
+      "pregunta": 17,
+      "paginaPdf": 90
+    }
+  },
+  {
+    "id": "E14-P13",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 41:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido.",
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección de Ethernet válida.",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0x41 = 0100 0001 → bit menos significativo a 1 → multicast, no puede ser origen.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 13,
+      "paginaPdf": 99
+    }
+  },
+  {
+    "id": "E16-P14",
+    "tema": "Tema 10",
+    "enunciado": "La dirección D7:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿ Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido.",
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección de Ethernet.",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0xD7 = 1101 0111 → bit menos significativo a 1 → multicast.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 14,
+      "paginaPdf": 107
+    }
+  },
+  {
+    "id": "E17-P13",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 47:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido",
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección válida de Ethernet",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0x47 = 0100 0111 → bit menos significativo a 1 → multicast.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 13,
+      "paginaPdf": 115
+    }
+  },
+  {
+    "id": "E18-P13",
+    "tema": "Tema 10",
+    "enunciado": "La dirección D3:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido.",
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección válida de Ethernet.",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0xD3 = 1101 0011 → bit menos significativo a 1 → multicast.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 13,
+      "paginaPdf": 123
+    }
+  },
+  {
+    "id": "E18-P20",
+    "tema": "Tema 10",
+    "enunciado": "Las implementaciones de Ethernet Gigabit 1000Base-SX, 1000Base-LX y 1000Base-CS utilizan todas una codificación de bloque de tipo",
+    "opciones": [
+      "4D-PAM5",
+      "4B/5B",
+      "8B/10B",
+      "Ninguna utiliza codificación de bloque"
+    ],
+    "correcta": 2,
+    "explicacion": "1000Base-SX/LX/CX usan codificación de bloque 8B/10B (con NRZ); 1000Base-T usa 4D-PAM5.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 20,
+      "paginaPdf": 124
+    }
+  },
+  {
+    "id": "E19-P13",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 43:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿ Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido.",
+      "Es una dirección multicast y no puede ser una dirección de origen",
+      "No es una dirección válida de Ethernet",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0x43 → bit menos significativo a 1 → multicast.",
+    "origen": {
+      "examen": 19,
+      "pregunta": 13,
+      "paginaPdf": 131
+    }
+  },
+  {
+    "id": "E20-P09",
+    "tema": "Tema 10",
+    "enunciado": "La dirección C1:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor a [sic] detectado un error en la trama, al menos 1 bit se ha corrompido.",
+      "Es una dirección de tipo multicast y no puede ser una dirección de origen",
+      "Es una dirección de broadcast y no puede ser una dirección de origen",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0xC1 → bit menos significativo a 1 → multicast, no puede ser origen.",
+    "origen": {
+      "examen": 20,
+      "pregunta": 9,
+      "paginaPdf": 138
+    }
+  },
+  {
+    "id": "E22-P02",
+    "tema": "Tema 10",
+    "enunciado": "La dirección C0:7B:6C:DE:10:00 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la dirección, al menos 3 bits se han corrompido.",
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección de Ethernet.",
+      "Ninguna de las otras respuestas es válida"
+    ],
+    "correcta": 3,
+    "explicacion": "0xC0 = 1100 0000: el bit menos significativo es 0 → es unicast y sí es válida como origen. Ninguno de los motivos propuestos explica el descarte.",
+    "origen": {
+      "examen": 22,
+      "pregunta": 2,
+      "paginaPdf": 145
+    }
+  },
+  {
+    "id": "E26-P12",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué tipo de topología utiliza una red basada en 10-BaseF?",
+    "opciones": [
+      "Topología física de bus con topología lógica de estrella",
+      "Topología física de anillo",
+      "Topología física de bus",
+      "Topología física de estrella"
+    ],
+    "correcta": 3,
+    "explicacion": "10Base-F usa topología física en estrella (dos fibras hasta un hub/conmutador).",
+    "origen": {
+      "examen": 26,
+      "pregunta": 12,
+      "paginaPdf": 167
+    }
+  },
+  {
+    "id": "E29-P06",
+    "tema": "Tema 10",
+    "enunciado": "¿Cuál es la longitud de una dirección hardware en el estándar Ethernet?",
+    "opciones": [
+      "48 bits",
+      "32 bits",
+      "128 bits",
+      "56 bits"
+    ],
+    "correcta": 0,
+    "explicacion": "La dirección MAC Ethernet tiene 48 bits.",
+    "origen": {
+      "examen": 29,
+      "pregunta": 6,
+      "paginaPdf": 194
+    }
+  },
+  {
+    "id": "E30-P03",
+    "tema": "Tema 10",
+    "enunciado": "La dirección MAC de destino de una trama Ethernet es 07:01:02:03:04:05. ¿Qué tipo de dirección es?",
+    "opciones": [
+      "Multicast",
+      "Broadcast",
+      "Unicast",
+      "No es una dirección MAC válida"
+    ],
+    "correcta": 0,
+    "explicacion": "0x07 = 0000 0111 → bit menos significativo a 1 → multicast.",
+    "origen": {
+      "examen": 30,
+      "pregunta": 3,
+      "paginaPdf": 201
+    }
+  },
+  {
+    "id": "E30-P17",
+    "tema": "Tema 10",
+    "enunciado": "¿Cuál es la longitud máxima de una trama en el estándar Ethernet?",
+    "opciones": [
+      "512 bits",
+      "512 bytes",
+      "1518 bytes",
+      "1518 bits"
+    ],
+    "correcta": 2,
+    "explicacion": "Trama Ethernet máxima: 1518 bytes (sin preámbulo ni SFD).",
+    "origen": {
+      "examen": 30,
+      "pregunta": 17,
+      "paginaPdf": 203
+    }
+  },
+  {
+    "id": "E31-P15",
+    "tema": "Tema 10",
+    "enunciado": "Una red Ethernet de 10 Mbps se puede implementar en el nivel físico con:",
+    "opciones": [
+      "10Base5",
+      "10Base2",
+      "10BaseF",
+      "Todas las opciones son correctas"
+    ],
+    "correcta": 3,
+    "explicacion": "La Ethernet de 10 Mbps tiene las implementaciones 10Base5, 10Base2, 10Base-T y 10Base-F.",
+    "origen": {
+      "examen": 31,
+      "pregunta": 15,
+      "paginaPdf": 211
+    }
+  },
+  {
+    "id": "E34-P03",
+    "tema": "Tema 10",
+    "enunciado": "Las implementaciones de Ethernet Gigabit, 1000Base-SX, 1000Base-LX, 1000Base-CX todas usan la codificación de bloque",
+    "opciones": [
+      "8B / 10B",
+      "4B / 5B",
+      "10B / 8B",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "1000Base-SX, LX y CX usan 8B/10B.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 3,
+      "paginaPdf": 235
+    }
+  },
+  {
+    "id": "E34-P04",
+    "tema": "Tema 10",
+    "enunciado": "Sabiendo que la velocidad de propagación de la señal es 2x10⁸ m/s y que el tamaño de la rodaja (trama) es de 512 bits. Ignorando los retardos de los repetidores\n¿Cuál es la longitud máxima teórica de la red Ethernet de 10Mbps (dominio de colisión)?",
+    "opciones": [
+      "10240 metros",
+      "2560 metros",
+      "5120 metros",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "Tfr = 512/10⁷ = 51,2 µs → Tp máximo = 25,6 µs → L = 25,6 µs × 2·10⁸ m/s = 5120 m.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 4,
+      "paginaPdf": 235
+    }
+  },
+  {
+    "id": "E34-P08",
+    "tema": "Tema 10",
+    "enunciado": "Sea una red basada en 10-BaseT. ¿Qué tipo de topología es la más adecuada para implementar la red?",
+    "opciones": [
+      "Topología física en estrella",
+      "Topología física en anillo",
+      "Topología física en bus",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10Base-T usa topología física en estrella (pares trenzados hacia un hub/conmutador).",
+    "origen": {
+      "examen": 34,
+      "pregunta": 8,
+      "paginaPdf": 236
+    }
+  },
+  {
+    "id": "E35-P07",
+    "tema": "Tema 10",
+    "enunciado": "Sea una red basada en 10-BaseF. ¿Qué tipo de topología es la más adecuada para implementar la red?",
+    "opciones": [
+      "Topología física en anillo",
+      "Topología física en bus",
+      "Topología física en estrella",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "10Base-F usa topología física en estrella.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 7,
+      "paginaPdf": 244
+    }
+  },
+  {
+    "id": "E35-P10",
+    "tema": "Tema 10",
+    "enunciado": "Las implementaciones de Ethernet Gigabit, 1000Base-SX, 1000Base-LX, 1000Base-T usan las codificaciones en línea siguientes",
+    "opciones": [
+      "Las dos primeras NRZ y la última 4d-PAM5",
+      "Todas NRZ-I",
+      "Todas 4D-PAM5",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "1000Base-SX/LX: 8B/10B + NRZ; 1000Base-T: 4D-PAM5.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 10,
+      "paginaPdf": 244
+    }
+  },
+  {
+    "id": "E38-P03",
+    "tema": "Tema 10",
+    "enunciado": "Ethernet estándar proporciona un servicio:",
+    "opciones": [
+      "Con conexión",
+      "Sin conexión y sin control de errores",
+      "Fiable",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Ethernet estándar ofrece un servicio sin conexión y no fiable: si el CRC falla, la trama se descarta sin retransmitirla.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 3,
+      "paginaPdf": 267
+    }
+  },
+  {
+    "id": "E38-P05",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 42:CB:12:10:A3:01 se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "El receptor ha detectado un error en la trama, al menos 3 bits se han corrompido",
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección válida de Ethernet",
+      "No hay motivo para rechazarla. Es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "0x42 = 0100 0010: el bit menos significativo es 0 → es unicast, válida como origen.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 5,
+      "paginaPdf": 267
+    }
+  },
+  {
+    "id": "E38-P07",
+    "tema": "Tema 10",
+    "enunciado": "La capa de aplicación desea enviar un paquete de datos de 1460 bytes y se lo pasa a la capa de transporte que fragmenta el mensaje y lo envía a la capa de red. Suponiendo que, en ningún caso se utilizan opciones en las cabeceras ¿cual será la longitud total (en número de bytes) de la última trama Ethernet necesaria para enviar el paquete?\nIgnórese el preámbulo y SFD de capa física.",
+    "opciones": [
+      "1518",
+      "1514",
+      "1500",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "1460 bytes + 20 (TCP) + 20 (IP) = 1500 = MTU, un único segmento; trama = 1500 + 14 de cabecera + 4 de CRC = 1518 bytes.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 7,
+      "paginaPdf": 268
+    }
+  },
+  {
+    "id": "E38-P17",
+    "tema": "Tema 10",
+    "enunciado": "Una estación recibe una trama Ethernet. Después de los dos campos de dirección encuentra en los siguientes 2 bytes el valor x000A ¿Cual es la longitud total de la trama?",
+    "opciones": [
+      "10 bytes",
+      "28 bytes",
+      "64 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x000A → 10 bytes de datos, menos que el mínimo de 46: se rellena y la trama tiene la longitud mínima de 64 bytes.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 17,
+      "paginaPdf": 270
+    }
+  },
+  {
+    "id": "E39-P14",
+    "tema": "Tema 10",
+    "enunciado": "La capa de aplicación desea enviar un paquete de datos de 1480 bytes y se lo pasa a la capa de transporte que fragmenta el mensaje y lo envía a la capa de red. Suponiendo que, en ningún caso se utilizan opciones en las cabeceras ¿cual será la longitud total (en número de bytes) de la última trama Ethernet necesaria para enviar el paquete?\nIgnórese el preámbulo y SFD de capa física.",
+    "opciones": [
+      "1518",
+      "64",
+      "1500",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "1480 bytes > MSS de 1460: segmentos de 1460 y 20 bytes. El último datagrama = 20 + 20 TCP + 20 IP = 60 bytes de carga Ethernet → trama = 60 + 18 = 78 bytes, que no aparece.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 14,
+      "paginaPdf": 277
+    }
+  },
+  {
+    "id": "E39-P19",
+    "tema": "Tema 10",
+    "enunciado": "Una estación recibe una trama Ethernet. Después de los dos campos de dirección encuentra en los siguientes 2 bytes el valor x1000 ¿Cual es la longitud total de la trama?",
+    "opciones": [
+      "4096 bytes",
+      "4114 bytes",
+      "46 bytes",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "0x1000 = 4096 > 1500: no puede ser una longitud (supera el máximo de datos), sino un tipo; 4114 bytes excedería la trama máxima de 1518. Ninguna opción es válida.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 19,
+      "paginaPdf": 278
+    }
+  },
+  {
+    "id": "E40-P04",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 44:7B:6C:DE:FF:FF se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección de Ethernet válida",
+      "No hay motivo para rechazarla. Es correcta",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x44 = 0100 0100: bit menos significativo 0 → unicast, válida como origen (FF:FF al final no la convierte en broadcast).",
+    "origen": {
+      "examen": 40,
+      "pregunta": 4,
+      "paginaPdf": 283
+    }
+  },
+  {
+    "id": "E40-P14",
+    "tema": "Tema 10",
+    "enunciado": "La dirección de destino de una trama Ethernet es FF:FF:FF:FF:FF:FF ¿cuál es el tipo de la dirección?",
+    "opciones": [
+      "Multicast",
+      "Broadcast",
+      "Unicast",
+      "Inválida"
+    ],
+    "correcta": 1,
+    "explicacion": "FF:FF:FF:FF:FF:FF es la dirección de difusión (broadcast).",
+    "origen": {
+      "examen": 40,
+      "pregunta": 14,
+      "paginaPdf": 285
+    }
+  },
+  {
+    "id": "E41-P09",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 44:7B:6C:DE:FF:FF se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección de Ethernet válida",
+      "No hay motivo para rechazarla por la dirección de origen. Es correcta",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x44 → bit menos significativo 0 → unicast, válida como origen.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 9,
+      "paginaPdf": 292
+    }
+  },
+  {
+    "id": "E41-P13",
+    "tema": "Tema 10",
+    "enunciado": "Sea una red basada en 10Base-T. ¿Qué tipo de topología es el característico en esta implementación de Ethernet?",
+    "opciones": [
+      "Topología física de estrella",
+      "Topología física de anillo",
+      "Topología física de bus",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "10Base-T: estrella física en torno a un hub/conmutador.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 13,
+      "paginaPdf": 293
+    }
+  },
+  {
+    "id": "E42-P02",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 45:7B:6C:DE:FF:FF se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "Es una dirección de multicast y no puede ser una dirección de origen",
+      "No es una dirección de Ethernet",
+      "No hay motivo para rechazarla. Es correcta",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "0x45 = 0100 0101: bit menos significativo 1 → multicast, no válida como origen.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 2,
+      "paginaPdf": 301
+    }
+  },
+  {
+    "id": "E42-P06",
+    "tema": "Tema 10",
+    "enunciado": "Sea una red basada en 10Base-F. ¿Cual es la topología característica de esta implementación de Ethernet?",
+    "opciones": [
+      "Topología física de estrella",
+      "Topología física de anillo",
+      "Topología física de bus",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10Base-F: estrella física.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 6,
+      "paginaPdf": 302
+    }
+  },
+  {
+    "id": "E43-P08",
+    "tema": "Tema 10",
+    "enunciado": "¿Cual es el tiempo de transmisión de una trama Ethernet completa (incluyendo cabecera física) de tamaño máximo a través de un enlace de tipo Fast Ethernet?",
+    "opciones": [
+      "122 microsegundos",
+      "121,4 microsegundos",
+      "51,2 microsegundos",
+      "24,28 microsegundos"
+    ],
+    "correcta": 0,
+    "explicacion": "Trama máxima 1518 + 8 de preámbulo y SFD = 1526 bytes = 12208 bits / 100 Mbps ≈ 122 µs.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 8,
+      "paginaPdf": 312
+    }
+  },
+  {
+    "id": "E43-P09",
+    "tema": "Tema 10",
+    "enunciado": "Ethernet 100Base-T4 utiliza una codificación de bloque de tipo:",
+    "opciones": [
+      "4D-PAM5",
+      "4B/5B",
+      "8B/10B",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "100Base-T4 usa la codificación 8B6T.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 9,
+      "paginaPdf": 312
+    }
+  },
+  {
+    "id": "E44-P03",
+    "tema": "Tema 10",
+    "enunciado": "La dirección 84:7B:6C:DE:FF:FF se muestra como dirección origen en una trama Ethernet. El receptor ha descartado la trama ¿Por qué?",
+    "opciones": [
+      "Es una dirección de multicast y no puede ser una dirección de origen.",
+      "No es una dirección de Ethernet",
+      "Atendiendo a esta dirección, no hay motivo para rechazarla. Es correcta",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "0x84 = 1000 0100: bit menos significativo 0 → unicast, válida como origen.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 3,
+      "paginaPdf": 319
+    }
+  },
+  {
+    "id": "E44-P11",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué codificación de línea y de bloque se usa en la red 100Base-FX?",
+    "opciones": [
+      "Manchester y 6B/7B",
+      "NRZ y MLT-3",
+      "4B/5B y NRZ-I",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "100Base-FX: 4B/5B + NRZ-I.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 11,
+      "paginaPdf": 320
+    }
+  },
+  {
+    "id": "E44-P17",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué codificación de línea y de bloque se usa en la red 100Base-TX?",
+    "opciones": [
+      "Manchester y 6B/7B",
+      "NRZ y MLT-3",
+      "4B/5B y MLT-3",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "100Base-TX: 4B/5B + MLT-3.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 17,
+      "paginaPdf": 322
+    }
+  },
+  {
+    "id": "E45-P01",
+    "tema": "Tema 10",
+    "enunciado": "Ethernet estándar proporciona un servicio",
+    "opciones": [
+      "Con conexión",
+      "Sin conexión y control básico de errores",
+      "Donde el receptor envía un acuse de recibo (ACK) con cada trama que le llega",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Ethernet ofrece un servicio sin conexión y no fiable: solo detecta errores con el CRC y descarta las tramas erróneas, sin ACK.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 1,
+      "paginaPdf": 327
+    }
+  },
+  {
+    "id": "E45-P04",
+    "tema": "Tema 10",
+    "enunciado": "El método de acceso al medio en una red Ethernet estándar es del tipo:",
+    "opciones": [
+      "CSMA/CD 1 persistente",
+      "CSMA",
+      "Aloha ranurado",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ethernet estándar usa CSMA/CD 1-persistente.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 4,
+      "paginaPdf": 327
+    }
+  },
+  {
+    "id": "E46-P13",
+    "tema": "Tema 10",
+    "enunciado": "Dada una dirección de destino Ethernet en Hexadecimal: 07:01:02:03:04:05",
+    "opciones": [
+      "Unicast",
+      "Multicast",
+      "Anycast",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0x07 = 0000 0111: bit menos significativo a 1 → multicast.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 13,
+      "paginaPdf": 337
+    }
+  },
+  {
+    "id": "E47-P11",
+    "tema": "Tema 10",
+    "enunciado": "Las implementaciones de Ethernet Gigabit, 1000Base-SX, 1000Base-LX, 1000Base-CX todas usan la codificación de bloque",
+    "opciones": [
+      "8B/10B",
+      "6B/10B",
+      "10B/8B",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "1000Base-SX/LX/CX usan 8B/10B.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 11,
+      "paginaPdf": 345
+    }
+  },
+  {
+    "id": "E47-P12",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué tipo de topología física utiliza Ethernet 10-BaseT?",
+    "opciones": [
+      "Estrella",
+      "Anillo",
+      "Bus",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10Base-T usa estrella física.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 12,
+      "paginaPdf": 345
+    }
+  },
+  {
+    "id": "E48-P10",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué tipo de dirección Ethernet es la MAC FF:FF:FF:FF:FF:FF?",
+    "opciones": [
+      "Multicast",
+      "Anycast",
+      "Unicast",
+      "Broadcast"
+    ],
+    "correcta": 3,
+    "explicacion": "FF:FF:FF:FF:FF:FF es broadcast.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 10,
+      "paginaPdf": 352
+    }
+  },
+  {
+    "id": "E48-P11",
+    "tema": "Tema 10",
+    "enunciado": "Tras aplicar una codificación de bloque 8B/10B, ¿qué codificación de línea utilizan las implementaciones de Ethernet Gigabit, 1000Base-SX, 1000Base-LX, 1000Base-CX?",
+    "opciones": [
+      "NRZ",
+      "BRZ-I",
+      "4D-PAM5",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Tras 8B/10B, 1000Base-SX/LX/CX usan codificación de línea NRZ.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 11,
+      "paginaPdf": 353
+    }
+  },
+  {
+    "id": "E48-P12",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué tipo de codificación se utiliza en Ethernet 10-Base-F?",
+    "opciones": [
+      "Manchester",
+      "NRZ",
+      "8B/10B",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10Base-F usa codificación Manchester.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 12,
+      "paginaPdf": 353
+    }
+  },
+  {
+    "id": "E49-P07",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué tipo de topología utiliza una red 10-BaseT?",
+    "opciones": [
+      "Topología física de estrella",
+      "Topología física de anillo",
+      "Topología física de bus",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "10Base-T: estrella física.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 7,
+      "paginaPdf": 360
+    }
+  },
+  {
+    "id": "E50-P08",
+    "tema": "Tema 10",
+    "enunciado": "En Ethernet full-duplex conmutada, ¿por qué no se utiliza CSMA/CD?",
+    "opciones": [
+      "Porque las tramas se envían en multicast por defecto",
+      "Porque no hay colisiones",
+      "Porque las colisiones se gestionan mediante STP (Spanning Tree Protocol)",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "En Ethernet conmutada full-dúplex cada estación tiene un enlace dedicado bidireccional: no hay colisiones y CSMA/CD no es necesario.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 8,
+      "paginaPdf": 370
+    }
+  },
+  {
+    "id": "E51-P04",
+    "tema": "Tema 10",
+    "enunciado": "Una aplicación solicita enviar un mensaje de 1500 bytes de datos usando UDP sobre Ethernet con el tamaño MTU estándar y considerando que no hay opciones en IP y tampoco se permite la fragmentación IP ¿cuál es la longitud total de la trama de Ethernet?",
+    "opciones": [
+      "1518",
+      "1500",
+      "1522",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "1500 + 8 (UDP) + 20 (IP) = 1528 bytes > MTU de 1500. Sin fragmentación no puede enviarse en una sola trama Ethernet, así que ninguna opción es válida.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 4,
+      "paginaPdf": 379
+    }
+  },
+  {
+    "id": "E51-P17",
+    "tema": "Tema 10",
+    "enunciado": "En Ethernet estándar, el método de acceso al medio es:",
+    "opciones": [
+      "CSMA/CD 1 persistente",
+      "CSMA no persistente",
+      "ALOHA puro",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ethernet estándar: CSMA/CD 1-persistente.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 17,
+      "paginaPdf": 382
+    }
+  },
+  {
+    "id": "E52-P12",
+    "tema": "Tema 10",
+    "enunciado": "Una dirección MAC 01:00:5E:00:00:01 aparece como destino en una trama Ethernet. ¿Qué tipo de dirección es?",
+    "opciones": [
+      "Unicast",
+      "Multicast",
+      "Broadcast",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "0x01: bit menos significativo a 1 → multicast (01:00:5E es el prefijo multicast IPv4).",
+    "origen": {
+      "examen": 52,
+      "pregunta": 12,
+      "paginaPdf": 389
+    }
+  },
+  {
+    "id": "E52-P16",
+    "tema": "Tema 10",
+    "enunciado": "¿Qué codificación de línea y de bloque se usa en la red 1000Base-T (Gigabit Ethernet sobre par trenzado)?",
+    "opciones": [
+      "NRZ-I y 8B/10B",
+      "4D-PAM5",
+      "Manchester diferencial y 4B/5B",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "1000Base-T usa 4D-PAM5.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 16,
+      "paginaPdf": 390
+    }
+  }
+]

@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "E01-P01",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 114.34.2.8?",
+    "opciones": [
+      "NETID= 114 HOSTID 34.2.8",
+      "NETID= 114.34 HOSTID 2.8",
+      "NETID= 114.34.2 HOSTID 8",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "114 está entre 0 y 127 → clase A: el primer byte es el NetID (114) y los tres restantes el HostID (34.2.8).",
+    "origen": {
+      "examen": 1,
+      "pregunta": 1,
+      "paginaPdf": 1
+    }
+  },
+  {
+    "id": "E02-P13",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 208.34.54.12?",
+    "opciones": [
+      "NETID= 208 HOSTID 34.54.12",
+      "NETID= 208.34 HOSTID 54.12",
+      "NETID= 208.34.54 HOSTID 12",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 2,
+    "explicacion": "208 está entre 192 y 223 → clase C: NetID = 208.34.54 y HostID = 12.",
+    "origen": {
+      "examen": 2,
+      "pregunta": 13,
+      "paginaPdf": 8
+    }
+  },
+  {
+    "id": "E03-P12",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 118.35.4.1?",
+    "opciones": [
+      "NETID= 118 HOSTID 35.4.1",
+      "NETID= 118.35 HOSTID 4.1",
+      "NETID= 118.35.4 HOSTID 1",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "118 → clase A: NetID = 118, HostID = 35.4.1.",
+    "origen": {
+      "examen": 3,
+      "pregunta": 12,
+      "paginaPdf": 14
+    }
+  },
+  {
+    "id": "E06-P03",
+    "tema": "Tema 13",
+    "enunciado": "En un sistema con 5 conmutadores que conectan 6 redes. ¿Cuantas tablas de encaminamiento hay?",
+    "opciones": [
+      "Cinco (5)",
+      "Treinta (6x5=30)",
+      "Once (6+5=11)",
+      "Seis (6)"
+    ],
+    "correcta": 0,
+    "explicacion": "Cada dispositivo de encaminamiento mantiene su propia tabla: 5 conmutadores → 5 tablas.",
+    "origen": {
+      "examen": 6,
+      "pregunta": 3,
+      "paginaPdf": 33
+    }
+  },
+  {
+    "id": "E07-P15",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 204.18.36.47 / 27. ¿Cuál es la última dirección del bloque?",
+    "opciones": [
+      "204.18.36.32",
+      "204.18.36.47",
+      "204.18.36.63",
+      "Ninguna de las otras respuestas es correcta."
+    ],
+    "correcta": 2,
+    "explicacion": "/27 → bloques de 32 direcciones. 47 cae en 32-63 → última dirección 204.18.36.63.",
+    "origen": {
+      "examen": 7,
+      "pregunta": 15,
+      "paginaPdf": 43
+    }
+  },
+  {
+    "id": "E08-P07",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones. Se sabe que una de las direcciones es 110.81.210.47 / 27. ¿Cuál es la primera dirección del bloque?",
+    "opciones": [
+      "110.81.210.32",
+      "110.81.210.47",
+      "110.81.210.33",
+      "Ninguna de las otras respuestas es correcta."
+    ],
+    "correcta": 0,
+    "explicacion": "/27 → bloques de 32 direcciones; 47 está en 32-63 → primera dirección 110.81.210.32.",
+    "origen": {
+      "examen": 8,
+      "pregunta": 7,
+      "paginaPdf": 50
+    }
+  },
+  {
+    "id": "E09-P18",
+    "tema": "Tema 13",
+    "enunciado": "En un direccionamiento con clases ¿Cual es la dirección de red y del nodo de la siguiente IP 114.34.2.8?",
+    "opciones": [
+      "NetID= 114 HostID: 34.2.8",
+      "NetID= 114.34 HostID: 2.8",
+      "NetID= 114.34.2 HostID: 8",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "114 → clase A: NetID = 114, HostID = 34.2.8.",
+    "origen": {
+      "examen": 9,
+      "pregunta": 18,
+      "paginaPdf": 61
+    }
+  },
+  {
+    "id": "E11-P08",
+    "tema": "Tema 13",
+    "enunciado": "En un direccionamiento con clases ¿Cual es la dirección de red y del nodo de la siguiente IP 208.34.54.12?",
+    "opciones": [
+      "NetID= 208 HostID= 34.54.12",
+      "NetID= 208.34 HostID= 54.12",
+      "NetID= 208.34.54 HostID= 34.54.12",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Clase C: NetID = 208.34.54 y HostID = 12; la opción C da un HostID erróneo, así que ninguna es correcta.",
+    "origen": {
+      "examen": 11,
+      "pregunta": 8,
+      "paginaPdf": 68
+    }
+  },
+  {
+    "id": "E12-P08",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 114.34.2.8 entendida como una dirección con clases?",
+    "opciones": [
+      "NETID= 114 HOSTID 34.2.8",
+      "NETID= 114.34 HOSTID 2.8",
+      "NETID= 114.34.2 HOSTID 8",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "114 → clase A: NetID = 114, HostID = 34.2.8.",
+    "origen": {
+      "examen": 12,
+      "pregunta": 8,
+      "paginaPdf": 78
+    }
+  },
+  {
+    "id": "E14-P14",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 192.34.2.8?",
+    "opciones": [
+      "NETID= 192 HOSTID 34.2.8",
+      "NETID= 192.34 HOSTID 2.8",
+      "NETID= 192.34.2 HOSTID 8",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "192 → clase C: NetID = 192.34.2, HostID = 8.",
+    "origen": {
+      "examen": 14,
+      "pregunta": 14,
+      "paginaPdf": 99
+    }
+  },
+  {
+    "id": "E16-P20",
+    "tema": "Tema 13",
+    "enunciado": "En un dodo [sic] de direccionamiento con clases, ¿Cúal es la dirección de red y del nodo de la siguiente IP 110.34.54.12?",
+    "opciones": [
+      "NETID= 110 HOSTID 34.54.12",
+      "NETID= 110.34 HOSTID 54.12",
+      "NETID= 110.34.54 HOSTID 12",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "110 → clase A: NetID = 110, HostID = 34.54.12.",
+    "origen": {
+      "examen": 16,
+      "pregunta": 20,
+      "paginaPdf": 108
+    }
+  },
+  {
+    "id": "E17-P14",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 220.34.2.8?",
+    "opciones": [
+      "NETID= 220 HOSTID 34.2.8",
+      "NETID= 220.34 HOSTID 2.8",
+      "NETID= 220.34.2 HOSTID 8",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "220 → clase C: NetID = 220.34.2, HostID = 8.",
+    "origen": {
+      "examen": 17,
+      "pregunta": 14,
+      "paginaPdf": 115
+    }
+  },
+  {
+    "id": "E18-P14",
+    "tema": "Tema 13",
+    "enunciado": "¿Cúal es la dirección de red y del nodo de la siguiente IP 130.34.54.12?",
+    "opciones": [
+      "NETID= 130.34 HOSTID 54.12",
+      "NETID= 130 HOSTID 34.54.12",
+      "NETID= 130.34.54 HOSTID 12",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "130 → clase B: NetID = 130.34, HostID = 54.12.",
+    "origen": {
+      "examen": 18,
+      "pregunta": 14,
+      "paginaPdf": 123
+    }
+  },
+  {
+    "id": "E21-P05",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 62.125.20.47 / 27. ¿Cuál es la última dirección del bloque?",
+    "opciones": [
+      "62.125.20.32",
+      "62.125.20.47",
+      "62.125.20.63",
+      "Ninguna de las otras respuestas es correcta."
+    ],
+    "correcta": 2,
+    "explicacion": "/27 → bloques de 32; 47 ∈ [32, 63] → última dirección 62.125.20.63.",
+    "origen": {
+      "examen": 21,
+      "pregunta": 5,
+      "paginaPdf": 141
+    }
+  },
+  {
+    "id": "E32-P17",
+    "tema": "Tema 13",
+    "enunciado": "Una organización tiene asignado un bloque de direcciones 210.111.0.127/16 y necesitamos crear 1000 subredes iguales. ¿Cual será la dirección de broadcast de la primera subred?",
+    "opciones": [
+      "210.111.0.255",
+      "210.111.255.63",
+      "210.111.0.63",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "1000 subredes → 10 bits más (2¹⁰ = 1024) → /26, bloques de 64. La primera subred es 210.111.0.0/26, con broadcast 210.111.0.63.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 17,
+      "paginaPdf": 221
+    }
+  },
+  {
+    "id": "E32-P18",
+    "tema": "Tema 13",
+    "enunciado": "Una organización tiene asignado un bloque de direcciones 210.111.0.127/16 y necesitamos crear 1000 subredes iguales. ¿Cual deberá ser la máscara de red de cada una de ellas?",
+    "opciones": [
+      "/10",
+      "/16",
+      "/26",
+      "/22"
+    ],
+    "correcta": 2,
+    "explicacion": "/16 + 10 bits de subred = /26.",
+    "origen": {
+      "examen": 32,
+      "pregunta": 18,
+      "paginaPdf": 222
+    }
+  },
+  {
+    "id": "E33-P15",
+    "tema": "Tema 13",
+    "enunciado": "Una organización tiene asignado un bloque de direcciones 160.45.12.56/16 y crea 1000 subredes iguales. ¿Cuantas máquinas (en el total de las subredes) se podrán conectar después de la subdivisión?",
+    "opciones": [
+      "65536",
+      "65534",
+      "63488",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "1000 subredes → 10 bits → /26 (2¹⁰ = 1024 subredes de 64 direcciones, 62 útiles cada una): 1024 × 62 = 63488 hosts.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 15,
+      "paginaPdf": 229
+    }
+  },
+  {
+    "id": "E33-P17",
+    "tema": "Tema 13",
+    "enunciado": "Una organización tiene asignado un bloque de direcciones 160.45.12.56/16 y crea 1024 subredes iguales. ¿Cual será la dirección de red de la última subred?",
+    "opciones": [
+      "160.45.255.192",
+      "160.45.12.255",
+      "160.45.12.192",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "/26 → la última subred empieza en 160.45.255.192.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 17,
+      "paginaPdf": 229
+    }
+  },
+  {
+    "id": "E33-P18",
+    "tema": "Tema 13",
+    "enunciado": "Una organización tiene asignado un bloque de direcciones 160.45.12.127/16 y hace una subdivisión para obtener 1000 subredes iguales. ¿Cuantas direcciones IP tendrá cada subred?",
+    "opciones": [
+      "65536",
+      "64",
+      "1000",
+      "6553"
+    ],
+    "correcta": 1,
+    "explicacion": "/26 → 2⁶ = 64 direcciones por subred.",
+    "origen": {
+      "examen": 33,
+      "pregunta": 18,
+      "paginaPdf": 230
+    }
+  },
+  {
+    "id": "E34-P02",
+    "tema": "Tema 13",
+    "enunciado": "¿Cual puede ser la primera dirección de un bloque de 256 direcciones IPv4?",
+    "opciones": [
+      "200.130.15.255",
+      "200.130.15.256",
+      "200.130.15.0",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "La primera dirección de un bloque de 256 debe ser divisible por 256 (último byte 0): 200.130.15.0.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 2,
+      "paginaPdf": 235
+    }
+  },
+  {
+    "id": "E34-P14",
+    "tema": "Tema 13",
+    "enunciado": "Una empresa tiene asignado el bloque 16.0.0.0/8. El administrador quiere crear subredes con una capacidad para 500 máquinas en cada una.\nCalcule la primera y la última dirección de la primera subred. (Direcciones de red y de broadcast)",
+    "opciones": [
+      "Primera 16.0.0.1 , última 16.0.127.245",
+      "Primera 16.0.0.0 , última 16.0.127.255",
+      "Primera 16.0.0.0 , última 16.0.127.254",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "Para 500 máquinas hacen falta bloques de 512 (/23): la primera subred va de 16.0.0.0 a 16.0.1.255. Ninguna opción coincide.",
+    "origen": {
+      "examen": 34,
+      "pregunta": 14,
+      "paginaPdf": 237
+    }
+  },
+  {
+    "id": "E35-P06",
+    "tema": "Tema 13",
+    "enunciado": "Una empresa tiene asignado el bloque 16.0.0.0/8. El administrador quiere crear 500 subredes Calcule la primera (dirección de red) y la última dirección (broadcast) de la última subred.",
+    "opciones": [
+      "Primera 16.0.128.1 , última 16.0.255.245",
+      "Primera 16.0.128.0 , última 16.255.255.255",
+      "Primera 16.255.128.0 , última 16.255.255.255",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "500 subredes → 9 bits → /17. La última subred va de 16.255.128.0 a 16.255.255.255.",
+    "origen": {
+      "examen": 35,
+      "pregunta": 6,
+      "paginaPdf": 244
+    }
+  },
+  {
+    "id": "E35-P17",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una máquina con una dirección 123.124.125.126 con una máscara de red /20.\nIndique cual de las siguientes direcciones no pertenece a la misma subred:",
+    "opciones": [
+      "123.124.125.115",
+      "124.124.125.128",
+      "123.124.243.126",
+      "Todas las direcciones indicadas pertenecen a la misma subred"
+    ],
+    "correcta": 2,
+    "explicacion": "/20 → la subred de 123.124.125.126 es 123.124.112.0 – 123.124.127.255; 123.124.243.126 queda fuera. (La opción B, 124.124.125.128, tampoco pertenece; probablemente sea una errata por 123.124.125.128.)",
+    "origen": {
+      "examen": 35,
+      "pregunta": 17,
+      "paginaPdf": 246
+    }
+  },
+  {
+    "id": "E36-P08",
+    "tema": "Tema 13",
+    "enunciado": "Si tenemos un esquema de direccionamiento basado en IPv4, indique la máscara de red inválida:",
+    "opciones": [
+      "255.1.0.0",
+      "255.128.0.0",
+      "255.255.0.0",
+      "Todas las máscaras son correctas"
+    ],
+    "correcta": 0,
+    "explicacion": "Una máscara debe tener los unos contiguos: 255.1.0.0 (11111111.00000001…) no es válida.",
+    "origen": {
+      "examen": 36,
+      "pregunta": 8,
+      "paginaPdf": 252
+    }
+  },
+  {
+    "id": "E37-P10",
+    "tema": "Tema 13",
+    "enunciado": "¿Cual de las siguientes direcciones puede ser la primera de una subred de 32 direcciones?",
+    "opciones": [
+      "58.207.121.64",
+      "58.207.64.4",
+      "58.207.121.4",
+      "58.207.121.100"
+    ],
+    "correcta": 0,
+    "explicacion": "Primera dirección de un bloque de 32 → último byte múltiplo de 32: 58.207.121.64.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 10,
+      "paginaPdf": 260
+    }
+  },
+  {
+    "id": "E37-P19",
+    "tema": "Tema 13",
+    "enunciado": "Una organización tiene asignado un bloque de direcciones 65.33.10.72/18 y necesitamos crear 1000 subredes iguales. ¿Cual deberá ser la máscara de red de cada una de ellas?",
+    "opciones": [
+      "/10",
+      "/16",
+      "/28",
+      "/22"
+    ],
+    "correcta": 2,
+    "explicacion": "1000 subredes → 10 bits → /18 + 10 = /28.",
+    "origen": {
+      "examen": 37,
+      "pregunta": 19,
+      "paginaPdf": 262
+    }
+  },
+  {
+    "id": "E38-P06",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una subred que tiene una máscara 255.255.240.0. ¿Cuantas direcciones IP tiene el bloque asignado a esa subred?",
+    "opciones": [
+      "4094",
+      "4096",
+      "256",
+      "1024"
+    ],
+    "correcta": 1,
+    "explicacion": "255.255.240.0 = /20 → 2¹² = 4096 direcciones.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 6,
+      "paginaPdf": 268
+    }
+  },
+  {
+    "id": "E38-P09",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 48.65.28.17 y la máscara es /27. ¿Cuál es la última dirección del bloque?",
+    "opciones": [
+      "48.65.28.32",
+      "48.65.28.63",
+      "48.65.28.31",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "/27 → bloques de 32: 17 ∈ [0, 31] → última 48.65.28.31.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 9,
+      "paginaPdf": 268
+    }
+  },
+  {
+    "id": "E38-P16",
+    "tema": "Tema 13",
+    "enunciado": "Teniendo en cuenta que la puerta de enlace es el sistema que debe encaminar los paquetes fuera de la subred, tenemos un PC con problemas de red cuya configuración es:\nDirección IP: 80.58.33.200\nMáscara: 255.255.255.128\nPuerta de enlace: 80.58.33.1\n¿Cual es el problema de configuración?",
+    "opciones": [
+      "La dirección IP no es una dirección pública válida",
+      "La máscara de red no es válida",
+      "La puerta de enlace no pertenece a la misma subred que el PC",
+      "Los parámetros de configuración de red son correctos. El problema tiene otro origen"
+    ],
+    "correcta": 2,
+    "explicacion": "80.58.33.200/25 está en la subred 80.58.33.128 – 80.58.33.255; la puerta de enlace 80.58.33.1 no pertenece a esa subred.",
+    "origen": {
+      "examen": 38,
+      "pregunta": 16,
+      "paginaPdf": 270
+    }
+  },
+  {
+    "id": "E39-P05",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una subred que tiene una máscara 255.255.252.0. ¿Cuantas direcciones IP hay en esta subred?",
+    "opciones": [
+      "4094",
+      "4096",
+      "256",
+      "1024"
+    ],
+    "correcta": 3,
+    "explicacion": "255.255.252.0 = /22 → 2¹⁰ = 1024 direcciones.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 5,
+      "paginaPdf": 275
+    }
+  },
+  {
+    "id": "E39-P08",
+    "tema": "Tema 13",
+    "enunciado": "Supongamos que en una red se transmiten paquetes de longitud uniforme (L bits/paquete) y llegan a un nodo intermedio a un ritmo de A paquetes/s. Si la velocidad de salida de ese nodo es R bits por segundo. ¿Que sucederá si (L x A) / R > 1?",
+    "opciones": [
+      "Los datos se irán acumulando en el nodo hasta desbordar la cola",
+      "Es la situación ideal que garantiza un correcto funcionamiento del nodo",
+      "La velocidad de salida de datos es mayor que la velocidad de llegada",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "L·A/R > 1 significa que llegan más bits por segundo de los que el nodo puede sacar: la cola crece hasta desbordarse (congestión).",
+    "origen": {
+      "examen": 39,
+      "pregunta": 8,
+      "paginaPdf": 276
+    }
+  },
+  {
+    "id": "E39-P15",
+    "tema": "Tema 13",
+    "enunciado": "¿Cual de las siguientes direcciones puede ser la primera de una subred de 32 direcciones?",
+    "opciones": [
+      "43.121.65.100",
+      "87.72.32.4",
+      "28.17.51.4",
+      "56.5.88.96"
+    ],
+    "correcta": 3,
+    "explicacion": "Bloque de 32 → el último byte debe ser múltiplo de 32: 56.5.88.96.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 15,
+      "paginaPdf": 277
+    }
+  },
+  {
+    "id": "E39-P16",
+    "tema": "Tema 13",
+    "enunciado": "Si tenemos una red que utiliza direccionamiento IPv4 indique la máscara incorrecta:",
+    "opciones": [
+      "255.1.1.0",
+      "255.254.0.0",
+      "255.255.255.192",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "255.1.1.0 no tiene los unos contiguos: máscara inválida.",
+    "origen": {
+      "examen": 39,
+      "pregunta": 16,
+      "paginaPdf": 277
+    }
+  },
+  {
+    "id": "E40-P01",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 64.58.26.18 y la máscara es /27.\n1.- ¿Cuál es dirección de broadcast?\n2.- ¿Cuál es la dirección máxima de un host?",
+    "opciones": [
+      "64.58.26.32 y 64.58.26.32",
+      "64.58.26.31 y 64.58.26.30",
+      "64.58.26.30 y 64.58.26.31",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "/27 → bloque 64.58.26.0 – 64.58.26.31: broadcast .31 y último host .30.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 1,
+      "paginaPdf": 283
+    }
+  },
+  {
+    "id": "E40-P15",
+    "tema": "Tema 13",
+    "enunciado": "Una empresa tiene asignado el bloque 16.0.0.0/8. El administrador crea una división en 500 subredes de idéntico tamaño. Calcule la primera y la última dirección de la subred 500",
+    "opciones": [
+      "Primera 16.249.128.1 , última 16.249.255.255",
+      "Primera 16.249.128.0 , última 16.249.255.255",
+      "Primera 16.249.128.0 , última 16.249.255.254",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "500 subredes → 9 bits → /17 (2 subredes por valor del 2º byte). La subred n.º 500 (índice 499) empieza en 16.249.128.0 y termina en 16.249.255.255.",
+    "origen": {
+      "examen": 40,
+      "pregunta": 15,
+      "paginaPdf": 285
+    }
+  },
+  {
+    "id": "E41-P01",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una subred que tiene una máscara 255.255.255.0\n1.- ¿Cuantas direcciones IP tiene, en total, el bloque asignado a esa subred?\n2.- ¿Cuál sería la notación CIDR de esta máscara?",
+    "opciones": [
+      "4096 y /20",
+      "4096 y /8",
+      "255 y /24",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "255.255.255.0 = /24 → 256 direcciones; la opción C dice 255, así que ninguna es correcta.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 1,
+      "paginaPdf": 291
+    }
+  },
+  {
+    "id": "E41-P14",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una red 30.86.200.0 / 24 ¿Cuales serían las dos posibles subredes /25? Representadas por la dirección de red de cada subred",
+    "opciones": [
+      "30.86.200.0 / 25 y 30.86.200.1 / 25",
+      "30.86.200.0 / 25 y 30.86.200.128 / 25",
+      "30.86.200.0 / 25 y 30.86.200.255 / 25",
+      "30.86.200.0 / 25 y 30.86.200.127 / 25"
+    ],
+    "correcta": 1,
+    "explicacion": "/24 en dos /25: 30.86.200.0/25 y 30.86.200.128/25.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 14,
+      "paginaPdf": 293
+    }
+  },
+  {
+    "id": "E41-P17",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 62.204.199.22 y la máscara es /24.\n1.- ¿Cuál es dirección de broadcast?\n2.- ¿Cuál es la dirección máxima de un host?",
+    "opciones": [
+      "62.204.199.25 y 62.204.199.24",
+      "62.204.199.255 y 62.204.199.254",
+      "62.204.199.0 y 62.204.199.254",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "/24 → broadcast 62.204.199.255, último host 62.204.199.254.",
+    "origen": {
+      "examen": 41,
+      "pregunta": 17,
+      "paginaPdf": 294
+    }
+  },
+  {
+    "id": "E42-P07",
+    "tema": "Tema 13",
+    "enunciado": "Una empresa tiene asignado el bloque de direcciones IP 16.0.0.0/8.\n1.- ¿Cuál es dirección de broadcast?\n2.- ¿Cuál es la dirección máxima de un host?",
+    "opciones": [
+      "16.255.255.255 y 16.255.255.254",
+      "16.0.0.0 y 16.255.255.255",
+      "16.0.0.255 y 16.255.255.254",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "16.0.0.0/8: broadcast 16.255.255.255 y último host 16.255.255.254.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 7,
+      "paginaPdf": 302
+    }
+  },
+  {
+    "id": "E42-P11",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una red IP en el rango 223.50.66.0 /24 y la dividimos en cuatro redes /26. ¿cual de las siguientes direcciones puede ser la dirección de broadcast de alguna de estas cuatro redes resultantes?",
+    "opciones": [
+      "223.50.66.126",
+      "223.50.66.0",
+      "223.50.66.128",
+      "223.50.66.191"
+    ],
+    "correcta": 3,
+    "explicacion": "Las cuatro /26 tienen broadcast .63, .127, .191 y .255 → 223.50.66.191.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 11,
+      "paginaPdf": 303
+    }
+  },
+  {
+    "id": "E42-P18",
+    "tema": "Tema 13",
+    "enunciado": "¿Qué característica tendrá la última dirección IP asignable a una máquina dentro del rango de una subred?",
+    "opciones": [
+      "Todos los bits de la parte ID-Host están a 1",
+      "Todos los bits de la parte ID-Host, excepto el menos significativo, están a 1",
+      "Todos los bits de la parte ID-Host, excepto el más significativo, están a 1",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "La última dirección asignable tiene todos los bits de host a 1 salvo el menos significativo (todos a 1 es el broadcast).",
+    "origen": {
+      "examen": 42,
+      "pregunta": 18,
+      "paginaPdf": 304
+    }
+  },
+  {
+    "id": "E42-P19",
+    "tema": "Tema 13",
+    "enunciado": "Si el rúter que conecta nuestra red local interna con Internet implementa NAT con traslación/traducción de puertos, indique la afirmación correcta.\nConsidere paquetes de salida los que tienen su origen en la red local y van a Internet y paquetes de entrada los que tienen su origen en Internet y su destino es la red local.",
+    "opciones": [
+      "En los paquetes de salida puede cambiar exclusivamente el puerto de destino",
+      "En los paquetes de salida puede cambiar tanto el puerto de destino como la IP de destino",
+      "En los paquetes de salida no puede cambiar nunca la IP de origen",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "En NAT con traducción de puertos (NAPT), en los paquetes de salida se cambian la IP de origen y el puerto de origen; ninguna afirmación es correcta.",
+    "origen": {
+      "examen": 42,
+      "pregunta": 19,
+      "paginaPdf": 305
+    }
+  },
+  {
+    "id": "E43-P01",
+    "tema": "Tema 13",
+    "enunciado": "Una empresa tiene asignado un rango de direcciones /24. Se sabe que una de las direcciones del rango es 12.36.52.100 y que el administrador ha dividido todo el rango en 8 subredes. ¿Cual es la primera dirección del bloque correspondiente a la segunda subred?",
+    "opciones": [
+      "12.36.52.1",
+      "12.36.52.32",
+      "12.36.52.255",
+      "12.36.52.0"
+    ],
+    "correcta": 1,
+    "explicacion": "8 subredes → /27 (32 direcciones). La segunda empieza en 12.36.52.32.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 1,
+      "paginaPdf": 311
+    }
+  },
+  {
+    "id": "E43-P06",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 48.180.6.74 / 27. ¿Cuál es la última dirección del bloque asignable a una estación?",
+    "opciones": [
+      "48.180.6.255",
+      "48.180.6.254",
+      "48.180.60.74",
+      "48.180.6.94"
+    ],
+    "correcta": 3,
+    "explicacion": "/27 → bloque 48.180.6.64 – 48.180.6.95; la última dirección asignable es 48.180.6.94.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 6,
+      "paginaPdf": 312
+    }
+  },
+  {
+    "id": "E43-P11",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos un ordenador con problemas de conexión de red. La IP que tiene configurada es 60.56.37.67 y se sabe que la red a la que pertenece admite un máximo de 62 máquinas. ¿Cual de las siguientes direcciones puede ser puerta de enlace por defecto?",
+    "opciones": [
+      "60.56.37.1",
+      "60.56.37.64",
+      "60.56.37.255",
+      "60.56.37.126"
+    ],
+    "correcta": 3,
+    "explicacion": "62 hosts → /26. 60.56.37.67 está en 60.56.37.64 – 60.56.37.127; la única dirección de host válida de las opciones es 60.56.37.126.",
+    "origen": {
+      "examen": 43,
+      "pregunta": 11,
+      "paginaPdf": 313
+    }
+  },
+  {
+    "id": "E44-P02",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una subred que tiene una máscara 255.255.240.0. ¿Cuantas direcciones IP hay en esta subred?",
+    "opciones": [
+      "4094",
+      "4096",
+      "256",
+      "1024"
+    ],
+    "correcta": 1,
+    "explicacion": "/20 → 4096 direcciones.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 2,
+      "paginaPdf": 319
+    }
+  },
+  {
+    "id": "E44-P16",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una subred que tiene una máscara 255.255.255.224.\n1.- ¿Cuantas direcciones IP tiene el bloque asignado a esa subred?.\n2.- ¿Cuál sería la notación CIDR de esta máscara?",
+    "opciones": [
+      "4096 y /27",
+      "1096 y /18",
+      "32 y /27",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "255.255.255.224 = /27 → 32 direcciones.",
+    "origen": {
+      "examen": 44,
+      "pregunta": 16,
+      "paginaPdf": 322
+    }
+  },
+  {
+    "id": "E45-P20",
+    "tema": "Tema 13",
+    "enunciado": "¿Cual de las siguientes direcciones puede ser la primera dirección de una subred de 32 direcciones?",
+    "opciones": [
+      "87.72.211.100",
+      "87.72.32.4",
+      "28.17.51.4",
+      "28.17.51.96"
+    ],
+    "correcta": 3,
+    "explicacion": "La primera dirección de un bloque de 32 debe tener el último byte múltiplo de 32: 28.17.51.96.",
+    "origen": {
+      "examen": 45,
+      "pregunta": 20,
+      "paginaPdf": 330
+    }
+  },
+  {
+    "id": "E46-P15",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos los siguientes tres bloques de direcciones IP:\n16.27.24.0 /26 - 16.27.24.64 /26 - 16.27.24.128 /25\nIndique el mínimo bloque que engloba completamente a estos tres",
+    "opciones": [
+      "16.27.24.0 /24",
+      "16.27.24.0 /23",
+      "16.27.25.0 /24",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "Los tres bloques cubren 16.27.24.0 – 16.27.24.255: el mínimo bloque que los engloba es 16.27.24.0/24.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 15,
+      "paginaPdf": 337
+    }
+  },
+  {
+    "id": "E46-P20",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una red IP con el siguiente bloque de direcciones 10.37.50.20 /20\n¿cual sería la dirección de broadcast de la red?",
+    "opciones": [
+      "10.37.50.20",
+      "10.37.50.255",
+      "10.37.63.255",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "/20 → 10.37.48.0 – 10.37.63.255: broadcast 10.37.63.255.",
+    "origen": {
+      "examen": 46,
+      "pregunta": 20,
+      "paginaPdf": 338
+    }
+  },
+  {
+    "id": "E47-P07",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 88.26.10.30 y el prefijo de red es /20\n¿Cuál es la dirección de broadcast y la dirección máxima de un host?",
+    "opciones": [
+      "88.26.15.255 y 88.26.15.254",
+      "88.26.15.0 y 88.26.15.128",
+      "88.26.10.255 y 88.26.10.254",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "/20 → bloque 88.26.0.0 – 88.26.15.255: broadcast 88.26.15.255 y último host 88.26.15.254.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 7,
+      "paginaPdf": 344
+    }
+  },
+  {
+    "id": "E47-P17",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos un ordenador configurado con una IP 20.36.240.0 y una máscara de red /20 que presenta problemas de red. ¿Cuál puede ser la causa?",
+    "opciones": [
+      "La dirección IP no pertenece al rango de direcciones posibles",
+      "La dirección IP se corresponde con la dirección de broadcast de la red",
+      "Esa combinación de IP y máscara no es posible en ninguna máquina",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "20.36.240.0/20 es la dirección de red del bloque (bits de host a 0): no puede asignarse a ninguna máquina.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 17,
+      "paginaPdf": 346
+    }
+  },
+  {
+    "id": "E47-P19",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una LAN en la que se ha escogido el rango de IPs privadas 192.168.1.0 /24 y la IP pública es 100.23.56.43. La máquina local 192.168.1.50 hace una petición HTTP al servidor externo 60.100.25.16 ¿Cual será la IP de origen del datagrama de petición que llega al servidor?",
+    "opciones": [
+      "192.168.1.50",
+      "100.23.56.43",
+      "192.168.1.0",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "El router NAT sustituye la IP privada de origen por la IP pública: 100.23.56.43.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 19,
+      "paginaPdf": 346
+    }
+  },
+  {
+    "id": "E47-P20",
+    "tema": "Tema 13",
+    "enunciado": "Indique la opción correcta acerca del protocolo DHCP",
+    "opciones": [
+      "Es un protocolo en tres fases",
+      "Utiliza números de puerto bien conocidos tanto en para el puerto de origen como de destino",
+      "Para evitar conflictos solo puede haber un servidor DHCP en cada red",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "DHCP usa dos puertos bien conocidos: 67 (servidor) y 68 (cliente). Puede haber varios servidores y el intercambio tiene más de tres mensajes.",
+    "origen": {
+      "examen": 47,
+      "pregunta": 20,
+      "paginaPdf": 346
+    }
+  },
+  {
+    "id": "E48-P08",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una subred que tiene una máscara 255.255.240.0\n¿Cuántas direcciones IP tiene el bloque asignado a esa subred y cuál es su notación CIDR?",
+    "opciones": [
+      "4094 y /20",
+      "4096 y /20",
+      "4094 y /27",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "255.255.240.0 = /20 → 4096 direcciones.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 8,
+      "paginaPdf": 352
+    }
+  },
+  {
+    "id": "E48-P17",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos un ordenador configurado con una IP 82.100.128.63 y una máscara de red /26 que presenta problemas. ¿Cuál puede ser la causa?",
+    "opciones": [
+      "La dirección IP no pertenece al rango de direcciones posibles",
+      "No hay problema con la configuración dada. El problema debe ser otro",
+      "Esa combinación de IP y máscara no es posible en ninguna máquina",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "/26 → bloque 82.100.128.0 – 82.100.128.63: .63 es el broadcast y no puede asignarse a una máquina.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 17,
+      "paginaPdf": 354
+    }
+  },
+  {
+    "id": "E48-P19",
+    "tema": "Tema 13",
+    "enunciado": "Tenemos una LAN en la que se ha escogido el rango de IPs privadas 192.168.1.0 /24 y la IP pública es 65.3.18.39. La máquina local 192.168.1.100 hace una petición HTTP al servidor externo 60.100.25.16 utilizando el número de puerto local 45045 ¿Cuál será el número del puerto de destino en la petición que llega al servidor?",
+    "opciones": [
+      "El que haya elegido el rúter de la red local según el NAT",
+      "80",
+      "45045",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "NAT cambia la IP y el puerto de origen, pero el puerto destino sigue siendo el del servidor HTTP: 80.",
+    "origen": {
+      "examen": 48,
+      "pregunta": 19,
+      "paginaPdf": 354
+    }
+  },
+  {
+    "id": "E49-P05",
+    "tema": "Tema 13",
+    "enunciado": "En una red corporativa se ha asignado un bloque de direcciones IP con un prefijo de subred /22. Se identifica que una de las direcciones IP dentro del bloque es 192.168.40.75. ¿Cuál es la dirección de broadcast de esta subred y cuál es la dirección IP más alta que puede asignarse a un host?",
+    "opciones": [
+      "192.168.43.255 y 192.168.43.254",
+      "192.168.42.255 y 192.168.42.254",
+      "192.168.40.255 y 192.168.40.254",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "/22 → bloque 192.168.40.0 – 192.168.43.255: broadcast 192.168.43.255 y último host 192.168.43.254.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 5,
+      "paginaPdf": 360
+    }
+  },
+  {
+    "id": "E49-P20",
+    "tema": "Tema 13",
+    "enunciado": "¿Cuál es el propósito principal de NAT (Network Address Translation)?",
+    "opciones": [
+      "Traducir direcciones privadas a una o más direcciones públicas para comunicación con Internet",
+      "Reemplazar direcciones MAC por direcciones IP en una red local",
+      "Encriptar paquetes para garantizar seguridad en la transmisión",
+      "Asignar direcciones IP públicas a todos los dispositivos de una red privada"
+    ],
+    "correcta": 0,
+    "explicacion": "NAT traduce direcciones privadas a una o varias direcciones públicas para salir a Internet.",
+    "origen": {
+      "examen": 49,
+      "pregunta": 20,
+      "paginaPdf": 363
+    }
+  },
+  {
+    "id": "E50-P11",
+    "tema": "Tema 13",
+    "enunciado": "Una subred con máscara /30 ¿cuántas direcciones tiene en total?",
+    "opciones": [
+      "8",
+      "4",
+      "2",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "/30 → 2² = 4 direcciones.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 11,
+      "paginaPdf": 371
+    }
+  },
+  {
+    "id": "E50-P13",
+    "tema": "Tema 13",
+    "enunciado": "Una máscara 255.255.255.192 equivale a:",
+    "opciones": [
+      "/27",
+      "/28",
+      "/25",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "255.255.255.192 = /26.",
+    "origen": {
+      "examen": 50,
+      "pregunta": 13,
+      "paginaPdf": 371
+    }
+  },
+  {
+    "id": "E51-P03",
+    "tema": "Tema 13",
+    "enunciado": "El número total de hosts en una red /29 es:",
+    "opciones": [
+      "8 hosts",
+      "6 hosts",
+      "4 hosts",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "/29 → 8 direcciones, de las que 6 son asignables a hosts.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 3,
+      "paginaPdf": 379
+    }
+  },
+  {
+    "id": "E51-P13",
+    "tema": "Tema 13",
+    "enunciado": "A una organización se le asigna un bloque de direcciones IP. Se sabe que una de las direcciones es 62.204.199.22 y la máscara es /24.\n1- ¿Cuál es dirección de broadcast?\n2- ¿Cuál es la dirección máxima asignable a un host?",
+    "opciones": [
+      "1- 62.204.199.25 y 2- 62.204.199.24",
+      "1- 62.204.199.23 y 2- 62.204.199.24",
+      "1- 62.204.199.1 y 2- 62.204.199.254",
+      "1- 62.204.199.255 y 2- 62.204.199.254"
+    ],
+    "correcta": 3,
+    "explicacion": "/24 → broadcast 62.204.199.255 y último host asignable 62.204.199.254.",
+    "origen": {
+      "examen": 51,
+      "pregunta": 13,
+      "paginaPdf": 381
+    }
+  },
+  {
+    "id": "E52-P02",
+    "tema": "Tema 13",
+    "enunciado": "¿Cuál es la notación CIDR equivalente a la máscara 255.255.252.0?",
+    "opciones": [
+      "/20",
+      "/21",
+      "/22",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "255.255.252.0 = 22 bits a 1 → /22.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 2,
+      "paginaPdf": 387
+    }
+  },
+  {
+    "id": "E52-P13",
+    "tema": "Tema 13",
+    "enunciado": "Una organización recibe el bloque 12.16.0.0/16 y desea crear 512 subredes. ¿Cuántas direcciones asignables tiene cada subred?",
+    "opciones": [
+      "126",
+      "62",
+      "30",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 0,
+    "explicacion": "512 subredes → 9 bits → /25 → 128 direcciones, 126 asignables.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 13,
+      "paginaPdf": 389
+    }
+  },
+  {
+    "id": "E52-P14",
+    "tema": "Tema 13",
+    "enunciado": "¿Cuántas direcciones IP totales tiene una subred con máscara 255.255.255.128?",
+    "opciones": [
+      "64",
+      "126",
+      "128",
+      "Ninguna de las otras opciones es correcta"
+    ],
+    "correcta": 2,
+    "explicacion": "/25 → 128 direcciones.",
+    "origen": {
+      "examen": 52,
+      "pregunta": 14,
+      "paginaPdf": 389
+    }
+  }
+]
