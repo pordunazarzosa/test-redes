@@ -1,0 +1,8 @@
+{
+  "numPreguntas": 20,
+  "puntosAcierto": 0.5,
+  "divisorFallo": 3,
+  "minutosPorDefecto": 120,
+  "minutosMax": 120,
+  "reparto": { "t01": 1, "t02": 1, "t03": 1 }
+}
